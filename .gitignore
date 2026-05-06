@@ -144,6 +144,26 @@ ENV/
 env.bak/
 venv.bak/
 
+# Local credentials
+credentials/
+
+# Local OS/editor artifacts
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+Rplots.pdf
+
+# Interrupted downloads and local research databases
+*.zip.part
+zotero.sqlite
+
 # Spyder project settings
 .spyderproject
 .spyproject

@@ -1,0 +1,24 @@
+estimator: "twfe_dynamic"
+data_path: "data/clean/tse/tse_clean_panel_2000_2018.csv"
+file_format: "csv"
+outcome: "pct_voters_low_ed"
+unit_id: "municipality_id"
+time_id: "year_election"
+group_id: "year_treated"
+treatment_var: null
+controls: []
+cluster_var:
+  - "municipality_id"
+  - "year_election"
+weights_var: null
+event_time_var: "dist_treatment"
+event_time_never_value: -9999
+never_treated_value: 9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+balanced_panel_required: false
+omit_plot_title: true
+output_dir: "resources/did/twfe_dynamic/pct_voters_low_ed"
+notes: "Simple TWFE dynamic event-study for BVR section replication: pct_voters_low_ed, clustered by municipality and election year."

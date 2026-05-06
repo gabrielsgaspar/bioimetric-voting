@@ -1,0 +1,38 @@
+run_type: "interaction_series"
+data_path: "data/clean/lapop/lapop_brazil_with_pca_indices_regression_ready.parquet"
+file_format: "parquet"
+outcome: "trust_index_std"
+outcome_label: "Trust in institutions"
+main_var: "treatment_dummy"
+interaction_vars:
+  - "female"
+  - "white"
+  - "married"
+  - "low_ed"
+controls:
+  - "low_ed"
+  - "female"
+  - "white"
+  - "married"
+  - "working"
+  - "age"
+  - "log_gdp_pc"
+  - "log_total_pop"
+fixed_effects:
+  - "municipality_id"
+  - "survey_year"
+cluster:
+  - "municipality_id"
+  - "survey_year"
+sample_filter: "survey_year <= 2018"
+output_dir: "resources/lapop/regressions/trust_interactions"
+figure_output_base: "resources/lapop/figures/trust_interactions_barplot"
+category_labels:
+  female: "Female"
+  white: "White"
+  married: "Married"
+  low_ed: "Low Education"
+plot_colors:
+  "No": "#8ba3a3"
+  "Yes": "darkslategrey"
+notes: "Main trust-index interaction regressions for the LAPOP module."

@@ -1,0 +1,15 @@
+mode: "extract_year"
+country: "brazil"
+core_years: [2008, 2010, 2012, 2014, 2017, 2019]
+requested_year: 2019
+requested_questions:
+  - "b2"
+  - "b3"
+  - "b21"
+  - "b21a"
+  - "b32"
+  - "b47a"
+  - "ing4"
+  - "pn4"
+  - "eff1"
+output_path: "data/clean/lapop/lapop_brazil_2019_selected_questions.parquet"
