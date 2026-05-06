@@ -1,0 +1,27 @@
+\newcommand{\BVR}{biometric voter registration}
+\newcommand{\BVRshort}{BVR}
+\newcommand{\TSE}{TSE}
+\newcommand{\LAPOP}{LAPOP}
+\newcommand{\IBGE}{IBGE}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\note}[1]{\textit{#1}}
+
+\let\bioOriginalIncludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \IfFileExists{#2}{%
+    \bioOriginalIncludegraphics[#1]{#2}%
+  }{%
+    \fbox{\parbox[c][1.6in][c]{0.85\linewidth}{\centering Missing figure file}}%
+  }%
+}
+
+\newcommand{\optionalinput}[1]{%
+  \IfFileExists{#1}{%
+    \input{#1}%
+  }{%
+    \begin{center}
+      \fbox{\parbox[c][0.9in][c]{0.85\linewidth}{\centering Missing table or generated input file}}%
+    \end{center}%
+  }%
+}

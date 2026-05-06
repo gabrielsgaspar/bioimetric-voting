@@ -1,0 +1,240 @@
+{
+  "run": {
+    "estimator": "twfe_dynamic",
+    "data_path": "resources/regressions/bvr/pct_voters_low_ed/strict_bvr/other_estimators/twfe_dynamic/analysis_sample.parquet",
+    "output_dir": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/strict_bvr/other_estimators/twfe_dynamic",
+    "outcome": "pct_voters_low_ed",
+    "unit_id": "municipality_id",
+    "time_id": "year_election",
+    "group_id": "treatment_year_cs",
+    "treatment_var": null,
+    "controls": null,
+    "cluster_var": "municipality_id",
+    "weights_var": null,
+    "notes": "Dynamic TWFE dynamic DID for pct_voters_low_ed in the BVR registry panel. Specification: strict BVR only, excluding municipalities ever flagged as hybrid. This run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard errors are clustered by municipality; control group is never-treated municipalities."
+  },
+  "model_stats": {
+    "estimator": "twfe_dynamic",
+    "nobs": 37206,
+    "logLik": 92155.12306464367,
+    "r2": 0.9758624563133275,
+    "adj_r2": 0.9731648793407246,
+    "within_r2": 0.4752877952965371,
+    "reference_event_time": -2,
+    "event_time_source": "existing_event_time_var"
+  },
+  "diagnostics": [
+    {
+      "metric": "n_rows",
+      "value": 37207,
+      "notes": "Rows in the input analysis sample."
+    },
+    {
+      "metric": "n_complete_outcome_rows",
+      "value": 37207,
+      "notes": "Rows with non-missing outcome."
+    },
+    {
+      "metric": "n_units",
+      "value": 3725,
+      "notes": "Distinct units after validation."
+    },
+    {
+      "metric": "n_periods",
+      "value": 10,
+      "notes": "Distinct time periods after validation."
+    },
+    {
+      "metric": "min_time",
+      "value": 2000,
+      "notes": "Minimum observed time value."
+    },
+    {
+      "metric": "max_time",
+      "value": 2018,
+      "notes": "Maximum observed time value."
+    },
+    {
+      "metric": "n_treated_units",
+      "value": 2480,
+      "notes": "Units with non-missing first-treatment timing."
+    },
+    {
+      "metric": "n_never_treated_units",
+      "value": 1245,
+      "notes": "Units standardized as never treated."
+    },
+    {
+      "metric": "group_id_standardized_from_zero_or_na",
+      "value": 0,
+      "notes": "TRUE means the scripts converted 0 or NA into the internal never-treated representation."
+    }
+  ],
+  "estimates": [
+    {
+      "term": "fixest::.__event_time_plot__::-8:.__ever_treated__",
+      "estimate": -0.007642386950787526,
+      "std.error": 0.0007762078703230173,
+      "statistic": -9.8457993573386,
+      "p.value": 1.3460419227393106e-22,
+      "conf.low": -0.009164221173811118,
+      "conf.high": -0.006120552727763934
+    },
+    {
+      "term": "fixest::.__event_time_plot__::-6:.__ever_treated__",
+      "estimate": -0.003869404329079721,
+      "std.error": 0.0004354445419739928,
+      "statistic": -8.886101342638538,
+      "p.value": 9.66438060118037e-19,
+      "conf.low": -0.004723137499717484,
+      "conf.high": -0.0030156711584419576
+    },
+    {
+      "term": "fixest::.__event_time_plot__::-4:.__ever_treated__",
+      "estimate": -0.0019712908362265785,
+      "std.error": 0.00024733307726858094,
+      "statistic": -7.970186834678559,
+      "p.value": 2.088608887912134e-15,
+      "conf.low": -0.002456212409253694,
+      "conf.high": -0.0014863692631994628
+    },
+    {
+      "term": "fixest::.__event_time_plot__::0:.__ever_treated__",
+      "estimate": -0.09033766434698573,
+      "std.error": 0.0008860845526270843,
+      "statistic": -101.95151701849503,
+      "p.value": 0,
+      "conf.low": -0.09207492294514873,
+      "conf.high": -0.08860040574882273
+    },
+    {
+      "term": "fixest::.__event_time_plot__::2:.__ever_treated__",
+      "estimate": -0.07845019125471232,
+      "std.error": 0.0012660486648899546,
+      "statistic": -61.9645938029809,
+      "p.value": 0,
+      "conf.low": -0.08093240801636543,
+      "conf.high": -0.07596797449305921
+    },
+    {
+      "term": "fixest::.__event_time_plot__::4:.__ever_treated__",
+      "estimate": -0.06467447078749142,
+      "std.error": 0.001815947399669537,
+      "statistic": -35.61472694597914,
+      "p.value": 2.446920835962578e-239,
+      "conf.low": -0.06823481976833562,
+      "conf.high": -0.061114121806647215
+    },
+    {
+      "term": "fixest::.__event_time_plot__::6:.__ever_treated__",
+      "estimate": -0.0603360419636576,
+      "std.error": 0.002103613065693867,
+      "statistic": -28.682100785372352,
+      "p.value": 1.2225761305262901e-163,
+      "conf.low": -0.06446038864677003,
+      "conf.high": -0.05621169528054516
+    },
+    {
+      "term": "fixest::.__event_time_plot__::8:.__ever_treated__",
+      "estimate": -0.05359341589662135,
+      "std.error": 0.004281801648539457,
+      "statistic": -12.516557350315916,
+      "p.value": 3.074307768873712e-35,
+      "conf.low": -0.06198832212481314,
+      "conf.high": -0.045198509668429566
+    }
+  ],
+  "event_study": [
+    {
+      "event_time": -8,
+      "term": "fixest::.__event_time_plot__::-8:.__ever_treated__",
+      "estimate": -0.007642386950787526,
+      "std.error": 0.0007762078703230173,
+      "statistic": -9.8457993573386,
+      "p.value": 1.3460419227393106e-22,
+      "conf.low": -0.009164221173811118,
+      "conf.high": -0.006120552727763934
+    },
+    {
+      "event_time": -6,
+      "term": "fixest::.__event_time_plot__::-6:.__ever_treated__",
+      "estimate": -0.003869404329079721,
+      "std.error": 0.0004354445419739928,
+      "statistic": -8.886101342638538,
+      "p.value": 9.66438060118037e-19,
+      "conf.low": -0.004723137499717484,
+      "conf.high": -0.0030156711584419576
+    },
+    {
+      "event_time": -4,
+      "term": "fixest::.__event_time_plot__::-4:.__ever_treated__",
+      "estimate": -0.0019712908362265785,
+      "std.error": 0.00024733307726858094,
+      "statistic": -7.970186834678559,
+      "p.value": 2.088608887912134e-15,
+      "conf.low": -0.002456212409253694,
+      "conf.high": -0.0014863692631994628
+    },
+    {
+      "event_time": -2,
+      "term": "(reference period)",
+      "estimate": 0,
+      "std.error": null,
+      "statistic": null,
+      "p.value": null,
+      "conf.low": null,
+      "conf.high": null
+    },
+    {
+      "event_time": 0,
+      "term": "fixest::.__event_time_plot__::0:.__ever_treated__",
+      "estimate": -0.09033766434698573,
+      "std.error": 0.0008860845526270843,
+      "statistic": -101.95151701849503,
+      "p.value": 0,
+      "conf.low": -0.09207492294514873,
+      "conf.high": -0.08860040574882273
+    },
+    {
+      "event_time": 2,
+      "term": "fixest::.__event_time_plot__::2:.__ever_treated__",
+      "estimate": -0.07845019125471232,
+      "std.error": 0.0012660486648899546,
+      "statistic": -61.9645938029809,
+      "p.value": 0,
+      "conf.low": -0.08093240801636543,
+      "conf.high": -0.07596797449305921
+    },
+    {
+      "event_time": 4,
+      "term": "fixest::.__event_time_plot__::4:.__ever_treated__",
+      "estimate": -0.06467447078749142,
+      "std.error": 0.001815947399669537,
+      "statistic": -35.61472694597914,
+      "p.value": 2.446920835962578e-239,
+      "conf.low": -0.06823481976833562,
+      "conf.high": -0.061114121806647215
+    },
+    {
+      "event_time": 6,
+      "term": "fixest::.__event_time_plot__::6:.__ever_treated__",
+      "estimate": -0.0603360419636576,
+      "std.error": 0.002103613065693867,
+      "statistic": -28.682100785372352,
+      "p.value": 1.2225761305262901e-163,
+      "conf.low": -0.06446038864677003,
+      "conf.high": -0.05621169528054516
+    },
+    {
+      "event_time": 8,
+      "term": "fixest::.__event_time_plot__::8:.__ever_treated__",
+      "estimate": -0.05359341589662135,
+      "std.error": 0.004281801648539457,
+      "statistic": -12.516557350315916,
+      "p.value": 3.074307768873712e-35,
+      "conf.low": -0.06198832212481314,
+      "conf.high": -0.045198509668429566
+    }
+  ],
+  "extra_tables": []
+}

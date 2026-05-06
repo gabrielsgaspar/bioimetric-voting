@@ -1,0 +1,49 @@
+\section{BVR and the Voter Registry}
+\label{sec:electorate-size}
+\label{sec:electorate-composition}
+
+The most immediate administrative consequence of biometric registration should appear in the voter registry itself. If the reform improved record quality and eliminated duplicate or outdated registrations, the electorate should contract when municipalities adopt it. If the recadastramento requirement also imposed meaningful compliance costs, that contraction may reflect not only registry cleaning but also temporary or persistent exclusion from the rolls. Those same forces can change the social composition of the electorate, not just its size. For that reason, it is useful to study registry size and registry composition together. In the model, this is the first margin: Proposition~\ref{prop:hetcomp} predicts that once compliance costs are steeper for lower-education citizens, any positive biometric burden should shrink their registration rate more sharply.
+
+\textbf{Electorate size.} Figure~\ref{fig:bvr-electorate-size} shows the Callaway--Sant'Anna dynamic effects of strict biometric registration on the log number of registered voters. The pattern is sharp. At event time zero, the registry falls by about 0.117 log points, or roughly 11 percent, relative to two years before adoption. The decline then narrows steadily: it is still substantial after one election cycle, but much smaller by six years after adoption, and close to zero by the longest horizon. This sequence is consistent with an immediate wave of removals at the time of recadastramento, followed by gradual re-entry into the registry over subsequent elections. Pre-treatment coefficients are generally small over the immediate pre-period, which is reassuring, although the longest pre- and post-treatment horizons should be interpreted more cautiously because they are identified from the earliest cohorts only.
+
+\begin{figure}[htbp]
+    \caption{Biometric Registration and Electorate Size}
+    \label{fig:bvr-electorate-size}
+    \centering
+    \includegraphics[width=0.72\textwidth]{../resources/regressions/bvr/log_num_voters/strict_bvr/callaway_santanna/event_study_plot.png}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure plots Callaway--Sant'Anna dynamic event-study estimates for the log number of registered voters, using strict BVR municipalities as the treated sample and never-treated municipalities as the control group. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. Appendix \hyperref[fig:appendix-size-estimator-comparison]{Figure~\ref*{fig:appendix-size-estimator-comparison}} compares the same outcome across alternative staggered-adoption estimators. \par}
+    \end{minipage}
+\end{figure}
+
+\textbf{Electorate composition.} Biometric registration did not simply change the number of voters on the rolls; it also changed who remained on them. That distinction matters for political economy because a reform that improves registry integrity but imposes unequal compliance costs can reallocate political voice even if aggregate registration later recovers. The \TSE{} electorate files make it possible to track registered voters by schooling at the municipality-election level. Following the definitions in Section~\ref{sec:data-and-measurement}, I classify low education as all categories below completed secondary schooling and high education as incomplete secondary schooling or more. The Brazilian electorate was already becoming more educated over time: the electorate-weighted share of low-education registrants fell from 72.8\% in 2000 to 63.9\% in 2008 and 46.2\% in 2018, while the corresponding high-education share rose from 27.0\% to 36.0\% and 53.8\%. Those aggregate trends make simple cross-sectional comparisons uninformative. The relevant question is whether municipalities change discontinuously around biometric adoption relative to comparable municipalities that have not yet adopted the reform. That compositional margin is also what drives Proposition~\ref{prop:drift_sign}: if the surviving electorate becomes relatively more educated, the downstream equilibrium policy should tilt away from redistribution even when the aggregate registry later recovers.
+
+Figure~\ref{fig:bvr-education-composition} reports the main Callaway--Sant'Anna event-study estimates for the low- and high-education shares. The effects are large on impact. At event time zero, biometric registration lowers the low-education share by 8.9 percentage points and raises the high-education share by 9.0 percentage points. The estimates then partially unwind as the registry recovers, but they do not disappear. Eight years after adoption, the low-education share remains 5.9 percentage points below its pre-treatment level, while the high-education share remains 5.9 points above it. Because these education shares are defined over the total electorate, including voters with missing schooling, they need not mechanically sum to one. The near mirror-image responses therefore point to a genuine reweighting of the registered electorate toward more educated voters rather than a purely mechanical denominator effect.
+
+\begin{figure}[htbp]
+    \caption{Biometric Registration and Education Composition}
+    \label{fig:bvr-education-composition}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/regressions/bvr/pct_voters_low_ed/strict_bvr/callaway_santanna/event_study_plot.png}
+        \caption{Low-education share}
+        \label{fig:bvr-low-education-share}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/regressions/bvr/pct_voters_high_ed/strict_bvr/callaway_santanna/event_study_plot.png}
+        \caption{High-education share}
+        \label{fig:bvr-high-education-share}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel plots Callaway--Sant'Anna dynamic event-study estimates, using strict BVR municipalities as the treated sample and never-treated municipalities as the control group. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome. Panel (b) uses the share with incomplete secondary schooling or more. Appendix \hyperref[fig:appendix-composition-estimator-comparison]{Figure~\ref*{fig:appendix-composition-estimator-comparison}} reports the corresponding comparison figures for alternative staggered-adoption estimators. \par}
+    \end{minipage}
+\end{figure}
+
+One plausible channel is differential compliance: the in-person recadastramento requirement may have imposed larger administrative burdens on lower-education voters, leading to more cancellations or slower re-entry in those groups. A second channel is information updating. Re-registration may have improved the quality of education records, so some of the persistent shift could reflect cleaner measurement rather than exclusion alone. Taken together with the earlier evidence on registry size, the most credible interpretation is that biometric registration both cleaned the rolls and changed their composition.
+
+\textbf{Robustness.} The appendix reports several complementary checks. First, Appendix \hyperref[app:including-hybrid]{Section~\ref*{app:including-hybrid}} repeats the Callaway--Sant'Anna event studies after including hybrid municipalities in the treatment definition. The resulting estimates have the same signs and dynamic shape but are smaller at impact, consistent with hybrid BVR being a lower-intensity version of the reform. Second, Appendix \hyperref[fig:appendix-size-estimator-comparison]{Figure~\ref*{fig:appendix-size-estimator-comparison}} reports the estimator-comparison exercise for registry size, and Appendix \hyperref[fig:appendix-composition-estimator-comparison]{Figure~\ref*{fig:appendix-composition-estimator-comparison}} does the same for the education shares. Across Callaway--Sant'Anna, dynamic TWFE, Borusyak--Jaravel--Spiess, and de Chaisemartin--D'Haultfoeuille estimators, the main qualitative conclusions are stable: the registry contracts at adoption and then recovers, while the electorate shifts away from lower-education registrants and toward higher-education registrants. Third, Appendix \hyperref[app:honestdid]{Section~\ref*{app:honestdid}} applies Rambachan-Roth sensitivity analysis to the event-time $0$ coefficients; under the relative-magnitudes restriction, the breakdown value exceeds $\bar{M}=2$ for all three outcomes, so the impact estimates remain statistically separated from zero even when post-treatment confounding is allowed to be more than twice as large as the worst observed pre-trend deviation. Fourth, Appendix \hyperref[app:additional-robustness]{Section~\ref*{app:additional-robustness}} reports state $\times$ election-year fixed effects, within-state-support restrictions, permutation tests, negative-weight diagnostics, and cohort-balance checks, which together strengthen the case for relying on within-municipality event-time comparisons rather than simple cross-sectional contrasts.

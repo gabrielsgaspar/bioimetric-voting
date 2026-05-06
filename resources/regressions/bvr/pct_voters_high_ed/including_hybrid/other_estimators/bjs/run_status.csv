@@ -1,0 +1,50 @@
+outcome,spec,estimator,success,output_dir,config,log
+pct_voters_high_ed,including_hybrid,bjs,True,resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs,resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/config.yml,"$config_used_yml
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/config_used.yml""
+
+$tidy_estimates
+$tidy_estimates$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/tidy_estimates.csv""
+
+$tidy_estimates$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/tidy_estimates.parquet""
+
+
+$event_study
+$event_study$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_estimates.csv""
+
+$event_study$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_estimates.parquet""
+
+
+$sample_diagnostics
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/sample_diagnostics.csv""
+
+$model_summary
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/model_summary.txt""
+
+$event_study_plot
+$event_study_plot$latex_figure
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_plot.pdf""
+
+$event_study_plot$png
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_plot.png""
+
+
+$run_metadata
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/run_metadata.yml""
+
+$results_json
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/results.json""
+
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In eval(sub, parent.frame(), parent.frame()) : NAs introduced by coercion
+Finished `bjs`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs
+Key outputs:"

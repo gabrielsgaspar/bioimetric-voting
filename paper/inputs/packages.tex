@@ -1,0 +1,54 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{setspace}
+\usepackage{lmodern}
+
+\usepackage{amsfonts,amsmath,amsthm,amssymb,bbm,mathrsfs,breqn}
+\usepackage{graphicx,float,multicol,array,adjustbox}
+\usepackage{enumitem,multirow,tabularx,booktabs,threeparttable,seqsplit}
+\usepackage{hyperref,natbib,csquotes,comment,changepage}
+\usepackage[affil-it]{authblk}
+\usepackage{titlesec}
+\usepackage[labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{pgfplots}
+\usepackage{pgf}
+\usepackage{wasysym}
+\usepackage{color}
+\usepackage{forloop}
+\usepackage{ifthen}
+\usepackage{typearea}
+
+\titlelabel{\thetitle.\quad}
+\pgfplotsset{compat=1.16}
+\captionsetup{justification=raggedright,singlelinecheck=false}
+\captionsetup[subfigure]{justification=raggedright,singlelinecheck=false}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{Z}{>{\arraybackslash}X}
+
+\newcommand{\doubletoprule}{%
+  \specialrule{\heavyrulewidth}{0pt}{0.22ex}%
+  \specialrule{\heavyrulewidth}{0pt}{0.55ex}%
+}
+\newcommand{\doublebottomrule}{%
+  \specialrule{\heavyrulewidth}{0.55ex}{0pt}%
+  \specialrule{\heavyrulewidth}{0.22ex}{0pt}%
+}
+
+\setcounter{MaxMatrixCols}{20}
+\DeclareMathOperator\erf{erf}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{assumption}{Assumption}
+\newtheorem{regularitycondition}{Condition}
+\newtheorem{remark}{Remark}
+
+\pgfmathdeclarefunction{gauss}{2}{%
+  \pgfmathparse{1/(#2*sqrt(2*pi)) * exp(-((x-#1)^2)/(2*#2^2))}%
+}

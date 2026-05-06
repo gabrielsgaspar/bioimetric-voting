@@ -1,0 +1,240 @@
+{
+  "run": {
+    "estimator": "twfe_dynamic",
+    "data_path": "resources/regressions/bvr/log_num_voters/strict_bvr/other_estimators/twfe_dynamic/analysis_sample.parquet",
+    "output_dir": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/strict_bvr/other_estimators/twfe_dynamic",
+    "outcome": "log_num_voters",
+    "unit_id": "municipality_id",
+    "time_id": "year_election",
+    "group_id": "treatment_year_cs",
+    "treatment_var": null,
+    "controls": null,
+    "cluster_var": "municipality_id",
+    "weights_var": null,
+    "notes": "Dynamic TWFE dynamic DID for log_num_voters in the BVR registry panel. Specification: strict BVR only, excluding municipalities ever flagged as hybrid. This run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard errors are clustered by municipality; control group is never-treated municipalities."
+  },
+  "model_stats": {
+    "estimator": "twfe_dynamic",
+    "nobs": 37206,
+    "logLik": 39320.739026644165,
+    "r2": 0.9940468209748359,
+    "adj_r2": 0.99338150229699,
+    "within_r2": 0.08611634674976565,
+    "reference_event_time": -2,
+    "event_time_source": "existing_event_time_var"
+  },
+  "diagnostics": [
+    {
+      "metric": "n_rows",
+      "value": 37207,
+      "notes": "Rows in the input analysis sample."
+    },
+    {
+      "metric": "n_complete_outcome_rows",
+      "value": 37207,
+      "notes": "Rows with non-missing outcome."
+    },
+    {
+      "metric": "n_units",
+      "value": 3725,
+      "notes": "Distinct units after validation."
+    },
+    {
+      "metric": "n_periods",
+      "value": 10,
+      "notes": "Distinct time periods after validation."
+    },
+    {
+      "metric": "min_time",
+      "value": 2000,
+      "notes": "Minimum observed time value."
+    },
+    {
+      "metric": "max_time",
+      "value": 2018,
+      "notes": "Maximum observed time value."
+    },
+    {
+      "metric": "n_treated_units",
+      "value": 2480,
+      "notes": "Units with non-missing first-treatment timing."
+    },
+    {
+      "metric": "n_never_treated_units",
+      "value": 1245,
+      "notes": "Units standardized as never treated."
+    },
+    {
+      "metric": "group_id_standardized_from_zero_or_na",
+      "value": 0,
+      "notes": "TRUE means the scripts converted 0 or NA into the internal never-treated representation."
+    }
+  ],
+  "estimates": [
+    {
+      "term": "fixest::.__event_time_plot__::-8:.__ever_treated__",
+      "estimate": -0.00016351521765998046,
+      "std.error": 0.003651105567398461,
+      "statistic": -0.044785124571594,
+      "p.value": 0.9642809838905841,
+      "conf.low": -0.0073218778377486865,
+      "conf.high": 0.006994847402428725
+    },
+    {
+      "term": "fixest::.__event_time_plot__::-6:.__ever_treated__",
+      "estimate": -0.005001100944197381,
+      "std.error": 0.0019192271704654572,
+      "statistic": -2.605788945237003,
+      "p.value": 0.009202799123113578,
+      "conf.low": -0.00876394038636331,
+      "conf.high": -0.0012382615020314525
+    },
+    {
+      "term": "fixest::.__event_time_plot__::-4:.__ever_treated__",
+      "estimate": -0.0018601666995977702,
+      "std.error": 0.0011318329987392902,
+      "statistic": -1.6434992632921517,
+      "p.value": 0.10036411621513333,
+      "conf.low": -0.004079240040753241,
+      "conf.high": 0.0003589066415577002
+    },
+    {
+      "term": "fixest::.__event_time_plot__::0:.__ever_treated__",
+      "estimate": -0.11958078363049754,
+      "std.error": 0.0018157100075527825,
+      "statistic": -65.85896598745344,
+      "p.value": 0,
+      "conf.low": -0.12314066718002963,
+      "conf.high": -0.11602090008096545
+    },
+    {
+      "term": "fixest::.__event_time_plot__::2:.__ever_treated__",
+      "estimate": -0.07647551628636312,
+      "std.error": 0.0032516489561500465,
+      "statistic": -23.518995229088368,
+      "p.value": 3.7449305755887866e-114,
+      "conf.low": -0.08285070372251832,
+      "conf.high": -0.07010032885020792
+    },
+    {
+      "term": "fixest::.__event_time_plot__::4:.__ever_treated__",
+      "estimate": -0.05173621863114505,
+      "std.error": 0.005398131719491199,
+      "statistic": -9.584097113514202,
+      "p.value": 1.6485051292217197e-21,
+      "conf.low": -0.062319803138852006,
+      "conf.high": -0.0411526341234381
+    },
+    {
+      "term": "fixest::.__event_time_plot__::6:.__ever_treated__",
+      "estimate": -0.013445256175411304,
+      "std.error": 0.007092676078536644,
+      "statistic": -1.895653491930696,
+      "p.value": 0.05808325387103972,
+      "conf.low": -0.027351166694775123,
+      "conf.high": 0.0004606543439525119
+    },
+    {
+      "term": "fixest::.__event_time_plot__::8:.__ever_treated__",
+      "estimate": 0.013834936100998146,
+      "std.error": 0.018467035075109058,
+      "statistic": 0.7491693195322771,
+      "p.value": 0.45380248920116584,
+      "conf.low": -0.022371558382731693,
+      "conf.high": 0.050041430584727986
+    }
+  ],
+  "event_study": [
+    {
+      "event_time": -8,
+      "term": "fixest::.__event_time_plot__::-8:.__ever_treated__",
+      "estimate": -0.00016351521765998046,
+      "std.error": 0.003651105567398461,
+      "statistic": -0.044785124571594,
+      "p.value": 0.9642809838905841,
+      "conf.low": -0.0073218778377486865,
+      "conf.high": 0.006994847402428725
+    },
+    {
+      "event_time": -6,
+      "term": "fixest::.__event_time_plot__::-6:.__ever_treated__",
+      "estimate": -0.005001100944197381,
+      "std.error": 0.0019192271704654572,
+      "statistic": -2.605788945237003,
+      "p.value": 0.009202799123113578,
+      "conf.low": -0.00876394038636331,
+      "conf.high": -0.0012382615020314525
+    },
+    {
+      "event_time": -4,
+      "term": "fixest::.__event_time_plot__::-4:.__ever_treated__",
+      "estimate": -0.0018601666995977702,
+      "std.error": 0.0011318329987392902,
+      "statistic": -1.6434992632921517,
+      "p.value": 0.10036411621513333,
+      "conf.low": -0.004079240040753241,
+      "conf.high": 0.0003589066415577002
+    },
+    {
+      "event_time": -2,
+      "term": "(reference period)",
+      "estimate": 0,
+      "std.error": null,
+      "statistic": null,
+      "p.value": null,
+      "conf.low": null,
+      "conf.high": null
+    },
+    {
+      "event_time": 0,
+      "term": "fixest::.__event_time_plot__::0:.__ever_treated__",
+      "estimate": -0.11958078363049754,
+      "std.error": 0.0018157100075527825,
+      "statistic": -65.85896598745344,
+      "p.value": 0,
+      "conf.low": -0.12314066718002963,
+      "conf.high": -0.11602090008096545
+    },
+    {
+      "event_time": 2,
+      "term": "fixest::.__event_time_plot__::2:.__ever_treated__",
+      "estimate": -0.07647551628636312,
+      "std.error": 0.0032516489561500465,
+      "statistic": -23.518995229088368,
+      "p.value": 3.7449305755887866e-114,
+      "conf.low": -0.08285070372251832,
+      "conf.high": -0.07010032885020792
+    },
+    {
+      "event_time": 4,
+      "term": "fixest::.__event_time_plot__::4:.__ever_treated__",
+      "estimate": -0.05173621863114505,
+      "std.error": 0.005398131719491199,
+      "statistic": -9.584097113514202,
+      "p.value": 1.6485051292217197e-21,
+      "conf.low": -0.062319803138852006,
+      "conf.high": -0.0411526341234381
+    },
+    {
+      "event_time": 6,
+      "term": "fixest::.__event_time_plot__::6:.__ever_treated__",
+      "estimate": -0.013445256175411304,
+      "std.error": 0.007092676078536644,
+      "statistic": -1.895653491930696,
+      "p.value": 0.05808325387103972,
+      "conf.low": -0.027351166694775123,
+      "conf.high": 0.0004606543439525119
+    },
+    {
+      "event_time": 8,
+      "term": "fixest::.__event_time_plot__::8:.__ever_treated__",
+      "estimate": 0.013834936100998146,
+      "std.error": 0.018467035075109058,
+      "statistic": 0.7491693195322771,
+      "p.value": 0.45380248920116584,
+      "conf.low": -0.022371558382731693,
+      "conf.high": 0.050041430584727986
+    }
+  ],
+  "extra_tables": []
+}

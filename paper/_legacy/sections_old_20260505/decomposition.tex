@@ -1,0 +1,147 @@
+\section{Decomposing Registry Change: Exit versus Re-labeling}
+\label{sec:decomposition}
+
+The registry effects in Section~\ref{sec:registry} document a clear empirical pattern: BVR contracts the registered electorate at adoption and shifts its educational composition toward more educated voters. These effects are robust across estimators and identification checks. But they admit two very different interpretations, and the welfare and political-economy implications of the reform turn on which interpretation is correct. The first interpretation is exit. Voters, disproportionately those with lower schooling, fail to complete biometric recadastramento before the relevant deadline and are removed from the rolls. Under this reading, BVR is a censitary mechanism that imposes administrative friction and selectively excludes citizens with the highest compliance costs from electoral participation. The second interpretation is re-labeling. Voters successfully re-register, but in the process their education record is updated. Many of these voters had completed additional schooling between their original registration and the BVR cycle and were simply recorded under outdated education categories. Under this reading, BVR is a record-cleaning exercise: the composition shift reflects updated administrative measurement rather than changed electoral access.
+
+Both mechanisms are empirically present and produce the same observed pattern in registry data---a falling low-education share and a rising high-education share. The empirical question is how much of the observed effect operates through each channel. The distinction matters because the welfare implications, the implications for downstream electoral outcomes, and the policy interpretations of the reform differ sharply between the two channels. Exit removes voters from political participation; re-labeling does not. Re-labeled voters remain in the electorate and continue to vote with their original political preferences; exited voters do not. A clean empirical decomposition is necessary to discipline a debate that has often conflated the two channels.
+
+This section develops a decomposition framework that produces sharp empirical bounds on each channel. The framework relies on a single identifying observation: the high-education registered count rises at adoption with statistical significance. Pure exit cannot generate a rising count, since exit can only reduce category counts. The positive effect on the high-education count therefore identifies a strictly positive lower bound on re-labeling---not as an assumption about the mechanism, but as a logical consequence of what the data show. Section~\ref{ssec:decomposition_math} develops the formal accounting framework, the bounds it implies, and the alternative scenario assumptions used to produce point estimates. Section~\ref{ssec:decomposition_national} applies the framework to the national-level event-time coefficients estimated in Section~\ref{sec:registry} and reports the decomposition results. Section~\ref{ssec:decomposition_dynamic} traces how the bounds evolve over post-treatment horizons. Section~\ref{ssec:decomposition_spatial} maps the decomposition to individual municipalities and is reserved for subsequent development.
+
+\subsection{The Decomposition Framework}
+\label{ssec:decomposition_math}
+
+The decomposition is implemented in voter counts normalized by the municipality's 2006 registered electorate, the last election cycle before the 2008 BVR pilot. For each municipality $m$ and election year $t$, define $y_{j,mt} = N_{j,mt} / N_{m,2006}$ for $j \in \{N, L, H\}$, where $N$ denotes the total electorate, $L$ low-education registered voters, and $H$ high-education registered voters.\footnote{The TSE registry classifies a small fraction of voters as having unknown education. This category is empirically negligible---it constitutes approximately 0.08\% of the baseline electorate and the corresponding event-study coefficient is below 0.001 in absolute value at every horizon. The framework presented here treats the registry as composed of the low-education and high-education categories only. Robustness results including the unknown-education category are reported in the appendix; they produce conclusions that are quantitatively identical to within the third decimal place.}
+
+The 2006 normalization serves two purposes. First, it places the count outcomes on a common scale so that the regression coefficients on the three outcomes are directly comparable as shares of the same baseline denominator. Second, and more importantly, it preserves an additive identity. By construction, $y_{N,mt} \approx y_{L,mt} + y_{H,mt}$ at every observation, with the small residual reflecting the unknown-education category. OLS, fixed-effects estimators, and difference-in-differences estimators including Callaway-Sant'Anna preserve linear identities across outcomes that share the same right-hand-side specification. Therefore the event-time coefficients estimated separately on the three normalized outcomes satisfy the corresponding identity: at each event time $k$,
+\begin{equation}
+\gamma_N^k \approx \gamma_L^k + \gamma_H^k.
+\label{eq:identity}
+\end{equation}
+This near-identity holds exactly up to the unknown-education category in the regression output. It is a substantive advantage over a decomposition based on log-count outcomes, where separately estimated semi-elasticities transformed via $\exp(\beta) - 1$ would not satisfy the corresponding raw-count identity even approximately and would produce a residual term on the order of several percentage points of the baseline electorate.
+
+\textbf{Accounting framework.} Let $\gamma_j^k$ denote the event-time-$k$ coefficient on $y_{j,mt}$, interpreted as the change in the $j$-category count, expressed as a share of the municipality's 2006 baseline electorate, attributable to BVR at event time $k$. The change in each education category can be decomposed into flows of voters in and out of the category. Let $E_L^k \geq 0$ denote the share of the baseline electorate that exits from the low-education category at event time $k$ (including voters cancelled from the rolls because they failed to complete recadastramento). Let $E_H^k \geq 0$ denote the corresponding exit share from the high-education category. Let $R^k$ denote the share of the baseline electorate re-labeled from low-education to high-education between the reference period and event time $k$. Re-labeling does not change the total registered count; it shifts voters from $L$ to $H$.
+
+The accounting identities are
+\begin{align}
+\gamma_L^k &= -E_L^k - R^k \label{eq:decomp_L}\\
+\gamma_H^k &= -E_H^k + R^k. \label{eq:decomp_H}
+\end{align}
+Equation~\eqref{eq:decomp_L} states that the change in the low-education count equals minus the low-education exits minus the re-labelings, since both leave the low category. Equation~\eqref{eq:decomp_H} states that the change in the high-education count equals minus the high-education exits plus the re-labelings, since the latter arrive in the high category. Adding the two equations recovers $\gamma_L^k + \gamma_H^k = -(E_L^k + E_H^k)$, which approximately equals $\gamma_N^k$ via the near-identity~\eqref{eq:identity}, with the small unknown-education contribution accounting for any residual.
+
+\textbf{Bounds.} Equations~\eqref{eq:decomp_L} and~\eqref{eq:decomp_H} comprise two equations in three unknowns ($E_L^k$, $E_H^k$, $R^k$), so the system is under-identified. The non-negativity constraints on the exit flows convert the under-identification into bounds on the re-labeling share. From equation~\eqref{eq:decomp_H}, $R^k = E_H^k + \gamma_H^k \geq \gamma_H^k$. Combined with the non-negativity of $R^k$ itself,
+\begin{equation}
+R^k \geq R_{\min}^k \equiv \max\{0, \gamma_H^k\}.
+\label{eq:Rmin}
+\end{equation}
+The lower bound is pinned down by the rise in the high-education count: any positive $\gamma_H^k$ requires re-labeling, since pure exit cannot generate a rising count. From equation~\eqref{eq:decomp_L}, $R^k = -\gamma_L^k - E_L^k \leq -\gamma_L^k$. Combined with $R^k \geq 0$,
+\begin{equation}
+R^k \leq R_{\max}^k \equiv -\gamma_L^k.
+\label{eq:Rmax}
+\end{equation}
+The upper bound is reached when no low-education voter exits and the entire low-education count decline is attributable to re-labeling. Inequalities~\eqref{eq:Rmin} and~\eqref{eq:Rmax} together produce a sharp interval $[R_{\min}^k, R_{\max}^k]$ within which the true re-labeling share must lie, conditional only on the non-negativity of exits. The interval is identified directly from the regression coefficients without further assumptions.
+
+\textbf{Scenarios.} To produce point estimates for $R^k$, $E_L^k$, and $E_H^k$, the framework considers three scenarios that differ in their assumptions about the distribution of exits across education categories.
+
+Scenario A is pure exit: set $R^k = 0$ so that $E_L^k = -\gamma_L^k$ and $E_H^k = -\gamma_H^k$. This scenario assumes BVR operates exclusively through exit, with no record updating. It is feasible only if $\gamma_H^k \leq 0$. When $\gamma_H^k > 0$, which is the empirically relevant case, Scenario A is infeasible since it would require $E_H^k < 0$.
+
+Scenario B is no high-education exit: set $E_H^k = 0$. From equation~\eqref{eq:decomp_H}, $R^k = \gamma_H^k$. From equation~\eqref{eq:decomp_L}, $E_L^k = -\gamma_L^k - R^k = -\gamma_L^k - \gamma_H^k$. Adding, the total exit equals $E_L^k = -\gamma_L^k - \gamma_H^k \approx -\gamma_N^k$, recovering the total registry contraction up to the unknown-education residual. Scenario B is a natural focal point because the high-education group faces lower compliance costs in the model and would be unlikely to face binding exclusion at the margin.
+
+Scenario C is proportional exit: assume exits across the low- and high-education categories occur in proportion to baseline shares, $E_L^k / E_H^k = s_L / s_H$, where $s_L$ and $s_H$ are the population-weighted education shares at the event-time $-2$ reference period among eventually treated municipalities. Combined with the constraint that total exit equals approximately $-\gamma_N^k$, this pins down $E_L^k = -\gamma_N^k \cdot s_L / (s_L + s_H)$, $E_H^k = -\gamma_N^k \cdot s_H / (s_L + s_H)$, and $R^k = E_H^k + \gamma_H^k$. Scenario C allows for some high-education exit driven by random variation in compliance behavior across the population, treating exit as proportional to baseline composition rather than concentrated in the low-education group.
+
+Scenarios B and C bracket the empirically plausible range of decompositions. Both produce point estimates that lie strictly within the bounds $[R_{\min}^k, R_{\max}^k]$, with Scenario B identifying the lower endpoint of the re-labeling interval and Scenario C producing an interior point. The choice between them depends on the substantive judgment of how exit costs are distributed across education groups in the Brazilian setting.
+
+\textbf{Inference.} The regression output provides estimates $\hat\gamma_j^k$ with standard errors $\widehat{\text{SE}}(\hat\gamma_j^k)$. The bounds in equations~\eqref{eq:Rmin} and~\eqref{eq:Rmax} are linear (or piecewise linear, in the case of the lower bound's interaction with zero) functions of the estimated coefficients. Confidence intervals on the bounds follow directly from the standard errors. When $\hat\gamma_H^k > 0$, the standard error on $R_{\min}^k$ equals $\widehat{\text{SE}}(\hat\gamma_H^k)$. The standard error on $R_{\max}^k$ equals $\widehat{\text{SE}}(\hat\gamma_L^k)$. A 95\% confidence interval on each bound is constructed as the point estimate plus or minus 1.96 times the corresponding standard error. Inference on the scenario point estimates proceeds by the delta method applied to the relevant linear combination of $\hat\gamma_j^k$. Under Scenario B, $\widehat R^k = \hat\gamma_H^k$ and the standard error coincides with that of $\hat\gamma_H^k$. Under Scenario C, $\widehat R^k$ is a linear combination of $\hat\gamma_N^k$ and $\hat\gamma_H^k$, and the standard error follows from the joint distribution of the coefficient estimates along with the cohort-baseline shares treated as fixed. We treat the baseline shares as known constants throughout, since their sampling variability is negligible relative to the regression standard errors.
+
+\subsection{National Decomposition}
+\label{ssec:decomposition_national}
+
+This subsection applies the framework of Section~\ref{ssec:decomposition_math} to the national-level event-time coefficients estimated in Section~\ref{sec:registry}. The three normalized count outcomes ($y_N$, $y_L$, $y_H$) are regressed on event-time indicators using the Callaway-Sant'Anna estimator with never-treated municipalities as controls. The resulting coefficients $\gamma_j^k$ at event time $k = 0$ form the inputs to the decomposition.
+
+Table~\ref{tab:decomposition_results} reports the estimated coefficients at adoption alongside the implied bounds and scenario decompositions. The total registry contracts by 12.7\% at the adoption election, with the low-education count falling by 17.8\% of the baseline electorate and the high-education count rising by 5.2\%. The three coefficients satisfy the near-identity~\eqref{eq:identity}: $\gamma_L^0 + \gamma_H^0 = -17.82 + 5.22 = -12.60$, which differs from $\gamma_N^0 = -12.68$ by 0.08 percentage points, the small unknown-education contribution.
+
+\begin{table}[!ht]
+\centering
+\caption{National decomposition at event time 0}
+\label{tab:decomposition_results}
+\begin{tabular}{lcc}
+\toprule
+Quantity & Estimate (\% of 2006 electorate) & 95\% CI \\
+\midrule
+\multicolumn{3}{l}{\textit{Regression coefficients}} \\
+Total: $\gamma_N^0$ & $-12.68$ & $[-12.99,\, -12.36]$ \\
+Low-education: $\gamma_L^0$ & $-17.82$ & $[-18.10,\, -17.54]$ \\
+High-education: $\gamma_H^0$ & $+5.22$ & $[+4.97,\, +5.47]$ \\
+\midrule
+\multicolumn{3}{l}{\textit{Re-labeling bounds}} \\
+$R_{\min}^0 = \max\{0, \gamma_H^0\}$ & $5.22$ & $[4.97,\, 5.47]$ \\
+$R_{\max}^0 = -\gamma_L^0$ & $17.82$ & $[17.54,\, 18.10]$ \\
+\midrule
+\multicolumn{3}{l}{\textit{Scenarios}} \\
+A (pure exit, $R = 0$) & \multicolumn{2}{c}{\textit{infeasible}} \\
+B ($E_H = 0$): $R$ & $5.22$ & \\
+B ($E_H = 0$): $E_L$ & $12.60$ & \\
+B ($E_H = 0$): $E_H$ & $0.00$ & \\
+C (proportional): $R$ & $10.40$ & \\
+C (proportional): $E_L$ & $7.50$ & \\
+C (proportional): $E_H$ & $5.18$ & \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\footnotesize
+\textit{Notes}: All quantities are expressed as percentages of the 2006 baseline electorate. Regression coefficients are from Callaway-Sant'Anna estimators on normalized count outcomes with never-treated municipalities as controls. Confidence intervals on the bounds are computed from the standard errors of the relevant coefficients. Scenario C uses cohort-baseline shares $s_L = 0.591$ and $s_H = 0.408$ from event-time $-2$ averages among eventually treated municipalities, normalized so that the two shares sum to one.
+\end{table}
+
+The decomposition bounds at adoption are tight. The lower bound on re-labeling, identified directly by the positive effect on the high-education count, is 5.22\% of the baseline electorate, with a 95\% confidence interval of $[4.97, 5.47]$. The interval excludes zero by a wide margin, decisively rejecting any hypothesis under which BVR operates exclusively through exit. The upper bound on re-labeling, achieved when no low-education voter exits, is 17.82\%, with confidence interval $[17.54, 18.10]$. Together, these bounds imply that re-labeling accounts for between 5.22\% and 17.82\% of the baseline electorate at adoption.
+
+The pure-exit scenario is infeasible. It would require $E_H^0 = -\gamma_H^0 = -5.22\%$, a negative exit. The data formally reject the interpretation that BVR's effects on registry composition arise entirely from voter exclusion without any record updating.
+
+Under Scenario B, the point estimates are $R^0 = 5.22\%$ and $E_L^0 = 12.60\%$ of the baseline electorate. This scenario attributes the entire high-education count rise to re-labeling and the entire low-education count decline net of re-labeling to exit. It is the most exit-heavy feasible scenario and corresponds to the lower endpoint of the re-labeling interval. Under Scenario C, the point estimates are $R^0 = 10.40\%$, $E_L^0 = 7.50\%$, and $E_H^0 = 5.18\%$. This scenario distributes the total exit proportionally to the baseline composition, with low-education exits at 7.50\% and high-education exits at 5.18\% of the baseline electorate. The re-labeling share is correspondingly larger than under Scenario B because some high-education exit must be offset by re-labeling to produce the observed positive $\gamma_H^0$.
+
+The two feasible scenarios bracket the empirically plausible decomposition. Scenario B treats the low-education group as bearing the full burden of compliance costs, with the high-education group facing no exit. Scenario C treats compliance costs as proportional across groups, with no group-specific selection in the exit margin. The truth lies between them, with the exact location depending on the unobserved heterogeneity in compliance costs within each education group.
+
+In voter-count terms, the cohort-baseline electorates of treated municipalities total approximately 62 million voters. Under Scenario B, the implied magnitudes at adoption are approximately 7.8 million low-education voters exited and 3.2 million voters re-labeled. Under Scenario C, the implied magnitudes are approximately 4.6 million low-education voters exited, 3.2 million high-education voters exited, and 6.4 million voters re-labeled. The total registry contraction in voter terms is approximately 7.9 million in either scenario, with the difference between scenarios reflecting the allocation of this contraction across exit categories.
+
+\subsection{Dynamic Decomposition}
+\label{ssec:decomposition_dynamic}
+
+The decomposition can be applied at each post-treatment event time, tracing the evolution of the exit and re-labeling channels over the post-adoption horizon. Table~\ref{tab:decomposition_dynamic} reports the bounds and Scenario B point estimates from event time 0 through event time 8, in two-year increments matching the Brazilian electoral cycle.
+
+\begin{table}[!ht]
+\centering
+\caption{Dynamic decomposition by event time}
+\label{tab:decomposition_dynamic}
+\begin{tabular}{ccccccc}
+\toprule
+Event time & $\gamma_N^k$ & $\gamma_L^k$ & $\gamma_H^k$ & $R_{\min}^k$ & $R_{\max}^k$ & Scenario B: $E_L^k$ \\
+\midrule
+0 & $-12.68$ & $-17.82$ & $+5.22$ & $5.22$ & $17.82$ & $12.60$ \\
+2 & $-8.22$ & $-14.45$ & $+6.30$ & $6.30$ & $14.45$ & $8.15$ \\
+4 & $-6.01$ & $-11.88$ & $+5.92$ & $5.92$ & $11.88$ & $5.96$ \\
+6 & $-3.07$ & $-10.31$ & $+7.26$ & $7.26$ & $10.31$ & $3.05$ \\
+8 & $+0.04$ & $-8.51$ & $+8.57$ & $8.57$ & $8.51$ & $-0.06$ \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\footnotesize
+\textit{Notes}: All quantities are expressed as percentages of the 2006 baseline electorate. Coefficients are point estimates from Callaway-Sant'Anna regressions on the normalized outcomes; standard errors are reported in Section~\ref{sec:registry}. Bounds are $R_{\min}^k = \max\{0, \gamma_H^k\}$ and $R_{\max}^k = -\gamma_L^k$. Scenario B exit estimate is $E_L^k = -\gamma_L^k - \gamma_H^k$.
+\end{table}
+
+Three patterns emerge from the dynamic decomposition. First, the lower bound on re-labeling is broadly stable across horizons, ranging from 5.22\% at adoption to 8.57\% at event time 8. This stability is consistent with re-labeling being a mechanically persistent administrative correction. Once a voter's education record is updated through recadastramento, the update remains in place through subsequent elections. The slight upward drift over time may reflect continued processing of records from later cohorts whose adoption shock occurs more recently in calendar terms. Second, the upper bound on re-labeling shrinks substantially over time, falling from 17.82\% at adoption to 8.51\% at event time 8. This reflects the partial recovery of the registry as exited voters re-register in subsequent cycles. The total registry contraction $|\gamma_N^k|$ falls from 12.68\% at adoption to approximately zero by event time 8, indicating that the average treated municipality has fully recovered its baseline electorate eight years after adoption. The room for re-labeling-only explanations narrows as the low-education count partially recovers. Third, by event time 8 the lower and upper bounds nearly converge, with $R_{\min}^8 = 8.57\%$ and $R_{\max}^8 = 8.51\%$ statistically indistinguishable. The two bounds identify a near-point estimate of $R^8 \approx 8.5\%$ at this horizon. This convergence implies that, eight years after adoption, the persistent composition shift in the registry is attributable almost entirely to re-labeling rather than ongoing exit. The exit channel has substantially reversed: many of the voters cancelled at adoption have re-registered. The Scenario B exit estimate $E_L^k$ falls from 12.60\% at adoption to approximately zero by event time 8, confirming the reversal.
+
+This dynamic pattern yields a clean interpretation of the two channels. Exit is a transitional phenomenon, driven by the immediate compliance shock of recadastramento and partially reversed as voters re-register over subsequent cycles. Re-labeling is a permanent administrative correction, established at adoption and persisting indefinitely. The static decomposition at event time 0 captures the maximum disruption from BVR; the long-run decomposition isolates the permanent record-keeping effect. Both are real, and both matter for different aspects of the welfare evaluation. Exit determines the political-inclusion cost during the immediate post-adoption period; re-labeling determines the long-run informational state of the registry. The empirical implication is that the welfare-relevant exit cost of BVR is bounded above by the adoption-period estimate but is substantially smaller in present-discounted terms, since exit largely reverses within four electoral cycles. The re-labeling channel, in contrast, is essentially permanent and does not enter the welfare calculus at all under the framework's interpretation, since re-labeled voters remain in the electorate.
+
+\subsection{Spatial Application}
+\label{ssec:decomposition_spatial}
+
+The decomposition coefficients $\gamma_j^k$ are national averages, but they can be applied municipality by municipality to produce spatially heterogeneous estimates of exit and re-labeling intensity. Each treated municipality $m$ has a known treatment year $g_m$ and a known 2006 baseline electorate $N_{m,2006}$. Applying the national event-time-$0$ coefficients to municipality $m$ produces an estimated number of voters exited and re-labeled at $m$'s adoption election.
+
+A complete spatial application produces choropleth maps that visualize where exit and re-labeling were concentrated. Two natural variants of the visualization are useful. The first is a rate map, coloring municipalities by the share of their 2006 electorate affected by each channel; this map highlights where BVR was most disruptive relative to local size, with intensity correlated to local baseline education composition. The second is a count map, coloring municipalities by the absolute number of affected voters; this map highlights where the human magnitude of the effect was concentrated in absolute terms, dominated by large urban municipalities with substantial baseline electorates. This subsection is reserved for the spatial visualization, which will be developed in subsequent work. Once produced, the maps will provide a tangible representation of the decomposition's national-level magnitudes and motivate the welfare calibration exercise in Section~\ref{sec:calibration}.
+
+\subsection{Limitations}
+\label{ssec:decomposition_limitations}
+
+Three limitations of the decomposition framework are worth flagging. First, the decomposition is bounded but not point-identified. The scenarios fill the remaining free parameter with assumptions about the distribution of exits across education categories. The bounds in Section~\ref{ssec:decomposition_national} are the strictly identified intervals; the scenarios are interpretive aids that should not be confused with identification. The empirically relevant range of decompositions is the interval between Scenario B and Scenario C; the truth depends on unobserved heterogeneity in compliance costs within education groups. Second, the decomposition treats the registry contraction as purely BVR-induced. The Callaway-Sant'Anna design absorbs natural baseline processes including voter mortality, voluntary deactivation, and organic education progression to the extent these operate similarly in treated and control municipalities. Under standard parallel-trends assumptions, this is satisfied. The duplicate-elimination channel, sometimes raised as a potential confounder, is empirically negligible; TSE administrative records identified approximately 25,000 duplicates among 64 million biometrically registered voters, a rate of less than 0.04\% that cannot meaningfully affect the decomposition's quantitative conclusions. Third, applying the national decomposition coefficients to municipality-specific baselines assumes treatment-effect homogeneity. In practice, BVR effects vary across municipalities depending on local administrative capacity, demographic structure, and the specific rollout-period characteristics. The spatial application planned in Section~\ref{ssec:decomposition_spatial} will produce model-implied averages, not municipality-specific causal estimates. Quantifying treatment-effect heterogeneity across municipalities is an extension we leave for future work.
+
+The core conclusion of the decomposition is robust to these caveats. Re-labeling is empirically nonzero, with a sharp lower bound of 5.22\% of the baseline electorate at adoption and a 95\% confidence interval that excludes zero by a wide margin. Exit is also necessary to explain the observed registry contraction, with the maximum exit consistent with the data being 12.60\% of the baseline electorate. Both channels operate at adoption; over time, exit reverses while re-labeling persists. These results provide the quantitative foundation for the welfare evaluation in Section~\ref{sec:calibration}.

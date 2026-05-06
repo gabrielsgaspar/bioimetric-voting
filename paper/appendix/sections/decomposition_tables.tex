@@ -1,0 +1,91 @@
+% Supplementary tables for the revised decomposition section.
+
+\subsection{Supplementary tables}
+\label{app:decomp_tables}
+
+\begin{table}[!htbp]
+\centering
+\caption{Raw-count version of the cohort-based allocation by first-treatment regime}
+\label{tab:decomp_counts}
+\label{tab:decomp_aggregate_counts_appendix}
+\begin{tabular}{lcccc}
+\toprule
+First regime & Municipalities & Exit count & Re-labeling (B) & Re-labeling (C) \\
+\midrule
+Strict & 2{,}475 & 6{,}210{,}453 & 3{,}607{,}795 & 4{,}958{,}520 \\
+Hybrid & 1{,}846 & 1{,}561{,}570 & 550{,}381 & 719{,}475 \\
+All treated & 4{,}321 & 7{,}772{,}023 & 4{,}158{,}176 & 5{,}677{,}995 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.75em}
+\begin{minipage}{\textwidth}
+{\footnotesize \textbf{Note:} This is the raw-count counterpart to Table~\ref{tab:decomp_aggregate}. Keeping counts in the appendix avoids mixing levels and rates in the main text while preserving the quantities needed for calibration or back-of-the-envelope comparisons. \par}
+\end{minipage}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Working-age restrictions for the cohort-based allocation}
+\label{tab:decomp_workingage}
+\begin{tabular}{lccc}
+\toprule
+Sample & Exit (upper bound) & Re-labeling (B) & Re-labeling (C) \\
+\midrule
+All ages & 8.35\% & 4.47\% & 6.10\% \\
+Ages 25--64 & \textit{[fill from code]} & \textit{[fill from code]} & \textit{[fill from code]} \\
+Ages 35--64 & \textit{[fill from code]} & \textit{[fill from code]} & \textit{[fill from code]} \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.75em}
+\begin{minipage}{\textwidth}
+{\footnotesize \textbf{Note:} Rates should be expressed as percentages of the restricted sample's 2008 baseline electorate. This table is the most useful robustness check for the cohort framework because it shows whether the aggregate allocation changes materially once the noisiest age bins (16--24 and 65+) are removed. If the working-age estimates are close to the all-age estimates, say so directly in the text. \par}
+\end{minipage}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Pre-treatment backtest of the cohort algorithm}
+\label{tab:decomp_placebo}
+\begin{tabular}{p{0.30\textwidth}ccc}
+\toprule
+Untreated cycle used as pseudo-treatment & Pseudo-exit & Pseudo-relabel B & Pseudo-relabel C \\
+\midrule
+2008$\rightarrow$2010 & \textit{[fill from code]} & \textit{[fill from code]} & \textit{[fill from code]} \\
+2010$\rightarrow$2012 & \textit{[fill from code]} & \textit{[fill from code]} & \textit{[fill from code]} \\
+Pooled untreated benchmark & \textit{[fill from code]} & \textit{[fill from code]} & \textit{[fill from code]} \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.75em}
+\begin{minipage}{\textwidth}
+{\footnotesize \textbf{Note:} Restrict each row to municipalities untreated at both dates and run the same cohort algorithm used in the main decomposition. The target is not exact zeros in every cell but small pseudo-effects relative to the post-adoption magnitudes. This is the most direct diagnostic of whether the framework is spuriously generating exit or record updating absent BVR. \par}
+\end{minipage}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Implementation diagnostics for the cohort framework}
+\label{tab:decomp_diagnostics}
+\begin{tabular}{lc}
+\toprule
+Diagnostic & Value \\
+\midrule
+Treated municipalities used in the allocation & 4{,}321 \\
+Electorate-weighted share of cells using municipality-specific survival & \textit{[fill from code]} \\
+Electorate-weighted share of cells using state-level fallback & \textit{[fill from code]} \\
+Electorate-weighted share of cells using national fallback & \textit{[fill from code]} \\
+Electorate-weighted share of cells where the biometric-uptake cap binds & \textit{[fill from code]} \\
+Electorate-weighted share of cells where the non-negativity floor binds & \textit{[fill from code]} \\
+Bootstrap SE for aggregate exit & \textit{[fill from code]} \\
+Bootstrap SE for aggregate re-labeling (B) & \textit{[fill from code]} \\
+Bootstrap SE for aggregate re-labeling (C) & \textit{[fill from code]} \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.75em}
+\begin{minipage}{\textwidth}
+{\footnotesize \textbf{Note:} This table makes the implementation transparent. If the bootstrap is not yet available, drop those rows rather than reporting conventional standard errors that ignore first-stage uncertainty. The share of cells where the uptake cap or non-negativity floor binds is particularly informative about where the framework is doing mechanical cleanup rather than delivering clean signal. \par}
+\end{minipage}
+\end{table}

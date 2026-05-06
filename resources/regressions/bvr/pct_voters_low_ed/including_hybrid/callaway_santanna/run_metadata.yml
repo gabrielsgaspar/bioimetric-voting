@@ -1,0 +1,78 @@
+timestamp: 2026-05-05 16:12:12 BST
+estimator: callaway_santanna
+data_path: resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/analysis_sample.parquet
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna
+outcome: pct_voters_low_ed
+unit_id: municipality_id
+time_id: year_election
+group_id: treatment_year_cs
+treatment_var: ~
+controls: ~
+cluster_var: municipality_id
+weights_var: ~
+notes: 'Callaway-Sant''Anna dynamic DID for pct_voters_low_ed in the BVR registry
+  panel. Specification: any BVR, including strict and hybrid municipalities. This
+  run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard
+  errors are clustered by municipality; control group is never-treated municipalities.'
+n_estimates: 60
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_complete_outcome_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 55661.0
+  - 55661.0
+  - 5571.0
+  - 10.0
+  - 2000.0
+  - 2018.0
+  - 4326.0
+  - 1245.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Rows with non-missing outcome.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.
+model_stats:
+  estimator: callaway_santanna
+  nobs: 55661
+  control_group: nevertreated
+  base_period: universal
+  anticipation: 0
+  clustervars: .__unit_id_numeric__
+  overall_att: -0.0555958
+  overall_se: 0.0009387
+output_files:
+  config_used_yml: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/config_used.yml
+  tidy_estimates:
+    csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/tidy_estimates.csv
+  event_study:
+    csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/event_study_estimates.csv
+  tables:
+    group_time_att:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/group_time_att.csv
+    aggregate_simple:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/aggregate_simple.csv
+    aggregate_calendar:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/aggregate_calendar.csv
+    aggregate_group:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/aggregate_group.csv
+  sample_diagnostics: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/sample_diagnostics.csv
+  model_summary: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/model_summary.txt
+  event_study_plot:
+    latex_figure: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/event_study_plot.pdf
+    png: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/callaway_santanna/event_study_plot.png

@@ -1,0 +1,195 @@
+{
+  "run": {
+    "estimator": "bjs",
+    "data_path": "resources/regressions/bvr/log_num_voters/strict_bvr/other_estimators/bjs/analysis_sample.parquet",
+    "output_dir": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/strict_bvr/other_estimators/bjs",
+    "outcome": "log_num_voters",
+    "unit_id": "municipality_id",
+    "time_id": "year_election",
+    "group_id": "treatment_year_cs",
+    "treatment_var": null,
+    "controls": null,
+    "cluster_var": "municipality_id",
+    "weights_var": null,
+    "notes": "Borusyak-Jaravel-Spiess dynamic DID for log_num_voters in the BVR registry panel. Specification: strict BVR only, excluding municipalities ever flagged as hybrid. This run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard errors are clustered by municipality; control group is never-treated municipalities."
+  },
+  "model_stats": {
+    "estimator": "bjs",
+    "nobs": 37207,
+    "horizon": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ],
+    "pretrends": [
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  "diagnostics": [
+    {
+      "metric": "n_rows",
+      "value": 37207,
+      "notes": "Rows in the input analysis sample."
+    },
+    {
+      "metric": "n_complete_outcome_rows",
+      "value": 37207,
+      "notes": "Rows with non-missing outcome."
+    },
+    {
+      "metric": "n_units",
+      "value": 3725,
+      "notes": "Distinct units after validation."
+    },
+    {
+      "metric": "n_periods",
+      "value": 10,
+      "notes": "Distinct time periods after validation."
+    },
+    {
+      "metric": "min_time",
+      "value": 2000,
+      "notes": "Minimum observed time value."
+    },
+    {
+      "metric": "max_time",
+      "value": 2018,
+      "notes": "Maximum observed time value."
+    },
+    {
+      "metric": "n_treated_units",
+      "value": 2480,
+      "notes": "Units with non-missing first-treatment timing."
+    },
+    {
+      "metric": "n_never_treated_units",
+      "value": 1245,
+      "notes": "Units standardized as never treated."
+    },
+    {
+      "metric": "group_id_standardized_from_zero_or_na",
+      "value": 0,
+      "notes": "TRUE means the scripts converted 0 or NA into the internal never-treated representation."
+    }
+  ],
+  "estimates": [
+    {
+      "term": "0",
+      "estimate": -0.11849981438388714,
+      "std.error": 0.0027029884515642187,
+      "conf.low": -0.12379767174895301,
+      "conf.high": -0.11320195701882127,
+      "statistic": -43.84029621558736,
+      "p.value": 0,
+      "event_time": 0
+    },
+    {
+      "term": "2",
+      "estimate": -0.07564140928630998,
+      "std.error": 0.0039458704512751195,
+      "conf.low": -0.08337531537080922,
+      "conf.high": -0.06790750320181074,
+      "statistic": -19.169765003781674,
+      "p.value": 6.62071821660693e-82,
+      "event_time": 2
+    },
+    {
+      "term": "4",
+      "estimate": -0.05218845895495664,
+      "std.error": 0.005897017381982827,
+      "conf.low": -0.06374661302364298,
+      "conf.high": -0.0406303048862703,
+      "statistic": -8.849975432395397,
+      "p.value": 8.753856392726008e-19,
+      "event_time": 4
+    },
+    {
+      "term": "6",
+      "estimate": -0.006940734087494963,
+      "std.error": 0.007865658124931792,
+      "conf.low": -0.022357424012361272,
+      "conf.high": 0.008475955837371348,
+      "statistic": -0.882409834911958,
+      "p.value": 0.37755521915649565,
+      "event_time": 6
+    },
+    {
+      "term": "8",
+      "estimate": 0.022210796524370746,
+      "std.error": 0.022985235848540796,
+      "conf.low": -0.02284026573876921,
+      "conf.high": 0.0672618587875107,
+      "statistic": 0.9663070969002384,
+      "p.value": 0.333890535897773,
+      "event_time": 8
+    },
+    {
+      "term": "i(factor_var = zz000event_time, keep = c(2, 4, 6, 8))1",
+      "estimate": null,
+      "std.error": null,
+      "conf.low": null,
+      "conf.high": null,
+      "statistic": null,
+      "p.value": null,
+      "event_time": 1
+    }
+  ],
+  "event_study": [
+    {
+      "term": "0",
+      "estimate": -0.11849981438388714,
+      "std.error": 0.0027029884515642187,
+      "conf.low": -0.12379767174895301,
+      "conf.high": -0.11320195701882127,
+      "statistic": -43.84029621558736,
+      "p.value": 0,
+      "event_time": 0
+    },
+    {
+      "term": "2",
+      "estimate": -0.07564140928630998,
+      "std.error": 0.0039458704512751195,
+      "conf.low": -0.08337531537080922,
+      "conf.high": -0.06790750320181074,
+      "statistic": -19.169765003781674,
+      "p.value": 6.62071821660693e-82,
+      "event_time": 2
+    },
+    {
+      "term": "4",
+      "estimate": -0.05218845895495664,
+      "std.error": 0.005897017381982827,
+      "conf.low": -0.06374661302364298,
+      "conf.high": -0.0406303048862703,
+      "statistic": -8.849975432395397,
+      "p.value": 8.753856392726008e-19,
+      "event_time": 4
+    },
+    {
+      "term": "6",
+      "estimate": -0.006940734087494963,
+      "std.error": 0.007865658124931792,
+      "conf.low": -0.022357424012361272,
+      "conf.high": 0.008475955837371348,
+      "statistic": -0.882409834911958,
+      "p.value": 0.37755521915649565,
+      "event_time": 6
+    },
+    {
+      "term": "8",
+      "estimate": 0.022210796524370746,
+      "std.error": 0.022985235848540796,
+      "conf.low": -0.02284026573876921,
+      "conf.high": 0.0672618587875107,
+      "statistic": 0.9663070969002384,
+      "p.value": 0.333890535897773,
+      "event_time": 8
+    }
+  ],
+  "extra_tables": []
+}

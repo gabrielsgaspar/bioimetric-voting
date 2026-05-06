@@ -1,0 +1,66 @@
+% Appendix companion for the revised decomposition section.
+
+\section{Appendix to Section~\ref{sec:decomposition}: Technical Details and Additional Diagnostics}
+\label{app:decomposition}
+
+This appendix collects the technical pieces that support the main decomposition but are not needed to follow the paper's central argument. The main text uses aggregate count accounting as the identification anchor and then uses the cohort framework to allocate effects across places, ages, and regimes. The appendix documents the exact operator, implementation rules, and supplementary diagnostics that show where the cohort framework is most credible.
+
+\subsection{Exact cohort operator and education accounting}
+\label{app:decomp_operator}
+
+Let $N_{m,t,c,e}$ be the count of registered voters in municipality $m$, election year $t$, age cohort $c$, and education group $e \in \{L,H\}$. Denote total cohort size by $N_{m,t,c} = \sum_{e} N_{m,t,c,e}$. Let $A_{c'c}$ be the mechanical-aging matrix, where $A_{c'c}$ is the share of voters in source cohort $c'$ at $t$ who age into target cohort $c$ at $t+2$. The matrix has at most two nonzero entries per row for all nonabsorbing bins, reflecting the fact that a two-year election cycle can leave part of a source cohort in place and move the remainder into the next bin. The exact entries follow the TSE age bins: single-year bins for ages 16--20, a four-year bin for ages 21--24, five-year bins thereafter, and an absorbing 100+ bin.
+
+Given pre-treatment survival rates $\hat\sigma_{m,c'}$, the no-BVR counterfactual for total cohort size is
+\begin{equation}
+\widehat N^{0}_{m,t+2,c}
+=
+\sum_{c'} A_{c'c}\hat\sigma_{m,c'}N_{m,t,c'} + I_{m,t+2,c},
+\label{eq:app_decomp_total_counterfactual}
+\end{equation}
+where $I_{m,t+2,c}$ captures new registration into the youngest bins. This formulation makes explicit that a target cohort at $t+2$ can receive mass from more than one source cohort at $t$.
+
+For the education split, let $P^{0}_{m,c',e \rightarrow e'}$ denote the pre-treatment transition probability from education group $e$ in source cohort $c'$ at $t$ to education group $e'$ at $t+2$ absent BVR. The corresponding no-BVR cell counts are
+\begin{equation}
+\widehat N^{0}_{m,t+2,c,e'}
+=
+\sum_{c',e} A_{c'c}\hat\sigma_{m,c'}N_{m,t,c',e}P^{0}_{m,c',e \rightarrow e'} + I_{m,t+2,c,e'},
+\label{eq:app_decomp_cell_counterfactual}
+\end{equation}
+where $I_{m,t+2,c,e'}$ allows inflows into the youngest bins by education category.
+
+For ages 35 and older, the benchmark implementation sets the natural education-progression probability from low to high education to zero over a two-year cycle. For ages 25--34, that transition is allowed but expected to be small. For ages 16--24, it is estimated from pre-treatment transitions and the resulting record-updating estimates are treated as auxiliary rather than central.
+
+Cohort-level exit is
+\begin{equation}
+E_{m,t+2,c}
+=
+\max\left\{0,\widehat N^{0}_{m,t+2,c} - N_{m,t+2,c}\right\}.
+\label{eq:app_decomp_exit}
+\end{equation}
+Under Scenario B, all within-cohort exit is allocated to the low-education group. Under Scenario C, exit is allocated proportionally to the no-BVR education composition within the cohort. In both cases, record updating is the residual movement from low to high education required to reconcile observed and predicted cell counts after the exit allocation is fixed. Finally, record updating in any cell is capped by observed biometric uptake:
+\begin{equation}
+R_{m,t+2,c}
+\leq
+b_{m,t+2,c}N_{m,t+2,c},
+\label{eq:app_decomp_bcap}
+\end{equation}
+where $b_{m,t+2,c}$ is the share of the cohort with completed biometrics. This cap is usually slack in strict municipalities and informative in hybrid municipalities.
+
+\subsection{Implementation rules and interpretation}
+\label{app:decomp_methods}
+\label{app:decomp_implementation}
+
+\paragraph{Survival-rate estimation.}
+The preferred estimate uses municipality-specific pre-treatment transitions when the source cohort is large enough. When the source cell is too small, the algorithm falls back to the state-level estimate for the same cohort; if that is unavailable, it uses the national cohort mean from untreated observations. If the final code uses thresholds different from the ones below, replace them before integrating the section. In the current implementation, municipality-specific survival is used when the source cell contains at least 100 voters in the single-year young bins and at least 200 voters in the multi-year bins.
+
+\paragraph{Interpretation of exit.}
+The exit component is best read as BVR-attributable loss relative to the municipality's own pre-treatment cohort dynamics. Because abnormal post-adoption out-migration and administrative cancellation are not separately observed, the municipality-level exit estimate is an upper bound on true BVR-induced removal whenever post-adoption migration deviates from the pre-treatment baseline.
+
+\paragraph{Interpretation of record updating.}
+The cleanest record-updating estimates come from working-age cohorts that are old enough for natural schooling progression to be limited but not so old that survival-rate noise dominates. For that reason, the main text emphasizes the 25--44 and 35--64 patterns and treats the youngest and oldest bins as supporting rather than central evidence.
+
+\paragraph{How to read the regime figure.}
+The stacked regime figure is a summary of the share of the baseline electorate administratively affected by the reform through either removal or record updating. It is not a decomposition of net registry contraction, because record updating changes measured composition without shrinking the total count.
+
+\input{decomposition_appendix_tables.tex}
+\input{decomposition_appendix_figures.tex}

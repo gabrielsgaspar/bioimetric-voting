@@ -1,0 +1,4 @@
+Estimator: de Chaisemartin-D'Haultfoeuille switcher DID fallback
+Outcome: pct_voters_high_ed
+Post-treatment point estimates use the same switcher-versus-stable-control logic as the archived DIDmultiplegt dynamic estimator for this staggered binary-treatment panel.
+Standard errors are municipality-cluster bootstrap standard errors with 199 replications.

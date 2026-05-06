@@ -1,0 +1,80 @@
+\section{Proofs for Section~\ref{sec:theory}}
+\label{app:model-proofs}
+
+This appendix collects the proofs for the formal model in Section~\ref{sec:theory}.
+
+\begin{proof}[Proof of Proposition~\ref{prop:hetcomp}]
+For any $\tau>0$ and any realization $b$ of $b_i$, the compliance rule implies
+\[
+\Pr(b_i \geq \tau \kappa_i \mid e_i=e,b_i=b)=\Pr\!\left(\kappa_i \leq \frac{b}{\tau}\mid e_i=e\right)=F_e\!\left(\frac{b}{\tau}\right).
+\]
+Integrating over the distribution $H$ of $b_i$ yields
+\[
+R_e(\tau)=\int F_e\!\left(\frac{b}{\tau}\right)\,dH(b).
+\]
+Because low-education costs are right-shifted, $F_L(k)\leq F_H(k)$ for every $k\geq 0$. Therefore
+\[
+F_L\!\left(\frac{b}{\tau}\right)\leq F_H\!\left(\frac{b}{\tau}\right)
+\]
+for every $b$, and integrating preserves the inequality:
+\[
+R_L(\tau)\leq R_H(\tau).
+\]
+Strict inequality follows whenever the cost ordering is strict on a set of positive $H$-measure. Since $R_L(0)=R_H(0)=1$ by normalization, the drop from the no-burden benchmark is weakly larger for low-education citizens.
+\end{proof}
+
+\begin{proof}[Proof of Proposition~\ref{prop:drift_sign}]
+By assumption, $\omega(\tau)$ is weakly decreasing in $\tau$. The cdf of ideal points in the registered electorate is
+\[
+G(g;\tau)=\omega(\tau)G_L(g)+\bigl(1-\omega(\tau)\bigr)G_H(g).
+\]
+Because higher education is associated with higher income and \eqref{eq:eq_policy} is decreasing in income, the high-education ideal-point distribution is weakly to the left of the low-education distribution. Equivalently,
+\[
+G_H(g)\geq G_L(g) \qquad \text{for all } g.
+\]
+Hence, for any $g$,
+\[
+\frac{\partial G(g;\tau)}{\partial \omega}=G_L(g)-G_H(g)\leq 0.
+\]
+Since $\omega'(\tau)\leq 0$, it follows that $G(g;\tau)$ is weakly increasing in $\tau$ at every $g$. Thus the distribution of preferred redistribution in the registered electorate shifts weakly to the left as biometric intensity rises. A leftward first-order stochastic shift weakly lowers every quantile, including the median. Therefore the Downsian equilibrium policy $g^\ast(\tau)$, which equals the median ideal point of registered voters, is weakly decreasing in $\tau$.
+\end{proof}
+
+\begin{proof}[Proof of Proposition~\ref{prop:trust}]
+Define the compliance indicator
+\[
+D_i(\tau)=\mathbbm{1}\{b_i \geq \tau \kappa_i\}.
+\]
+For any fixed realization of $\kappa_i$, $D_i(\tau)$ is weakly increasing in $b_i$. Thus the set of compliant citizens is an upper set in $b_i$: there exists a threshold $\bar b(\kappa_i,\tau)=\tau \kappa_i$ such that citizens comply if and only if $b_i \geq \bar b(\kappa_i,\tau)$. Conditioning on any $\kappa_i$, the distribution of $b_i$ among compliers is therefore a truncation from below of the unconditional distribution, while the distribution of $b_i$ among non-compliers is a truncation from above. It follows that the distribution of $b_i$ among compliers first-order stochastically dominates the distribution of $b_i$ among non-compliers.
+
+Because $T_i=h(b_i)$ with $h'(\cdot)>0$, the same ordering carries over to trust. Therefore
+\[
+\mathbb{E}[T_i \mid D_i(\tau)=1] \geq \mathbb{E}[T_i \mid D_i(\tau)=0].
+\]
+If both groups have positive measure and $h$ is strictly increasing on a set reached with positive probability, the inequality is strict. The result is selection-based: no change in individual beliefs is required.
+\end{proof}
+
+\begin{proof}[Proof of Proposition~\ref{prop:interior}]
+Strict concavity of $W(\tau)$ implies that any solution to the first-order condition is unique. The boundary conditions $W'(0)>0$ and $W'(1)<0$ imply, by continuity of $W'$, that there exists some $\tau^\ast \in (0,1)$ such that
+\[
+W'(\tau^\ast)=\phi'(\tau^\ast)\mathcal{I}-\lambda X'(\tau^\ast)=0.
+\]
+By strict concavity, this $\tau^\ast$ is the unique global maximizer.
+
+For the comparative statics, define
+\[
+F(\tau,\mathcal{I},\lambda)=\phi'(\tau)\mathcal{I}-\lambda X'(\tau).
+\]
+At the optimum, $F(\tau^\ast,\mathcal{I},\lambda)=0$. The implicit-function theorem gives
+\[
+\frac{\partial \tau^\ast}{\partial \mathcal{I}}=-\frac{\phi'(\tau^\ast)}{\phi''(\tau^\ast)\mathcal{I}-\lambda X''(\tau^\ast)},
+\qquad
+\frac{\partial \tau^\ast}{\partial \lambda}=\frac{X'(\tau^\ast)}{\phi''(\tau^\ast)\mathcal{I}-\lambda X''(\tau^\ast)}.
+\]
+Because $\phi'(\tau^\ast)>0$, $X'(\tau^\ast)>0$, and strict concavity implies $\phi''(\tau^\ast)\mathcal{I}-\lambda X''(\tau^\ast)<0$, it follows that
+\[
+\frac{\partial \tau^\ast}{\partial \mathcal{I}}>0
+\qquad \text{and} \qquad
+\frac{\partial \tau^\ast}{\partial \lambda}<0.
+\]
+Thus the planner chooses more intense biometric verification when integrity is valued more highly and less intense verification when inclusion receives more weight.
+\end{proof}

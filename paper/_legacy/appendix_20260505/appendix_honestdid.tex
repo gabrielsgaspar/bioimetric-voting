@@ -1,0 +1,41 @@
+\section{Rambachan-Roth Sensitivity}
+\label{app:honestdid}
+
+The most natural concern about the registry event studies is that the small pre-treatment coefficients in the main text may still leave room for latent violations of parallel trends. To quantify how much non-parallel drift would be required to overturn the impact estimates, I apply the Rambachan-Roth sensitivity framework \citep{Rambachan2023MoreCredibleApproach} to the event-time $0$ coefficient for the three main registry outcomes. The baseline confidence intervals are the same as in the main text. I then report identified sets under two alternative restrictions on the counterfactual trend. The first is a smoothness restriction that bounds second differences in the latent violation process. The second is a relative-magnitudes restriction that allows post-treatment violations to be up to $\bar{M}$ times as large as the largest pre-treatment deviation.
+
+The plain-language takeaway is reassuring, but it depends on which class of violations one thinks is most plausible. Under the relative-magnitudes restriction, the main impact effects remain signed and statistically separated from zero even when post-treatment violations are allowed to be twice as large as the worst pre-trend visible in the data. The breakdown value therefore exceeds $\bar{M}=2$ for the log size of the electorate and for both education-share outcomes. Put differently, the reviewer must allow confounding after adoption to be more than double the largest pre-treatment discrepancy before these baseline impact estimates lose statistical significance. The smoothness restriction is much harsher. Once one permits modest curvature in the latent untreated path, the identified sets widen quickly and can include zero by $M=0.5$. I read that pattern as a reminder that the smoothness class is deliberately conservative, not as evidence against the baseline estimates: the relative-magnitudes exercise is the more natural metric when the visible pre-trends are already small, while the smoothness exercise asks whether sharply bending counterfactual paths could rationalize the observed break at adoption.
+
+\begin{figure}[p]
+    \caption{HonestDiD Sensitivity: Electorate Size}
+    \label{fig:appendix-honestdid-size}
+    \centering
+    \includegraphics[width=0.82\textwidth]{../resources/robustness/honestdid/log_num_voters/sensitivity_plot.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure reports Rambachan-Roth identified sets for the event-time $0$ coefficient from the baseline dynamic TWFE specification for the log number of registered voters. The left facet imposes smoothness bounds on second differences in the latent violation of parallel trends. The right facet imposes relative-magnitude bounds that scale the allowed post-treatment violation by the largest pre-treatment deviation. Under the relative-magnitudes restriction, the identified set remains strictly negative through $\bar{M}=2$. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \captionsetup{justification=centering}
+    \caption{HonestDiD Sensitivity: Education Composition}
+    \label{fig:appendix-honestdid-composition}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/honestdid/pct_voters_low_ed/sensitivity_plot.pdf}
+        \caption{Low-education share}
+        \label{fig:appendix-honestdid-low-ed}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/honestdid/pct_voters_high_ed/sensitivity_plot.pdf}
+        \caption{High-education share}
+        \label{fig:appendix-honestdid-high-ed}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel applies the same Rambachan-Roth procedure to the education-composition outcomes in the main text. At event time $0$, the low-education share remains below zero and the high-education share remains above zero throughout the relative-magnitudes grid up to $\bar{M}=2$, so the breakdown value exceeds that threshold for both outcomes. The smoothness bounds are again much wider, reflecting the fact that the smoothness class admits a broad family of sharply curved counterfactual paths. \par}
+    \end{minipage}
+\end{figure}

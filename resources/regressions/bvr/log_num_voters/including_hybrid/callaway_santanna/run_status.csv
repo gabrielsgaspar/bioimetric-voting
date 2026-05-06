@@ -1,0 +1,86 @@
+outcome,spec,estimator,success,output_dir,config,log
+log_num_voters,including_hybrid,callaway_santanna,True,resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna,resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/config.yml,"$config_used_yml
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/config_used.yml""
+
+$tidy_estimates
+$tidy_estimates$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/tidy_estimates.csv""
+
+$tidy_estimates$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/tidy_estimates.parquet""
+
+
+$event_study
+$event_study$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/event_study_estimates.csv""
+
+$event_study$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/event_study_estimates.parquet""
+
+
+$tables
+$tables$group_time_att
+$tables$group_time_att$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/group_time_att.csv""
+
+$tables$group_time_att$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/group_time_att.parquet""
+
+
+$tables$aggregate_simple
+$tables$aggregate_simple$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/aggregate_simple.csv""
+
+$tables$aggregate_simple$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/aggregate_simple.parquet""
+
+
+$tables$aggregate_calendar
+$tables$aggregate_calendar$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/aggregate_calendar.csv""
+
+$tables$aggregate_calendar$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/aggregate_calendar.parquet""
+
+
+$tables$aggregate_group
+$tables$aggregate_group$csv
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/aggregate_group.csv""
+
+$tables$aggregate_group$parquet
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/aggregate_group.parquet""
+
+
+
+$sample_diagnostics
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/sample_diagnostics.csv""
+
+$model_summary
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/model_summary.txt""
+
+$event_study_plot
+$event_study_plot$latex_figure
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/event_study_plot.pdf""
+
+$event_study_plot$png
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/event_study_plot.png""
+
+
+$run_metadata
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/run_metadata.yml""
+
+$results_json
+[1] ""/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/results.json""
+
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna
+Key outputs:"

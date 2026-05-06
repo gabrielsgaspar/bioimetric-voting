@@ -1,0 +1,44 @@
+\section{Party Affiliation Flow}
+\label{sec:filiacao-flow}
+
+\subsection{Motivation}
+
+The registry results show that biometric registration changed the size and education composition of the electorate, while the downstream-outcomes section shows much weaker movement in partisan, fiscal, and service-delivery outcomes. A natural intermediate margin is political recruitment. If BVR changes the perceived electorate, as in Proposition~\ref{prop:median-voter-shift}, parties and activists may adjust before any change appears in candidacies or policy. Recruitment can respond continuously: a citizen may affiliate with a party in any month, while candidate entry is locked into electoral calendars and policy is mediated by budgets, mandates, and national political cycles. New party affiliations therefore provide an upstream test of whether the administrative shock to the voter registry also changed the flow of citizens into organized local politics.
+
+\subsection{Data and Construction}
+
+The outcome is built from the TSE party-affiliation registry as hosted by Base dos Dados. Party affiliation is a formal electoral record with a start date, party, person identifier, and municipal attribution. The schema discovery step found two relevant tables, \texttt{microdados} and \texttt{microdados\_antigos}. Because the two tables overlap but neither alone gives the desired historical flow, I use a deduplicated union keyed by party, state, municipality, voter title when available, a person fallback, and affiliation start date. The verified start-date column is \texttt{data\_filiacao}; the municipality key is the seven-digit IBGE code \texttt{id\_municipio}; and the status field is \texttt{situacao\_registro}. The construction details and coverage checks are documented in \texttt{docs/TSE\_FILIACAO\_BDD\_SCHEMA\_EXPLORATION.md}.
+
+I aggregate new affiliations into the same non-overlapping election-year panel used in the administrative sections. For election year $t$, the affiliation window runs from December 1 of year $t-2$ through November 30 of year $t$. Thus the 2010 observation counts affiliations from December 1, 2008 through November 30, 2010. The main count excludes records that were invalidated within six months of the affiliation date, using \texttt{data\_desfiliacao} and, where needed, \texttt{data\_cancelamento} or \texttt{data\_exclusao}. This duration filter removes records that look more like administrative noise than durable party entry. The unfiltered count is retained in the clean file for sensitivity checks.
+
+I estimate three outcome variants. The primary outcome is $\log(1+\text{new affiliations})$, which avoids denominator bias entirely. The second is new affiliations per 1,000 municipal residents, using annual IBGE population from \texttt{br\_ibge\_populacao.municipio}. The third is new affiliations per 1,000 adults, using ages 15 and older from SIDRA census tables for 2000, 2010, and 2022, linearly interpolated to election years. I do not normalize by registered voters. Registered voters are themselves an outcome of BVR, so a per-registered-voter rate would mechanically build the treatment effect into the denominator. All three outcomes are winsorized at the 1st and 99th municipality-election percentiles before estimation.
+
+\subsection{Main Results}
+
+\input{../resources/tables/filiacao_flow_main_table.tex}
+
+The main result is a null at adoption. For the primary log-count outcome, the TWFE event-time-zero coefficient is $0.036$ with a standard error of $0.082$, and the Callaway-Sant'Anna estimate is $0.031$ with a standard error of $0.022$. The population-rate and adult-population-rate variants point slightly negative at adoption but are also small relative to their standard errors. The population-rate estimates are $-0.465$ and $-0.813$ new affiliations per 1,000 residents for TWFE and Callaway-Sant'Anna, respectively. The adult-rate estimates are $-0.463$ and $-0.969$ per 1,000 adults. Across all three variants, the adoption-period estimates do not indicate a sharp break in the flow of new party affiliations.
+
+The longer horizons are less settled. The log-count specification shows positive estimates at event times $+4$ and $+8$ in the baseline TWFE run, and the Callaway-Sant'Anna log-count path is also positive at later horizons. But these patterns should not be read as a strong mobilization result. The Callaway-Sant'Anna pre-period estimates are not centered cleanly at zero, and the rate outcomes do not reproduce the same positive post-treatment pattern. The defensible headline is therefore not that BVR raised party recruitment. It is that the immediate recruitment margin is close to null, and that later positive log-count estimates are fragile.
+
+\begin{figure}[htbp]
+    \captionsetup{justification=centering}
+    \caption{Estimator Comparison for Party Affiliation Flow}
+    \label{fig:filiacao-flow-estimator-comparison}
+    \centering
+    \includegraphics[width=0.86\textwidth]{../resources/images/regressions/estimator_comparison/filiacao_flow/comparison.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure compares dynamic TWFE and Callaway-Sant'Anna estimates for $\log(1+\text{new affiliations})$. The outcome counts new party affiliations in the two-year window before each election and is winsorized at the 1st and 99th municipality-election percentiles. \par}
+    \end{minipage}
+\end{figure}
+
+\subsection{Robustness}
+
+\input{../resources/tables/filiacao_flow_robustness_table.tex}
+
+The robustness checks reinforce the null interpretation. Adding state $\times$ election-year fixed effects moves the event-time-zero coefficient to $-0.015$ with a standard error of $0.027$. This is the most important check because the downstream section showed that state-specific national cycles could generate misleading partisan patterns. Population weighting gives a small positive estimate of $0.062$ with a standard error of $0.127$, excluding hybrid municipalities gives $0.044$ with a standard error of $0.089$, and dropping the early 2000 and 2002 observations gives $0.032$ with a standard error of $0.081$. Excluding windows that contain large administrative disaffiliation spikes produces a negative but imprecise estimate, and that restricted sample has much weaker timing support because several election windows are removed. The positive baseline estimates at later horizons do not survive the state-year fixed-effect specification, so they should not be elevated over the null adoption result.
+
+\subsection{Interpretation}
+
+These results are closest to the null case. BVR clearly changed the voter registry, and it changed who remained on the rolls, but the activist pipeline does not show a comparable immediate response. That pattern is informative. It suggests that formal party engagement was organized somewhat independently of the administrative reform of voter registration. Combined with the muted fiscal and policy results in Section~\ref{sec:downstream-outcomes}, the affiliation-flow evidence pushes the paper toward a bounded interpretation: BVR reshaped the registry and its composition, but it did not visibly reshape the upstream flow into party organization or the downstream political landscape over the horizons studied here. The result should remain framed cautiously, especially because the affiliation data have uneven annual coverage before 2004 and because administrative cleanup events matter for stock-style affiliation outcomes that this section does not yet analyze.

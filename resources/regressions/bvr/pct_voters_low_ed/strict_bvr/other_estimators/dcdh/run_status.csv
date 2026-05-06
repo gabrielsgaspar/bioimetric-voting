@@ -1,0 +1,5 @@
+outcome,spec,estimator,success,output_dir,config,log
+pct_voters_low_ed,strict_bvr,dcdh,True,resources/regressions/bvr/pct_voters_low_ed/strict_bvr/other_estimators/dcdh,resources/regressions/bvr/pct_voters_low_ed/strict_bvr/other_estimators/dcdh/config.yml,"Estimator: de Chaisemartin-D'Haultfoeuille switcher DID fallback
+Outcome: pct_voters_low_ed
+Post-treatment point estimates use the same switcher-versus-stable-control logic as the archived DIDmultiplegt dynamic estimator for this staggered binary-treatment panel.
+Standard errors are municipality-cluster bootstrap standard errors with 199 replications."

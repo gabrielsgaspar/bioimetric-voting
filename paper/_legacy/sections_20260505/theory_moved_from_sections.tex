@@ -1,0 +1,238 @@
+\section{A Model of Optimal Electoral Verification}
+\label{sec:theory}
+
+This section develops the paper's central theoretical framework. The framework treats electoral modernization reforms---voter registration laws, biometric verification, identification requirements---as pre-participation ordeals that screen the electorate. Three features distinguish the framework from existing ordeal theory and from existing models of costly voting. First, the verification intensity is chosen by a welfare-maximizing state, not taken as given. Second, verification operates before participation rather than at the ballot box, so it shapes the \emph{set} of citizens whose preferences are aggregated rather than the \emph{rate} at which a fixed set of citizens turn out. Third, the resulting composition shift feeds back into policy through probabilistic voting, so verification has both a direct cost (excluded citizens) and an indirect cost (policy distortion from an unrepresentative electorate).
+
+The main theoretical result (Proposition~\ref{prop:main}) characterizes how the socially optimal verification intensity depends on the correlation between compliance costs and policy preferences. Even when this correlation is zero, verification distorts policy through a between-group composition channel; when the correlation is positive, an additional within-group drift channel reinforces the distortion and lowers the optimal intensity further. The cost-preference correlation $\rho$ is the framework's central novel parameter; it is estimable from the data and forms the basis of the paper's calibration exercise.
+
+The framework deliberately keeps the formal apparatus light. The contribution is conceptual rather than technical: a single new parameter, the cost-preference correlation, organizes a wide range of comparative statics that the existing literature has examined piecemeal. Formal proofs of all propositions, regularity conditions, and extensions appear in Appendix~\ref{sec:theory_proofs}.
+
+\subsection{Environment}
+\label{ssec:environment}
+
+There is a continuum of citizens indexed by $i \in [0, 1]$. Each citizen is characterized by a vector of primitives $(e_i, c_i, v_i, g_i^*)$.
+
+The variable $e_i \in \{L, H\}$ denotes the citizen's education category, with $L$ standing for low education and $H$ for high education. Let $\pi \in (0, 1)$ denote the share of low-education citizens. The dichotomous treatment of education is a simplification; the framework extends naturally to richer schemas, which we discuss in Appendix~\ref{sec:theory_proofs}.
+
+The variable $c_i \geq 0$ is the citizen's idiosyncratic cost of complying with verification. Within education group $e \in \{L, H\}$, $c_i$ is drawn from distribution $F_e$ with density $f_e$. The cost captures, in reduced form, the time, information, and bureaucratic friction a citizen must absorb to register under a given verification regime: the opportunity cost of travel to a registration office, the cognitive cost of understanding new procedures, and the psychic cost of interacting with the state.
+
+The variable $v_i > 0$ is the citizen's value of being registered to vote. We treat $v_i$ as an idiosyncratic draw from a distribution $H$ with density $h$, independent of all other primitives. The variable captures the bundle of motives that lead a citizen to value electoral participation: civic attachment, expressive value, instrumental belief in influencing outcomes, and social signaling.
+
+The variable $g_i^* \in \mathbb{R}$ is the citizen's preferred one-dimensional policy. Within education group $e$, $g_i^*$ is drawn from distribution $G_e$ with mean $\bar g_e$. Higher values of $g_i^*$ correspond to more redistributive or more leftist policies; lower values correspond to less redistributive or more rightist policies.
+
+Three assumptions structure the environment.
+
+\begin{assumption}[Differential compliance]
+\label{asm:diffcomp}
+$F_L$ is first-order stochastically dominated by $F_H$: $F_L(c) \leq F_H(c)$ for all $c \geq 0$, with strict inequality on a set of positive measure.
+\end{assumption}
+
+Assumption~\ref{asm:diffcomp} states that low-education citizens face higher compliance costs in the FOSD sense. This is the formal counterpart to the long-documented empirical regularity that registration burdens fall disproportionately on less-educated citizens \citep{Rosenstone1978TheEffectRegistra, Nagler1991TheEffectRegistra, Ansolabehere2005TheIntroducVoter, Hajnal2017VoterIdentifiLaws}. The dominance is reduced-form: it can arise from differential information, time costs, mobility constraints, or cognitive load, and the model takes no stand on the underlying mechanism.
+
+\begin{assumption}[Ordered preferences]
+\label{asm:orderprefs}
+High-education citizens have lower mean preferred policy: $\bar g_H < \bar g_L$.
+\end{assumption}
+
+Assumption~\ref{asm:orderprefs} is the standard education-redistribution gradient from the political economy literature \citep{Meltzer1981RationalTheoryThe}. It is empirically well-documented in Brazil \citep{Hunter2010, Soares2011} and in cross-country evidence on the income-redistribution preference gradient \citep{Alesina2018IntergenMobilityAnd}. The assumption can be relaxed to allow for heterogeneous education-preference gradients across regions or time periods; we discuss this extension in Section~\ref{ssec:discussion}.
+
+\begin{assumption}[Within-group cost-preference correlation]
+\label{asm:rho}
+Within each education group, compliance costs and policy preferences have correlation $\rho_e \in [-1, 1]$. For tractability, we assume $\rho_L = \rho_H = \rho$.
+\end{assumption}
+
+Assumption~\ref{asm:rho} introduces the framework's central novel parameter. The correlation $\rho$ captures whether, controlling for education, citizens with higher administrative friction costs also have more leftist preferences ($\rho > 0$), more rightist preferences ($\rho < 0$), or are preference-neutral ($\rho = 0$). The assumption that $\rho_L = \rho_H$ simplifies the algebra; in Appendix~\ref{sec:theory_proofs} we show the main results extend to heterogeneous group-specific correlations under regularity conditions.
+
+The economically interesting case is $\rho > 0$. Within a given education group, the citizens with the highest compliance costs are typically those most marginally attached to the political process---those who live farthest from registration offices, have the least flexible work schedules, or lack documentation that makes interaction with the state easier. These same citizens have, in many empirical settings, more leftist political preferences. The case $\rho < 0$ is logically possible (high-cost citizens have rightist preferences) but uncommon in the empirical literature on developing democracies.
+
+\subsection{Registration Stage}
+\label{ssec:registration}
+
+The state chooses a verification intensity $\tau \in [0, 1]$, interpreted as the administrative demandingness of registration. Each citizen registers if and only if the value of being registered net of the scaled compliance cost is non-negative:
+\begin{equation}
+\text{Register}_i = 1 \iff v_i \geq \tau c_i.
+\label{eq:registration_rule}
+\end{equation}
+
+For $\tau = 0$, every citizen registers because the compliance cost vanishes. For $\tau > 0$, registration is selective: only citizens whose value of registering exceeds the scaled compliance cost actually register. Denote by $R_e(\tau)$ the registration rate in group $e$:
+\begin{equation}
+R_e(\tau) = \int_0^\infty \int_0^\infty \mathbbm{1}\{v \geq \tau c\} f_e(c) h(v) \, dc \, dv = \int_0^\infty f_e(c) \bar H(\tau c) \, dc,
+\label{eq:registration_rate}
+\end{equation}
+where $\bar H(x) = 1 - H(x) = \Pr(v \geq x)$ is the survival function of $v$. The first proposition establishes the heterogeneous compliance result that drives the empirical predictions on registry composition.
+
+\begin{proposition}[Heterogeneous compliance]
+\label{prop:hetcomp}
+Under Assumption~\ref{asm:diffcomp}, $R_L(\tau) \leq R_H(\tau)$ for all $\tau > 0$, with strict inequality whenever the FOSD is strict on a set reached by $v/\tau$ with positive $H$-probability. Under the additional regularity condition that $f_L(c)/f_H(c)$ is non-increasing in $c$ (the monotone likelihood ratio property, MLRP), the relative low-education registration rate $R_L(\tau)/R_H(\tau)$ is weakly decreasing in $\tau$.
+\end{proposition}
+
+The proof, given in Appendix~\ref{sec:theory_proofs}, follows from integrating the conditional registration probability over the value distribution and exploiting the FOSD ordering of cost distributions; the ratio result follows from a likelihood-ratio argument under MLRP. Proposition~\ref{prop:hetcomp} is the registration-stage prediction that the paper's empirical evidence bears on directly. The decomposition in Section~\ref{sec:decomposition} identifies $R_L(\tau)$ and $R_H(\tau)$ for the Brazilian setting from event-time-zero registry effects.
+
+\subsection{Electoral Stage}
+\label{ssec:electoral}
+
+After registration closes, the registered electorate selects policy through a two-candidate probabilistic voting game in the tradition of \citet{Lindbeck1987BalancedBudgetRedistri} and \citet{Dixit1996TheDeterminSuccess}. Each candidate $A, B$ commits to a policy $g \in \mathbb{R}$. A registered voter $i$ receives utility $u_i(g) = -(g - g_i^*)^2$ from policy $g$. Voters also have additive candidate-specific valence shocks drawn from a smooth common distribution.
+
+Under standard regularity conditions for probabilistic voting equilibrium---continuity of candidate utility in policy, compact policy space, sufficient density of swing voters in each group---both candidates converge to the policy that maximizes the swing-voter-weighted sum of registered voters' utilities. The equilibrium policy is
+\begin{equation}
+g^*(\tau) = \frac{\pi R_L(\tau) \phi_L \, \bar g_L(\tau) + (1-\pi) R_H(\tau) \phi_H \, \bar g_H(\tau)}{\pi R_L(\tau) \phi_L + (1-\pi) R_H(\tau) \phi_H},
+\label{eq:eq_policy}
+\end{equation}
+where $\phi_e$ is the density of swing voters in group $e$ and $\bar g_e(\tau)$ is the mean preferred policy among registered citizens in group $e$ at verification intensity $\tau$. Equation~\eqref{eq:eq_policy} is standard. The novel feature of the framework is that $\bar g_e(\tau)$ depends on $\tau$ through the registration-stage selection: when $\rho \neq 0$, verification selects on $c_i$, which is correlated with $g_i^*$.
+
+\begin{lemma}[Within-group policy drift]
+\label{lem:drift}
+Under Assumption~\ref{asm:rho} with $\rho > 0$, $\bar g_e(\tau) < \bar g_e(0)$ for $\tau > 0$. That is, verification shifts each group's registered mean preference rightward (toward lower policy values).
+\end{lemma}
+
+Lemma~\ref{lem:drift} identifies a within-group drift channel that complements the between-group composition shift implied by Proposition~\ref{prop:hetcomp}. Verification not only reshapes who is registered by education---it also reshapes within-education preferences when costs and preferences correlate. Both channels operate simultaneously and reinforce each other when $\rho > 0$.
+
+We now define the central quantity for the welfare analysis: the \emph{representation distortion} induced by verification.
+\begin{equation}
+d(\tau) \equiv g^*(\tau) - g^*(0).
+\label{eq:representation_distortion}
+\end{equation}
+
+When $\tau = 0$, every citizen is registered and $g^*(0)$ is the unrestricted democratic equilibrium. When $\tau > 0$, verification excludes some citizens and the post-registration equilibrium policy differs from $g^*(0)$. The distortion has two components: a between-group component driven by the differential compliance result (Proposition~\ref{prop:hetcomp}) and a within-group component driven by the cost-preference correlation (Lemma~\ref{lem:drift}). The between-group component is present whenever Assumption~\ref{asm:diffcomp} holds, regardless of $\rho$; the within-group component is present only when $\rho \neq 0$.
+
+\begin{proposition}[Drift direction and sensitivity to $\rho$]
+\label{prop:drift_sign}
+Under Assumptions~\ref{asm:diffcomp}--\ref{asm:rho}:
+\begin{enumerate}
+    \item[(i)] If $\rho \geq 0$, $d(\tau) \leq 0$ for all $\tau \geq 0$, with strict inequality whenever $\tau > 0$ and either Assumption~\ref{asm:diffcomp} or Assumption~\ref{asm:rho} holds strictly.
+    \item[(ii)] $|d(\tau)|$ is non-decreasing in $\rho$ at any fixed $\tau > 0$.
+    \item[(iii)] $|d(\tau)|$ is non-decreasing in $\tau$ at any fixed $\rho \geq 0$.
+\end{enumerate}
+\end{proposition}
+
+The proof appears in Appendix~\ref{sec:theory_proofs}. Proposition~\ref{prop:drift_sign} establishes that the representation distortion is monotone in both verification intensity and preference correlation. The empirical work in Section~\ref{sec:decomposition} estimates the magnitude of the composition shift; the calibration exercise then infers $\rho$ from cross-municipality variation and bounds the implied $|d(\tau)|$.
+
+\subsection{Welfare}
+\label{ssec:welfare}
+
+The social planner's objective combines three components: integrity, inclusion, and procedural representation. Because welfare is determined only up to a positive affine transformation, three independent positive weights would over-determine the model: doubling all weights leaves the optimum $\tau^*$ unchanged. We therefore normalize the weights to lie on the unit simplex. Let $\alpha, \beta \geq 0$ with $\alpha + \beta \leq 1$, and define $\gamma \equiv 1 - \alpha - \beta \geq 0$. The welfare function is
+\begin{equation}
+W(\tau; \alpha, \beta) = \alpha \cdot \Phi(\tau) - \beta \cdot X(\tau) - (1 - \alpha - \beta) \cdot d(\tau)^2.
+\label{eq:welfare}
+\end{equation}
+
+The integrity term reflects the social value of cleaner electoral records, more secure voter authentication, and reduced impersonation risk. The function $\Phi$ satisfies $\Phi(0) = 0$, $\Phi'(\tau) > 0$, and $\Phi''(\tau) < 0$. The concavity reflects diminishing returns: the first marginal increase in verification eliminates the most egregious registry errors, while later increases pick up smaller residual gains.
+
+The exclusion term reflects the direct welfare cost of citizens being kept off the rolls,
+\[
+X(\tau) = \pi(1 - R_L(\tau)) + (1-\pi)(1-R_H(\tau)),
+\]
+which is the standard cost in ordeal theory \citep{Nichols1982TargetinTransferThrough, Alatas2016NetworkStructurAnd}: every excluded citizen represents a loss of civic participation that the planner regrets at rate $\beta$.
+
+The representation term is the framework's novel addition. The squared distortion $d(\tau)^2$ from equation~\eqref{eq:representation_distortion} reflects the standard convex-loss view of departures from the unrestricted democratic equilibrium; small distortions are tolerable, larger ones are increasingly bad. The squared form simplifies the algebra; results extend to general convex penalties under regularity conditions detailed in Appendix~\ref{sec:theory_proofs}. The representation term operationalizes a procedural interpretation of democratic welfare: the planner values policy outcomes that reflect what a fully registered electorate would have produced. This is in the spirit of \citet{Kolm1977MultidimEgalitar}, \citet{Sen1985GoalsCommitmeAnd}, and the deliberative-democratic tradition emphasizing equal political voice as a constitutive feature of legitimacy. Verification is costly not only because it excludes individuals but because it systematically distorts the aggregation of preferences.
+
+The simplex parametrization reduces the calibration problem to a two-dimensional region $(\alpha, \beta)$ in the unit triangle, with $\gamma = 1 - \alpha - \beta$ inferred residually. The vertices of the simplex correspond to extreme planner types: $(\alpha,\beta,\gamma) = (1,0,0)$ is an integrity-only planner who chooses $\tau^* = 1$; $(0,1,0)$ is an inclusion-only planner who chooses $\tau^* = 0$; $(0,0,1)$ is a representation-only planner who chooses $\tau^*$ to minimize $|d(\tau)|$, which under Assumption~\ref{asm:diffcomp} also implies $\tau^* = 0$ (since $d(0) = 0$). Interior $(\alpha,\beta,\gamma)$ produces interior $\tau^*$.
+
+\begin{assumption}[Well-behaved integrity function]
+\label{asm:integrity}
+$\Phi: [0,1] \to \mathbb{R}_+$ is twice continuously differentiable with $\Phi(0) = 0$, $\Phi'(0) > 0$ finite, $\Phi'(\tau) > 0$, and $\Phi''(\tau) < 0$ for $\tau \in (0, 1]$.
+\end{assumption}
+
+Under Assumption~\ref{asm:integrity} and standard regularity of the compliance and preference distributions, $W(\tau; \alpha, \beta)$ is continuous and bounded on $[0, 1]$, so it attains a maximum.
+
+\begin{proposition}[Existence and interior optimum]
+\label{prop:interior}
+Suppose Assumptions~\ref{asm:diffcomp}--\ref{asm:integrity} hold and the boundary derivatives satisfy $W'(0) > 0$ and $W'(1) < 0$. Then there exists an interior verification intensity $\tau^* \in (0, 1)$ satisfying $W'(\tau^*) = 0$. Under sufficient curvature conditions on $\Phi$, $\tau^*$ is unique.
+\end{proposition}
+
+The boundary conditions are economically sensible: $W'(0) > 0$ says the first marginal unit of verification delivers integrity gains exceeding combined inclusion and representation costs; $W'(1) < 0$ says full verification is excessive. Sufficient conditions for strict concavity of $W$ involve curvature comparisons between $\Phi$ and the cost-and-distortion terms; these are spelled out in Appendix~\ref{sec:theory_proofs}.
+
+\subsection{The Main Result}
+\label{ssec:main_result}
+
+The paper's central theoretical contribution is a comparative static on the optimal verification intensity with respect to the preference-cost correlation $\rho$.
+
+\begin{proposition}[Optimal verification and preference correlation]
+\label{prop:main}
+Under Assumptions~\ref{asm:diffcomp}--\ref{asm:integrity} and the regularity conditions of Proposition~\ref{prop:interior}, the optimal verification intensity $\tau^*$ is non-increasing in $\rho$ for any fixed weights $(\alpha, \beta)$ in the unit simplex with $\gamma = 1 - \alpha - \beta > 0$. Strict monotonicity holds whenever the within-group drift channel of Lemma~\ref{lem:drift} is operative.
+\end{proposition}
+
+Proposition~\ref{prop:main} is the framework's central theoretical claim. A society in which compliance costs correlate with political preferences---plausibly, most societies, because education and income are correlated with both administrative friction and political orientation---should choose less intense verification than otherwise. Note that the result does not say that $\rho = 0$ reduces the welfare problem to a standard ordeal-theoretic benchmark with no representation term; the between-group composition channel persists at $\rho = 0$, since it depends only on the FOSD ordering of cost distributions. Rather, the result says that the within-group drift channel, governed by $\rho$, adds to the always-present between-group channel, and the optimal intensity is monotonically lower as $\rho$ rises.
+
+The result has bite for the comparative analysis of voter ID and registration reforms. In settings where compliance costs are nearly orthogonal to political preferences (perhaps small homogeneous democracies with high state capacity), only the between-group channel operates and verification can be welfare-improving for modest representation weights. In settings where compliance costs correlate strongly with preferences (developing democracies with sharp class-based political cleavages, US states with racially polarized voting and unequal access to identification), the within-group drift channel adds to the between-group channel and the optimal intensity is meaningfully lower. Brazil falls in the latter category, as we document empirically.
+
+\begin{corollary}[Welfare-improvement threshold]
+\label{cor:threshold}
+For an observed verification intensity $\tau_0$ and weights $(\alpha, \beta)$ in the unit simplex, $\tau_0$ is welfare-improving relative to no verification ($\tau = 0$) if and only if
+\begin{equation}
+\alpha \cdot \Phi(\tau_0) > \beta \cdot X(\tau_0) + (1 - \alpha - \beta) \cdot d(\tau_0)^2.
+\label{eq:welfare_threshold}
+\end{equation}
+\end{corollary}
+
+Corollary~\ref{cor:threshold} is operational. For any parameter vector $(\alpha, \beta, \rho)$ and observed $\tau_0$, one can check whether inequality~\eqref{eq:welfare_threshold} holds. Calibrating the inequality for Brazil characterizes the parameter region in which BVR is welfare-improving. The two-dimensional simplex parametrization makes the welfare region naturally representable as a contour over the $(\alpha, \beta)$ unit triangle, with $\rho$ serving as a parameter that shifts the contour.
+
+\subsection{Trust as Selection}
+\label{ssec:trust_theory}
+
+The framework also generates a prediction relevant for interpreting the survey evidence in Section~\ref{sec:political-trust}.
+
+\begin{proposition}[Trust is a selection artifact]
+\label{prop:trust}
+Let $T_i = h_T(v_i)$ with $h_T'(\cdot) > 0$ denote observed trust in democratic institutions. For any $\tau > 0$,
+\[
+\mathbb{E}[T_i \mid \text{Register}_i = 1] \geq \mathbb{E}[T_i \mid \text{Register}_i = 0],
+\]
+with strict inequality when the compliance constraint binds on a set of positive measure.
+\end{proposition}
+
+Proposition~\ref{prop:trust} provides the interpretive frame for the paper's survey evidence. Higher observed trust in post-reform treated municipalities is consistent with either a behavioral change in beliefs or a selection effect from verification. The paper's empirical work cannot fully separate these, but Proposition~\ref{prop:trust} establishes that the selection interpretation is always present and is the conservative null against which behavioral interpretations should be judged.
+
+\subsection{Comparative Statics and Testable Implications}
+\label{ssec:testable}
+
+The framework generates four predictions that the empirical sections evaluate.
+
+\textbf{Prediction I (Heterogeneous compliance, Proposition~\ref{prop:hetcomp}).} Low-education registration rates fall more sharply than high-education rates as verification intensity rises. The decomposition in Section~\ref{sec:decomposition} estimates $R_L(\tau), R_H(\tau)$ from event-time-zero coefficients in dynamic event studies on count outcomes.
+
+\textbf{Prediction II (Policy drift direction, Proposition~\ref{prop:drift_sign}).} Verification induces a rightward drift in the post-registration electorate's preferences, with magnitude increasing in $\rho$. Municipality-level vote shares before and after BVR provide the natural empirical setting for this prediction.
+
+\textbf{Prediction III (Selection into trust, Proposition~\ref{prop:trust}).} Observed trust levels among registered citizens in treated municipalities may be higher than in untreated ones for reasons that do not require behavioral updating. Section~\ref{sec:political-trust} interprets the trust evidence through this lens.
+
+\textbf{Prediction IV (Welfare sensitivity to $\rho$, Proposition~\ref{prop:main}).} The welfare evaluation of verification depends critically on the correlation between compliance costs and political preferences. The calibration exercise estimates $\rho$ and evaluates the welfare implications using Corollary~\ref{cor:threshold}.
+
+\subsection{Intuition: Voters, Politicians, and Policymakers}
+\label{ssec:intuition}
+
+The formal apparatus is austere but the underlying intuitions describe how real actors reason about electoral verification reforms.
+
+\paragraph{The voter's decision.} A citizen contemplating registration under a new biometric regime weighs two things implicitly. The first is the value of being on the rolls: the policy stake she has in the next election, the expressive value of casting a ballot, the social cost of being unregistered in a community that votes. The second is the friction of completing the procedure: the time it takes to travel to the registration office during business hours, the cognitive burden of understanding new requirements, the small but real anxiety of bureaucratic encounter. The model's compliance condition $v_i \geq \tau c_i$ is a stylized rendering of this calculation. What casual reasoning often misses is the ratio structure: when verification intensity $\tau$ doubles, the registration condition becomes twice as demanding for every citizen, but it bites disproportionately on those with high $c_i$. Two citizens with identical $v_i$ can end up on opposite sides of the registration threshold simply because one lives closer to a registration office or has a more flexible work schedule. This is what political-science writing means by ``administrative burden as a censitary mechanism''---a mechanism that effectively imposes a property qualification by other means \citep{Herd2018}. Even a benevolent state choosing $\tau$ to maximize welfare will produce censitary effects whenever Assumption~\ref{asm:diffcomp} holds, which is to say, almost always.
+
+\paragraph{The politician's incentive.} Politicians do not observe $v_i$, $c_i$, or $g_i^*$ at the individual level. What they observe is the composition of the registered electorate and survey indicators of constituent preferences. The probabilistic-voting framework makes the connection between registry composition and policy explicit: the equilibrium policy weights group preferences by registered population share times swing-voter density. When verification intensifies and $R_L$ falls relative to $R_H$, the weight on low-education preferences in the policy formula declines, and politicians responding optimally to the registered electorate shift platforms accordingly. This shift is not a moral failure: within the electoral incentives politicians face, attending to the registered electorate's preferences is what wins elections. The mechanism operates at the level of statistical aggregates, but the welfare consequences are real. Lemma~\ref{lem:drift} and Proposition~\ref{prop:drift_sign} together capture this: even within an education group, the citizens who continue to register are systematically different in their preferences from those who do not.
+
+\paragraph{The policymaker's choice.} The state's decision to adopt and intensify verification reflects a balancing of values that is rarely articulated as such. Election administrators emphasize integrity: the credibility of the registry, the prevention of fraud, the modernization of state capacity. Civil society advocates emphasize inclusion: the cost of exclusion to the disenfranchised, the democratic ideal of universal suffrage. Constitutional courts increasingly emphasize representation: whether reforms produce systematic disparities that violate equal protection or non-discrimination norms. The welfare function in equation~\eqref{eq:welfare} formalizes this triad through the simplex weights $(\alpha, \beta, \gamma)$.
+
+The framework reveals a sharp prediction about how the optimal intensity depends on which value the planner prioritizes. A planner with high $\alpha$ relative to $\beta$ and $\gamma$ will choose intense verification regardless of $\rho$. A planner with low $\alpha$ and high $\beta$ will choose modest verification, again largely regardless of $\rho$. The interesting case---where $\rho$ matters most---is when the simplex weights are interior. In this case, the optimal $\tau^*$ is interior, and Proposition~\ref{prop:main} delivers its bite: the higher is $\rho$, the lower is $\tau^*$.
+
+This has direct implications for how policymakers should think about reforms. A jurisdiction considering biometric registration or a new voter ID law should not only ask ``how much fraud will this prevent?'' and ``how many citizens will be excluded?'' but also ``how strongly do compliance costs correlate with political preferences in our setting?'' The third question is empirically tractable: it can be answered by examining whether the demographic groups facing the highest administrative friction are also the groups with the most distinctive policy preferences.
+
+\subsection{Discussion and Extensions}
+\label{ssec:discussion}
+
+The framework simplifies in several respects. We discuss four points.
+
+\paragraph{Independence of value and cost.} The framework assumes $v_i$ is independent of $c_i$. In reality, citizens facing high compliance costs may also have lower subjective value of registration: a self-protective psychological adjustment, or a learned response to repeated bureaucratic frustration. Appendix~\ref{sec:theory_proofs} discusses the formal extension. If $v_i$ and $c_i$ are positively correlated, the comparative statics in Proposition~\ref{prop:hetcomp} sharpen and the trust selection in Proposition~\ref{prop:trust} also sharpens. The main result on optimal $\tau^*$ in Proposition~\ref{prop:main} remains qualitatively similar.
+
+\paragraph{Politicians' strategic response.} The framework treats candidate platforms as endogenous to the registered electorate's preferences but holds candidate selection and mobilization spending fixed. In richer settings, parties most affected by exclusion have incentives to invest in mobilization, voter education about new requirements, and outreach to marginal compliers. These responses are documented in the US voter-ID literature \citep{Hopkins2017, Grimmer2021TheDurableDifferen} and would attenuate the direct compositional effect. The framework's prediction on $\tau^*$ should be interpreted as conditional on a fixed strategic environment.
+
+\paragraph{Heterogeneous group correlations.} We assume $\rho_L = \rho_H$ for tractability. In reality, the cost-preference correlation may differ across groups. The main result extends to heterogeneous correlations under regularity conditions detailed in Appendix~\ref{sec:theory_proofs}; the operative parameter is a population-weighted average $\bar\rho$.
+
+\paragraph{Dynamic considerations.} The framework is static. In reality, citizens excluded at the moment of reform can re-register in subsequent cycles, and the registered electorate evolves over time. The empirical evidence in Section~\ref{sec:decomposition} shows partial registry recovery at horizons of 4--8 years. The dynamic extension of the framework is straightforward: replace $R_e(\tau)$ with $R_e(\tau, t)$ where $t$ is time-since-reform, and integrate welfare over horizon. The qualitative comparative statics survive.
+
+\subsection{Position in the Literature}
+\label{ssec:position}
+
+The framework synthesizes three literatures that have evolved largely separately.
+
+The first is ordeal theory, beginning with \citet{Nichols1982TargetinTransferThrough} and developed structurally by \citet{Alatas2016NetworkStructurAnd}, \citet{Finkelstein2025LivesVersusLiveliho}, and \citet{Deshpande2019WhoScreenedOut}. This literature analyzes administrative friction as a screening device in transfer programs: the standard result is that ordeals can improve targeting if costs are higher for non-target types and can worsen targeting if costs correlate negatively with type. Our framework imports this structure into the electoral domain and adds the policy feedback channel that is absent in transfer settings.
+
+The second is the costly-voting literature, including \citet{Borgers2004CostlyVoting} and \citet{Krasa2008MandatorVotingBetter}. This literature treats participation costs as exogenous features of the voter's environment and analyzes welfare implications of voluntary versus compulsory voting. Our framework treats verification intensity as a state-chosen instrument operating before the vote, conceptually distinct from the costs the voter faces at the ballot box on election day.
+
+The third is the political economy of state capacity, including \citet{besleyPersson2011}, \citet{AcemogluRobinson2019}, and applications to electoral administration in \citet{Fujiwara2015VotingTechnoloPolitica} and \citet{Marx2021VoterMobilisaAnd}. This literature emphasizes how administrative capacity shapes policy outcomes through institutional channels but has not formalized the specific mechanism by which verification intensity reshapes the electorate's preference distribution.
+
+The framework's contribution is to combine these literatures around a single new parameter---the cost-preference correlation $\rho$---that organizes the welfare analysis of electoral verification reforms in a way that none of the constituent literatures has done. The empirical work in the remainder of the paper estimates $\rho$ for Brazil and applies the framework to evaluate the welfare consequences of biometric registration.

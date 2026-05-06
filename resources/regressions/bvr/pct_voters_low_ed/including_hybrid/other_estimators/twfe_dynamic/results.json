@@ -1,0 +1,240 @@
+{
+  "run": {
+    "estimator": "twfe_dynamic",
+    "data_path": "resources/regressions/bvr/pct_voters_low_ed/including_hybrid/other_estimators/twfe_dynamic/analysis_sample.parquet",
+    "output_dir": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_low_ed/including_hybrid/other_estimators/twfe_dynamic",
+    "outcome": "pct_voters_low_ed",
+    "unit_id": "municipality_id",
+    "time_id": "year_election",
+    "group_id": "treatment_year_cs",
+    "treatment_var": null,
+    "controls": null,
+    "cluster_var": "municipality_id",
+    "weights_var": null,
+    "notes": "Dynamic TWFE dynamic DID for pct_voters_low_ed in the BVR registry panel. Specification: any BVR, including strict and hybrid municipalities. This run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard errors are clustered by municipality; control group is never-treated municipalities."
+  },
+  "model_stats": {
+    "estimator": "twfe_dynamic",
+    "nobs": 55660,
+    "logLik": 131559.93602170201,
+    "r2": 0.9673868059690375,
+    "adj_r2": 0.9637485717538524,
+    "within_r2": 0.2405958216852614,
+    "reference_event_time": -2,
+    "event_time_source": "existing_event_time_var"
+  },
+  "diagnostics": [
+    {
+      "metric": "n_rows",
+      "value": 55661,
+      "notes": "Rows in the input analysis sample."
+    },
+    {
+      "metric": "n_complete_outcome_rows",
+      "value": 55661,
+      "notes": "Rows with non-missing outcome."
+    },
+    {
+      "metric": "n_units",
+      "value": 5571,
+      "notes": "Distinct units after validation."
+    },
+    {
+      "metric": "n_periods",
+      "value": 10,
+      "notes": "Distinct time periods after validation."
+    },
+    {
+      "metric": "min_time",
+      "value": 2000,
+      "notes": "Minimum observed time value."
+    },
+    {
+      "metric": "max_time",
+      "value": 2018,
+      "notes": "Maximum observed time value."
+    },
+    {
+      "metric": "n_treated_units",
+      "value": 4326,
+      "notes": "Units with non-missing first-treatment timing."
+    },
+    {
+      "metric": "n_never_treated_units",
+      "value": 1245,
+      "notes": "Units standardized as never treated."
+    },
+    {
+      "metric": "group_id_standardized_from_zero_or_na",
+      "value": 0,
+      "notes": "TRUE means the scripts converted 0 or NA into the internal never-treated representation."
+    }
+  ],
+  "estimates": [
+    {
+      "term": "fixest::.__event_time_plot__::-8:.__ever_treated__",
+      "estimate": -0.009659892392084774,
+      "std.error": 0.0006935541039625094,
+      "statistic": -13.928102129155517,
+      "p.value": 2.2672992095661174e-43,
+      "conf.low": -0.01101952895906919,
+      "conf.high": -0.008300255825100359
+    },
+    {
+      "term": "fixest::.__event_time_plot__::-6:.__ever_treated__",
+      "estimate": -0.003758490705071462,
+      "std.error": 0.00042230972610853636,
+      "statistic": -8.899844054516294,
+      "p.value": 7.444288725160669e-19,
+      "conf.low": -0.004586382491638378,
+      "conf.high": -0.0029305989185045454
+    },
+    {
+      "term": "fixest::.__event_time_plot__::-4:.__ever_treated__",
+      "estimate": 0.00014282259466512126,
+      "std.error": 0.0002598904457422014,
+      "statistic": 0.5495492312433613,
+      "p.value": 0.582650624497135,
+      "conf.low": -0.00036666405017214584,
+      "conf.high": 0.0006523092395023884
+    },
+    {
+      "term": "fixest::.__event_time_plot__::0:.__ever_treated__",
+      "estimate": -0.05717772296221281,
+      "std.error": 0.0009249933432123513,
+      "statistic": -61.81419940131016,
+      "p.value": 0,
+      "conf.low": -0.05899107071181629,
+      "conf.high": -0.055364375212609326
+    },
+    {
+      "term": "fixest::.__event_time_plot__::2:.__ever_treated__",
+      "estimate": -0.06685582234748687,
+      "std.error": 0.0013021767254325718,
+      "statistic": -51.34158908060497,
+      "p.value": 0,
+      "conf.low": -0.069408596647947,
+      "conf.high": -0.06430304804702673
+    },
+    {
+      "term": "fixest::.__event_time_plot__::4:.__ever_treated__",
+      "estimate": -0.06502499772729928,
+      "std.error": 0.0017875982951102332,
+      "statistic": -36.37562080091908,
+      "p.value": 3.9695036483907046e-260,
+      "conf.low": -0.0685293876447184,
+      "conf.high": -0.061520607809880154
+    },
+    {
+      "term": "fixest::.__event_time_plot__::6:.__ever_treated__",
+      "estimate": -0.062150377772292736,
+      "std.error": 0.0020944254858491717,
+      "statistic": -29.6741890280686,
+      "p.value": 8.740398594852135e-180,
+      "conf.low": -0.06625626866258522,
+      "conf.high": -0.05804448688200025
+    },
+    {
+      "term": "fixest::.__event_time_plot__::8:.__ever_treated__",
+      "estimate": -0.056282010161905476,
+      "std.error": 0.004292208437361522,
+      "statistic": -13.112599488878221,
+      "p.value": 1.0393624736686545e-38,
+      "conf.low": -0.06469641289013332,
+      "conf.high": -0.04786760743367763
+    }
+  ],
+  "event_study": [
+    {
+      "event_time": -8,
+      "term": "fixest::.__event_time_plot__::-8:.__ever_treated__",
+      "estimate": -0.009659892392084774,
+      "std.error": 0.0006935541039625094,
+      "statistic": -13.928102129155517,
+      "p.value": 2.2672992095661174e-43,
+      "conf.low": -0.01101952895906919,
+      "conf.high": -0.008300255825100359
+    },
+    {
+      "event_time": -6,
+      "term": "fixest::.__event_time_plot__::-6:.__ever_treated__",
+      "estimate": -0.003758490705071462,
+      "std.error": 0.00042230972610853636,
+      "statistic": -8.899844054516294,
+      "p.value": 7.444288725160669e-19,
+      "conf.low": -0.004586382491638378,
+      "conf.high": -0.0029305989185045454
+    },
+    {
+      "event_time": -4,
+      "term": "fixest::.__event_time_plot__::-4:.__ever_treated__",
+      "estimate": 0.00014282259466512126,
+      "std.error": 0.0002598904457422014,
+      "statistic": 0.5495492312433613,
+      "p.value": 0.582650624497135,
+      "conf.low": -0.00036666405017214584,
+      "conf.high": 0.0006523092395023884
+    },
+    {
+      "event_time": -2,
+      "term": "(reference period)",
+      "estimate": 0,
+      "std.error": null,
+      "statistic": null,
+      "p.value": null,
+      "conf.low": null,
+      "conf.high": null
+    },
+    {
+      "event_time": 0,
+      "term": "fixest::.__event_time_plot__::0:.__ever_treated__",
+      "estimate": -0.05717772296221281,
+      "std.error": 0.0009249933432123513,
+      "statistic": -61.81419940131016,
+      "p.value": 0,
+      "conf.low": -0.05899107071181629,
+      "conf.high": -0.055364375212609326
+    },
+    {
+      "event_time": 2,
+      "term": "fixest::.__event_time_plot__::2:.__ever_treated__",
+      "estimate": -0.06685582234748687,
+      "std.error": 0.0013021767254325718,
+      "statistic": -51.34158908060497,
+      "p.value": 0,
+      "conf.low": -0.069408596647947,
+      "conf.high": -0.06430304804702673
+    },
+    {
+      "event_time": 4,
+      "term": "fixest::.__event_time_plot__::4:.__ever_treated__",
+      "estimate": -0.06502499772729928,
+      "std.error": 0.0017875982951102332,
+      "statistic": -36.37562080091908,
+      "p.value": 3.9695036483907046e-260,
+      "conf.low": -0.0685293876447184,
+      "conf.high": -0.061520607809880154
+    },
+    {
+      "event_time": 6,
+      "term": "fixest::.__event_time_plot__::6:.__ever_treated__",
+      "estimate": -0.062150377772292736,
+      "std.error": 0.0020944254858491717,
+      "statistic": -29.6741890280686,
+      "p.value": 8.740398594852135e-180,
+      "conf.low": -0.06625626866258522,
+      "conf.high": -0.05804448688200025
+    },
+    {
+      "event_time": 8,
+      "term": "fixest::.__event_time_plot__::8:.__ever_treated__",
+      "estimate": -0.056282010161905476,
+      "std.error": 0.004292208437361522,
+      "statistic": -13.112599488878221,
+      "p.value": 1.0393624736686545e-38,
+      "conf.low": -0.06469641289013332,
+      "conf.high": -0.04786760743367763
+    }
+  ],
+  "extra_tables": []
+}

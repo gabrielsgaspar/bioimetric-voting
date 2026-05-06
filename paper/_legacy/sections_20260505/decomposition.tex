@@ -1,0 +1,214 @@
+\section{Decomposing Registry Change: Exit versus Re-labeling}
+\label{sec:decomposition}
+
+The registry effects in Section~\ref{sec:electorate-size} document a clear empirical pattern: BVR contracts the registered electorate at adoption and shifts its educational composition toward more educated voters. These effects are robust across estimators and identification checks. But they admit two very different interpretations, and the welfare and political-economy implications of the reform turn on which interpretation is correct. The first interpretation is exit. Voters, disproportionately those with lower schooling, fail to complete biometric recadastramento before the relevant deadline and are removed from the rolls. Under this reading, BVR is a censitary mechanism that imposes administrative friction and selectively excludes citizens with the highest compliance costs from electoral participation. The second interpretation is re-labeling. Voters successfully re-register, but in the process their education record is updated. Many of these voters had completed additional schooling between their original registration and the BVR cycle and were simply recorded under outdated education categories. Under this reading, BVR is a record-cleaning exercise: the composition shift reflects updated administrative measurement rather than changed electoral access.
+
+Both mechanisms are empirically present and produce the same observed pattern in registry data. The empirical question is how much of the observed effect operates through each channel. The distinction matters because the welfare implications differ sharply between the two channels: exit removes voters from political participation, while re-labeling does not. Re-labeled voters remain in the electorate and continue to vote with their original political preferences; exited voters do not. A clean empirical decomposition is necessary to discipline a debate that has often conflated the two channels.
+
+This section develops a decomposition framework that produces estimates of each channel at the municipality level. The lead methodology is a cohort-aging framework that exploits the mechanical structure of voter aging: a voter who is 30 at one election is 32 at the next, regardless of whether their municipality has adopted BVR. Combining this mechanical structure with municipality-specific pre-treatment survival rates and the joint age-by-education panel produces a counterfactual prediction of what each cohort's count should look like at the post-adoption election absent BVR. The gap between predicted and actual cohort counts identifies BVR-attributable losses; within-cohort education shifts identify re-labeling. The framework produces 4{,}321 municipality-level decomposition estimates that aggregate to national totals and feed both the welfare calibration exercise and the spatial visualization presented in Section~\ref{ssec:decomposition_figures}. As a consistency check, we cross-reference the aggregated municipality-level estimates against an independent national-level accounting framework that uses only the cross-section regression coefficients estimated in Section~\ref{sec:electorate-size}. Section~\ref{ssec:decomposition_mun_math} develops the cohort-aging framework. Section~\ref{ssec:decomposition_survival} discusses estimation of the natural survival rates. Section~\ref{ssec:decomposition_relabel} describes the within-cohort re-labeling identification. Section~\ref{ssec:decomposition_results} reports the empirical results. Section~\ref{ssec:decomposition_crosscheck} provides the cross-section consistency check. Section~\ref{ssec:decomposition_figures} describes the five figures that visualize the decomposition's findings. Section~\ref{ssec:decomposition_limitations} discusses limitations.
+
+\subsection{The Cohort-Aging Framework}
+\label{ssec:decomposition_mun_math}
+
+For municipality $m$ at election year $t$, let $N_{m,t,c,e}$ denote the count of registered voters in age cohort $c$ and education category $e$. The cohort index $c$ runs over the age bands reported by TSE.\footnote{The TSE reports 22 age bins: single-year bins for ages 16, 17, 18, 19, and 20; a four-year bin for ages 21-24; fifteen five-year bins from 25-29 through 95-99; and the absorbing 100+ category. Voters with invalid age records (TSE label \emph{Inv\'alido}) are excluded from the framework and reported separately as a small residual. The 21-24 bin spans four years of age while subsequent five-year bins span five; the mechanical-aging operator described below accounts for this asymmetry. The unknown-education category is small (about 0.08\% of the electorate) and is treated as a residual: excluded from the framework. The age-by-education panel jointly observed at the municipality level starts in 2008; earlier TSE files report only the marginal education distribution.} The education index $e \in \{L, H\}$ takes the low- and high-education values consistent with the framework in Section~\ref{sec:theory}. Brazilian elections occur on a two-year cycle, so the natural unit of analysis is the increment $t \to t+2$.
+
+The mechanical aging restriction says that, absent any net migration or BVR-induced cancellation, the count of voters in cohort $c$ at election $t+2$ equals the surviving share of voters who were in cohort $c$ or its predecessor at election $t$, plus the inflow of newly-eligible voters into the youngest cohort. Formally, define the mechanical-aging operator $\mathcal{T}$ acting on a vector of cohort counts. The operator distributes voters from cohort $c$ at $t$ into cohorts at $t+2$ according to where their ages fall after two years.
+
+For the single-year bins, the entire cohort moves forward exactly two cells over a two-year cycle.\footnote{Voters aged 16 at $t$ are aged 18 at $t+2$, voters aged 17 at $t$ are aged 19 at $t+2$, voters aged 18 at $t$ are aged 20 at $t+2$, and voters aged 19 or 20 at $t$ enter the next bin (21-24) at $t+2$.} For the four-year bin, $\tfrac{2}{4}$ of voters cross into the next bin while $\tfrac{2}{4}$ remain. For each five-year bin, $\tfrac{2}{5}$ of voters move forward and $\tfrac{3}{5}$ remain. The 100+ bin is absorbing. Under a uniform within-cohort age distribution, these fractions describe the proportion of each cohort's age range that crosses the next boundary over the two-year cycle.
+
+Let $\sigma_{m,c}$ denote the natural survival rate of voters in cohort $c$ in municipality $m$ between two consecutive elections. The rate $\sigma_{m,c}$ captures all baseline processes that reduce the count: mortality and voluntary deactivation. It is bounded between zero and one and is typically close to one for younger cohorts and lower for older cohorts. Section~\ref{ssec:decomposition_survival} discusses estimation of $\sigma_{m,c}$ from pre-treatment data.
+
+Let $I_{m,t+2,c}$ denote the inflow of newly-registered voters into cohort $c$ at $t+2$. Inflows are nonzero only for the youngest age bins (16, 17, 18, 19); for cohorts 20 and older, $I_{m,t+2,c} = 0$ since voters cannot enter these bins except by aging up. The framework absorbs these inflows in the counterfactual prediction for the youngest cohorts using municipality-specific pre-treatment inflow rates.
+
+The counterfactual prediction of cohort $c$'s count at $t+2$ absent BVR is
+\begin{equation}
+\widehat{N}_{m,t+2,c}^{\text{no-BVR}} = \sigma_{m,c'} \cdot \left[\mathcal{T}(N_{m,t,\cdot})\right]_c + I_{m,t+2,c},
+\label{eq:counterfactual}
+\end{equation}
+where $\left[\mathcal{T}(N_{m,t,\cdot})\right]_c$ denotes the entry of the aged-forward vector corresponding to cohort $c$ and $c'$ is the source cohort that contributed to $c$.\footnote{The framework treats survival rates as cohort-specific within municipality but does not explicitly model how survival differs between cells with different education levels within the same age cohort. This is a simplifying assumption; in practice, mortality differentials by education within age cohorts may be modest at most ages and become noticeable only at advanced ages.}
+
+The actual count $N_{m,t+2,c}$ differs from the no-BVR prediction $\widehat{N}_{m,t+2,c}^{\text{no-BVR}}$ when BVR-induced exit removes voters from cohort $c$. Define BVR-induced exit by cohort as
+\begin{equation}
+E_{m,t+2,c} = \max\left\{0,\, \widehat{N}_{m,t+2,c}^{\text{no-BVR}} - N_{m,t+2,c}\right\}.
+\label{eq:exit_cohort}
+\end{equation}
+The non-negativity floor reflects the substantive constraint that BVR cannot create voters; if observed exceeds predicted, the gap is attributed to estimation noise rather than negative exit. The total municipality-level exit at the post-adoption election is the sum across cohorts:
+\begin{equation}
+E_{m,t+2} = \sum_c E_{m,t+2,c}.
+\label{eq:exit_total}
+\end{equation}
+
+\subsection{Estimating the Natural Survival Rates}
+\label{ssec:decomposition_survival}
+
+The cohort-specific survival rate $\sigma_{m,c}$ is the parameter that anchors the counterfactual prediction. Because it is not directly observable, it must be estimated. The framework offers three approaches, listed in increasing order of municipality specificity.
+
+\textbf{National survival rates from never-treated municipalities.} The simplest approach uses never-treated municipalities to estimate population-weighted average survival rates by cohort. For each pair of consecutive election years where neither year reflects BVR exposure, compute the realized cohort-to-cohort transition implied by the data and back out the implied survival rate after netting out the mechanical aging operator. This produces a single $\sigma_c$ per cohort, applied uniformly across municipalities.
+
+\textbf{State-level survival rates.} A middle-ground approach estimates $\sigma_{c,s}$ separately for each state $s$, using never-treated municipalities or pre-treatment cycles within the state. This allows for state-specific baseline mortality and migration patterns while pooling enough observations to keep the estimates stable.
+
+\textbf{Municipality-specific pre-treatment survival rates.} The most municipality-specific approach uses the within-municipality transitions at $t \to t+2$ for years $t$ that pre-date the municipality's BVR adoption. For municipalities first treated in 2014, the cycles 2008-2010 and 2010-2012 provide two pre-treatment transitions from which to estimate $\hat\sigma_{m,c}$. For 2016 and 2018 cohorts, more pre-treatment cycles are available. This approach captures any unobserved municipality-specific factors that affect the survival rate at the cost of noisier estimates in small municipalities.
+
+The municipality-specific approach is the most defensible in principle because it absorbs unobserved heterogeneity in mortality, migration patterns, and registration practices. The trade-off is statistical precision: with 22 cohorts per municipality-year, the per-cohort population is much smaller than the cross-section's two education categories, and in small municipalities a single cohort cell may contain only a few dozen voters. The framework as implemented uses the municipality-specific estimate when the cohort population exceeds a stability threshold (typically 100 voters for the youngest single-year bins and 200 voters for the five-year bins) and falls back to the state-level estimate otherwise.
+
+The pre-treatment estimation step is precisely where the parallel-trends idea from cross-section difference-in-differences appears in the cohort framework. In standard event-study work, parallel trends justify the never-treated comparison; here, the assumption is that municipality $m$'s pre-treatment cohort transitions are informative about its post-treatment counterfactual transitions. This is a within-municipality version of the same identifying logic. It is testable indirectly by examining the stability of pre-treatment transitions across multiple cycles in the same municipality.
+
+\subsection{Re-labeling Identification within Age Cohorts}
+\label{ssec:decomposition_relabel}
+
+The cohort-aging framework identifies total exit by age cohort, but it does not directly identify re-labeling, since re-labeling shifts voters from low-education to high-education within the same age cohort without changing cohort membership. To recover re-labeling, the framework looks at the education composition within each age cohort at $t+2$ relative to its predecessor at $t$.
+
+For each cohort $c$ at time $t+2$, define the predicted education composition under the no-BVR counterfactual:
+\begin{equation}
+\widehat{N}_{m,t+2,c,e}^{\text{no-BVR}} = \widehat{N}_{m,t+2,c}^{\text{no-BVR}} \cdot \pi_{m,t,c,e} + \delta_{c,e} \cdot \widehat{N}_{m,t+2,c}^{\text{no-BVR}},
+\label{eq:counterfactual_edu}
+\end{equation}
+where $\pi_{m,t,c,e}$ is municipality $m$'s share of cohort $c$ in education category $e$ at the prior election, and $\delta_{c,e}$ is a cohort-specific natural education progression rate. The first term carries forward the prior education composition; the second term adjusts for the share of cohort-$c$ voters who naturally complete additional schooling between elections.
+
+For older cohorts, $\delta_{c,e}$ is approximately zero. Voters past 35 rarely complete formal schooling at meaningful rates over a two-year window. For these cohorts, equation~\eqref{eq:counterfactual_edu} simplifies to a pure carry-forward: the predicted education composition equals the prior education composition. Any observed shift from low-education to high-education within these cohorts at $t+2$ is then attributable to either re-labeling or to differential exit by education within the cohort. With the cohort-level total exit pinned down by equation~\eqref{eq:exit_cohort}, allocating it across education categories under a no-high-education-exit assumption (Scenario B in the cross-section accounting) recovers a point estimate for re-labeling within the cohort:
+\begin{equation}
+R_{m,t+2,c} = \widehat{N}_{m,t+2,c,L}^{\text{no-BVR}} - N_{m,t+2,c,L} - E_{m,t+2,c},
+\label{eq:relabel_cohort}
+\end{equation}
+where $E_{m,t+2,c}$ is allocated entirely to the low-education category under Scenario B. The total municipality-level re-labeling at the post-adoption election is the sum across cohorts:
+\begin{equation}
+R_{m,t+2} = \sum_c R_{m,t+2,c}.
+\label{eq:relabel_total}
+\end{equation}
+A proportional-exit alternative (Scenario C) can be applied at the cohort level by replacing the no-high-education-exit allocation with a proportional one, producing a corresponding range of re-labeling estimates per municipality.
+
+For younger cohorts, $\delta_{c,e}$ must be estimated rather than assumed to be zero. Voters in the 16-24 range, in particular, are likely to complete additional schooling between elections. The natural education progression rate for these cohorts is identified from pre-treatment within-municipality transitions. The cleaner re-labeling identification therefore concentrates on the cohorts aged 35 and older,\footnote{Specifically the TSE bins 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80-84, 85-89, 90-94, 95-99, and the absorbing 100+ category.} where natural progression is small and the identifying assumption is most credible. The 25-29 and 30-34 cohorts occupy an intermediate position.
+
+A further refinement uses the cell-level biometric uptake to bound re-labeling from above. Re-labeling requires recadastramento: a voter's education record is updated only when the voter physically attends the cartório eleitoral and completes the biometric registration process. Voters who have not undergone recadastramento retain their original education record by construction. Let $b_{m,t,c}$ denote the share of cohort $c$ in municipality $m$ at year $t$ with completed biometric registration, observed directly in the data. Then the re-labeling share within cohort $c$ at $t+2$ is bounded above by
+\begin{equation}
+R_{m,t+2,c} \leq b_{m,t+2,c} \cdot N_{m,t+2,c}.
+\label{eq:relabel_pctbvr_bound}
+\end{equation}
+This bound is mechanical: a voter cannot be re-labeled without having been through recadastramento. In strict municipalities post-treatment, $b_{m,t+2,c}$ approaches one for all cohorts, so the bound is non-binding. In hybrid municipalities, $b_{m,t+2,c}$ is meaningfully below one, so the bound tightens the re-labeling estimate substantially. The implementation reports both the framework's main estimate and the $b$-bounded estimate; cells where the bound binds are flagged separately, since they indicate either small-sample noise in the cohort-aging counterfactual or model misspecification.
+
+\subsection{Empirical Results}
+\label{ssec:decomposition_results}
+
+We apply the cohort-aging framework to 4{,}321 treated Brazilian municipalities using TSE data from 2008 through 2018. Table~\ref{tab:decomp_aggregate} reports the aggregate results by first-treatment regime.
+
+\begin{table}[!ht]
+\centering
+\caption{Aggregate decomposition by first-treatment regime}
+\label{tab:decomp_aggregate}
+\begin{tabular}{lcccc}
+\toprule
+First regime & Municipalities & Exit count & Re-labeling (B) & Re-labeling (C) \\
+\midrule
+Strict & 2{,}475 & 6{,}210{,}453 & 3{,}607{,}795 & 4{,}958{,}520 \\
+Hybrid & 1{,}846 & 1{,}561{,}570 & 550{,}381 & 719{,}475 \\
+\midrule
+All treated & 4{,}321 & 7{,}772{,}023 & 4{,}158{,}176 & 5{,}677{,}995 \\
+\midrule
+\multicolumn{5}{l}{\textit{Rate (\% of 2008 baseline electorate)}} \\
+\quad Strict & & 13.64\% & 7.93\% & 10.89\% \\
+\quad Hybrid & & 3.28\% & 1.16\% & 1.51\% \\
+\quad All treated & & 8.35\% & 4.47\% & 6.10\% \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\footnotesize
+\textit{Notes}: All quantities are voter counts and rates expressed as percentages of the 2008 baseline electorate of treated municipalities in that regime. Scenario B allocates all cohort-level exit to the low-education category. Scenario C allocates exit proportionally across education categories. Re-labeling estimates incorporate the $b$-bound refinement of equation~\eqref{eq:relabel_pctbvr_bound}.
+\end{table}
+
+Three patterns emerge. First, the strict-first regime drives most of the registry impact. Strict-treated municipalities contain 49\% of the treated baseline electorate but account for 80\% of total exit and 87\% of total Scenario B re-labeling. Strict municipalities lose 13.64\% of their 2008 electorate to exit and shift 7.93\% from low- to high-education through re-labeling, for a total registry impact of 21.57\%. Hybrid municipalities show a much smaller total impact of 4.44\%, with both channels muted: exit at 3.28\% and re-labeling at 1.16\%. The strict-to-hybrid ratio of total impact is approximately 4.86, consistent with the framework's prediction that voluntary biometric uptake is too low at adoption to drive substantial registry contraction in the absence of enforcement.
+
+Second, the framework attributes the bulk of re-labeling to working-age cohorts where natural education progression is small. The 25-44 age band accounts for 67.71\% of total Scenario B re-labeling, with the 35-44 band alone accounting for 40.39\%. By contrast, the 65+ band, which is 9.97\% of the baseline population, accounts for only 1.90\% of total re-labeling. The age concentration validates the framework's identifying assumption that re-labeling is cleanest for cohorts past the typical schooling-completion window.
+
+Third, the exit pattern is more dispersed across age bands than the re-labeling pattern. Working-age cohorts (25-54) account for 47\% of total exit, the youngest band (16-24) accounts for 22\%, and the 65+ band accounts for 25\%. The older-age exit share exceeds the older-age population share by a factor of 2.5. The aggregate national exit figure is dominated by working-age cohorts where the framework is well-anchored; per-cohort rates for the 70+ bins should be interpreted cautiously, since survival-rate noise in older cohorts inflates the implied exit share.
+
+\subsection{Cross-Section Consistency Check}
+\label{ssec:decomposition_crosscheck}
+
+The cohort-aging framework's identification rests on within-municipality variation across time, with mechanical aging providing the counterfactual structure. As a consistency check, we cross-reference the aggregated municipality-level estimates against an independent national-level accounting framework that uses only the cross-section regression coefficients estimated in Section~\ref{sec:electorate-size}.
+
+The cross-section accounting uses the Callaway-Sant'Anna event-time coefficients on three normalized count outcomes. Let $\gamma_j^k$ denote the event-time-$k$ coefficient on the normalized count $y_{j,mt} = N_{j,mt}/N_{m,2006}$, for $j \in \{N, L, H\}$. The accounting identities are
+\begin{equation}
+\gamma_L^k = -E_L^k - R^k, \qquad \gamma_H^k = -E_H^k + R^k,
+\label{eq:decomp_accounting}
+\end{equation}
+where $E_L^k, E_H^k \geq 0$ are exit shares from each education category and $R^k$ is the re-labeling share. With non-negativity of exits, equations~\eqref{eq:decomp_accounting} produce sharp bounds on re-labeling:
+\[
+R_{\min}^k = \max\{0, \gamma_H^k\}, \qquad R_{\max}^k = -\gamma_L^k.
+\]
+The lower bound is identified directly by the rise in the high-education count: any positive $\gamma_H^k$ requires re-labeling, since pure exit cannot generate a rising count. The upper bound is reached when no low-education voter exits and the entire low-education count decline is attributable to re-labeling.
+
+At event time $k = 0$, the cross-section coefficients are $\gamma_N^0 = -12.68\%$, $\gamma_L^0 = -17.82\%$, $\gamma_H^0 = +5.22\%$ of the 2006 baseline electorate. These produce $R_{\min}^0 = 5.22\%$, $R_{\max}^0 = 17.82\%$, with Scenario B point estimate $R = 5.22\%$ and $E_L = 12.60\%$, and Scenario C point estimate $R = 10.40\%$, $E_L = 7.50\%$, $E_H = 5.18\%$. The pure-exit scenario ($R = 0$) is infeasible because it would require negative high-education exit; the data formally reject the interpretation that BVR's effects on registry composition arise entirely from voter exclusion without any record updating.
+
+Comparison between the cohort framework and the cross-section accounting requires care because they use different baselines: the cross-section uses the 2006 registered electorate, while the cohort framework uses 2008 (the first year for which the joint age-by-education panel is available). After rescaling the cohort framework's aggregate to the 2006 baseline by multiplying by the ratio of 2006 to 2008 baselines among treated municipalities, the cohort framework produces exit of 8.65\%, Scenario B re-labeling of 4.63\%, and Scenario C re-labeling of 6.32\% of the 2006 baseline.
+
+Direction agreement holds for all three metrics: both frameworks produce negative net exit and positive re-labeling. Magnitude agreement holds within a factor of two: cross-section exit of 12.7\% versus cohort framework 8.65\% (factor 1.46), Scenario B re-labeling 5.22\% versus 4.63\% (factor 1.13), Scenario C re-labeling 10.40\% versus 6.32\% (factor 1.65). The cohort framework's totals are systematically below the cross-section's, reflecting two structural features of the comparison. First, the cross-section's never-treated comparison absorbs voluntary out-migration that the within-municipality cohort framework cannot fully separate from BVR-induced exit, so the two estimates measure slightly different objects. Second, the cohort framework rescales to a different denominator, so the two estimates are not strictly comparable as percentages even after rescaling.
+
+The qualitative consistency of the two frameworks at the national level supports the cohort framework's internal validity. Substantial qualitative divergence---for example, the cohort framework producing exit estimates several times larger than the cross-section, or estimates with systematically different signs---would indicate that the within-municipality identifying assumptions are violated. The observed agreement is consistent with the cohort framework producing reliable national totals despite its dependence on within-municipality identification.
+
+\subsection{Figures}
+\label{ssec:decomposition_figures}
+
+Five figures visualize the decomposition's findings. All figures use the cohort-aging framework's outputs across the 4{,}321 treated municipalities; rates are expressed as percentages of the 2008 baseline electorate of the relevant subsample. The underlying figure data are stored separately as parquet files, and figure images are saved as both titled and untitled vector and raster variants, with the untitled variants used in the paper itself.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\textwidth]{../resources/decomposition/figures/figure_01_stacked_decomposition_by_regime_notitle.pdf}
+\caption{Stacked decomposition by first-treatment regime}
+\label{fig:decomp_stacked}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\textwidth]{../resources/decomposition/figures/figure_02_binned_scatter_exit_lowed_notitle.pdf}
+\caption{Municipality-level exit rate and baseline low-education share}
+\label{fig:decomp_scatter_muni}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\textwidth]{../resources/decomposition/figures/figure_03_state_scatter_exit_lowed_notitle.pdf}
+\caption{State-level exit rate and baseline low-education share}
+\label{fig:decomp_scatter_state}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\textwidth]{../resources/decomposition/figures/figure_04_interaction_coefficients_notitle.pdf}
+\caption{Strict-by-low-education interaction coefficients}
+\label{fig:decomp_coefficients}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\textwidth]{../resources/decomposition/figures/figure_05_share_by_age_band_notitle.pdf}
+\caption{Share of exit and re-labeling by age band}
+\label{fig:decomp_age_share}
+\end{figure}
+
+\paragraph{Figure~\ref{fig:decomp_stacked}: Stacked decomposition by regime.} A two-bar stacked chart showing total registry impact by first-treatment regime, decomposed into exit (lower segment) and Scenario B re-labeling (upper segment). The strict bar reaches 21.57\% of the regime's 2008 baseline (13.64\% exit plus 7.93\% re-labeling); the hybrid bar reaches 4.44\% (3.28\% exit plus 1.16\% re-labeling). The strict-to-hybrid ratio of approximately 4.86 makes the framework's central prediction visible: strict enforcement drives both channels, while hybrid voluntary uptake is too low to drive either substantially.
+
+\paragraph{Figure~\ref{fig:decomp_scatter_muni}: Municipality-level binned scatter, exit vs. low-education share.} A weighted binned scatter showing how municipality-level exit rate relates to baseline low-education share, with separate series for strict and hybrid regimes. Municipalities are binned into population-weighted deciles of low-education share within each regime, with 95\% confidence ribbons around bin means. The fitted weighted regressions (with state fixed effects partialed out, standard errors clustered at the state level) yield slope $0.186$ (SE $0.044$) for strict and slope $0.049$ (SE $0.012$) for hybrid. The strict series sits above the hybrid series across the entire range. The figure tests Prediction~I from Section~\ref{ssec:testable}: BVR exclusion concentrates in places with more low-education voters, especially in regimes where enforcement is real. A 10-percentage-point higher low-education share corresponds to roughly 1.86 percentage points higher exit in strict municipalities versus 0.49 percentage points in hybrid municipalities.
+
+\paragraph{Figure~\ref{fig:decomp_scatter_state}: State-level scatter, exit vs. low-education share.} A state-level scatter with 26 plotted states (DF is absent from final outputs), colored by region (Northeast, North, Southeast, South, Center-West) and labeled with two-letter state codes. Bubble size is proportional to state-level baseline electorate. The fitted weighted regression has slope $0.251$ with standard error $0.130$ and $R^2 = 0.17$. The figure shows that the regional exit pattern is partly compositional: Northeast and North states with high low-education shares cluster at the upper-right, while Southeast and South states cluster at the lower-left. State-level aggregation hides the regime-specific heterogeneity that Figure~\ref{fig:decomp_scatter_muni} reveals at the municipality level, which is why the state-level $R^2$ is modest. Notable departures from the simple regional story include ES (high exit at moderate low-ed share) and BA (modest exit at high low-ed share).
+
+\paragraph{Figure~\ref{fig:decomp_coefficients}: Coefficient plot, strict $\times$ low-education interaction.} A horizontal coefficient plot showing the strict $\times$ low-education-share interaction across three regression specifications. The three specifications are: a pooled cross-municipality regression of exit rate on low-ed share, strict, and their interaction (interaction coefficient $0.120$, SE $0.039$); the same with state fixed effects ($0.134$, SE $0.042$); and a within-municipality cross-cohort regression of cohort exit rate on cohort low-ed share interacted with strict, with municipality and cohort-band fixed effects ($0.293$, SE $0.015$). All three coefficients are positive with confidence intervals entirely above zero. The within-municipality specification, which identifies the interaction off cross-cohort variation within the same place, produces the largest and most precisely estimated coefficient. The figure provides the framework's most rigorous test of Prediction~I and supplies a calibration coefficient: the slope's magnitude translates compositional differences into BVR-induced exit at the cohort level. The companion regression table is reported in Table~\ref{tab:compositional-regressions}.
+
+\paragraph{Figure~\ref{fig:decomp_age_share}: Share of total exit and re-labeling by age band.} A grouped bar chart showing the share of total exit and total Scenario B re-labeling attributable to each of six age bands (16-24, 25-34, 35-44, 45-54, 55-64, 65+), with a dashed reference line at each band's share of the 2008 baseline electorate. The 35-44 band is 19.80\% of the baseline but accounts for 40.39\% of total re-labeling; the 25-34 band shows the same pattern at smaller magnitude (24.21\% of baseline, 27.32\% of re-labeling). Exit is more dispersed across bands, with the 65+ band accounting for 25.29\% of total exit despite being only 9.97\% of the baseline population. The re-labeling concentration in the 25-44 range validates the framework's claim that re-labeling identification is cleanest in cohorts past the typical schooling-completion window; the older-age exit concentration partly reflects mortality interactions with the survival-rate estimates and should be read alongside the limitations in Section~\ref{ssec:decomposition_limitations}.
+
+The five figures together support the section's empirical claims. Figure~\ref{fig:decomp_stacked} establishes the headline magnitudes by regime. Figures~\ref{fig:decomp_scatter_muni} and \ref{fig:decomp_coefficients} test the compositional prediction. Figure~\ref{fig:decomp_scatter_state} contextualizes the regional pattern. Figure~\ref{fig:decomp_age_share} validates the within-cohort identification. The empirical magnitudes from all five feed the welfare calibration exercise.
+
+\subsection{Limitations}
+\label{ssec:decomposition_limitations}
+
+Four limitations of the cohort-aging framework are worth flagging.
+
+The most important limitation is the conflation of BVR-induced exit with voluntary out-migration. Brazilian voters are required to keep their registration current to their domicile, which means voters who relocate transfer their registration. From the perspective of the source municipality, an out-migrant looks identical to a BVR cancellation: the voter disappears from the registry. The framework cannot separate these two channels. Brazil has high inter-municipal mobility, particularly in metropolitan regions and in municipalities affected by economic shocks. Over a two-year window, several percent of registered voters in any given municipality may have transferred their registration for non-BVR reasons. The cross-section accounting in Section~\ref{ssec:decomposition_crosscheck} handles this through the never-treated comparison; the cohort framework loses this protection. Its exit estimate captures BVR-induced cancellation plus any deviation in out-migration during the post-adoption period from the municipality's pre-treatment migration baseline. If the pre-treatment survival rate $\hat\sigma_{m,c}$ already reflects the municipality's typical out-migration pattern, the framework subtracts that baseline and what remains is plausibly BVR-attributable. If migration patterns shift with the post-adoption period for reasons unrelated to BVR, the framework misattributes some of the migration shift to BVR. The municipality-level exit estimate should therefore be interpreted as an upper bound on BVR-induced exit, not as a point estimate.
+
+A second limitation concerns survival rate estimation in small municipalities. Brazilian municipalities range from a few hundred voters to several million; survival rate estimates are noisy in the smallest municipalities. The framework's fallback to state-level survival rates for small municipalities mitigates this but does not eliminate it. Municipality-level results in the smallest decile of the size distribution should be treated with caution.
+
+A third limitation concerns the natural education progression rate for the youngest cohorts. Voters in the 16-24 age range complete additional schooling between elections, and the empirical pre-treatment estimate of $\delta_{c,e}$ for these cohorts may itself be contaminated by recadastramento occurring outside formal BVR. The framework's re-labeling identification is therefore cleanest in the cohorts aged 35 and older. Younger-cohort estimates should be reported but interpreted with this caveat.
+
+A fourth limitation concerns the uniform within-cohort age distribution implicit in the mechanical-aging operator. The framework treats all voters within a five-year cohort as equally likely to cross into the next cohort over a two-year cycle, which is exactly correct only if the within-cohort age distribution is uniform across single-year ages. In practice, the within-cohort distribution is approximately uniform for the working-age cohorts where mortality is low, but increasingly tilted toward the younger end of the cohort for older bins where differential mortality thins the older sub-ages over time. The implied error in the aging operator is small for the cohorts that matter most for re-labeling identification (those between 35 and 65, where mortality is low) and grows in the older cohorts (70 and above) where it interacts with already-noisy survival rate estimates. The marginal precision gain from refining this assumption is modest in the cohort ranges most relevant for the framework's main identification, so we do not pursue this refinement.
+
+The core conclusion of the decomposition is robust to these caveats. Re-labeling is empirically nonzero, accounting for at least 4.47\% of the 2008 baseline electorate of treated municipalities under the conservative Scenario B and rising to 6.10\% under Scenario C. Exit is also necessary to explain the observed registry contraction, with 8.35\% of the 2008 baseline accounted for by exit. Both channels operate at adoption; the strict-vs-hybrid contrast in Table~\ref{tab:decomp_aggregate} establishes that enforcement, not biometric availability, drives both channels. The cross-section consistency check in Section~\ref{ssec:decomposition_crosscheck} confirms qualitative agreement between the cohort framework and an independent national-level accounting based on cross-section regression coefficients. These results provide the quantitative foundation for the welfare evaluation.

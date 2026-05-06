@@ -1,0 +1,74 @@
+timestamp: 2026-05-05 16:14:36 BST
+estimator: bjs
+data_path: resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/analysis_sample.parquet
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs
+outcome: pct_voters_high_ed
+unit_id: municipality_id
+time_id: year_election
+group_id: treatment_year_cs
+treatment_var: ~
+controls: ~
+cluster_var: municipality_id
+weights_var: ~
+notes: 'Borusyak-Jaravel-Spiess dynamic DID for pct_voters_high_ed in the BVR registry
+  panel. Specification: any BVR, including strict and hybrid municipalities. This
+  run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard
+  errors are clustered by municipality; control group is never-treated municipalities.'
+n_estimates: 6
+n_event_study: 5
+diagnostics:
+  metric:
+  - n_rows
+  - n_complete_outcome_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 55661.0
+  - 55661.0
+  - 5571.0
+  - 10.0
+  - 2000.0
+  - 2018.0
+  - 4326.0
+  - 1245.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Rows with non-missing outcome.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.
+model_stats:
+  estimator: bjs
+  nobs: 55661
+  horizon:
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
+  pretrends:
+  - 2
+  - 4
+  - 6
+  - 8
+output_files:
+  config_used_yml: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/config_used.yml
+  tidy_estimates:
+    csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/tidy_estimates.csv
+  event_study:
+    csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_estimates.csv
+  sample_diagnostics: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/sample_diagnostics.csv
+  model_summary: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/model_summary.txt
+  event_study_plot:
+    latex_figure: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_plot.pdf
+    png: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/pct_voters_high_ed/including_hybrid/other_estimators/bjs/event_study_plot.png

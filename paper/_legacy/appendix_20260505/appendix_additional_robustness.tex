@@ -1,0 +1,78 @@
+\section{Additional Identification Checks}
+\label{app:additional-robustness}
+
+This section collects three further checks aimed at the same concern: that the baseline registry results might be driven by broader shocks or by the known weighting pathologies of staggered-adoption TWFE designs. First, I replace the common election-year fixed effects with state $\times$ election-year fixed effects. I then apply an even stricter restriction that keeps only state-year cells with both treated and control municipalities, so every comparison is explicitly within-state and within-election. Figure~\ref{fig:appendix-state-year-size} and Figure~\ref{fig:appendix-state-year-composition} show that the event-study paths are nearly unchanged. On impact, the coefficient on log registered voters moves from $-0.115$ in the baseline to $-0.117$ with state-year fixed effects and $-0.115$ in the within-state-support sample. For the low-education share, the corresponding coefficients are $-0.089$, $-0.090$, and $-0.088$. For the high-education share, they are $0.089$, $0.091$, and $0.088$. In proportional terms, every impact estimate remains within about 2.1 percent of the baseline. That is exactly the pattern one would want if the main estimates are not simply picking up state-level election shocks.
+
+Second, I implement a randomization inference exercise that permutes first-treatment timing across municipalities 500 times while preserving the empirical cohort-size distribution. For all three outcomes, the actual event-time $0$ coefficient lies deep in the tails of the placebo distribution: the permutation p-value is 0.002 for the log size of the electorate, 0.002 for the low-education share, and 0.002 for the high-education share. The implied placebo distribution is tightly centered near zero, so the observed impact effects are extreme even relative to many alternative staggered rollouts with the same cohort structure.
+
+Third, Table~\ref{tab:negative-weights} reports the de Chaisemartin-D'Haultfoeuille weight diagnostic for the absorbing-treatment version of the baseline design \citep{deChaisemartin2020TwoWayFixed}. Only 3 of 5{,}460 ATT components receive negative weight, which is a share of 0.055 percent, and the absolute mass on those negative weights is effectively zero. The alternative-estimator comparison figures in Appendix~\ref{app:alternative-estimators} are also updated to include the Sun-Abraham interaction-weighted estimator \citep{Abraham2018EstimatiDynamicTreatmen}; visually, that additional line tracks the existing Callaway-Sant'Anna and Borusyak-Jaravel-Spiess series closely. Finally, Table~\ref{tab:cohort-balance} shows that treated cohorts differ meaningfully from never-treated municipalities in levels of population, income, and baseline education composition. Those level differences are precisely why the paper relies on municipality fixed effects and event-time comparisons rather than simple cross-sectional contrasts.
+
+\begin{figure}[p]
+    \caption{Registry Size with State $\times$ Election-Year Fixed Effects}
+    \label{fig:appendix-state-year-size}
+    \centering
+    \includegraphics[width=0.82\textwidth]{../resources/robustness/state_year_fe/log_num_voters/event_study_plot.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure compares the baseline TWFE event study to two robustness variants: one that replaces common election-year fixed effects with state $\times$ election-year fixed effects, and one that additionally restricts the sample to state-year cells containing both treated and control municipalities. Error bars report 95\% confidence intervals with municipality and election-year clustering. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \captionsetup{justification=centering}
+    \caption{Education Composition with State $\times$ Election-Year Fixed Effects}
+    \label{fig:appendix-state-year-composition}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/state_year_fe/pct_voters_low_ed/event_study_plot.pdf}
+        \caption{Low-education share}
+        \label{fig:appendix-state-year-low-ed}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/state_year_fe/pct_voters_high_ed/event_study_plot.pdf}
+        \caption{High-education share}
+        \label{fig:appendix-state-year-high-ed}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel overlays the baseline event study with the same two robustness variants used in Figure~\ref{fig:appendix-state-year-size}. The education-composition effects remain visually and quantitatively close to the baseline series, indicating that the composition results are not being driven by common state-level electoral shocks. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \captionsetup{justification=centering}
+    \caption{Permutation Distributions for the Event-Time $0$ Coefficient}
+    \label{fig:appendix-permutation}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/permutation/log_num_voters/permutation_distribution.pdf}
+        \caption{Log registered voters}
+        \label{fig:appendix-permutation-size}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/permutation/pct_voters_low_ed/permutation_distribution.pdf}
+        \caption{Low-education share}
+        \label{fig:appendix-permutation-low-ed}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/robustness/permutation/pct_voters_high_ed/permutation_distribution.pdf}
+        \caption{High-education share}
+        \label{fig:appendix-permutation-high-ed}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each histogram shows the distribution of the event-time $0$ coefficient from 500 placebo assignments of treatment timing that preserve the observed cohort-size distribution. The vertical line marks the actual estimate from the baseline event study. For all three outcomes, the observed estimate lies far in the tails of the placebo distribution, yielding permutation p-values of 0.002. \par}
+    \end{minipage}
+\end{figure}
+
+\input{../resources/robustness/dcdh_diagnostic/negative_weights_table}
+
+\input{../resources/robustness/balance/cohort_balance_table}

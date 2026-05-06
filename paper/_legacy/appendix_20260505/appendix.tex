@@ -1,0 +1,144 @@
+\input{appendix/proofs}
+
+\section{Maps}
+\label{app:maps}
+
+Figure~\ref{fig:appendix-bvr-treatment-map} maps the municipal rollout of biometric registration by first observed BVR year, including municipalities observed with hybrid status. The figure complements the rollout timeline in the main text by showing the spatial concentration of later BVR waves and the municipalities flagged as hybrid in the official 2018 status source.
+
+\begin{figure}[p]
+    \caption{Municipal Biometric Registration Rollout by First Treatment Year}
+    \label{fig:appendix-bvr-treatment-map}
+    \centering
+    \includegraphics[width=0.9\textwidth]{../resources/maps/brazil_municipalities_bvr_treatment_year.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Municipalities are shaded by the first election year in which they are observed with any BVR status, including hybrid implementation. Unshaded municipalities have no observed BVR status through 2018 in the clean municipal panel. Diagonal hatching identifies municipalities flagged as hybrid in the official 2018 biometric-status source. The map uses the 2010 IBGE municipal geometry, so municipalities absent from that shapefile are not drawn. \par}
+    \end{minipage}
+\end{figure}
+
+\section{Excluding Hybrid Municipalities}
+\label{app:exclude-hybrid}
+
+This appendix reruns the dynamic TWFE event studies after excluding every municipality ever flagged as \textit{Híbrido} in the official 2018 municipal biometric-status source. That restriction removes 1,533 municipalities from the analysis sample and leaves 4,038 municipalities in the panel, of which 2,793 are treated and 1,245 remain never treated. The hybrid status source is municipality-specific but only observed for 2018, so this exercise should be read as a conservative robustness check that removes municipalities with documented partial implementation from the estimating sample.
+
+The resulting estimates are close to the baseline results in the main text. For the size of the electorate, the impact effect becomes slightly larger in absolute value, moving from about $-0.115$ log points in the full sample to $-0.117$ log points in the non-hybrid sample, and the subsequent recovery remains gradual. For electorate composition, the impact estimates are almost unchanged: the low-education share still falls by about 8.9 percentage points and the high-education share still rises by about 9.0 percentage points. The main difference is in the farthest pre-treatment lead, which is somewhat farther from zero for the education-share outcomes once hybrid municipalities are removed. That pattern suggests that the core post-treatment findings are not being driven by hybrid jurisdictions, while also reinforcing the need to interpret the longest event-time horizons cautiously.
+
+\begin{figure}[p]
+    \caption{Excluding Hybrid Municipalities: Electorate Size}
+    \label{fig:appendix-size-excluding-hybrid}
+    \centering
+    \includegraphics[width=0.82\textwidth]{../resources/images/regressions/twfe_dynamic_excl_hybrid/log_num_voters/event_study_plot.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure plots the dynamic TWFE event-study coefficients for the log number of registered voters after excluding all municipalities ever flagged as hybrid in the official 2018 municipal biometric-status source. The remaining sample includes non-hybrid treated municipalities and the remaining never-treated controls. Error bars report 95\% confidence intervals with standard errors clustered by municipality and election year. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \captionsetup{justification=centering}
+    \caption{Excluding Hybrid Municipalities: Education Composition}
+    \label{fig:appendix-composition-excluding-hybrid}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/images/regressions/twfe_dynamic_excl_hybrid/pct_voters_low_ed/event_study_plot.pdf}
+        \caption{Low-education share}
+        \label{fig:appendix-low-education-excluding-hybrid}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/images/regressions/twfe_dynamic_excl_hybrid/pct_voters_high_ed/event_study_plot.pdf}
+        \caption{High-education share}
+        \label{fig:appendix-high-education-excluding-hybrid}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel plots the dynamic TWFE event-study coefficients after excluding all municipalities ever flagged as hybrid in the official 2018 municipal biometric-status source. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome. Panel (b) uses the share with incomplete secondary schooling or more. The remaining sample includes non-hybrid treated municipalities and the remaining never-treated controls. Error bars report 95\% confidence intervals with standard errors clustered by municipality and election year. \par}
+    \end{minipage}
+\end{figure}
+
+\section{Alternative Estimator Comparisons}
+\label{app:alternative-estimators}
+
+Because biometric registration rolls out at different times across municipalities, the TWFE event studies in the main text are only one way to summarize the dynamics. This appendix compares those baseline plots to alternative staggered-adoption estimators \citep{Callaway2020DifferenDifferenWith,Abraham2018EstimatiDynamicTreatmen,Borusyak2024RevisitiEventStudy}. Across outcomes, the broad pattern is stable: BVR produces an immediate contraction in the registry and a persistent shift away from lower-education registrants and toward higher-education registrants. The main difference across estimators is precision at the longest horizons, where support becomes thin.
+
+\begin{figure}[p]
+    \caption{Biometric Registration and Electorate Size: Alternative Estimators}
+    \label{fig:appendix-size-estimator-comparison}
+    \centering
+    \includegraphics[width=0.72\textwidth]{../resources/images/regressions/estimator_comparison/log_num_voters/estimator_comparison.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval. Colors identify the estimator. The TWFE series corresponds to the baseline event study in the main text, while the other series report the Callaway-Sant'Anna, Sun-Abraham, and Borusyak-Jaravel-Spiess estimators. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \captionsetup{justification=centering}
+    \caption{Biometric Registration and Education Composition: Alternative Estimators}
+    \label{fig:appendix-composition-estimator-comparison}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/images/regressions/estimator_comparison/pct_voters_low_ed/estimator_comparison.pdf}
+        \caption{Low-education share}
+        \label{fig:appendix-low-education-estimator-comparison}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/images/regressions/estimator_comparison/pct_voters_high_ed/estimator_comparison.pdf}
+        \caption{High-education share}
+        \label{fig:appendix-high-education-estimator-comparison}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval. Colors identify the estimator. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome, and panel (b) uses the share with incomplete secondary schooling or more. Across the TWFE, Callaway-Sant'Anna, Sun-Abraham, and Borusyak-Jaravel-Spiess estimators, the low-education share falls around biometric adoption and the high-education share rises, with the largest differences appearing in the noisier long-run horizons. \par}
+\end{minipage}
+\end{figure}
+
+\input{appendix/appendix_honestdid}
+
+\input{appendix/appendix_additional_robustness}
+
+\section{Additional Graphs and Plots}
+\label{app:additional-graphs-plots}
+
+This appendix collects descriptive figures that complement the main-text survey discussion. Figures~\ref{fig:appendix-trust-pca-variance} and \ref{fig:appendix-democracy-pca-variance} report the share of explained variance by principal component for the institutional-trust and democracy survey blocks. The trust block is visibly more one-dimensional: its first component dominates the remaining components, while the democracy block leaves more variance for the second component. That pattern is one reason the democracy results in the main text are interpreted more cautiously.
+
+\begin{figure}[p]
+    \caption{Trust Index: Share of Explained Variance by Principal Component}
+    \label{fig:appendix-trust-pca-variance}
+    \centering
+    \includegraphics[width=0.72\textwidth]{../resources/lapop/pca/trust_explained_variance_main.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The bars report the share of total variance explained by each principal component of the eight-item institutional-trust block. The first component explains 49.1\% of the total variance, well above the remaining components. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \caption{Democracy Index: Share of Explained Variance by Principal Component}
+    \label{fig:appendix-democracy-pca-variance}
+    \centering
+    \includegraphics[width=0.72\textwidth]{../resources/lapop/pca/democracy_explained_variance_main.pdf}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The bars report the share of total variance explained by each principal component of the three-item democracy block. The first component explains 41.0\% of the total variance and the second explains 30.5\%, indicating a less sharply one-dimensional structure than in the institutional-trust block. \par}
+    \end{minipage}
+\end{figure}
+
+\section{Additional Tables}
+\label{app:additional-tables}
+
+This section collects appendix tables that complement the main-text figures and discussion. Table~\ref{tab:twfe-dynamic-main} reports the dynamic TWFE event-study coefficients, clustered standard errors, fixed-effects specification, and dependent-variable moments for the three registry outcomes studied in the main text.
+
+\input{../resources/tables/twfe_dynamic_main_table}
+
+\begin{table}[htbp]
+\centering
+\caption{Compositional regressions for decomposition interactions}
+\label{tab:compositional-regressions}
+\input{tables/decomposition/table_compositional_regressions}
+\end{table}

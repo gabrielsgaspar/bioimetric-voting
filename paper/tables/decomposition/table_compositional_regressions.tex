@@ -1,0 +1,38 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & \multicolumn{2}{c}{exit\_rate\_2008} & cohort\_exit\_rate\\
+                                & Pooled         & State FE       & Within municipality \\
+   Model:                       & (1)            & (2)            & (3)\\
+   \midrule
+   \emph{Variables}\\
+   Constant                     & 0.0456         &                &   \\
+                                & (0.0373)       &                &   \\
+   Low-ed share (2008)          & 0.0210         & -0.0110        &   \\
+                                & (0.0252)       & (0.0289)       &   \\
+   Strict                       & 0.0213         & 0.0298         &   \\
+                                & (0.0268)       & (0.0276)       &   \\
+   Strict x low-ed share        & 0.1199$^{***}$ & 0.1344$^{***}$ &   \\
+                                & (0.0392)       & (0.0423)       &   \\
+   Log 2008 baseline            & -0.0023        & -0.0045$^{**}$ &   \\
+                                & (0.0018)       & (0.0021)       &   \\
+   Cohort low-ed share          &                &                & -0.1582$^{***}$\\
+                                &                &                & (0.0167)\\
+   Strict x cohort low-ed share &                &                & 0.2926$^{***}$\\
+                                &                &                & (0.0149)\\
+   \midrule
+   \emph{Fixed-effects}\\
+   state                        &                & Yes            & \\
+   ibge\_municipality\_id       &                &                & Yes\\
+   cohort\_band                 &                &                & Yes\\
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                 & 4,321          & 4,321          & 93,484\\
+   R$^2$                        & 0.59650        & 0.66372        & 0.56112\\
+   Within R$^2$                 &                & 0.49456        & 0.10070\\
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup

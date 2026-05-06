@@ -1,0 +1,86 @@
+file_format: parquet
+cluster_var: municipality_id
+event_time_var: ~
+event_time_never_value: ~
+lead: 8
+lag: 8
+reference_event_time: -1.0
+plot_reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+base_period: ~
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/other_estimators/bjs
+notes: 'Borusyak-Jaravel-Spiess dynamic DID for log_num_voters in the BVR registry
+  panel. Specification: any BVR, including strict and hybrid municipalities. This
+  run uses the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard
+  errors are clustered by municipality; control group is never-treated municipalities.'
+effects: ~
+placebo: ~
+horizon:
+- 0
+- 2
+- 4
+- 6
+- 8
+pretrends:
+- 2
+- 4
+- 6
+- 8
+event_time_step: 2
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+seed: 20260505
+output:
+  save_csv: yes
+  save_parquet: false
+  save_json: yes
+  save_yaml_metadata: yes
+  save_model_summary: yes
+plot:
+  width: 8
+  height: 5
+  dpi: 320
+  color: '#009E73'
+  show_grid: yes
+  show_border: yes
+  show_points: yes
+  show_line: no
+  show_ci: yes
+  ci_geom: linerange
+  ci_level: 0.95
+  zero_line: yes
+  zero_line_width: 1.1
+  zero_line_color: gray35
+  reference_line: yes
+  reference_line_type: dashed
+  reference_line_width: 0.7
+  reference_line_color: gray50
+  box: yes
+  x_label: Distance to treatment
+  y_label: ~
+  omit_title: yes
+  x_breaks:
+  - -8
+  - -6
+  - -4
+  - -2
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
+  tick_format: '%.2f'
+  latex_figure_format: pdf
+  save_tight_png: yes
+  save_png: no
+  background: white
+data_path: resources/regressions/bvr/log_num_voters/including_hybrid/other_estimators/bjs/analysis_sample.parquet
+outcome: log_num_voters
+unit_id: municipality_id
+time_id: year_election
+group_id: treatment_year_cs
+estimator: bjs

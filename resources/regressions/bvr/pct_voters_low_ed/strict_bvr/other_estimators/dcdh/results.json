@@ -1,0 +1,120 @@
+{
+  "model_stats": {
+    "estimator": "dcdh",
+    "mode": "python_switcher_fallback",
+    "outcome": "pct_voters_low_ed",
+    "bootstrap_reps": 199,
+    "nobs": 37207,
+    "n_units": 3725
+  },
+  "event_study": [
+    {
+      "event_time": -8,
+      "term": "dcdh_event_-8",
+      "estimate": 0.00019235424238476566,
+      "std.error": 0.00015415561181775575,
+      "conf.low": -0.00010979075677803563,
+      "conf.high": 0.0004944992415475669,
+      "statistic": 1.2477926694758845,
+      "p.value": 0.21210699390739857,
+      "n_switchers": 2475.0,
+      "n_comparisons": 6
+    },
+    {
+      "event_time": -6,
+      "term": "dcdh_event_-6",
+      "estimate": 0.0005323341668760867,
+      "std.error": 0.00016609938410447933,
+      "conf.low": 0.00020677937403130726,
+      "conf.high": 0.0008578889597208662,
+      "statistic": 3.2049135506802333,
+      "p.value": 0.0013510305198008857,
+      "n_switchers": 2477.0,
+      "n_comparisons": 6
+    },
+    {
+      "event_time": -4,
+      "term": "dcdh_event_-4",
+      "estimate": 0.0006965770773806283,
+      "std.error": 0.00013837400094492694,
+      "conf.low": 0.0004253640355285715,
+      "conf.high": 0.000967790119232685,
+      "statistic": 5.034017030828407,
+      "p.value": 4.803069725893295e-07,
+      "n_switchers": 2477.0,
+      "n_comparisons": 6
+    },
+    {
+      "event_time": -2,
+      "term": "dcdh_event_-2",
+      "estimate": 0.0,
+      "std.error": NaN,
+      "conf.low": NaN,
+      "conf.high": NaN,
+      "statistic": NaN,
+      "p.value": NaN,
+      "n_switchers": NaN,
+      "n_comparisons": 0
+    },
+    {
+      "event_time": 0,
+      "term": "dcdh_event_0",
+      "estimate": -0.08876209587171663,
+      "std.error": 0.0008067367555379608,
+      "conf.low": -0.09034329991257103,
+      "conf.high": -0.08718089183086222,
+      "statistic": -110.02609619853864,
+      "p.value": 0.0,
+      "n_switchers": 2478.0,
+      "n_comparisons": 6
+    },
+    {
+      "event_time": 2,
+      "term": "dcdh_event_2",
+      "estimate": -0.0778485193809364,
+      "std.error": 0.0010479007719839896,
+      "conf.low": -0.07990240489402502,
+      "conf.high": -0.07579463386784778,
+      "statistic": -74.28997235448722,
+      "p.value": 0.0,
+      "n_switchers": 1540.0,
+      "n_comparisons": 5
+    },
+    {
+      "event_time": 4,
+      "term": "dcdh_event_4",
+      "estimate": -0.06468522577133795,
+      "std.error": 0.0017477684283864292,
+      "conf.low": -0.06811085189097535,
+      "conf.high": -0.06125959965170055,
+      "statistic": -37.01018093744633,
+      "p.value": 7.854355890160585e-300,
+      "n_switchers": 760.0,
+      "n_comparisons": 4
+    },
+    {
+      "event_time": 6,
+      "term": "dcdh_event_6",
+      "estimate": -0.06853089092245926,
+      "std.error": 0.002003455843612316,
+      "conf.low": -0.0724576643759394,
+      "conf.high": -0.06460411746897912,
+      "statistic": -34.206339581158495,
+      "p.value": 1.946231346252585e-256,
+      "n_switchers": 298.0,
+      "n_comparisons": 3
+    },
+    {
+      "event_time": 8,
+      "term": "dcdh_event_8",
+      "estimate": -0.058944957665507586,
+      "std.error": 0.005159204477242619,
+      "conf.low": -0.06905699844090311,
+      "conf.high": -0.04883291689011205,
+      "statistic": -11.425202843871624,
+      "p.value": 3.129240822677258e-30,
+      "n_switchers": 60.0,
+      "n_comparisons": 2
+    }
+  ]
+}

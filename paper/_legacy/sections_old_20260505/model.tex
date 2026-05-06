@@ -1,0 +1,112 @@
+\section{A Model of Electoral Modernization}
+\label{sec:model}
+
+This section develops a compact model of the tradeoff at the center of the paper. The reform under study is introduced to improve electoral integrity, but it does so by raising the cost of remaining on the voter registry. The model therefore needs only three ingredients: a pre-election compliance decision, heterogeneity in compliance costs across social groups, and a voting stage in which the composition of the post-registration electorate determines policy. In that sense, it combines the registration-burden logic of \citet{rosenstoneWolfinger1978} with a one-dimensional Downsian policy stage \citep{downs1957,meltzerRichard1981}. I keep the political stage deliberately stripped down. The empirical reform operates before ballots are cast, so I abstract from richer citizen-candidate environments \citep{besleyCoate1997} and from polling-stage information frictions \citep{feddersenPesendorfer1996}. The resulting framework is closer in spirit to the compact political-economy models in \citet{fujiwara2015} and \citet{besleyPersson2011}: the goal is not institutional realism for its own sake, but a transparent map from electoral modernization to the empirical margins studied in the paper.
+
+\subsection{Environment}
+
+There is a unit mass of citizens indexed by $i$. Each citizen has type $(e_i,y_i)$, where $e_i \in \{L,H\}$ denotes education and $y_i$ denotes income. A share $\pi \in (0,1)$ of citizens are low education. Income is positively correlated with education, so the income distribution of high-education citizens is shifted to the right of the income distribution of low-education citizens.
+
+Before the election, the electoral authority chooses a verification technology $\tau \in [0,1]$, where higher $\tau$ means a more demanding biometric regime. A citizen who remains on the registry must comply with the technology at cost
+\begin{equation}
+\label{eq:model-cost}
+c_i(\tau)=\tau \kappa_i,
+\end{equation}
+where $\kappa_i \geq 0$ is an idiosyncratic compliance-cost draw. Let $F_L$ and $F_H$ denote the distributions of $\kappa_i$ for low- and high-education citizens. The economically relevant ordering is that low-education citizens face a right-shifted cost distribution:
+\begin{equation}
+\label{eq:model-cost-ordering}
+F_L(k)\leq F_H(k) \qquad \text{for all } k \geq 0,
+\end{equation}
+with strict inequality on a set of positive measure. This is the reduced-form way in which education enters the registration problem: less-educated citizens face larger administrative burdens when biometric requirements intensify.
+
+Each citizen also has a gross value $b_i>0$ from remaining eligible to vote. This term is deliberately broad. It collects the policy value of retaining a ballot, the civic value of remaining included in the electorate, and the legitimacy value the citizen attaches to participating in the electoral system. I assume $b_i$ has cdf $H$ and is independent of education, so that the heterogeneous-registration result is driven by the cost side rather than by imposing group-specific tastes by assumption. Citizen $i$ complies if and only if the value of remaining on the registry weakly exceeds the compliance cost:
+\begin{equation}
+\label{eq:model-register-rule}
+b_i - \tau \kappa_i \geq 0.
+\end{equation}
+For $\tau>0$, the registration rate in education group $e \in \{L,H\}$ is therefore
+\begin{equation}
+\label{eq:model-registration-rate}
+R_e(\tau)=\Pr(b_i \geq \tau \kappa_i \mid e_i=e)=\int F_e\!\left(\frac{b}{\tau}\right)\,dH(b),
+\end{equation}
+with the normalization $R_e(0)=1$ when there is no biometric burden.
+
+\begin{proposition}[Heterogeneous compliance]
+\label{prop:heterogeneous-compliance}
+For any $\tau>0$, $R_L(\tau)\leq R_H(\tau)$, with strict inequality whenever \eqref{eq:model-cost-ordering} is strict on a set reached by $\frac{b_i}{\tau}$. Hence the registered-to-eligible ratio falls weakly more in the low-education group than in the high-education group.
+\end{proposition}
+
+Proposition~\ref{prop:heterogeneous-compliance} is the paper's first empirical prediction. Electoral modernization is not modeled as a uniform purge. It is a burden that bites more for citizens with larger compliance costs, and that asymmetry is what generates the education-composition result in the administrative data.
+
+\subsection{Electoral Stage}
+
+After registration closes, only compliant citizens remain in the electorate. Two parties, $A$ and $B$, compete over a one-dimensional policy $g \in \mathbb{R}$ that represents the intensity of redistribution. Registered citizens have single-peaked preferences and vote for the party whose platform lies closer to their ideal point. Let the preferred policy of citizen $i$ be
+\begin{equation}
+\label{eq:model-ideal-policy}
+g_i^\ast = \bar g - \alpha y_i - \delta \,\mathbbm{1}\{e_i=H\},
+\end{equation}
+with $\alpha,\delta>0$. Higher-income citizens therefore prefer less redistribution, as in \citet{meltzerRichard1981}, and high education may independently lower the preferred redistributive policy through information, ideology, or attachment to lower-tax bundles. Because income and education are positively correlated, the distribution of ideal points for high-education citizens is shifted to the left of the distribution for low-education citizens.
+
+Under standard Downsian convergence, both parties locate at the median ideal point of the post-registration electorate. Let
+\begin{equation}
+\label{eq:model-low-share}
+\omega(\tau)=\frac{\pi R_L(\tau)}{\pi R_L(\tau)+(1-\pi)R_H(\tau)}
+\end{equation}
+denote the low-education share of registered voters, and let $G_L$ and $G_H$ denote the cdfs of $g_i^\ast$ within each education group. Then the cdf of ideal points in the registered electorate is
+\begin{equation}
+\label{eq:model-mixture}
+G(g;\tau)=\omega(\tau)G_L(g)+\bigl(1-\omega(\tau)\bigr)G_H(g).
+\end{equation}
+Write $g^\ast(\tau)$ for the median of $G(\cdot;\tau)$.
+
+To move from Proposition~\ref{prop:heterogeneous-compliance} to a monotone policy prediction, I impose one mild strengthening of the burden asymmetry: higher biometric intensity weakly lowers the relative survival of low-education voters, so that $R_L(\tau)/R_H(\tau)$ is weakly decreasing in $\tau$. Equivalently, $\omega(\tau)$ is weakly decreasing in $\tau$.
+
+\begin{proposition}[Median-voter shift]
+\label{prop:median-voter-shift}
+Suppose high-education ideal points are weakly to the left of low-education ideal points, and suppose $\omega(\tau)$ is weakly decreasing in $\tau$. Then the Downsian equilibrium policy $g^\ast(\tau)$ is weakly decreasing in $\tau$.
+\end{proposition}
+
+Proposition~\ref{prop:median-voter-shift} is a sign result, not a quantitative one. It says that if biometric intensity selectively removes citizens who prefer higher redistribution, the post-registration median voter shifts toward lower redistribution. But it does not say that the shift is large. In the data, that is exactly where institutional constraints matter: constitutional spending floors, transfer rules, and national political cycles may compress the mapping from electoral composition to observed policy.
+
+\subsection{Trust as Selection}
+
+The trust results in the paper are especially vulnerable to a compositional interpretation. The model provides one directly. Let observed institutional trust be
+\begin{equation}
+\label{eq:model-trust}
+T_i = h(b_i),
+\end{equation}
+where $h'(\cdot)>0$. Citizens who attach a larger value to remaining in the electorate are also the ones who report greater confidence in the institutions that administer it. This does not require that biometric registration persuades anyone. It only requires that the latent propensity to bear the administrative burden be positively related to baseline perceived legitimacy.
+
+\begin{proposition}[Trust selection]
+\label{prop:trust-selection}
+For any $\tau>0$, if $T_i=h(b_i)$ with $h'(\cdot)>0$, then
+\[
+\mathbb{E}[T_i \mid b_i \geq \tau \kappa_i] \geq \mathbb{E}[T_i \mid b_i < \tau \kappa_i],
+\]
+with strict inequality whenever both groups have positive measure. Thus higher trust among citizens observed in the post-reform electorate can arise mechanically from selection into compliance rather than from a causal change in beliefs.
+\end{proposition}
+
+This is the key reframing for the LAPOP results. A positive trust gap in treated municipalities need not mean that biometric registration made the same individual more trusting. It may instead mean that the post-reform electorate, and therefore the set of politically connected respondents one observes in municipal samples, has been reweighted toward citizens with larger $b_i$ and hence higher underlying trust. In that sense, the trust evidence is structurally consistent with the paper precisely because it can be read as a selection result rather than as a pure treatment effect on individual attitudes.
+
+\subsection{Security, Inclusion, and Welfare}
+
+The authority values both cleaner elections and electoral inclusion. Let its objective be
+\begin{equation}
+\label{eq:model-planner}
+W(\tau)=\phi(\tau)\mathcal{I}-\lambda X(\tau),
+\end{equation}
+where $\mathcal{I}>0$ is the value of electoral integrity, $\phi'(\tau)>0$, $\phi''(\tau)<0$, and
+\begin{equation}
+\label{eq:model-exclusion}
+X(\tau)=\pi\bigl[1-R_L(\tau)\bigr]+(1-\pi)\bigl[1-R_H(\tau)\bigr]
+\end{equation}
+is the total exclusion rate. The parameter $\lambda>0$ measures how much the authority values inclusion relative to integrity.
+
+\begin{proposition}[Welfare ambiguity]
+\label{prop:welfare-ambiguity}
+If $W(\tau)$ is strictly concave and the boundary derivatives satisfy $W'(0)>0>W'(1)$, then there exists a unique interior optimum $\tau^\ast \in (0,1)$. Moreover, $\tau^\ast$ is increasing in $\mathcal{I}$ and decreasing in $\lambda$.
+\end{proposition}
+
+Proposition~\ref{prop:welfare-ambiguity} provides the paper's normative frame. More intense biometric verification is not unambiguously good or bad. The planner trades a concave integrity gain against exclusion that falls disproportionately on citizens with the highest compliance burdens. The welfare problem is therefore inherently distributional. Whether a given level of biometric intensity is desirable depends on how much weight the authority places on cleaner rolls relative to the political cost of narrowing the electorate.
+
+Formal proofs appear in Appendix~\ref{app:model-proofs}.

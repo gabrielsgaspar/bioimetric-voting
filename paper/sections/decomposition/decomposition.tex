@@ -1,0 +1,146 @@
+% Revised decomposition section.
+% Assumes the main manuscript already loads: amsmath, amssymb, booktabs, graphicx.
+
+\section{Decomposing Registry Change: Exit versus Re-labeling}
+\label{sec:decomposition}
+
+Section~\ref{sec:electorate-size} shows that BVR contracts the registered electorate at adoption and shifts its measured composition away from lower-education voters. That empirical pattern admits two conceptually different channels. The first is \emph{exit}: voters fail to complete biometric recadastramento and disappear from the registry. The second is \emph{re-labeling}: voters do re-register, but the recadastramento process updates an education record that had been stale since the voter's original registration. The distinction matters because exit changes electoral participation, while re-labeling changes only administrative measurement.
+
+This section proceeds in the order implied by the strength of the evidence. I first use the count event studies to establish what is identified with minimal additional structure. Those aggregate count results already imply that re-labeling is strictly positive. I then introduce a cohort framework whose purpose is narrower: it allocates the aggregate change across municipalities, regimes, and age groups using the joint age-by-education panel available from 2008 onward. Because that framework cannot distinguish BVR-induced cancellation from source-municipality registry loss due to transfers and migration, I treat its exit measure as an \emph{exit-channel loss} and as an upper-bound proxy for causal exclusion. Appendix~\ref{app:decomposition} reports implementation details, diagnostics, and additional descriptive figures.
+
+\subsection{Aggregate count accounting and identified bounds}
+\label{ssec:decomposition_crosscheck}
+
+The cleanest decomposition evidence comes from the count event studies. Let $y_{j,mt} = N_{j,mt}/N_{m,2006}$ denote the count of registered voters in municipality $m$ and year $t$, normalized by the municipality's 2006 baseline electorate, for $j \in \{N,L,H\}$ corresponding to total, low-education, and high-education registrants. Let $\gamma_j^0$ be the event-time-zero coefficient from the staggered-adoption specification in Section~\ref{sec:electorate-size}. Write the adoption-time accounting identities as
+\begin{equation}
+\gamma_L^0 = -E_L^0 - R^0, \qquad \gamma_H^0 = -E_H^0 + R^0,
+\label{eq:decomp_accounting_main}
+\end{equation}
+where $E_L^0,E_H^0 \geq 0$ are the adoption-time exit shares from each education group and $R^0$ is the share of the baseline electorate that is re-labeled from low to high education. Under non-negativity of exits, \eqref{eq:decomp_accounting_main} yields sharp bounds:
+\[
+R_{\min}^0 = \max\{0,\gamma_H^0\}, \qquad R_{\max}^0 = -\gamma_L^0.
+\]
+The lower bound is the key identified object. If the high-education count rises at adoption, pure exit is impossible.
+
+\begin{table}[!htbp]
+\centering
+\caption{Count-based decomposition at event time zero}
+\label{tab:decomp_bounds}
+\begin{tabular}{lc p{0.42\textwidth}}
+\toprule
+Object & Value & Interpretation \\
+\midrule
+Total count effect, $\gamma_N^0$ & $-12.68\%$ & Registry contraction at adoption \\
+Low-education count effect, $\gamma_L^0$ & $-17.82\%$ & Low-education registrants fall sharply \\
+High-education count effect, $\gamma_H^0$ & $+5.22\%$ & Pure exit is infeasible \\
+\midrule
+Re-labeling lower bound, $R_{\min}^0$ & $5.22\%$ & Identified by the rise in high-education counts \\
+Re-labeling upper bound, $R_{\max}^0$ & $17.82\%$ & Entire low-education decline attributed to re-labeling \\
+Scenario B benchmark & $R^0 = 5.22\%$ & All exit allocated to low education \\
+Scenario C benchmark & $R^0 = 10.40\%$ & Exit allocated proportionally by education \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.75em}
+\begin{minipage}{\textwidth}
+{\footnotesize \textbf{Note:} Coefficients are the adoption-time estimates from the count event studies in Section~\ref{sec:electorate-size}. The slight difference between $\gamma_N^0$ and $\gamma_L^0 + \gamma_H^0$ reflects the small unknown-education residual, about 0.08 percentage points at adoption. Scenario B is the conservative benchmark used below; Scenario C is an alternative allocation reported for comparison. \par}
+\end{minipage}
+\end{table}
+
+Table~\ref{tab:decomp_bounds} is the aggregate anchor for the rest of the section. It establishes three facts that do not depend on the cohort framework. First, BVR contracts the registry on impact. Second, low-education counts fall sharply. Third, re-labeling must be positive because the high-education count rises. I therefore treat positive re-labeling as identified in the aggregate and use the cohort framework only to allocate that change across municipalities and age groups.
+
+\subsection{Cohort framework for municipality-level allocation}
+\label{ssec:decomposition_mun_math}
+
+The cohort framework is an allocation device, not the source of the paper's cleanest identification. Its value is that it uses the joint age-by-education panel from 2008 onward to say where the aggregate effects are concentrated. Let $N_{m,t,c,e}$ denote the number of registrants in municipality $m$, election year $t$, age cohort $c$, and education group $e \in \{L,H\}$. Let $a_{cc'}$ be the mechanical-aging weight that maps source cohort $c'$ at time $t$ into target cohort $c$ at time $t+2$. By construction, $a_{cc'} \in [0,1]$ and $\sum_c a_{cc'} = 1$ for each source cohort $c'$. For the five-year bins, the maintained approximation is $a_{cc}=3/5$ and $a_{c^+,c}=2/5$ over one electoral cycle; Appendix~\ref{app:decomp_operator} records the full transition matrix.
+
+Let $\hat\sigma_{m,c'}$ denote the pre-treatment survival parameter for source cohort $c'$ in municipality $m$, and let $\hat I_{m,t+2,c}$ denote estimated inflows into the youngest cohorts. The no-BVR counterfactual count for target cohort $c$ is
+\begin{equation}
+\widehat N^{0}_{m,t+2,c} = \sum_{c'} a_{cc'}\,\hat\sigma_{m,c'}\,N_{m,t,c'} + \hat I_{m,t+2,c}.
+\label{eq:counterfactual_main_revised}
+\end{equation}
+For cohorts above age 24, the maintained approximation is $\hat I_{m,t+2,c}=0$: delayed first-time registration outside the youngest bins is assumed to be small relative to aging flows over one election cycle.
+
+I define cohort-level exit-channel loss as the positive part of the gap between the no-BVR prediction and the observed post-treatment count,
+\begin{equation}
+\widehat E_{m,t+2,c} = \max\!\left\{0,\widehat N^{0}_{m,t+2,c} - N_{m,t+2,c}\right\},
+\qquad
+\widehat E_{m,t+2} = \sum_c \widehat E_{m,t+2,c}.
+\label{eq:exit_main_revised}
+\end{equation}
+The non-negativity floor rules out negative exit. Because source-municipality registry loss can reflect either BVR-induced cancellation or post-treatment transfer and migration, $\widehat E_{m,t+2}$ should be interpreted as an \emph{exit-channel loss} and as an upper-bound proxy for causal exclusion.
+
+To recover re-labeling, I carry forward low-education mass within cohort and allow for pre-treatment schooling progression. Let $\hat\delta_{c'}$ denote the pre-treatment probability that a low-education registrant in source cohort $c'$ naturally progresses to high education over one electoral cycle. The no-BVR counterfactual for low-education mass is
+\begin{equation}
+\widehat N^{0}_{m,t+2,c,L} = \sum_{c'} a_{cc'}\,\hat\sigma_{m,c'}\,(1-\hat\delta_{c'})\,N_{m,t,c',L} + \hat I^L_{m,t+2,c}.
+\label{eq:low_counterfactual_main_revised}
+\end{equation}
+My preferred conservative allocation is Scenario B, which assigns all within-cohort exit to low education. Re-labeling in cohort $c$ is then
+\begin{equation}
+\widehat R^{B}_{m,t+2,c} = \max\!\left\{0,\widehat N^{0}_{m,t+2,c,L} - N_{m,t+2,c,L} - \widehat E_{m,t+2,c}\right\},
+\qquad
+\widehat R^{B}_{m,t+2} = \sum_c \widehat R^{B}_{m,t+2,c}.
+\label{eq:relabel_main_revised}
+\end{equation}
+Scenario C instead allocates exit proportionally to the cohort's counterfactual education shares. I report it as an alternative allocation, but treat Scenario B as the preferred benchmark because it is mechanically conservative on re-labeling. Appendix~\ref{app:decomp_methods} describes the survival-rate hierarchy, biometric-uptake cap, and implementation details.
+
+\subsection{Cohort-based results by regime and age}
+\label{ssec:decomposition_results}
+
+Table~\ref{tab:decomp_aggregate} reports the decomposition at the first treated election. To keep the main text focused on magnitudes that are comparable across regimes, the table reports rates as percentages of the relevant 2008 baseline electorate. Raw counts are moved to Appendix Table~\ref{tab:decomp_counts}.
+
+\begin{table}[!htbp]
+\centering
+\caption{Decomposition at the first treated election}
+\label{tab:decomp_aggregate}
+\label{tab:decomp_rates}
+\begin{tabular}{lccc}
+\toprule
+ & Strict-first & Hybrid-first & All treated \\
+\midrule
+Exit-channel loss (upper-bound interpretation) & 13.64\% & 3.28\% & 8.35\% \\
+Re-labeling, Scenario B (preferred) & 7.93\% & 1.16\% & 4.47\% \\
+Re-labeling, Scenario C (alternative) & 10.89\% & 1.51\% & 6.10\% \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.75em}
+\begin{minipage}{\textwidth}
+{\footnotesize \textbf{Note:} Entries are percentages of the 2008 baseline electorate for municipalities in the relevant first-treatment regime. Scenario B allocates all within-cohort exit to low education and is the preferred conservative benchmark. Scenario C allocates exit proportionally across education groups and is reported as an alternative allocation. Because source-municipality transfers and BVR-induced cancellation are observationally similar in the cohort framework, the exit-channel measure should be read as an upper-bound proxy for causal exclusion. \par}
+\end{minipage}
+\end{table}
+
+Three patterns matter for the paper. First, strict enforcement drives most of the administrative change. Strict-first municipalities account for roughly 49\% of the treated baseline electorate but for about 80\% of estimated exit-channel loss and 87\% of conservative re-labeling. Summing exit-channel loss and re-labeling gives a useful summary measure of the share of the baseline electorate \emph{administratively affected} by BVR through either removal or record updating: 21.57\% in strict municipalities versus 4.44\% in hybrid municipalities under Scenario B. I use that stacked total only as a summary of administrative change, not as a decomposition of net registry contraction.
+
+Second, re-labeling is concentrated where the identifying assumptions are most credible. The age-profile in Appendix Figure~\ref{fig:decomp_age_share} shows that the 25--44 range accounts for 67.71\% of total Scenario B re-labeling, with the 35--44 band alone accounting for 40.39\%. By contrast, the 65+ group accounts for only 1.90\% of total re-labeling. This is the pattern one would hope to see if the framework is mostly picking up record updating in cohorts that are old enough for natural schooling progression to be limited but young enough that survival-rate noise is manageable.
+
+Third, exit-channel loss is more diffuse across ages and therefore harder to interpret cohort by cohort. Working-age cohorts 25--54 account for 47\% of total exit-channel loss, while the 65+ group accounts for 25.29\%. Because the oldest bins are also the noisiest part of the cohort framework, I treat the age pattern in exit as descriptive rather than definitive. Appendix Table~\ref{tab:decomp_workingage} is designed to report working-age restrictions precisely so the aggregate decomposition is not read as hinging on the youngest and oldest cohorts.
+
+\begin{figure}[!htbp]
+\centering
+\IfFileExists{../resources/decomposition/figures/figure_01_stacked_decomposition_by_regime_notitle.pdf}{%
+  \includegraphics[width=0.72\textwidth]{../resources/decomposition/figures/figure_01_stacked_decomposition_by_regime_notitle.pdf}%
+}{%
+  \fbox{\parbox[c][2in][c]{0.72\textwidth}{\centering Placeholder for stacked regime figure.}}%
+}
+\caption{Exit-channel loss and conservative re-labeling by first-treatment regime}
+\label{fig:decomp_stacked}
+
+\vspace{0.75em}
+\begin{minipage}{0.82\textwidth}
+{\footnotesize \textbf{Note:} The lower segment is exit-channel loss and the upper segment is Scenario B re-labeling, both expressed as shares of the relevant 2008 baseline electorate. The stacked total should be read as the share of the baseline electorate administratively affected through either removal or record updating. It is not a decomposition of net registry contraction. \par}
+\end{minipage}
+\end{figure}
+
+Appendix Figures~\ref{fig:decomp_scatter_muni}--\ref{fig:decomp_coefficients} report additional heterogeneity by baseline education share and treatment regime. I keep those figures out of the main text because they are supportive rather than central: the count bounds above remain the cleanest decomposition evidence.
+
+\subsection{Diagnostics, scope, and interpretation}
+\label{ssec:decomposition_limitations}
+
+The most important diagnostic is the comparison between the aggregate count bounds and the cohort allocation. The count accounting uses a 2006 denominator, whereas the cohort framework starts in 2008 because the joint age-by-education panel begins then. After rescaling the cohort totals to the 2006 treated baseline, the framework implies exit-channel loss of 8.65\%, Scenario B re-labeling of 4.63\%, and Scenario C re-labeling of 6.32\%. The rescaled Scenario B estimate sits slightly below the identified lower bound of 5.22\% from Table~\ref{tab:decomp_bounds}. I view that near miss as evidence that the cohort procedure is conservative on re-labeling, not as a substitute for the cleaner aggregate bound. For that reason, the paper should anchor the aggregate decomposition on the count accounting and use the cohort framework for allocation and heterogeneity.
+
+Two additional diagnostics belong in the appendix and should be treated as part of the section's objective evidence. The first is a pre-treatment placebo backtest that runs the full cohort algorithm on pre-BVR transitions. If the framework is well calibrated, placebo re-labeling in older working-age cohorts should be near zero and placebo exit should be modest relative to post-treatment estimates. The second is a working-age restriction that re-computes the aggregate decomposition on age windows such as 25--64 and 35--64. Those restrictions matter because they directly test whether the headline decomposition is being driven by the mechanically weakest bins. Appendix Tables~\ref{tab:decomp_placebo} and \ref{tab:decomp_workingage} provide the slots for those diagnostics.
+
+The remaining limitations are interpretation rather than identification. Small municipalities require survival-rate fallback rules; Appendix Table~\ref{tab:decomp_diagnostics} should therefore report the electorate-weighted share of cells using municipality-, state-, and national-level survival estimates, as well as how often the biometric-uptake cap and non-negativity floor bind. And because the within-municipality cross-cohort interaction coefficient is much larger than the corresponding cross-municipality coefficients, I treat that coefficient plot as descriptive appendix evidence rather than a calibration object.
+
+Taken together, the section supports a disciplined reading of the reform. Positive re-labeling is identified in the aggregate from the count event studies. The cohort framework then shows that strict enforcement drives most of the administratively affected share and that re-labeling is concentrated in working-age cohorts where the identifying assumptions are strongest. The part of the section that deserves the most weight is therefore the aggregate count accounting and the conservative allocation it motivates, not the fine-grained municipality-by-cohort channel split.

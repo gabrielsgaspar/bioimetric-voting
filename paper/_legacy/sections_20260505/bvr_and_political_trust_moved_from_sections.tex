@@ -1,0 +1,126 @@
+\section{BVR and Political Trust}
+\label{sec:political-trust}
+
+The administrative results show that biometric registration changed both the size and the composition of the electorate. A natural next question is whether those changes were accompanied by shifts in how citizens viewed political institutions and democracy itself. Those downstream attitudinal effects are not obvious ex ante. A cleaner registry and more credible voter identification could strengthen confidence in elections and in the institutions that run them. But the same reform also imposed an additional compliance step before election day, and Sections~\ref{sec:electorate-size} and~\ref{sec:decomposition} show that it disproportionately reduced the share of lower-education voters on the rolls. For that reason, the trust module is best treated as a secondary, more suggestive part of the paper: it asks whether exposure to electoral modernization coincided with different political attitudes, not whether the survey evidence alone can establish a clean causal effect. The model makes that caution explicit. Proposition~\ref{prop:trust} shows that higher observed trust among post-reform respondents can arise mechanically from selection into compliance rather than from a within-person attitudinal treatment effect.
+
+\subsection{Building Trust and Democracy Indices}
+
+\textbf{Survey setting and outcomes.} I use Brazil waves of the \LAPOP{} \textit{AmericasBarometer} linked to municipality-level biometric exposure through the respondent's reported interview municipality \citep{lapop_americasbarometer}. The benchmark linked sample used in this section covers seven survey waves, 2006, 2008, 2010, 2012, 2014, 2016, and 2018, for a total of 11{,}008 respondents in 235 municipalities. The regression sample falls to 10{,}632 observations once I impose a common set of controls and require non-missing outcomes. I study two standardized outcomes. The first is an index of trust in institutions built from eight questions about support for and confidence in Brazil's political institutions, municipal government, the president, political parties, and elections. The second is a trust-in-democracy index built from three questions on whether democracy is the best form of government, satisfaction with democracy, and whether those who govern care about what ordinary people think. Throughout this section, ``trust'' refers to trust in institutions, while trust in democracy is discussed separately.
+
+\textbf{Index construction.} The trust-in-institutions and trust-in-democracy outcomes summarize correlated survey items using principal component analysis after median imputation and standardization of the underlying responses. For respondent $i$,
+\begin{equation}
+\label{eq:lapop-pca}
+z^{\text{trust}}_i = \frac{PC^{\text{trust}}_{1i} - \overline{PC^{\text{trust}}_{1}}}{\mathrm{sd}(PC^{\text{trust}}_{1})},
+\qquad
+z^{\text{dem}}_i = \frac{PC^{\text{dem}}_{1i} - \overline{PC^{\text{dem}}_{1}}}{\mathrm{sd}(PC^{\text{dem}}_{1})},
+\end{equation}
+where $PC^{\text{trust}}_{1i}$ is the first principal component of the eight-item trust-in-institutions block and $PC^{\text{dem}}_{1i}$ is the first principal component of the three-item democracy block.
+
+\begin{table}[htbp]
+    \caption{PCA Decomposition of the Trust and Democracy Indices}
+    \label{tab:lapop-pca-decomposition}
+    \centering
+    \input{../resources/tables/lapop_pca_decomposition_main}
+\end{table}
+
+Table~\ref{tab:lapop-pca-decomposition} reports the first two principal components for both survey blocks. Two features are worth emphasizing. First, the institutional-trust block is clearly more one-dimensional than the democracy block: the first trust component explains 49.1\% of total variance, while the second explains only 10.9\%. The loadings are positive and fairly uniform across items, which suggests that confidence in elections, local government, parties, the president, and the political system move together as part of a common latent dimension. Second, the democracy block is less tightly summarized by a single factor. Its first principal component explains 41.0\% of total variance and the second still explains 30.5\%, loading especially strongly on the political-efficacy item. That difference matters for interpretation. The trust-in-institutions outcome can be read more naturally as a common institutional-confidence index, whereas the trust-in-democracy outcome is better understood as a broader summary of democratic attachment and perceived political voice. Appendix \hyperref[app:additional-graphs-plots]{Section~\ref*{app:additional-graphs-plots}} plots the full explained-variance shares for both PCA objects.
+
+These two indices therefore capture related but distinct dimensions of political attitudes. The first measures confidence in the machinery of governance and electoral administration. The second captures a broader orientation toward democracy as a regime and as a lived political system. Distinguishing between them is important for the interpretation of the results below. A reform like BVR could plausibly increase trust in elections and the institutions that administer them without generating equally strong changes in broader views about democracy.
+
+\subsection{BVR Exposure and Political Attitudes}
+
+The administrative results showed that BVR did not simply modernize election administration in the abstract. It changed who remained on the voter rolls, especially along education lines. That makes attitudinal heterogeneity particularly interesting. BVR could raise trust by signaling modernization, cleaner rolls, and more credible identity verification. But it could also dampen confidence if the reform was experienced as exclusionary, bureaucratically costly, or politically distant. I therefore examine whether municipal exposure to BVR is associated with differences in trust outcomes, and whether those associations vary along four salient respondent characteristics: gender, race, marital status, and education.
+
+\textbf{Empirical strategy.} I estimate a separate interaction regression for each of four binary respondent characteristics: female, white, married, and low education. In each case,
+\begin{equation}
+\label{eq:lapop-trust}
+y_{imt} = \beta\,\text{BVR}_{mt} + \lambda\,G_i + \theta\left(\text{BVR}_{mt}\times G_i\right) + X'_{imt}\Gamma + \alpha_m + \tau_t + \varepsilon_{imt},
+\end{equation}
+where $y_{imt}$ is either $z_i^{\text{trust}}$ or $z_i^{\text{dem}}$ for respondent $i$ in municipality $m$ and survey year $t$, $\text{BVR}_{mt}$ equals one if the municipality had entered the biometric regime by survey year $t$, and $X_{imt}$ includes low education, female, white, married, working, age, log GDP per capita, and log municipality population. Municipality fixed effects $\alpha_m$ absorb time-invariant local characteristics and survey-year fixed effects $\tau_t$ absorb national shocks common to all respondents in a wave. Standard errors are clustered by municipality and year. The figures report two quantities for each subgroup: the baseline treatment effect for the omitted category and the combined treatment effect for the group with $G_i = 1$. The printed number above each pair is the interaction coefficient $\theta$. Because the outcomes are standardized, all reported effects are in standard-deviation units.
+
+\begin{figure}[htbp]
+    \captionsetup{justification=centering}
+    \caption{Biometric Registration and Political Trust by Respondent Characteristics}
+    \label{fig:lapop-trust-democracy}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/lapop/figures/trust_interactions_barplot.pdf}
+        \caption{Trust in institutions}
+        \label{fig:lapop-trust-by-category}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/lapop/figures/democracy_interactions_barplot.pdf}
+        \caption{Trust in democracy}
+        \label{fig:lapop-democracy-by-category}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel reports coefficients from regressions of the relevant standardized trust outcome on biometric-registration exposure, a respondent characteristic, and their interaction, controlling for low education, female, white, married, working, age, log GDP per capita, and log municipality population, with municipality and survey-year fixed effects. Solid bars show the estimated BVR effect for the omitted category and hatched bars show the combined effect for the group indicated on the horizontal axis. Vertical lines report 95\% confidence intervals. The number above each pair is the interaction coefficient with clustered standard error in parentheses. Standard errors are clustered by municipality and year. \par}
+    \end{minipage}
+\end{figure}
+
+\textbf{Results.} Figure~\ref{fig:lapop-trust-democracy} summarizes the linked-survey regressions. The figure is organized to mirror the underlying interaction specification. For each respondent characteristic, the solid bar reports the estimated BVR effect for the omitted category and the hatched bar reports the combined effect for the subgroup with the indicator equal to one. The number above each pair is the interaction term itself. This presentation is useful because it separates two questions: whether BVR is associated with a positive or negative shift in the outcome for the reference group, and whether that association differs systematically across respondent types.
+
+Panel~(a) shows the results for trust in institutions. The general pattern is that there is little evidence of heterogeneous effects by gender, race, or marital status. For women, the point estimate is higher than for men, but the difference is imprecise. For whites, the interaction is slightly negative, which suggests a somewhat smaller institutional-trust response than among non-whites, but again the estimate is far from precise enough to support a strong claim. Married respondents show a similarly small negative interaction. The clearest result concerns education. The low-education interaction is 0.123 standard deviations (s.e. 0.031), statistically significant at conventional levels. Substantively, this means that the institutional-trust response to BVR is concentrated among respondents with less schooling. The estimated effect for the higher-education group is essentially zero, while the combined effect for lower-education respondents is positive, about 0.115 standard deviations.
+
+That education pattern matters because it lines up with the administrative results in a revealing way. Sections~\ref{sec:electorate-size} and~\ref{sec:decomposition} showed that BVR initially reduced the share of low-education voters in the registry. The survey evidence suggests that among lower-education respondents who remained politically connected to treated municipalities, exposure to the reform was associated with higher trust in institutions rather than lower trust. Proposition~\ref{prop:trust} offers a disciplined way to read that pattern: the positive trust estimate is consistent with the post-reform sample becoming selectively composed of lower-education citizens with unusually high latent attachment to the system. A more behavioral interpretation, in which direct interaction with a more modernized electoral bureaucracy improved perceptions of state capacity and procedural credibility, remains possible, but the model implies that the first interpretation has to be taken seriously.
+
+Panel~(b) reports the corresponding estimates for trust in democracy. Here the evidence is weaker. The point estimates for the subgroup-specific BVR effects are generally positive, but the interaction terms for female, white, and married respondents are all small and imprecisely estimated. The low-education interaction remains positive, about 0.054 standard deviations, but it is not statistically distinguishable from zero. In other words, once the outcome shifts from institutional trust to broader democratic attitudes, the heterogeneity becomes much noisier. This weakens the case for claiming that BVR substantially changed trust in democracy in the same way it appears to have shifted trust in institutions.
+
+Taken together, the survey evidence points to a narrower conclusion than the title of the section might suggest. The most credible pattern is not a generalized increase in political trust across all groups. It is a more specific association between BVR exposure and higher trust in institutions among lower-education respondents. For democratic attitudes, the estimates move in the same general direction but are too imprecise to carry the same weight. That distinction is important for the overall message of the paper: the attitudinal results are best read as suggestive downstream evidence that complements the administrative findings, not as a standalone headline result.
+
+\subsection{Individual-level Exposure and Within-Municipality Variation}
+\label{sec:lapop-individual-exposure}
+
+The municipality-level treatment assignment in equation~\eqref{eq:lapop-trust} is deliberately coarse. It assigns the same BVR status to every respondent in a treated municipality-wave even though older and younger respondents need not have encountered the biometric regime at the same point in their voting lives. To sharpen that concern, I construct a respondent-level exposure proxy from interview age, interview year, and municipal rollout timing. The exercise uses benchmark LAPOP waves from 2006 through 2020, restricts attention to municipalities observed in every wave in that window, and drops respondents younger than 18 so that the exposure proxy matches the adult-eligibility rule. Let
+\begin{equation}
+\label{eq:lapop-individual-exposure}
+\text{EligibleYear}_i = t_i - \text{Age}_i + 18,
+\qquad
+\text{EventTime}_{im} = t_i - \max\{\text{TreatYear}_m,\text{EligibleYear}_i\},
+\end{equation}
+where $t_i$ is the LAPOP interview year and $\text{TreatYear}_m$ is the municipality's first biometric election year. I then classify respondents into three groups. ``Always-BVR'' respondents satisfy $\text{EligibleYear}_i \geq \text{TreatYear}_m$ and therefore could only have entered the electorate under biometric registration. ``Mixed'' respondents were already adult voters when their municipality switched, so they experienced the transition as incumbents in the electorate. The residual category consists of respondents interviewed in not-yet-treated or never-treated municipalities. This design lets treatment vary within municipality-year cells because respondents of different ages imply different exposure histories, but the balanced-wave restriction is demanding: the final regression sample contains 2{,}425 respondents in 8 municipalities.
+
+Two points are worth stating explicitly. First, the exposure proxy is approximate. LAPOP records age at interview, not actual registration year, and Brazil allows optional voting from age 16. I nevertheless follow the requested age-18 rule so that the new design is anchored to adult eligibility rather than adolescent optional registration. Second, the mixed cohort is substantively important and should not simply be dropped. Those respondents were exposed to BVR as adult voters, but they are not the same as people who first entered the electorate under the biometric regime. In the individual-level regressions below, I therefore retain the mixed cohort as a separate control group. Because exposure timing is itself imputed from age, the respondent-level specifications also add a cubic in age to flexibly partial out life-cycle differences in trust that a linear control might miss.
+
+\begin{table}[htbp]
+    \caption{Municipality-level and Respondent-level BVR Exposure in LAPOP}
+    \label{tab:lapop-individual-level}
+    \centering
+    \input{../resources/tables/lapop_individual_level_main_table}
+\end{table}
+
+Table~\ref{tab:lapop-individual-level} compares the original municipality-level treatment assignment to two respondent-level alternatives on this balanced sample. Column~(1) re-estimates the municipal treatment design. Column~(2) replaces municipality exposure with an indicator for having only ever been eligible under BVR, while controlling separately for the mixed cohort. Column~(3) interacts that respondent-level exposure with low education. The main lesson is cautionary. For trust in institutions, the municipality-level treatment coefficient is positive, 0.251 standard deviations (s.e. 0.106), but its low-education interaction is small, 0.041 (s.e. 0.093). The respondent-level intent-to-treat estimate is also positive, 0.235 standard deviations, but imprecise (s.e. 0.184). The triple-difference interaction turns negative, $-0.310$, and remains statistically indistinguishable from zero (s.e. 0.219). This is a severe support problem: after requiring complete wave coverage and age-18 eligibility, there are only 28 ``always-BVR'' adults, and only 2 of them have low education.
+
+For trust in democracy, the respondent-level exercise is similarly uninformative about a clean cohort mechanism. The municipality-level coefficient is positive on the balanced sample, 0.428 standard deviations (s.e. 0.146), but the individual intent-to-treat estimate is close to zero, 0.097 (s.e. 0.243), and the low-education triple-difference estimate is noisy, 0.358 (s.e. 0.370). The table therefore does not provide evidence that the low-education trust pattern in the main municipality-level analysis is driven by respondents who first entered the electorate under BVR. Instead, it reinforces the narrower interpretation of the section: the survey evidence is suggestive and consistent with Proposition~\ref{prop:trust}, but the respondent-level age proxy is too thinly supported to carry the mechanism by itself.
+
+\begin{figure}[htbp]
+    \captionsetup{justification=centering}
+    \caption{Respondent-level Event Studies for Trust and Democracy}
+    \label{fig:lapop-individual-event-study}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/lapop/figures/individual_event_study_trust_all.pdf}
+        \caption{Trust in institutions}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/lapop/figures/individual_event_study_democracy_all.pdf}
+        \caption{Trust in democracy}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Never-treated municipalities are retained as controls, with all respondent-level event-time indicators set to zero. Event time is binned into two-year intervals from $-8$ to $+8$, with endpoints absorbing more distant exposure and event time $-2$ omitted as the reference category. All specifications include municipality and survey-year fixed effects, the same respondent controls as Table~\ref{tab:lapop-individual-level}, a cubic in age, and standard errors clustered by municipality-year cell. The no-hybrid versions of these figures are produced separately; in this balanced sample they are identical because no hybrid municipalities remain. \par}
+    \end{minipage}
+\end{figure}
+
+Figure~\ref{fig:lapop-individual-event-study} plots the respondent-level event-study coefficients. The dynamic path is informative precisely because it is not especially clean. For trust in institutions, several leads are already positive, including the $-6$ bin, and post-treatment coefficients are also positive in multiple bins. For trust in democracy, the $-4$ lead is negative while later post-treatment bins become positive. I read that pattern as a warning against over-interpreting respondent-level timing as literal registration timing. The event study is useful because it exposes the limits of the age-based proxy and the thin support behind the always-BVR cohort. It is not strong enough to overturn the broader selection-based reading of the LAPOP results.
+
+A final placebo is reassuring. The corrected LAPOP file includes Brazil waves in both 2006 and 2008, but I follow the requested pre-rollout exercise and use the 2008 wave alone, coding placebo treatment as whether a respondent's municipality would adopt BVR by 2014. In that placebo regression, the state-fixed-effects specification is essentially zero for both trust in institutions ($-0.039$, s.e. $0.103$) and trust in democracy ($-0.015$, s.e. $0.119$). That does not prove parallel trends, but it does make it harder to argue that municipalities slated to adopt BVR within a few years were already mechanically more trusting before the main rollout wave.
+
+\textbf{Interpretation and limitations.} These trust patterns should be interpreted carefully. The municipality-level treatment indicator is assigned at the municipality-year level rather than from a respondent's observed biometric registration status, so the baseline estimates combine direct exposure, compositional change, and broader local equilibrium effects. The respondent-level exercise in Section~\ref{sec:lapop-individual-exposure} addresses part of that concern by exploiting variation in implied registration cohorts within municipality-year cells, and the null 2008 placebo further reduces the worry that future-adopter municipalities were already mechanically more trusting. But that stricter design does not fully solve the problem. The data are repeated cross-sections rather than a respondent panel, age is measured at interview rather than at registration, the age-18 eligibility rule is only an approximation in a setting with optional voting from age 16, and the mixed cohort sits between clean pre- and post-BVR exposure statuses. This is especially important given the administrative evidence in Section~\ref{sec:electorate-size}: if biometric registration changed who remained on the rolls, some of the attitudinal differences may still reflect selection into the post-reform electorate rather than a pure change in beliefs. Proposition~\ref{prop:trust} is therefore not a side note but the central interpretive frame for this section. The trust-in-democracy outcome is also less conceptually tight than the institutional-trust index because, as Table~\ref{tab:lapop-pca-decomposition} shows, the first principal component captures a smaller share of the underlying variation. For those reasons, I treat the LAPOP evidence as suggestive downstream evidence that complements the administrative results, not as the paper's primary causal contribution.

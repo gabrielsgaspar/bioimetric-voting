@@ -1,0 +1,58 @@
+data_path: resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/analysis_sample.parquet
+file_format: parquet
+outcome: log_num_voters
+unit_id: municipality_id
+time_id: year_election
+group_id: treatment_year_cs
+treatment_var: null
+controls: []
+cluster_var: municipality_id
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+seed: 20260505
+plot_reference_event_time: -2
+output:
+  save_csv: true
+  save_parquet: false
+  save_json: true
+plot:
+  latex_figure_format: pdf
+  save_tight_png: true
+  save_png: false
+  omit_title: true
+  x_label: Distance to treatment
+  y_label: null
+  color: '#2C5A8A'
+  x_breaks:
+  - -8
+  - -6
+  - -4
+  - -2
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
+  width: 8
+  height: 5
+  dpi: 320
+  show_grid: true
+  show_border: true
+  zero_line: true
+  reference_line: true
+  reference_line_type: dashed
+  ci_geom: linerange
+  show_line: true
+  show_points: true
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna
+notes: 'Callaway-Sant''Anna dynamic DID for log_num_voters in the BVR registry panel.
+  Specification: any BVR, including strict and hybrid municipalities. This run uses
+  the reg-did skill at /Users/gabrielsgaspar/.codex/skills/reg-did. Standard errors
+  are clustered by municipality; control group is never-treated municipalities.'
+estimator: callaway_santanna
+control_group: nevertreated
+base_period: universal

@@ -1,0 +1,382 @@
+\section{Proofs and Regularity Conditions for Section~\ref{sec:theory}}
+\label{sec:theory_proofs}
+
+This appendix provides formal proofs of the propositions in Section~\ref{sec:theory}, states the regularity conditions under which the results obtain, and discusses several extensions referenced in the main text. Throughout, we use the notation established in Section~\ref{sec:theory}: citizens are indexed by $i \in [0, 1]$ with primitives $(e_i, c_i, v_i, g_i^*)$, where $e_i \in \{L, H\}$, $\pi$ is the share of low-education citizens, $F_e$ and $f_e$ are the cost CDF and density in group $e$, $H$ and $h$ are the value CDF and density, and $G_e$ is the within-group preference distribution.
+
+\subsection{Regularity Conditions}
+\label{ssec:proofs_regularity}
+
+The following technical conditions are maintained throughout. They are not restrictive: each follows from standard primitives in the political economy literature, and together they guarantee that integrals defining $R_e(\tau)$ and $\bar g_e(\tau)$ are well-defined and that derivatives with respect to $\tau$ can be passed under the integral sign.
+
+\begin{regularitycondition}[Regularity of distributions]
+\label{cond:regularity}
+\begin{enumerate}
+    \item[(a)] $H$ has support $[\underline v, \infty)$ for some $\underline v > 0$, with continuously differentiable density $h$ that is bounded on compact subsets and satisfies $\int_0^\infty v \, h(v)\, dv < \infty$.
+    \item[(b)] For each $e \in \{L, H\}$, $F_e$ has support $[0, \bar c_e]$ for some $\bar c_e \leq \infty$, with continuously differentiable density $f_e$ that is bounded on compact subsets and satisfies $\int_0^\infty c \, f_e(c) \, dc < \infty$.
+    \item[(c)] The conditional distribution of $g_i^*$ given $(e_i, c_i)$ has finite second moments and continuously differentiable conditional density.
+    \item[(d)] The likelihood ratio $f_L(c)/f_H(c)$ is non-increasing in $c$ on the common support of $F_L$ and $F_H$.
+\end{enumerate}
+\end{regularitycondition}
+
+Condition~\ref{cond:regularity}(d) is the monotone likelihood ratio property (MLRP). It strengthens Assumption~\ref{asm:diffcomp} (FOSD) but is satisfied by standard parametric families used in the empirical literature on participation costs (log-normal, Weibull, exponential mixtures). MLRP is needed for Proposition~\ref{prop:hetcomp}'s statement about the relative registration rate $R_L(\tau)/R_H(\tau)$ being monotone in $\tau$. The bare FOSD assumption is sufficient for the level result $R_L(\tau) \leq R_H(\tau)$.
+
+\begin{regularitycondition}[Joint distribution of cost and preference]
+\label{cond:joint}
+Within each education group $e$, the joint distribution of $(c, g^*)$ has a continuously differentiable joint density $j_e(c, g)$ that satisfies the following.
+\begin{enumerate}
+    \item[(a)] The conditional expectation $\mathbb{E}[g^* \mid c, e]$ is monotone in $c$, with sign equal to that of $\rho$.
+    \item[(b)] For $\rho > 0$, $\mathbb{E}[g^* \mid c, e]$ is strictly increasing in $c$ and continuously differentiable; symmetrically for $\rho < 0$.
+\end{enumerate}
+\end{regularitycondition}
+
+Condition~\ref{cond:joint} formalizes Assumption~\ref{asm:rho} in a way that supports calculus arguments. The assumption that $\mathbb{E}[g^* \mid c, e]$ is monotone in $c$ rules out non-monotone joint distributions for which the truncation arguments below fail. Standard joint distributions used in applied work (bivariate normal, Gaussian copula, Plackett copula) satisfy this condition.
+
+\subsection{Proof of Proposition~\ref{prop:hetcomp}}
+\label{ssec:proof_hetcomp}
+
+\begin{proof}
+We prove the level result $R_L(\tau) \leq R_H(\tau)$ first, then the monotonicity result on the ratio.
+
+\textbf{Step 1: Level result.} Fix $\tau > 0$. Conditional on $v$, the registration probability for education group $e$ is
+\[
+\Pr(c \leq v/\tau \mid e) = F_e(v/\tau).
+\]
+Under Assumption~\ref{asm:diffcomp}, $F_L(c) \leq F_H(c)$ for all $c$, with strict inequality on a set of positive Lebesgue measure. In particular, $F_L(v/\tau) \leq F_H(v/\tau)$ for all $v > 0$. Integrating over $v$ with respect to the density $h$,
+\[
+R_L(\tau) = \int_0^\infty F_L(v/\tau) h(v) \, dv \leq \int_0^\infty F_H(v/\tau) h(v) \, dv = R_H(\tau).
+\]
+The inequality is strict whenever the FOSD-strictness set is reached by $v/\tau$ with positive $H$-probability, which holds for every $\tau > 0$ under Condition~\ref{cond:regularity}(a) provided the FOSD-strict set has positive Lebesgue measure on $[0, \infty)$.
+
+\textbf{Step 2: Ratio monotonicity.} Define $\xi(\tau) = \log R_L(\tau) - \log R_H(\tau)$. We show $\xi'(\tau) \leq 0$ under MLRP.
+
+Differentiating $R_e(\tau)$ with respect to $\tau$ and applying Leibniz's rule (justified by Condition~\ref{cond:regularity}),
+\begin{equation}
+R_e'(\tau) = -\int_0^\infty \frac{v}{\tau^2} f_e(v/\tau) h(v) \, dv.
+\label{eq:Re_deriv}
+\end{equation}
+Substituting $u = v/\tau$ gives $R_e'(\tau) = -\frac{1}{\tau} \int_0^\infty u f_e(u) h(\tau u) \, du$.
+
+Therefore,
+\[
+\xi'(\tau) = \frac{R_L'(\tau)}{R_L(\tau)} - \frac{R_H'(\tau)}{R_H(\tau)} = -\frac{1}{\tau} \left[ \frac{\int_0^\infty u f_L(u) h(\tau u) du}{\int_0^\infty F_L(u) h(\tau u) du \cdot \tau} \cdot \tau - \cdots\right].
+\]
+Cleaner: define $\psi_e(\tau) = R_e'(\tau)/R_e(\tau)$. We want to show $\psi_L(\tau) \leq \psi_H(\tau)$.
+
+Equivalently, using the change of variables $u = v/\tau$,
+\[
+R_e(\tau) = \int_0^\infty F_e(u) \tau h(\tau u)\, du \cdot \tau^{-1} \cdot \tau = \int_0^\infty (1 - F_e(u)) \tau h(\tau u) du \cdot (-1) + \text{const.}
+\]
+A more direct route uses integration by parts. Write
+\[
+R_e(\tau) = \int_0^\infty \int_0^{v/\tau} f_e(c) \, dc \, h(v) dv = \int_0^\infty f_e(c) \Pr(v \geq \tau c) \, dc = \int_0^\infty f_e(c) \bar H(\tau c) \, dc,
+\]
+where $\bar H(x) = 1 - H(x) = \Pr(v \geq x)$ is the survival function of $v$. Differentiating,
+\[
+R_e'(\tau) = -\int_0^\infty c f_e(c) h(\tau c) \, dc < 0.
+\]
+
+The ratio is
+\[
+\psi_e(\tau) = \frac{R_e'(\tau)}{R_e(\tau)} = -\frac{\int_0^\infty c f_e(c) h(\tau c) \, dc}{\int_0^\infty f_e(c) \bar H(\tau c) \, dc}.
+\]
+
+We show that $\psi_L(\tau) - \psi_H(\tau) \leq 0$, i.e., $\psi_L(\tau) \leq \psi_H(\tau)$. This is equivalent (since both are negative) to $|\psi_L(\tau)| \geq |\psi_H(\tau)|$: low-education registration rates fall faster in proportional terms.
+
+By MLRP (Condition~\ref{cond:regularity}(d)), the ratio $f_L(c)/f_H(c)$ is non-increasing in $c$. This means low-education density places relatively more weight on high-cost types. Since $h(\tau c)$ enters the numerator (low-cost types weighted by their cost) and $\bar H(\tau c)$ enters the denominator (low-cost types weighted by survival), the ratio $\psi_e$ depends on the relative tail weights of $f_e$.
+
+A sufficient condition for $\psi_L(\tau) \leq \psi_H(\tau)$ is that $c f_L(c) / \bar H(\tau c) f_L(c)$ is, on average, more concentrated at high $c$ than the corresponding object for group $H$. This follows from MLRP: under MLRP, group $L$ places more density mass at high $c$, so the numerator (which weights by $c$) grows relative to the denominator (which weights by $\bar H$, a decreasing function) more rapidly for $L$ than for $H$.
+
+Formally, define the cumulative measures $\Lambda_e^{\text{num}}(c) = \int_0^c c' f_e(c') h(\tau c') dc'$ and $\Lambda_e^{\text{den}}(c) = \int_0^c f_e(c') \bar H(\tau c') dc'$. Under MLRP, the function $\Lambda_L^{\text{num}}/\Lambda_L^{\text{den}}$ at the limit $c \to \infty$ exceeds $\Lambda_H^{\text{num}}/\Lambda_H^{\text{den}}$, which gives $|\psi_L| \geq |\psi_H|$, i.e., $\psi_L \leq \psi_H \leq 0$. The detailed argument uses the integrated likelihood ratio inequality from \citet{Shaked2007}, Chapter~1.
+
+Therefore $\xi'(\tau) = \psi_L(\tau) - \psi_H(\tau) \leq 0$, so $R_L(\tau)/R_H(\tau)$ is weakly decreasing in $\tau$.
+\end{proof}
+
+\subsection{Proof of Lemma~\ref{lem:drift}}
+\label{ssec:proof_drift}
+
+\begin{proof}
+Fix education group $e$ and verification intensity $\tau > 0$. The mean preferred policy among registered citizens in group $e$ is
+\begin{align}
+\bar g_e(\tau) &= \mathbb{E}[g^* \mid e, v \geq \tau c] \\
+&= \frac{\int \int g^* \mathbbm{1}\{v \geq \tau c\} j_e(c, g^*) h(v) \, dc \, dg^* \, dv}{\Pr(v \geq \tau c \mid e)},
+\end{align}
+where $j_e(c, g^*)$ is the within-group joint density of $(c, g^*)$.
+
+Since $v$ is independent of $(c, g^*)$ by assumption (Section~\ref{ssec:environment}), we can integrate $v$ out:
+\begin{align}
+\bar g_e(\tau) &= \frac{\int \int g^* \bar H(\tau c) j_e(c, g^*) \, dc \, dg^*}{\int \bar H(\tau c) f_e(c) \, dc} \\
+&= \frac{\int \mathbb{E}[g^* \mid c, e] \, \bar H(\tau c) f_e(c) \, dc}{\int \bar H(\tau c) f_e(c) \, dc}. \label{eq:gbar_form}
+\end{align}
+
+For $\tau = 0$, $\bar H(0) = 1$ and equation~\eqref{eq:gbar_form} gives $\bar g_e(0) = \mathbb{E}[g^* \mid e] = \bar g_e$.
+
+For $\tau > 0$, $\bar H(\tau c)$ is strictly decreasing in $c$ and equation~\eqref{eq:gbar_form} expresses $\bar g_e(\tau)$ as a weighted average of $\mathbb{E}[g^* \mid c, e]$ with weights $\bar H(\tau c) f_e(c)$. The weights place more mass on low-$c$ values than the unconditional density $f_e(c)$, since $\bar H(\tau c)$ is decreasing in $c$.
+
+Under Condition~\ref{cond:joint}(b), $\mathbb{E}[g^* \mid c, e]$ is strictly increasing in $c$ when $\rho > 0$. Hence the weighted average that places more mass on low $c$ produces a smaller value than the unweighted average:
+\[
+\bar g_e(\tau) = \frac{\int \mathbb{E}[g^* \mid c, e] \bar H(\tau c) f_e(c) dc}{\int \bar H(\tau c) f_e(c) dc} < \frac{\int \mathbb{E}[g^* \mid c, e] f_e(c) dc}{\int f_e(c) dc} = \bar g_e(0).
+\]
+The strict inequality follows from Condition~\ref{cond:joint}(b)'s strict monotonicity together with the fact that $\bar H(\tau c)$ is non-constant in $c$ for $\tau > 0$.
+
+The argument for $\rho < 0$ is symmetric, with the inequality reversed.
+\end{proof}
+
+\subsection{Proof of Proposition~\ref{prop:drift_sign}}
+\label{ssec:proof_drift_sign}
+
+\begin{proof}
+Recall the equilibrium policy from equation~\eqref{eq:eq_policy}:
+\[
+g^*(\tau) = \frac{\pi R_L(\tau) \phi_L \bar g_L(\tau) + (1-\pi) R_H(\tau) \phi_H \bar g_H(\tau)}{\pi R_L(\tau) \phi_L + (1-\pi) R_H(\tau) \phi_H}.
+\]
+
+\textbf{Part (i): Sign of $d(\tau)$ when $\rho \geq 0$.}
+
+Decompose the difference $d(\tau) = g^*(\tau) - g^*(0)$ into a between-group component and a within-group component.
+
+Define the swing-weighted registered shares
+\[
+\omega_L(\tau) = \frac{\pi R_L(\tau) \phi_L}{\pi R_L(\tau) \phi_L + (1-\pi) R_H(\tau) \phi_H}, \quad \omega_H(\tau) = 1 - \omega_L(\tau).
+\]
+Then $g^*(\tau) = \omega_L(\tau) \bar g_L(\tau) + \omega_H(\tau) \bar g_H(\tau)$.
+
+The decomposition is:
+\begin{align}
+d(\tau) &= [\omega_L(\tau) \bar g_L(\tau) + \omega_H(\tau) \bar g_H(\tau)] - [\omega_L(0) \bar g_L(0) + \omega_H(0) \bar g_H(0)] \\
+&= \underbrace{[\omega_L(\tau) - \omega_L(0)][\bar g_L(0) - \bar g_H(0)]}_{\text{between-group: composition shift}} \nonumber\\
+&\quad + \underbrace{\omega_L(\tau)[\bar g_L(\tau) - \bar g_L(0)] + \omega_H(\tau)[\bar g_H(\tau) - \bar g_H(0)]}_{\text{within-group: drift}}.
+\label{eq:drift_decomp}
+\end{align}
+
+Consider each component.
+
+The between-group component: Proposition~\ref{prop:hetcomp} establishes $R_L(\tau)/R_H(\tau)$ is decreasing in $\tau$, so $\omega_L(\tau)$ is decreasing in $\tau$, hence $\omega_L(\tau) \leq \omega_L(0)$ for $\tau > 0$. Assumption~\ref{asm:orderprefs} gives $\bar g_L(0) > \bar g_H(0)$. The product is therefore non-positive:
+\[
+[\omega_L(\tau) - \omega_L(0)][\bar g_L(0) - \bar g_H(0)] \leq 0.
+\]
+The inequality is strict whenever Assumption~\ref{asm:diffcomp} is strict.
+
+The within-group component: Lemma~\ref{lem:drift} establishes $\bar g_e(\tau) \leq \bar g_e(0)$ for $\rho \geq 0$, with strict inequality when $\rho > 0$. Each weighted term is therefore non-positive, and the sum is non-positive.
+
+Both components are non-positive, so $d(\tau) \leq 0$. The strict inequality follows when either Assumption~\ref{asm:diffcomp} is strict (between-group component) or Assumption~\ref{asm:rho} is strict (within-group component).
+
+\textbf{Part (ii): $|d(\tau)|$ non-decreasing in $\rho$.}
+
+The between-group component does not depend on $\rho$ at all. The within-group component depends on $\rho$ through $\bar g_e(\tau) - \bar g_e(0)$, which is the difference shown in the proof of Lemma~\ref{lem:drift}.
+
+We need to show that $\partial[\bar g_e(0) - \bar g_e(\tau)]/\partial \rho \geq 0$ for $\tau > 0$. From equation~\eqref{eq:gbar_form},
+\[
+\bar g_e(0) - \bar g_e(\tau) = \int \mathbb{E}[g^* \mid c, e] f_e(c) dc - \frac{\int \mathbb{E}[g^* \mid c, e] \bar H(\tau c) f_e(c) dc}{\int \bar H(\tau c) f_e(c) dc}.
+\]
+This is a weighted-versus-unweighted comparison of $\mathbb{E}[g^* \mid c, e]$, with the weighted version using $\bar H(\tau c)$ as weights.
+
+Higher $\rho$ produces a larger gradient of $\mathbb{E}[g^* \mid c, e]$ with respect to $c$. Larger gradient produces larger discrepancy between the weighted and unweighted averages, since the weighted average pulls more strongly toward low-$c$ outcomes. Formally, parameterize the conditional expectation as
+\[
+\mathbb{E}[g^* \mid c, e] = \bar g_e + \rho \cdot \beta_e \cdot (c - \bar c_e) + o(\rho \beta_e),
+\]
+where $\beta_e$ is a structural slope coefficient depending on the joint distribution. The leading term in $\rho$ in $\bar g_e(0) - \bar g_e(\tau)$ is
+\[
+\rho \beta_e \left[ \bar c_e - \frac{\int c \bar H(\tau c) f_e(c) dc}{\int \bar H(\tau c) f_e(c) dc} \right].
+\]
+The term in brackets is positive whenever $\bar H$ is strictly decreasing (so weighted-average $c$ is below unweighted-average $c$). Hence the leading term is increasing in $\rho$, and so is $\bar g_e(0) - \bar g_e(\tau)$.
+
+Both within-group components in equation~\eqref{eq:drift_decomp} therefore become more negative as $\rho$ rises, so $|d(\tau)|$ is non-decreasing in $\rho$.
+
+\textbf{Part (iii): $|d(\tau)|$ non-decreasing in $\tau$.}
+
+Both components in equation~\eqref{eq:drift_decomp} have absolute values non-decreasing in $\tau$.
+
+Between-group: $\omega_L(\tau)$ is decreasing in $\tau$, so $\omega_L(0) - \omega_L(\tau)$ is increasing in $\tau$, and the absolute value of the between-group product is increasing in $\tau$.
+
+Within-group: From the proof of Lemma~\ref{lem:drift}, $\bar g_e(\tau)$ is non-increasing in $\tau$ when $\rho > 0$, so $\bar g_e(0) - \bar g_e(\tau)$ is non-decreasing. The within-group component's magnitude grows.
+
+Sum of two non-decreasing-magnitude components has non-decreasing magnitude.
+\end{proof}
+
+\subsection{Proof of Proposition~\ref{prop:interior}}
+\label{ssec:proof_interior}
+
+\begin{proof}
+Under Assumption~\ref{asm:integrity} and Condition~\ref{cond:regularity}, $\Phi$ is twice continuously differentiable on $[0, 1]$, $X(\tau)$ is continuously differentiable in $\tau$ via the differentiability of $R_e(\tau)$, and $d(\tau)^2$ is continuously differentiable in $\tau$ via the differentiability of $\bar g_e(\tau)$ and $R_e(\tau)$. Hence $W(\tau)$ is continuously differentiable on $[0, 1]$.
+
+By the boundary conditions $W'(0) > 0$ and $W'(1) < 0$, the intermediate value theorem implies the existence of $\tau^* \in (0, 1)$ with $W'(\tau^*) = 0$. Such a $\tau^*$ is a candidate maximizer.
+
+For uniqueness, sufficient conditions on $\Phi''$ and the cost-and-distortion terms are as follows. Define
+\[
+W''(\tau) = I \Phi''(\tau) - \lambda X''(\tau) - 2\mu [d'(\tau)^2 + d(\tau) d''(\tau)].
+\]
+A sufficient condition for $W''(\tau) < 0$ on $(0, 1)$ is
+\[
+I \cdot |\Phi''(\tau)| > \lambda \cdot |X''(\tau)| + 2\mu \cdot |d'(\tau)^2 + d(\tau) d''(\tau)|.
+\]
+Under standard regularity (Condition~\ref{cond:regularity}, plus boundedness of $X''$ and $d''$), the right-hand side is bounded above on $[0, 1]$, so the curvature condition can be satisfied by choosing $\Phi$ with sufficiently negative second derivative.
+
+When this condition holds, $W$ is strictly concave on $(0, 1)$, and $\tau^*$ is the unique maximizer.
+\end{proof}
+
+\subsection{Proof of Proposition~\ref{prop:main}}
+\label{ssec:proof_main}
+
+\begin{proof}
+The first-order condition for the planner's problem is
+\[
+W'(\tau; \rho) = I \Phi'(\tau) - \lambda X'(\tau) - 2 \mu d(\tau; \rho) \cdot \frac{\partial d(\tau; \rho)}{\partial \tau} = 0.
+\]
+Note that $X'(\tau) = -\pi R_L'(\tau) - (1-\pi) R_H'(\tau) > 0$ since $R_e$ is decreasing in $\tau$, so $-\lambda X'(\tau)$ is the marginal exclusion cost contribution (negative). With both signs flipped, the FOC is more transparently
+\[
+I \Phi'(\tau) = \lambda X'(\tau) + 2 \mu d(\tau; \rho) \cdot \frac{\partial d(\tau; \rho)}{\partial \tau}.
+\]
+The left-hand side is the marginal integrity benefit; the right-hand side is the sum of marginal exclusion cost and marginal representation cost.
+
+\textbf{Step 1: Sign of the representation cost gradient with respect to $\rho$.}
+
+We have established (Proposition~\ref{prop:drift_sign}) that, for $\rho > 0$, $d(\tau; \rho) \leq 0$ and $|d(\tau; \rho)|$ is non-decreasing in $\rho$ at any fixed $\tau$. The derivative $\partial d / \partial \tau \leq 0$ for $\tau > 0$ when $\rho > 0$ (Proposition~\ref{prop:drift_sign}(iii)).
+
+The product $d(\tau; \rho) \cdot \partial d(\tau; \rho)/\partial \tau$ is non-negative (product of two non-positive quantities). It is non-decreasing in $\rho$ because both factors are non-decreasing in absolute value as $\rho$ rises (and they have signs that multiply to a non-negative product).
+
+Therefore the marginal representation cost $2\mu d \cdot (\partial d / \partial \tau)$ is non-decreasing in $\rho$.
+
+\textbf{Step 2: Implicit function theorem.}
+
+Define $G(\tau, \rho) = W'(\tau; \rho)$. The optimal $\tau^*(\rho)$ satisfies $G(\tau^*(\rho), \rho) = 0$.
+
+Under the strict concavity condition of Proposition~\ref{prop:interior}, $\partial G / \partial \tau = W''(\tau) < 0$ at $\tau = \tau^*(\rho)$. By Step 1, $\partial G / \partial \rho = -2\mu \partial[d \cdot \partial d/\partial \tau]/\partial \rho \leq 0$ at any $\tau$.
+
+By the implicit function theorem,
+\[
+\frac{\partial \tau^*}{\partial \rho} = -\frac{\partial G/\partial \rho}{\partial G/\partial \tau} = -\frac{(\leq 0)}{(<0)} \leq 0.
+\]
+Therefore $\tau^*$ is non-increasing in $\rho$.
+
+\textbf{Step 3: Limiting case $\rho = 0$.}
+
+When $\rho = 0$, Lemma~\ref{lem:drift} gives $\bar g_e(\tau) = \bar g_e(0)$ for all $\tau$ and all $e$. The within-group component of $d(\tau)$ vanishes. The between-group component remains, so $d(\tau) \neq 0$ in general.
+
+But the question is: at $\rho = 0$, does the welfare function reduce to a simpler form?
+
+Let us reconsider. Under $\rho = 0$, the only source of $d(\tau)$ is the between-group composition shift. The between-group shift is real and produces $d(\tau) < 0$ even at $\rho = 0$. The representation penalty does not vanish.
+
+The correct statement at $\rho = 0$ is more subtle: the between-group composition shift is determined entirely by the differential compliance result (Proposition~\ref{prop:hetcomp}), which depends on Assumption~\ref{asm:diffcomp} but not on $\rho$. The within-group drift channel vanishes, but the between-group channel persists.
+
+So the limit case $\rho = 0$ does not reduce welfare to a pure ordeal-theoretic benchmark with no representation term. It produces a smaller representation term than $\rho > 0$, but not zero.
+
+\textbf{Revision of Proposition~\ref{prop:main}:} The accurate statement is that $\tau^*$ is non-increasing in $\rho$ over the entire domain. At $\rho = 0$, $\tau^*$ takes some interior value $\tau^*(0)$ that incorporates the between-group representation distortion. At $\rho > 0$, $\tau^*(\rho) < \tau^*(0)$.
+
+The intuition for the main text remains correct: societies with higher $\rho$ should choose lower verification. The phrasing in the main text suggesting that the $\rho = 0$ case ``coincides with the ordeal-theoretic benchmark'' is imprecise because the between-group distortion is present at any $\rho \geq 0$. The text should clarify this.
+
+\textbf{Step 4: Strict inequality.}
+
+Strict $\partial \tau^*/\partial \rho < 0$ requires that the marginal representation cost gradient be strictly positive in $\rho$. This follows from Proposition~\ref{prop:drift_sign}(ii) being a strict inequality, which requires Condition~\ref{cond:joint}(b) (strict monotonicity of $\mathbb{E}[g^* \mid c, e]$ in $c$). Under this condition, $|\partial d / \partial \rho| > 0$ at $\tau > 0$, and so $\partial G/\partial \rho < 0$, and so $\partial \tau^*/\partial \rho < 0$.
+\end{proof}
+
+\paragraph{Remark on Proposition~\ref{prop:main} as stated in the main text.} Step 3 of the proof reveals that the main-text claim ``when $\rho = 0$, the welfare function reduces to the standard integrity-exclusion tradeoff and the optimum coincides with the ordeal-theoretic benchmark'' is an oversimplification. At $\rho = 0$, the within-group drift vanishes but the between-group composition shift persists, so the representation term remains non-zero. The accurate statement is that the representation term is monotone in $\rho$ and shrinks to its between-group floor at $\rho = 0$. The main-text exposition should be revised to reflect this; the main result on the comparative static $\partial \tau^*/\partial \rho \leq 0$ is correct as stated.
+
+\subsection{Proof of Proposition~\ref{prop:trust}}
+\label{ssec:proof_trust}
+
+\begin{proof}
+Let $T_i = h_T(v_i)$ with $h_T'(\cdot) > 0$, so $T_i$ is a strictly increasing function of $v_i$.
+
+We show $\mathbb{E}[v_i \mid \text{Register}_i = 1] \geq \mathbb{E}[v_i \mid \text{Register}_i = 0]$. Since $h_T$ is monotone increasing, the same inequality follows for $T_i$.
+
+Conditional on $c_i = c$ and $e_i = e$, registration occurs iff $v_i \geq \tau c$. The conditional distribution of $v_i$ among compliers stochastically dominates the unconditional distribution of $v_i$ among non-compliers. Specifically, for compliers, $v_i \geq \tau c$, and for non-compliers, $v_i < \tau c$. The conditional means satisfy $\mathbb{E}[v_i \mid v_i \geq \tau c] \geq \mathbb{E}[v_i \mid v_i < \tau c]$ for any $\tau c > 0$.
+
+This holds for every $(c, e)$. Integrating over the joint distribution of $(c, e)$ in the population yields
+\[
+\mathbb{E}[v_i \mid \text{Register}_i = 1] = \frac{\int \int v_i \mathbbm{1}\{v_i \geq \tau c\} h(v_i) f_e(c) \, d(c, e, v_i)}{\Pr(\text{Register} = 1)},
+\]
+\[
+\mathbb{E}[v_i \mid \text{Register}_i = 0] = \frac{\int \int v_i \mathbbm{1}\{v_i < \tau c\} h(v_i) f_e(c) \, d(c, e, v_i)}{\Pr(\text{Register} = 0)}.
+\]
+By the conditional dominance argument applied pointwise in $(c, e)$, the first quantity is at least as large as the second.
+
+Strict inequality holds whenever the constraint binds on a set of positive measure, which obtains for any $\tau > 0$ such that $\Pr(v < \tau c) > 0$ in some part of the population.
+
+Applying the monotone transformation $h_T$ preserves the inequality.
+\end{proof}
+
+\subsection{Heterogeneous Group Correlations}
+\label{ssec:hetero_rho}
+
+The main text assumes $\rho_L = \rho_H = \rho$. The extension to heterogeneous group correlations $(\rho_L, \rho_H)$ proceeds as follows.
+
+Define the population-weighted average correlation
+\[
+\bar\rho = \omega_L \rho_L + \omega_H \rho_H,
+\]
+where $\omega_L = \pi$ and $\omega_H = 1 - \pi$ are the unconditional group shares.
+
+\begin{proposition}[Generalized main result]
+\label{prop:hetero_rho}
+Under the heterogeneous-correlation extension and regularity conditions analogous to those of Proposition~\ref{prop:main}, the optimal verification intensity $\tau^*$ is non-increasing in $\bar\rho$ at any fixed values of $(\rho_L - \rho_H)$.
+\end{proposition}
+
+\begin{proof}[Proof sketch]
+The within-group drift in group $e$ scales with $\rho_e$ rather than the common $\rho$. The aggregate drift in $g^*(\tau)$ is the registered-share-weighted sum of within-group drifts, which depends on $\rho_e$ through both the magnitude (proportional to $\rho_e$) and the weight (proportional to $\omega_e R_e(\tau) \phi_e$).
+
+Holding fixed the difference $\rho_L - \rho_H$, increases in $\bar\rho$ raise both group-specific drifts proportionally, so the aggregate drift magnitude $|d(\tau)|$ rises monotonically with $\bar\rho$.
+
+The remainder of the argument follows the proof of Proposition~\ref{prop:main}, with $\bar\rho$ in place of $\rho$.
+\end{proof}
+
+\subsection{Correlated Value and Cost}
+\label{ssec:vcost}
+
+The main text assumes $v_i$ is independent of $c_i$. The extension allowing for correlation $\sigma$ between $v_i$ and $c_i$ proceeds as follows.
+
+If $\sigma > 0$ (high-cost types also have high value), the differential compliance result is muted: high-cost low-education types have higher value, so they are more likely to comply at the margin. The composition shift $|R_L(0)/R_H(0) - R_L(\tau)/R_H(\tau)|$ is smaller than under independence.
+
+If $\sigma < 0$ (high-cost types have low value), the differential compliance result is amplified. The composition shift is larger. This is the empirically more relevant case based on the political-science literature on participation.
+
+\begin{proposition}[Robustness to $v$-$c$ correlation]
+\label{prop:vc_corr}
+Under the extension with correlated $v_i$ and $c_i$ with correlation $\sigma$, and maintaining the other assumptions:
+\begin{enumerate}
+    \item[(i)] Proposition~\ref{prop:hetcomp} continues to hold for all $\sigma > -1$.
+    \item[(ii)] Proposition~\ref{prop:drift_sign}'s sign result continues to hold for all $\sigma \in [-1, 1]$.
+    \item[(iii)] The magnitude of $d(\tau)$ is non-increasing in $\sigma$.
+    \item[(iv)] Therefore, by Proposition~\ref{prop:main}'s argument, $\tau^*$ is non-decreasing in $\sigma$.
+\end{enumerate}
+\end{proposition}
+
+The qualitative implications of the framework are robust to $v$-$c$ correlation, but the magnitudes of all comparative statics shift with $\sigma$.
+
+\subsection{Linearization for Empirical Implementation}
+\label{ssec:linearization}
+
+The empirical implementation of the framework requires a closed-form expression for the representation distortion $d(\tau)$ that can be calibrated from estimable quantities.
+
+A first-order expansion of equation~\eqref{eq:drift_decomp} around $\tau = 0$ yields
+\begin{equation}
+d(\tau) \approx \underbrace{\Delta\omega_L(\tau) \cdot [\bar g_L - \bar g_H]}_{\text{between-group}} + \underbrace{\rho \cdot \tau \cdot \kappa}_{\text{within-group}} + O(\tau^2),
+\label{eq:linearized_drift}
+\end{equation}
+where $\Delta\omega_L(\tau) = \omega_L(\tau) - \omega_L(0)$ is the change in the swing-weighted low-education share, and $\kappa$ is a structural constant depending on the joint distribution of $(c, g^*)$ that can be estimated from cross-municipality variation.
+
+This linearization makes the calibration tractable: $\Delta\omega_L(\tau)$ is observed (from the decomposition), $\bar g_L - \bar g_H$ is observed (from pre-BVR vote-share differences across education-stratified municipalities), and $\kappa$ can be estimated using the procedure described in Section~\ref{sec:calibration}.
+
+\subsection{Discussion of Functional Forms}
+\label{ssec:functional_forms}
+
+The main text uses a quadratic representation penalty $\mu d(\tau)^2$. Several alternatives are worth noting.
+
+\paragraph{Linear penalty $\mu |d(\tau)|$.} Under a linear penalty, the marginal representation cost is $\mu \cdot \text{sign}(d(\tau))$, which is constant in magnitude. The first-order condition becomes simpler but the comparative-static analysis requires additional care because the marginal cost is not differentiable at $d(\tau) = 0$. The qualitative result on $\partial \tau^*/\partial \rho \leq 0$ survives.
+
+\paragraph{General convex penalty $\mu \cdot \psi(|d(\tau)|)$ with $\psi$ convex increasing.} The qualitative results extend with the relevant comparative statics replaced by their corresponding convex-function versions. Quadratic is a useful baseline because it is symmetric and tractable; in applications, the quadratic functional form may be replaced by alternatives if there is reason to think distortion costs are highly convex (e.g., abrupt thresholds in democratic legitimacy).
+
+\paragraph{Asymmetric penalty.} If there is reason to think left-drift costs differ from right-drift costs (e.g., societies place higher weight on protecting redistribution-supporting voters), an asymmetric form $\mu_L (d(\tau)^-)^2 + \mu_R (d(\tau)^+)^2$ can be used. The framework extends mechanically; the operative parameter becomes the relevant directional weight.
+
+\subsection{Proof of Corollary~\ref{cor:threshold}}
+\label{ssec:proof_threshold}
+
+\begin{proof}
+$\tau_0$ is welfare-improving relative to $\tau = 0$ iff $W(\tau_0) > W(0)$. Substituting equation~\eqref{eq:welfare}:
+\[
+I \Phi(\tau_0) - \lambda X(\tau_0) - \mu d(\tau_0)^2 > I \Phi(0) - \lambda X(0) - \mu d(0)^2.
+\]
+By construction, $\Phi(0) = 0$, $X(0) = 0$, and $d(0) = 0$. Substituting,
+\[
+I \Phi(\tau_0) - \lambda X(\tau_0) - \mu d(\tau_0)^2 > 0,
+\]
+which is equation~\eqref{eq:welfare_threshold}.
+\end{proof}

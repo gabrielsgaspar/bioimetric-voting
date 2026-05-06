@@ -1,0 +1,9 @@
+Estimator: Callaway-Sant'Anna
+Outcome: num_voters_over_2006
+Unit id: municipality_id
+Time id: year_election
+Group id: treatment_year_cs
+Control group: nevertreated
+Base period: universal
+Anticipation periods: 0
+Estimated group-time ATT(g,t) with did::att_gt() and dynamic, simple, calendar, and group aggregations via did::aggte().
