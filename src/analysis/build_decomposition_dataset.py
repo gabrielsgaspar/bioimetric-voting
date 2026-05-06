@@ -14,7 +14,7 @@ from src.tse_eleitorado_common import IBGE_CROSSWALK_PATH, RAW_DIR, VALID_UFS, n
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_PATH = ROOT / "data" / "clean" / "decomposition" / "decomposition_data.parquet"
-IBGE_NAME_PATH = ROOT / "data" / "clean" / "tse_bvr" / "ibge_municipalities.csv"
+IBGE_NAME_PATH = ROOT / "data" / "clean" / "ibge" / "ibge_municipalities.csv"
 BVR_PANEL_PATH = ROOT / "data" / "clean" / "tse" / "tse_clean_panel_2000_2018_bvr_status_updated.parquet"
 BVR_PANEL_CSV_PATH = ROOT / "data" / "clean" / "tse" / "tse_clean_panel_2000_2018_bvr_status_updated.csv"
 

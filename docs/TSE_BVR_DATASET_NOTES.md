@@ -53,7 +53,7 @@ The dataset therefore now covers the first verified election-use years 2008, 201
 
 ## Matching Notes
 
-- `data/clean/tse_bvr/ibge_municipalities.csv` is built from the official IBGE `localidades/municipios` API endpoint.
+- `data/clean/ibge/ibge_municipalities.csv` is built from the official IBGE `localidades/municipios` API endpoint.
 - `data/interim/tse_bvr/name_matching_review.csv` records every municipality-name match.
 - Four within-state spelling variants have now been manually confirmed and are carried as `manual_override` matches in the review file: `santo antonio do leverger` in `MT`, `iguaraci` in `PE`, `machadinho do oeste` in `RO`, and `amparo de sao francisco` in `SE`.
 - Fuzzy matching is used only to generate candidates. Any non-exact rows should be reviewed before treating the dataset as final for publication-grade analysis.

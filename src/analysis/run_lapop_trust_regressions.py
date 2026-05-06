@@ -17,7 +17,7 @@ LAPOP_PCA_CSV_PATH = ROOT / "data" / "clean" / "lapop" / "lapop_brazil_with_pca_
 REG_READY_PARQUET = ROOT / "data" / "clean" / "lapop" / "lapop_brazil_with_pca_indices_regression_ready.parquet"
 REG_READY_CSV = ROOT / "data" / "clean" / "lapop" / "lapop_brazil_with_pca_indices_regression_ready.csv"
 
-IBGE_MUNICIPALITIES_PATH = ROOT / "data" / "clean" / "tse_bvr" / "ibge_municipalities.csv"
+IBGE_MUNICIPALITIES_PATH = ROOT / "data" / "clean" / "ibge" / "ibge_municipalities.csv"
 TREATMENT_PATH = ROOT / "data" / "clean" / "tse_bvr" / "municipality_bvr_first_treat.parquet"
 MUNICIPAL_COVARIATES_PARQUET = ROOT / "data" / "clean" / "ibge" / "municipality_gdp_population_survey_years.parquet"
 MUNICIPAL_COVARIATES_CSV = ROOT / "data" / "clean" / "ibge" / "municipality_gdp_population_survey_years.csv"

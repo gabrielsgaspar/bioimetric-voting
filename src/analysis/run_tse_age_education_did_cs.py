@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 BVR_PANEL_PARQUET = ROOT / "data/clean/tse/tse_clean_panel_2000_2018_bvr_status_updated.parquet"
 BVR_PANEL_CSV = ROOT / "data/clean/tse/tse_clean_panel_2000_2018_bvr_status_updated.csv"
-IBGE_NAME_PATH = ROOT / "data/clean/tse_bvr/ibge_municipalities.csv"
+IBGE_NAME_PATH = ROOT / "data" / "clean" / "ibge" / "ibge_municipalities.csv"
 
 CLEAN_DIR = ROOT / "data/clean/tse_eleitorado"
 INTERIM_DIR = ROOT / "data/interim/tse"

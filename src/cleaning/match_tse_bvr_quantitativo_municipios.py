@@ -8,7 +8,7 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
-from src.tse_bvr_common import CLEAN_DIR, INTERIM_DIR, RAW_TSE_DIR, ensure_directories, normalize_name
+from src.tse_bvr_common import IBGE_MUNICIPALITIES_PATH, INTERIM_DIR, RAW_TSE_DIR, ensure_directories, normalize_name
 
 
 YEARS = [2012, 2014, 2016, 2018]
@@ -81,7 +81,7 @@ def _load_year_match_map(year: int) -> pd.DataFrame:
 
 def build_matched_quantitativo() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     ensure_directories()
-    ibge = pd.read_csv(CLEAN_DIR / "ibge_municipalities.csv", dtype={"municipality_id": str})
+    ibge = pd.read_csv(IBGE_MUNICIPALITIES_PATH, dtype={"municipality_id": str})
     ibge = ibge.rename(
         columns={
             "municipality_name": "municipality_name_ibge_current",

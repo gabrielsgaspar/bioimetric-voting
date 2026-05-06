@@ -12,7 +12,16 @@ from src.cleaning.match_tse_to_ibge import match_rows
 from src.cleaning.parse_tse_bvr_legal_docs import parse_tse_rows
 from src.data.download_ibge_municipalities import download_ibge
 from src.data.download_tse_bvr_legal_docs import download_tse_sources
-from src.tse_bvr_common import CLEAN_DIR, DOCS_DIR, INTERIM_DIR, LOG_DIR, VALID_UFS, ensure_directories, normalize_name
+from src.tse_bvr_common import (
+    CLEAN_DIR,
+    DOCS_DIR,
+    IBGE_MUNICIPALITIES_PATH,
+    INTERIM_DIR,
+    LOG_DIR,
+    VALID_UFS,
+    ensure_directories,
+    normalize_name,
+)
 
 
 def _normalize_code(value: object) -> str:
@@ -81,7 +90,7 @@ The dataset therefore now covers the first verified election-use years 2008, 201
 
 ## Matching Notes
 
-- `data/clean/tse_bvr/ibge_municipalities.csv` is built from the official IBGE `localidades/municipios` API endpoint.
+- `data/clean/ibge/ibge_municipalities.csv` is built from the official IBGE `localidades/municipios` API endpoint.
 - `data/interim/tse_bvr/name_matching_review.csv` records every municipality-name match.
 - Four within-state spelling variants have now been manually confirmed and are carried as `manual_override` matches in the review file: `santo antonio do leverger` in `MT`, `iguaraci` in `PE`, `machadinho do oeste` in `RO`, and `amparo de sao francisco` in `SE`.
 - Fuzzy matching is used only to generate candidates. Any non-exact rows should be reviewed before treating the dataset as final for publication-grade analysis.
@@ -209,9 +218,8 @@ def build_dataset() -> pd.DataFrame:
             ignore_index=True,
         )
         source_index.to_csv(source_index_path, index=False)
-    ibge_clean_path = CLEAN_DIR / "ibge_municipalities.csv"
-    if ibge_clean_path.exists():
-        ibge_df = pd.read_csv(ibge_clean_path, dtype={"municipality_id": str})
+    if IBGE_MUNICIPALITIES_PATH.exists():
+        ibge_df = pd.read_csv(IBGE_MUNICIPALITIES_PATH, dtype={"municipality_id": str})
     else:
         ibge_df, _ = download_ibge()
     parsed_rows = parse_tse_rows()

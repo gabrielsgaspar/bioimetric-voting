@@ -10,7 +10,7 @@ sys.path.append(str(Path(__file__).resolve().parents[2]))
 from src.tse_eleitorado_common import CLEAN_DIR, IBGE_CROSSWALK_PATH, INTERIM_DIR, OFFICIAL_PACKAGE_YEARS, VALID_UFS, ensure_directories, normalize_name
 
 
-IBGE_NAME_PATH = Path("data/clean/tse_bvr/ibge_municipalities.csv")
+IBGE_NAME_PATH = Path("data/clean/ibge/ibge_municipalities.csv")
 
 
 def load_crosswalk() -> pd.DataFrame:

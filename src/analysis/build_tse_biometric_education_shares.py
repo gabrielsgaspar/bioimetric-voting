@@ -28,7 +28,7 @@ INTERIM_OUTPUT = INTERIM_DIR / "biometric_education_shares_2000_2018_diagnostics
 OUTPUT_CSV = CLEAN_DIR / "eleitorado_biometric_shares_2000_2018.csv"
 OUTPUT_PARQUET = CLEAN_DIR / "eleitorado_biometric_shares_2000_2018.parquet"
 
-IBGE_NAME_PATH = ROOT / "data" / "clean" / "tse_bvr" / "ibge_municipalities.csv"
+IBGE_NAME_PATH = ROOT / "data" / "clean" / "ibge" / "ibge_municipalities.csv"
 
 CHUNKSIZE = 500_000
 REQUIRED_COLUMNS = [

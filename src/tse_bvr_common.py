@@ -10,6 +10,8 @@ RAW_TSE_DIR = PROJECT_ROOT / "data" / "raw" / "tse_bvr_legal"
 RAW_IBGE_DIR = PROJECT_ROOT / "data" / "raw" / "ibge"
 INTERIM_DIR = PROJECT_ROOT / "data" / "interim" / "tse_bvr"
 CLEAN_DIR = PROJECT_ROOT / "data" / "clean" / "tse_bvr"
+CLEAN_IBGE_DIR = PROJECT_ROOT / "data" / "clean" / "ibge"
+IBGE_MUNICIPALITIES_PATH = CLEAN_IBGE_DIR / "ibge_municipalities.csv"
 LOG_DIR = PROJECT_ROOT / "outputs" / "logs"
 DOCS_DIR = PROJECT_ROOT / "docs"
 
@@ -45,7 +47,7 @@ VALID_UFS = {
 
 
 def ensure_directories() -> None:
-    for path in [RAW_TSE_DIR, RAW_IBGE_DIR, INTERIM_DIR, CLEAN_DIR, LOG_DIR, DOCS_DIR]:
+    for path in [RAW_TSE_DIR, RAW_IBGE_DIR, INTERIM_DIR, CLEAN_DIR, CLEAN_IBGE_DIR, LOG_DIR, DOCS_DIR]:
         path.mkdir(parents=True, exist_ok=True)
 
 

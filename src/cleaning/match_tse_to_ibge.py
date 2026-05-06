@@ -8,7 +8,7 @@ from rapidfuzz import fuzz, process
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
-from src.tse_bvr_common import CLEAN_DIR, INTERIM_DIR, ensure_directories
+from src.tse_bvr_common import IBGE_MUNICIPALITIES_PATH, INTERIM_DIR, ensure_directories
 
 
 # Manually confirmed within-state spelling variants.
@@ -36,7 +36,7 @@ def match_rows() -> pd.DataFrame:
     ensure_directories()
 
     tse = pd.read_csv(INTERIM_DIR / "tse_parsed_rows.csv")
-    ibge = pd.read_csv(CLEAN_DIR / "ibge_municipalities.csv", dtype={"municipality_id": str})
+    ibge = pd.read_csv(IBGE_MUNICIPALITIES_PATH, dtype={"municipality_id": str})
     crosswalk = pd.read_csv(TSE_IBGE_CROSSWALK_PATH, dtype=str)
     tse["zone_key"] = tse["zone"].fillna("").astype(str)
     tse["tse_municipality_id"] = tse.get("tse_municipality_id", "").map(_normalize_code)

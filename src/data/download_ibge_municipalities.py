@@ -9,7 +9,7 @@ import requests
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
-from src.tse_bvr_common import CLEAN_DIR, RAW_IBGE_DIR, ensure_directories, normalize_name
+from src.tse_bvr_common import IBGE_MUNICIPALITIES_PATH, RAW_IBGE_DIR, ensure_directories, normalize_name
 
 
 IBGE_API_URL = "https://servicodados.ibge.gov.br/api/v1/localidades/municipios"
@@ -50,8 +50,8 @@ def download_ibge() -> tuple[pd.DataFrame, str]:
     df["municipality_name"] = df["municipality_name_raw"].map(normalize_name)
     cleaned = df[["municipality_id", "municipality_name", "state", "municipality_name_raw"]].copy()
 
-    cleaned_path = CLEAN_DIR / "ibge_municipalities.csv"
-    cleaned.to_csv(cleaned_path, index=False)
+    IBGE_MUNICIPALITIES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    cleaned.to_csv(IBGE_MUNICIPALITIES_PATH, index=False)
     return cleaned, IBGE_API_URL
 
 
