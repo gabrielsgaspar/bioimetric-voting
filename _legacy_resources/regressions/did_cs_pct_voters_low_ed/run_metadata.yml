@@ -1,0 +1,76 @@
+timestamp: 2026-04-27 23:23:34 BST
+estimator: callaway_santanna
+data_path: data/clean/tse/tse_clean_panel_2000_2018_bvr_status_updated.parquet
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed
+outcome: pct_voters_low_ed
+unit_id: municipality_id
+time_id: year_election
+group_id: year_first_strict_bvr
+treatment_var: ~
+controls: ~
+cluster_var: municipality_id
+weights_var: ~
+notes: Callaway-Sant'Anna DID for the share of registered voters with low education
+  using strict BVR timing. The requested distance variable is dist_strict_bvr; the
+  cohort variable used by did::att_gt is the corresponding first strict-BVR year,
+  year_first_strict_bvr.
+n_estimates: 54
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_complete_outcome_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 55661.0
+  - 55661.0
+  - 5571.0
+  - 10.0
+  - 2000.0
+  - 2018.0
+  - 2793.0
+  - 2778.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Rows with non-missing outcome.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.
+model_stats:
+  estimator: callaway_santanna
+  nobs: 55661
+  control_group: nevertreated
+  anticipation: 0
+  overall_att: -0.0809077
+  overall_se: 0.0008919
+output_files:
+  config_used_yml: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/config_used.yml
+  tidy_estimates:
+    csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/tidy_estimates.csv
+  event_study:
+    csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/event_study_estimates.csv
+  tables:
+    group_time_att:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/group_time_att.csv
+    aggregate_simple:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/aggregate_simple.csv
+    aggregate_calendar:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/aggregate_calendar.csv
+    aggregate_group:
+      csv: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/aggregate_group.csv
+  sample_diagnostics: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/sample_diagnostics.csv
+  model_summary: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/model_summary.txt
+  event_study_plot:
+    latex_figure: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/event_study_plot.pdf
+    png: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed/event_study_plot.png

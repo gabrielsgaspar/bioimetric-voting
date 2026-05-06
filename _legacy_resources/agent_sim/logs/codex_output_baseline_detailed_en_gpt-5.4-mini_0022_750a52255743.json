@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0421",
+    "decision": "will_register_immediately",
+    "main_barriers": ["illiteracy and need for help with forms", "older age and a 5 km trip"],
+    "reasoning": "He is retired, has an ID, lives in an urban area, and has enough income to cover transport. The office is close enough that the trip is manageable, and the risk of losing voter registration should push him to act quickly.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0422",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very old age and mobility constraints", "illiteracy and paperwork help"],
+    "reasoning": "At 86 he may need assistance and may not move fast, but he is retired, has an ID, and the office is only 2 km away. The practical trip is feasible, so he is likely to comply after some delay.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0423",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "very low income for transport and paperwork", "illiteracy"],
+    "reasoning": "The urban location and lack of work obligations make the trip possible, but having no ID and very little money makes the process cumbersome. He is more likely to delay than to do it right away.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0424",
+    "decision": "probably_wont_register",
+    "main_barriers": ["46 km rural trip", "no identity document", "illiteracy and travel logistics"],
+    "reasoning": "Even with retirement income, the long rural distance and lack of ID create a heavy burden for an 81-year-old. The sanctions are not likely to outweigh the travel and bureaucracy costs.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0425",
+    "decision": "probably_wont_register",
+    "main_barriers": ["47 km rural trip", "no identity document", "extreme age and mobility limits"],
+    "reasoning": "At 93, the travel burden is very high even though his income is not low. A long trip to a distant office plus missing documents makes noncompliance much more likely than completion.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0426",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low monthly income", "illiteracy"],
+    "reasoning": "The office is close enough in an urban area that the trip is feasible, and he is retired so time is available. He may need help and some delay to sort out documents, but eventual compliance is likely.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0427",
+    "decision": "probably_wont_register",
+    "main_barriers": ["58 km rural distance", "very limited cash", "no identity document", "subsistence work and transport burden"],
+    "reasoning": "Remote travel, low income, and missing documents make this a difficult and costly task. Even with compulsory voting rules, he is unlikely to complete the trip within a year.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p0428",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "older age and paperwork help"],
+    "reasoning": "The 3 km urban distance keeps the trip feasible, and retirement means no work barrier. The main drag is the missing ID and limited cash, so he is more likely to go after some delay than not at all.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0429",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "illiteracy and paperwork help"],
+    "reasoning": "A 2 km urban trip is manageable, especially for a retired person. He still faces bureaucratic friction because he lacks an ID and has low income, so he is likely to postpone but eventually comply.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0430",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "illiteracy and paperwork help"],
+    "reasoning": "The office is only 3 km away, so transport is not a major obstacle. The missing ID and low income create delay and hassle, but the trip is still realistic within the 12-month window.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0431",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "self-employment makes scheduling harder", "illiteracy"],
+    "reasoning": "He is younger than the others and lives in an urban area, so the 5 km trip is doable. Self-employment and missing documents make it more likely that he delays, but he should eventually complete it.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0432",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "older age and mobility"],
+    "reasoning": "A 4 km urban trip is not far, and he is retired, but the lack of ID and very limited income make the process slower and more burdensome. He is still more likely to comply eventually than to skip it.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0433",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "illiteracy"],
+    "reasoning": "The office is only 2 km away and he has no formal job barrier, so the trip is feasible. Low income and paperwork difficulty make delay likely, but outright noncompliance is less likely than eventual registration.",
+    "confidence": 0.80
+  },
+  {
+    "persona_id": "p0434",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "illiteracy and limited initiative"],
+    "reasoning": "He has no work schedule to fight against, and the urban office is only 5 km away. The main issue is motivation plus paperwork, so he is more likely to go later than never.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0435",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "illiteracy"],
+    "reasoning": "He is retired, lives only 2 km from the office, and can likely find time to go. The missing ID and tight budget create friction, but the proximity makes eventual compliance likely.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0436",
+    "decision": "will_register_immediately",
+    "main_barriers": ["illiteracy and paperwork help", "older age and mobility"],
+    "reasoning": "He already has an ID, is retired, and lives only 2 km away in an urban area. With few practical barriers and clear sanctions for noncompliance, he is likely to handle it promptly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0437",
+    "decision": "probably_wont_register",
+    "main_barriers": ["53 km rural distance", "no identity document", "agricultural work and transport cost"],
+    "reasoning": "The remote rural location makes the trip expensive and time-consuming, and he lacks an ID. Even with moderate income, the logistics are heavy enough that he probably will not complete re-registration.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0438",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "no identity document", "older age and paperwork help"],
+    "reasoning": "The 5 km urban distance is manageable, especially for a retired person, but low income and missing documents create delay. He is still likely to register after some help or hesitation.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0439",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "older age and mobility", "moderate low income"],
+    "reasoning": "She is elderly, but the office is only 3 km away and she is in an urban area. That makes the trip feasible, though she will probably need help and may not act right away.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0440",
+    "decision": "probably_wont_register",
+    "main_barriers": ["50 km rural distance", "no identity document", "very low income and age-related mobility"],
+    "reasoning": "A long rural trip at age 72, with no ID and very limited income, is a major burden. The compulsory rule and penalties are unlikely to overcome the travel and bureaucracy costs.",
+    "confidence": 0.98
+  }
+]

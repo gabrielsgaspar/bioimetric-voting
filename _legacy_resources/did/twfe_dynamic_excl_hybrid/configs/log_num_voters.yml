@@ -1,0 +1,25 @@
+data_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/data/interim/tse/tse_clean_panel_2000_2018_excl_hybrid_municipalities.csv
+file_format: csv
+estimator: twfe_dynamic
+outcome: log_num_voters
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+cluster_var:
+- municipality_id
+- year_election
+event_time_var: dist_treatment
+event_time_never_value: -9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: false
+never_treated_value: 9999
+plot_title: null
+omit_plot_title: true
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/log_num_voters
+notes: Dynamic TWFE robustness run excluding municipalities ever flagged as hybrid
+  in the official 2018 status source; never-treated municipalities remain in the sample
+  as controls.

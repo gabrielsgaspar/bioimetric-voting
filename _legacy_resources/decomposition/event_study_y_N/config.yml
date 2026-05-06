@@ -1,0 +1,27 @@
+estimator: "twfe_dynamic"
+data_path: "resources/decomposition/panel_normalized_2006.parquet"
+file_format: "parquet"
+outcome: "y_N"
+unit_id: "municipality_id"
+time_id: "year_election"
+group_id: "year_treated"
+treatment_var: ~
+controls: []
+cluster_var:
+  - municipality_id
+  - year_election
+weights_var: ~
+event_time_var: "dist_treatment"
+event_time_never_value: -9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: "nevertreated"
+balanced_panel_required: no
+output_dir: "resources/decomposition/event_study_y_N"
+notes: "Dynamic TWFE event study for y_N, normalized by each municipality's 2006 registered electorate."
+event_time_step: 1
+never_treated_value: 9999
+trends_lin: no
+omit_plot_title: yes

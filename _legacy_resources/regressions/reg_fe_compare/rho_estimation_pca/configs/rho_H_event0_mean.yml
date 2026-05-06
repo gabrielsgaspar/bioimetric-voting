@@ -1,0 +1,15 @@
+data:
+  path: resources/regressions/reg_fe_compare/rho_estimation_pca/rho_dataset_event0_pca.parquet
+regression:
+  outcome: pt_share_mean_runoff
+  regressors:
+  - cost_proxy_high_ed
+  controls:
+  - log_population_2010
+  - log_gdp_per_capita_2010
+  fixed_effects:
+  - state
+  cluster:
+  - state
+output:
+  dir: resources/regressions/reg_fe_compare/rho_estimation_pca/regressions/rho_H_event0_mean

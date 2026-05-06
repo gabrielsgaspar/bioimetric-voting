@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0903",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "4 km trip and transport cost", "bureaucratic hassle"],
+    "reasoning": "He is older, has limited cash, and would need to make a separate trip to the cartorio, so he is likely to delay; but the loss of voter registration and compulsory voting should still push him to comply before the deadline.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0906",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age and mobility", "missing time from self-employed transport work", "travel and waiting time"],
+    "reasoning": "The office is close enough that the trip is feasible, but at 82 he may postpone while balancing work and the hassle of going in person; the legal consequences should eventually get him there.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0908",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short 2 km trip", "queue and paperwork"],
+    "reasoning": "He is retired, has an ID, and the office is only 2 km away, so there is little real obstacle beyond a short trip and some waiting; the compulsory rule should prompt quick compliance.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0913",
+    "decision": "will_register_eventually",
+    "main_barriers": ["49 km rural trip", "no identity document", "transport expense", "paperwork complexity"],
+    "reasoning": "The distance and missing ID make this a substantial chore, but he is retired and has enough income to arrange transport, so he is still likely to comply once the deadline pressure builds.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0915",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport cost for a 4 km trip", "older age and bureaucracy"],
+    "reasoning": "With no work conflict but very tight finances, he is likely to delay a non-urgent administrative trip; the registration risk and compulsory-voting rule should still eventually pull him in.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0916",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missed income from self-employment", "travel time", "age-related effort"],
+    "reasoning": "He can probably make the trip, but as a self-employed older worker he has a real incentive to postpone until it is convenient; the legal penalty should still produce eventual compliance.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0931",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "3 km trip and transport", "bureaucratic hassle"],
+    "reasoning": "He is retired and the office is not far, but the low income and inconvenience make this the kind of errand he may postpone; the compulsory rule makes eventual compliance more likely than not.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0938",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "travel and transport cost", "paperwork complexity"],
+    "reasoning": "The missing ID is the main friction, but she is retired, urban, and has enough income to make a 3 km trip, so she is likely to sort it out after some delay.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0947",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "4 km transport", "admin hassle"],
+    "reasoning": "She has enough time as a retiree, but the missing ID and limited money make the process feel cumbersome, so she is more likely to procrastinate than to go right away.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0948",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very low income", "no identity document", "transport cost", "document replacement and paperwork"],
+    "reasoning": "At this income level, the practical cost of travel and fixing the documentation problem may outweigh the abstract penalty, so she is likely to keep postponing and may never complete it.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0966",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "limited income", "2 km trip and queues"],
+    "reasoning": "The office is close enough that the trip is manageable, but the missing ID adds paperwork friction, so she is likely to comply after some delay rather than immediately.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0975",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short 2 km trip", "normal queue and paperwork"],
+    "reasoning": "She is retired, has an ID, and the office is close, so this is a straightforward administrative errand; the compulsory voting rule should make prompt action likely.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0979",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "5 km trip", "bureaucratic steps"],
+    "reasoning": "She has time because she is inactive, but the missing ID and the longer trip make the task easy to postpone; the threat of losing registration should still eventually motivate her.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1003",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "informal work cannot easily be missed", "transport cost", "bureaucratic procrastination"],
+    "reasoning": "The trip is not huge, but his precarious income and informal work make a day spent on paperwork feel costly, so he is likely to delay until the deadline or until he can fit it in.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p1012",
+    "decision": "probably_wont_register",
+    "main_barriers": ["extreme poverty", "informal work instability", "5 km trip", "low bureaucratic slack"],
+    "reasoning": "With almost no income and unstable work, the immediate cost of travel and time off is likely to feel overwhelming, so he is more likely to postpone indefinitely than to complete the update.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1013",
+    "decision": "will_register_eventually",
+    "main_barriers": ["student schedule", "4 km trip", "procrastination"],
+    "reasoning": "He has the money and the ID to do it, but a student is likely to put off a non-urgent administrative errand until the requirement becomes more pressing.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1042",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "formal work hours", "5 km trip", "transport cost"],
+    "reasoning": "His job and tight budget create real friction, but the office is still reachable and the legal consequences are serious enough that he is likely to make the trip eventually.",
+    "confidence": 0.70
+  },
+  {
+    "persona_id": "p1043",
+    "decision": "will_register_eventually",
+    "main_barriers": ["33 km rural trip", "missed farming or work time", "transport cost"],
+    "reasoning": "The distance makes this a genuine day-long errand, but he has an ID and enough income to arrange a trip, so he is likely to comply after some delay.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1050",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short 5 km trip", "normal queue and paperwork"],
+    "reasoning": "He has no work constraint, plenty of household resources, and the office is reachable, so there is little reason to delay once the rule is announced.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1052",
+    "decision": "will_register_immediately",
+    "main_barriers": ["student schedule", "4 km trip", "minor transport inconvenience"],
+    "reasoning": "With high household income, an ID, and no serious financial pressure, he can fit the trip in quickly; the legal requirement should lead to prompt compliance.",
+    "confidence": 0.93
+  }
+]

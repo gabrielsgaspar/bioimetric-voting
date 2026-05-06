@@ -1,0 +1,17 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc}
+\doubletoprule
+Prompt style & Mean predicted dropout & Mean confidence & Agreement with detailed baseline \\
+\midrule
+Detailed & 0.303 & 0.805 & 1.000 \\
+Minimal & 0.270 & 0.812 & 0.790 \\
+Persona-driven & 0.297 & 0.761 & 0.830 \\
+\midrule
+Portuguese mean predicted dropout & 0.262 &  & 0.855 \\
+Voluntary-plus-tax-credit mean predicted dropout & 0.438 &  &  \\
+\doublebottomrule
+\end{tabular*}
+
+\begin{minipage}{\textwidth}
+\footnotesize
+\textbf{Note:} Prompt sensitivity is evaluated on the same 200-persona subsample used for the higher-quality-model validation. The detailed baseline is the main prompt used in the full 2,000-persona run. The Portuguese line translates that baseline prompt for the same subsample. The counterfactual line replaces mandatory recadastramento with a voluntary update plus a small tax credit.
+\end{minipage}

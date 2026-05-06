@@ -1,0 +1,35 @@
+timestamp: 2026-04-24 10:36:34 BST
+estimator: callaway_santanna
+data_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/data/interim/siconfi_bdd/downstream_outcomes_panel_v2_prepared.parquet
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/callaway_santanna
+notes: SICONFI Base dos Dados downstream-fiscal run for `log_investment_spending_pc`.
+n_estimates: 66
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 66840.0
+  - 5570.0
+  - 12.0
+  - 2000.0
+  - 2022.0
+  - 2794.0
+  - 2776.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.

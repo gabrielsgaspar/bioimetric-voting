@@ -1,0 +1,50 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_compare/rho_estimation_pca_multirace/rho_dataset_event0.parquet",
+  "formula": "preference_simple_mean ~ compliance_gap + log_population_2010 + log_gdp_per_capita_2010 | state",
+  "outcome": "preference_simple_mean",
+  "regressors": "compliance_gap",
+  "controls": ["log_population_2010", "log_gdp_per_capita_2010"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 1845,
+    "ncoefficients": 3,
+    "r2": 0.41800229307489034,
+    "adj_r2": 0.41290822124184778,
+    "within_r2": 0.043256512508696887,
+    "adj_within_r2": 0.041686364553295441,
+    "rmse": 0.44701206231776847
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "compliance_gap",
+      "estimate": 0.18853026543967441,
+      "std_error": 0.26559504069876816,
+      "statistic": 0.70984106082575971,
+      "p_value": 0.49034008028785692,
+      "conf_low": -0.38525293579790387,
+      "conf_high": 0.76231346667725275
+    },
+    {
+      "term": "log_population_2010",
+      "estimate": 0.081732157852090301,
+      "std_error": 0.021763917256832317,
+      "statistic": 3.7553973803329104,
+      "p_value": 0.0024026733855910878,
+      "conf_low": 0.034714073168580099,
+      "conf_high": 0.1287502425356005
+    },
+    {
+      "term": "log_gdp_per_capita_2010",
+      "estimate": -0.15536015943289821,
+      "std_error": 0.05292131215840843,
+      "statistic": -2.935682300693176,
+      "p_value": 0.011586217422069318,
+      "conf_low": -0.26968970347880705,
+      "conf_high": -0.041030615386989391
+    }
+  ]
+}

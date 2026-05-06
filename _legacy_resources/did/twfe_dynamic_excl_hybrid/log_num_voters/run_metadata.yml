@@ -1,0 +1,37 @@
+timestamp: 2026-04-10 09:33:09 BST
+estimator: twfe_dynamic
+data_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/data/interim/tse/tse_clean_panel_2000_2018_excl_hybrid_municipalities.csv
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/log_num_voters
+notes: Dynamic TWFE robustness run excluding municipalities ever flagged as hybrid
+  in the official 2018 status source; never-treated municipalities remain in the sample
+  as controls.
+n_estimates: 8
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 40337.0
+  - 4038.0
+  - 10.0
+  - 2000.0
+  - 2018.0
+  - 2793.0
+  - 1245.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.

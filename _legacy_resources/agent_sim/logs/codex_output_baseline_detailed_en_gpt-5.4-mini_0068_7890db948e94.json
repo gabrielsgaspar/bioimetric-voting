@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1341",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport cost", "short queue time"],
+    "reasoning": "She is retired, urban, and only 3 km from the office, so the trip is easy to fit in and the compulsory-voting penalty should push her to comply quickly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1342",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "small transport/time cost"],
+    "reasoning": "The office is close, but she still has to fit the visit around formal work hours, so she is likely to go within the year rather than right away.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1343",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from work", "small transport/queue burden"],
+    "reasoning": "Self-employment gives her some schedule flexibility, income is moderate, and the office is nearby, so she is likely to comply quickly.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1344",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief trip/queue time"],
+    "reasoning": "She is not working, lives close to the office, and has no obvious mobility or document barrier, so immediate compliance is likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1345",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long-distance transport cost", "time off domestic work", "no identity document"],
+    "reasoning": "A 39 km rural trip with low income, domestic work, and no ID creates a large practical and bureaucratic burden, so she may not complete the trip within the deadline.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1346",
+    "decision": "will_register_eventually",
+    "main_barriers": ["distance to office", "time off work", "transport cost"],
+    "reasoning": "She has a formal job and a 35 km rural trip to arrange, so she will probably comply, but after some delay to coordinate transport and leave.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1347",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport/queue time"],
+    "reasoning": "Retired, urban, and 2 km away, she faces very little friction, so she is likely to go soon.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1348",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small travel time", "routine bureaucracy"],
+    "reasoning": "High income, urban location, and only 4 km away make the trip easy, and she can absorb the cost of any travel or paperwork.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1349",
+    "decision": "will_register_eventually",
+    "main_barriers": ["irregular work schedule", "small transport/time cost"],
+    "reasoning": "Although she is in a city and not far away, informal work can make it easier to postpone the trip, so she is likely to do it later rather than immediately.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1350",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time off", "small transport cost"],
+    "reasoning": "As a public worker in the city with a nearby office, she can probably fit the visit into her schedule quickly.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1351",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost work time", "transport cost", "bureaucratic hassle"],
+    "reasoning": "She is close to the office, but low income and self-employment make taking a day away from earning risky, so she is likely to delay but still comply.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1352",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "routine paperwork"],
+    "reasoning": "Formal employment is the main friction, but the office is close and the income is stable enough that she will likely manage the trip within the year.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1353",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small transport time"],
+    "reasoning": "Retired, well-off, and in an urban area, she has almost no practical barrier to a quick visit.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1354",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel time"],
+    "reasoning": "She is inactive, high-income, urban, and near the office, so compliance should be easy and immediate.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1355",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel/queue time"],
+    "reasoning": "She is inactive and only 2 km away, so there is little reason to delay.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1356",
+    "decision": "will_register_eventually",
+    "main_barriers": ["long transport distance", "travel cost"],
+    "reasoning": "The 38 km rural trip is the main obstacle; with no work constraint she can probably arrange it, but likely not right away.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1357",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very long travel distance", "transport cost", "work scheduling"],
+    "reasoning": "She has some income and no document problem, but a 50 km rural trip plus self-employed farm work makes the visit a planned chore rather than an easy one.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1358",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "transport/time cost"],
+    "reasoning": "Urban location and nearby office help, but formal hospitality work means she will likely need to choose a convenient day or shift.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1359",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport time"],
+    "reasoning": "Retired, urban, and close to the office, so she is a straightforward immediate case.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1360",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very long transport distance", "low income", "travel cost"],
+    "reasoning": "The 56 km rural trip is expensive and inconvenient for a retired person on a low income, and the sanction is unlikely to outweigh the effort, so she may simply not go.",
+    "confidence": 0.69
+  }
+]

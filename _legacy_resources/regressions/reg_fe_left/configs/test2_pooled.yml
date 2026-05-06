@@ -1,0 +1,15 @@
+data:
+  path: resources/regressions/reg_fe_left/regression_data/test2.parquet
+regression:
+  outcome: delta_pt_2014_2018
+  regressors:
+  - bvr_by_2018
+  controls:
+  - log_population_2010
+  - log_gdp_per_capita_2010
+  fixed_effects:
+  - state
+  cluster:
+  - state
+output:
+  dir: resources/regressions/reg_fe_left/regressions/test2_pooled

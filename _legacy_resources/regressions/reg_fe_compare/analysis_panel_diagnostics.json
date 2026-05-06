@@ -1,0 +1,123 @@
+{
+  "input_path": "data/clean/tse/tse_clean_panel_2000_2018_bvr_status_updated.parquet",
+  "input_rows": 55661,
+  "input_municipalities": 5571,
+  "baseline_year": 2006,
+  "municipalities_with_2006_baseline": 5565,
+  "municipalities_excluded_missing_2006_baseline": 6,
+  "missing_2006_baseline_ids": ["0000nan", "1504752", "4212650", "4220000", "4314548", "5006275"],
+  "baseline_duplicate_count": 0,
+  "baseline_duplicate_ids": [],
+  "treatment_nonconstant_municipality_count": 0,
+  "treatment_nonconstant_municipality_ids": [],
+  "first_any_inconsistency_count": 0,
+  "first_any_inconsistencies": [],
+  "finite_strict_hybrid_tie_count": 0,
+  "finite_strict_hybrid_tie_ids": [],
+  "regime_counts": [
+    {
+      "first_regime": "hybrid",
+      "municipalities": 1845
+    },
+    {
+      "first_regime": "never_treated",
+      "municipalities": 1243
+    },
+    {
+      "first_regime": "strict",
+      "municipalities": 2477
+    }
+  ],
+  "cohort_counts": [
+    {
+      "first_regime": "hybrid",
+      "year_first_any_bvr": "2014",
+      "municipalities": 2
+    },
+    {
+      "first_regime": "hybrid",
+      "year_first_any_bvr": "2016",
+      "municipalities": 839
+    },
+    {
+      "first_regime": "hybrid",
+      "year_first_any_bvr": "2018",
+      "municipalities": 1004
+    },
+    {
+      "first_regime": "never_treated",
+      "year_first_any_bvr": "9999",
+      "municipalities": 1243
+    },
+    {
+      "first_regime": "strict",
+      "year_first_any_bvr": "2008",
+      "municipalities": 3
+    },
+    {
+      "first_regime": "strict",
+      "year_first_any_bvr": "2010",
+      "municipalities": 57
+    },
+    {
+      "first_regime": "strict",
+      "year_first_any_bvr": "2012",
+      "municipalities": 238
+    },
+    {
+      "first_regime": "strict",
+      "year_first_any_bvr": "2014",
+      "municipalities": 463
+    },
+    {
+      "first_regime": "strict",
+      "year_first_any_bvr": "2016",
+      "municipalities": 779
+    },
+    {
+      "first_regime": "strict",
+      "year_first_any_bvr": "2018",
+      "municipalities": 937
+    }
+  ],
+  "analysis_panel_rows": 21066,
+  "analysis_panel_municipalities": 5563,
+  "placebo_panel_rows": 21066,
+  "placebo_panel_municipalities": 5563,
+  "D_str_0_count": 2475,
+  "D_hyb_0_count": 1845,
+  "D_str_minus4_count": 2475,
+  "D_hyb_minus4_count": 1845,
+  "main_event_pair_excluded_count": 2,
+  "main_event_pair_excluded": [
+    {
+      "municipality_id": "2605459",
+      "first_regime": "strict",
+      "year_first_any_bvr": 2014,
+      "main_obs_kept": 1
+    },
+    {
+      "municipality_id": "5300108",
+      "first_regime": "strict",
+      "year_first_any_bvr": 2014,
+      "main_obs_kept": 1
+    }
+  ],
+  "placebo_event_pair_excluded_count": 2,
+  "placebo_event_pair_excluded": [
+    {
+      "municipality_id": "2605459",
+      "first_regime": "strict",
+      "year_first_any_bvr": 2014,
+      "placebo_obs_kept": 1
+    },
+    {
+      "municipality_id": "5300108",
+      "first_regime": "strict",
+      "year_first_any_bvr": 2014,
+      "placebo_obs_kept": 1
+    }
+  ],
+  "treated_missing_two_main_observations": [],
+  "treated_missing_two_placebo_observations": []
+}

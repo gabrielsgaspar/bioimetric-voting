@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0026",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off work", "routine bureaucratic delay", "minor scheduling friction"],
+    "reasoning": "He has high education, an ID, and lives only 3 km from the office, so the trip is very feasible. The main issue is fitting it around a formal job, so he is likely to comply within the year rather than right away.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0027",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule coordination", "small amount of travel"],
+    "reasoning": "He has very low practical barriers: urban location, nearby office, secondary education, and a public administration job that likely makes the procedure familiar. Because the legal risk is clear and the task is easy to complete, he is likely to handle it promptly.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0028",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "limited bureaucratic literacy", "transport and paperwork costs"],
+    "reasoning": "Retirement means she has time, and the office is not far, but lacking an ID and having limited bureaucratic experience make the process harder to start and finish. She is still likely to try eventually, especially if someone helps her navigate the paperwork.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0029",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off work", "some bureaucratic delay", "routine procrastination"],
+    "reasoning": "He has a stable income, an ID, and the office is only 2 km away, so compliance is straightforward. The main friction is simply making time around work, which makes eventual registration likely even if he does not go immediately.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0030",
+    "decision": "probably_wont_register",
+    "main_barriers": ["40 km distance to the office", "very low income", "illiteracy and low bureaucratic literacy", "no identity document"],
+    "reasoning": "For her, the trip is expensive, far, and bureaucratically difficult, with no ID and very limited resources to manage follow-up steps. Even with penalties for noncompliance, the practical burden is so high that she is unlikely to complete re-registration.",
+    "confidence": 0.95
+  }
+]

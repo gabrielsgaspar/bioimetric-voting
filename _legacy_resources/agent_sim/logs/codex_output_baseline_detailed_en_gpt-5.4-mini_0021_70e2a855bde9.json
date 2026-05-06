@@ -1,0 +1,245 @@
+[
+  {
+    "persona_id": "p0401",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "57 km to the electoral office",
+      "very low income",
+      "illiteracy",
+      "no identity document",
+      "self-employed work makes a long trip costly"
+    ],
+    "reasoning": "Even with the risk of losing registration, a 57 km rural trip is expensive and hard for someone with very low income, no ID, and limited bureaucratic literacy. He is more likely to keep delaying and miss the 12-month window.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0402",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "3 km trip to the office",
+      "illiteracy",
+      "no identity document",
+      "low retirement income"
+    ],
+    "reasoning": "An urban retiree can probably manage the trip, and the risk of losing voter registration should push him to comply. The main friction is handling the paperwork without an ID or strong literacy, so he is likely to go within the year.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0403",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "zero monthly income",
+      "illiteracy",
+      "4 km trip",
+      "limited bureaucratic support"
+    ],
+    "reasoning": "He is retired and in an urban area, so the trip is feasible, but no income and low bureaucratic literacy make it easier to delay. The compulsory rule still makes eventual compliance more likely than not.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0404",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "illiteracy",
+      "no identity document",
+      "2 km trip",
+      "limited income"
+    ],
+    "reasoning": "The office is close and there is no formal work to miss, so the trip is manageable. The paperwork burden is the main friction, but compulsory voting should eventually get him there.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0405",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "advanced age",
+      "very low income",
+      "no identity document",
+      "5 km trip"
+    ],
+    "reasoning": "At 80, even a 5 km urban trip can be cumbersome on a tiny income and without an ID. He is likely to delay and may need help, but the distance is not so large that compliance is impossible.",
+    "confidence": 0.57
+  },
+  {
+    "persona_id": "p0406",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "illiteracy",
+      "no identity document",
+      "3 km trip"
+    ],
+    "reasoning": "Retirement and an urban location keep the trip feasible, and the legal risk is real. The missing ID and low cash may slow him down, but they do not look severe enough to stop compliance.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0407",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "illiteracy",
+      "no identity document",
+      "2 km trip",
+      "modest income"
+    ],
+    "reasoning": "The office is close and retirement removes work barriers, so he has a reasonable path to comply. Still, lacking an ID and needing help with forms likely causes some delay rather than an immediate trip.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0408",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "illiteracy",
+      "no identity document",
+      "4 km trip",
+      "moderate distance"
+    ],
+    "reasoning": "He is urban and retired, so the task is doable, but the missing ID and low bureaucratic literacy create friction. He is likely to comply after some delay rather than skip it.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0409",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "illiteracy",
+      "5 km trip",
+      "need to arrange transport or help"
+    ],
+    "reasoning": "High income and retirement make the trip easy to arrange, and he already has an ID. With compulsory voting, he is likely to go quickly to avoid losing registration.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0410",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "illiteracy",
+      "5 km trip",
+      "moderate transport effort"
+    ],
+    "reasoning": "He has an ID, a decent retirement income, and no work constraint, so the 5 km trip is manageable by urban standards. The incentive to avoid losing registration should lead to prompt compliance.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0411",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "illiteracy",
+      "no identity document",
+      "5 km trip",
+      "advanced age"
+    ],
+    "reasoning": "Urban location and retirement help, but the combination of poor cash flow, missing ID, and age makes the trip burdensome. He is more likely to eventually go with assistance than to ignore it.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0412",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "illiteracy",
+      "no identity document",
+      "4 km trip",
+      "age-related inconvenience"
+    ],
+    "reasoning": "The office is close enough for an urban retiree, and the compulsory rule provides pressure to comply. The missing ID and paperwork are the main sources of delay, not a likely permanent block.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0413",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "46 km to the office",
+      "very low income",
+      "illiteracy",
+      "no identity document",
+      "rural travel cost"
+    ],
+    "reasoning": "The rural distance is the dominant barrier and makes the trip expensive and time-consuming relative to income. Even with compulsory voting, this looks like a case where he probably never makes the trip.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0414",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "illiteracy",
+      "no identity document",
+      "2 km trip",
+      "limited income"
+    ],
+    "reasoning": "The urban office is close and retirement removes work pressure, so he could comply. Still, the missing ID and low bureaucratic literacy make it more likely he delays than that he goes immediately.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0415",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "45 km to the office",
+      "advanced age",
+      "low income",
+      "no identity document",
+      "rural transport cost"
+    ],
+    "reasoning": "This is a very hard trip for an 80-year-old rural retiree on a small income. The legal consequences are not enough to offset the travel burden, so he probably does not register.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0416",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "87 years old",
+      "zero income",
+      "4 km trip",
+      "illiteracy"
+    ],
+    "reasoning": "The office is only 4 km away, but at 87 with no income he may struggle to organize transport and support. He may delay a lot, yet eventual registration is still plausible.",
+    "confidence": 0.55
+  },
+  {
+    "persona_id": "p0417",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km to the office",
+      "rural travel cost",
+      "no identity document",
+      "illiteracy",
+      "work obligations"
+    ],
+    "reasoning": "A 51 km trip from a rural area is a major logistical and financial hurdle, especially for someone with low bureaucratic literacy and a job. He is unlikely to complete it within the year.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0418",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "87 years old",
+      "zero income",
+      "3 km trip",
+      "illiteracy"
+    ],
+    "reasoning": "The office is close enough for an urban resident, so the trip is not impossible, but extreme age, no income, and illiteracy make it slow and dependent on outside help. Compulsory voting makes eventual compliance more likely than skipping it.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p0419",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "illiteracy",
+      "no identity document",
+      "4 km trip"
+    ],
+    "reasoning": "The office is reachable in an urban area, but he will likely need help to navigate the paperwork and pay transport. That makes delay likely, though not enough to rule out eventual compliance.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0420",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "advanced age",
+      "no identity document",
+      "2 km trip",
+      "low income"
+    ],
+    "reasoning": "The short urban distance keeps the trip feasible, but age and missing documents will slow him down. Compulsory voting should eventually push him to go, though probably not right away.",
+    "confidence": 0.71
+  }
+]

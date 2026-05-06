@@ -1,0 +1,39 @@
+timestamp: 2026-04-29 23:26:07 BST
+estimator: callaway_santanna
+data_path: data/interim/tse/tse_age_education_bands_did_cs_sample.parquet
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_age_education/log_num_voters_high_ed_age_60_plus
+notes: 'Callaway-Sant''Anna DID for a log age-by-education electorate-count outcome.
+  The specification matches resources/regressions/did_cs_log_num_voters: strict-BVR
+  cohort timing via year_first_strict_bvr, never-treated controls, no controls, and
+  municipality-clustered standard errors. Age groups are built from raw TSE age bins
+  assigned by midpoint; exact ages are not observed.'
+n_estimates: 25
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 33406.0
+  - 5570.0
+  - 6.0
+  - 2008.0
+  - 2018.0
+  - 2793.0
+  - 2777.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.

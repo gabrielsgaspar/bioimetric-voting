@@ -1,0 +1,62 @@
+[
+  {
+    "persona_id": "p0007",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "40 km rural trip to the cartorio",
+      "low monthly income makes transport costly",
+      "no identity document",
+      "needs help with the paperwork"
+    ],
+    "reasoning": "Retirement means she does not have to miss work, so the deadline and risk of losing registration should eventually push her to comply. But the long rural trip, low cash, and missing ID make this something she is likely to delay until transport or family help is arranged.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0021",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural distance to the cartorio",
+      "self-employed farm work makes a day away costly",
+      "illiteracy and paperwork",
+      "no identity document",
+      "transport cost is high relative to income"
+    ],
+    "reasoning": "He faces a long and expensive trip, and leaving daily farm work to handle a bureaucratic process is a real burden. The legal penalty is not strong enough to outweigh that much friction, so he is more likely to keep postponing and miss the deadline.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Still needs to make one in-person trip",
+      "some scheduling inconvenience around office hours"
+    ],
+    "reasoning": "She has the money, education, ID, retirement time, and only a short 3 km trip. With almost no real barrier and a clear threat of losing registration, she is likely to handle it as soon as she hears about it.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "illiteracy and bureaucratic steps",
+      "no identity document",
+      "very low income",
+      "needs help navigating the process"
+    ],
+    "reasoning": "The office is close and he has no job to miss, so the trip itself is manageable. The delay will come from paperwork confusion and the missing ID, which makes him likely to wait until someone helps him, but not likely to ignore it forever.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km rural distance to the cartorio",
+      "self-employed agriculture makes time away costly",
+      "illiteracy and paperwork",
+      "no identity document",
+      "transport cost is high for the income level"
+    ],
+    "reasoning": "He faces the same rural barriers as the other farm worker, with a long trip, low cash, and no ID, and the fine is probably not strong enough to overcome that friction. He is more likely to postpone repeatedly and miss the deadline than to complete the registration.",
+    "confidence": 0.84
+  }
+]

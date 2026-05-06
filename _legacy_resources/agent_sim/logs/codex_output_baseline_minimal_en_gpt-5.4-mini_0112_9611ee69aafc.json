@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0267",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "illiteracy", "low income", "informal work schedule", "transport and time cost"],
+    "reasoning": "The 3 km distance in an urban area is manageable, and compulsory voting plus the risk of losing registration should push him to act. But low income, no ID, low literacy, and an informal transport job make the process likely to be delayed until he can free time and sort out paperwork.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0270",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "illiteracy", "low income", "travel cost", "bureaucratic difficulty"],
+    "reasoning": "He has some flexibility because the work is not formal, but the combination of illiteracy, no ID, and low income makes the paperwork and travel cumbersome. The 4 km distance is still manageable, so he is likely to go at some point within the year.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0284",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "illiteracy", "formal work schedule", "transport cost"],
+    "reasoning": "Being in Sao Paulo and only 5 km from the office lowers the transport barrier, but formal work plus no ID and low literacy make it more likely he postpones than goes right away. The risk of losing registration should still push him to comply before the deadline.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0303",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "illiteracy", "needs help with paperwork", "transport cost"],
+    "reasoning": "At 62 and inactive, he has time to deal with the process, and the office is close. The main friction is the missing ID and low literacy, which may require help and a second step, so compliance is likely but not immediate.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0308",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "formal construction work schedule", "illiteracy", "paperwork difficulty"],
+    "reasoning": "He has a relatively decent income and the office is only 2 km away, so this is manageable. Still, formal construction work and no ID can slow him down, making eventual compliance more likely than immediate action.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0313",
+    "decision": "probably_wont_register",
+    "main_barriers": ["53 km rural distance", "very low income", "no identity document", "illiteracy", "travel logistics"],
+    "reasoning": "A 53 km trip in rural Amazonas is a major obstacle for someone on R$ 550 a month, especially without an ID and with low literacy. Even with time available, the transport cost and effort are likely too high for her to complete the update.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0323",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "illiteracy", "transport cost"],
+    "reasoning": "She is inactive and the office is only 4 km away, so distance is not extreme. But low income, illiteracy, and no ID mean she may need family help and extra steps, so she is more likely to comply eventually than right away.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0326",
+    "decision": "probably_wont_register",
+    "main_barriers": ["38 km rural distance", "low income", "no identity document", "illiteracy", "travel time and cost"],
+    "reasoning": "The 38 km rural trip is expensive and time-consuming relative to household income, and the lack of an ID adds another bureaucratic hurdle. She may understand the stakes, but the cost and logistics make non-compliance more likely.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0331",
+    "decision": "probably_wont_register",
+    "main_barriers": ["34 km rural distance", "very low income", "no identity document", "illiteracy", "travel logistics"],
+    "reasoning": "Rural distance, very low income, no ID, and illiteracy create too many barriers for a voluntary trip to the cartorio. Even with compulsory voting, the practical cost of traveling 34 km is likely to keep her from completing the update.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0339",
+    "decision": "will_register_immediately",
+    "main_barriers": ["needs to spare a short amount of time", "minor transport cost"],
+    "reasoning": "She already has an ID, lives in Sao Paulo, and the office is only 3 km away. With no work obligation and enough income to cover transport, she is very likely to handle the update quickly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0340",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic work schedule", "no identity document", "low income", "transport cost"],
+    "reasoning": "The office is reasonably close, but domestic work often means limited time away from work, and she still lacks an ID. She is likely to comply, but after some delay while arranging time and paperwork.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0347",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "illiteracy", "transport cost"],
+    "reasoning": "She is inactive and lives only 3 km from the office, which helps a lot. Low income, illiteracy, and no ID make the process cumbersome, but the barriers are not strong enough to stop eventual compliance.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0348",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no income", "no identity document", "transport cost", "bureaucratic difficulty"],
+    "reasoning": "Zero income makes even a short urban trip harder, and she lacks an ID, which adds bureaucracy. Still, the office is 5 km away in a large city and she is not tied to work, so she is likely to find a way before the deadline.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0357",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short trip to the office", "minor scheduling effort"],
+    "reasoning": "Retired, with an ID, decent income, and only 2 km to the office, she faces very little friction. The compulsory rule and the low-cost trip make immediate compliance likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0361",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "5 km trip", "bureaucratic difficulty"],
+    "reasoning": "Retirement gives her time, and the office is within a plausible trip distance. Low income and no ID will create some friction, but the task is still manageable within 12 months.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0369",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "illiteracy", "self-employment schedule", "transport cost"],
+    "reasoning": "Self-employment gives some scheduling flexibility, and the office is 3 km away, so distance is not a major problem. The missing ID and low literacy mean she may hesitate or need help, but she is likely to comply eventually.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0373",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "very low income", "illiteracy", "5 km trip"],
+    "reasoning": "She has no work burden, but very low income, no ID, and a 5 km trip still make the update inconvenient. She is more likely to do it after some delay than to ignore it altogether.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0374",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic work schedule", "transport cost", "illiteracy"],
+    "reasoning": "The office is close and she already has an ID, so the process is fairly accessible. Domestic work can still delay a visit, but the overall barrier level is low enough that she is likely to comply during the year.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0393",
+    "decision": "probably_wont_register",
+    "main_barriers": ["54 km rural distance", "very low income", "no identity document", "older age", "travel logistics"],
+    "reasoning": "A 54 km rural trip is a serious obstacle at his age and income level, especially without an ID. The transport cost and effort outweigh the practical benefit for someone in this situation, so he is unlikely to complete the update.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0395",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "transport cost", "bureaucratic difficulty"],
+    "reasoning": "He is retired and only 4 km from the office, so time and distance are manageable. The main impediments are low income and no ID, which may delay him, but he is still likely to get it done within the year.",
+    "confidence": 0.74
+  }
+]

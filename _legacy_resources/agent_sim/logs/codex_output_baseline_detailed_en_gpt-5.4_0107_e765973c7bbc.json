@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1273",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missing paid work time", "transport and queue costs on a very tight budget", "bureaucratic procrastination"],
+    "reasoning": "The office is close enough that the trip is feasible, and he has the documents and education to navigate the process. But on R$1200 a month, a formal construction worker is unlikely to rush into losing work hours for an administrative task; he is more likely to delay until reminders or the deadline make the cancellation risk feel concrete. There is no strong reason to expect distrust to stop him.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1275",
+    "decision": "will_register_eventually",
+    "main_barriers": ["taking time off work", "5 km urban travel and waiting time", "tendency to postpone non-urgent bureaucracy"],
+    "reasoning": "He is somewhat better positioned than poorer workers and should understand the requirement, but a formal services job still means scheduling around work and possible lines. The penalty for non-compliance is meaningful enough that he likely goes, just not right away. Trust is unlikely to be the main obstacle.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1277",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost earnings from self-employment", "waiting time at the cartorio", "low urgency until the deadline feels near"],
+    "reasoning": "A 3 km trip in an urban area is manageable, and his income and education make the task doable. As a self-employed worker, though, he is likely to treat this as something to fit into a slower day rather than handle immediately. The threat of cancellation and downstream restrictions should still push him to comply before the deadline.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1288",
+    "decision": "will_register_immediately",
+    "main_barriers": ["taking a short period off work", "possible appointment or queue hassle"],
+    "reasoning": "The office is very close, his income is comfortable, and he likely has enough bureaucratic confidence to handle the process without much friction. For someone in this position, the inconvenience is small relative to the downside of having registration cancelled, so he is likely to deal with it fairly soon rather than let it hang over him.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1304",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around self-employed work", "queue or appointment delay"],
+    "reasoning": "He has the income, the proximity, and the flexibility to absorb a short administrative trip. Even though self-employed workers often dislike bureaucracy, this is a low-cost errand for him, and the consequences of ignoring it are more annoying than the visit itself. No strong distrust signal suggests he would resist on principle.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1308",
+    "decision": "will_register_eventually",
+    "main_barriers": ["39 km rural travel", "fuel or transport cost", "losing a productive workday in agriculture"],
+    "reasoning": "The distance is a real barrier, especially in rural Goiás where the trip may take most of a day, so immediate compliance is unlikely. But his income is high enough to cover transport, and he can probably combine the visit with a town trip over the next year. The sanctions make total non-compliance less likely than delayed compliance.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1313",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost income from self-employment", "bureaucratic hassle", "tendency to wait until the task becomes urgent"],
+    "reasoning": "In an urban area with the office only 4 km away, the task is very doable. The main drag is opportunity cost and administrative inertia, not access or literacy. He is likely to postpone it for a while but still go before cancellation because the penalties are salient enough and there is no obvious trust-based refusal.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1314",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off from a formal job", "5 km urban travel plus waiting", "low urgency early in the 12-month window"],
+    "reasoning": "Nothing here suggests he cannot do it, but formal workers often need to fit this kind of task around work hours and may keep delaying if the deadline still feels distant. Because he has ID, secondary education, and moderate income, the process is manageable, and the threat of losing regular status likely gets him there eventually.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1320",
+    "decision": "will_register_eventually",
+    "main_barriers": ["54 km rural distance", "poor travel convenience", "low urgency because she does not work"],
+    "reasoning": "The trip is inconvenient and could be more than a simple drive in rural Pará, so there is little reason to expect immediate action. But she has ample financial means and no work-based time pressure, which makes total non-compliance less likely. She will probably wait and handle it on a day she is already going into town or can arrange comfortable transport.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1324",
+    "decision": "will_register_immediately",
+    "main_barriers": ["taking a short period away from work", "possible queue time"],
+    "reasoning": "The office is only 2 km away, her income is decent, and formal work in education or health usually comes with better exposure to administrative processes and official deadlines. The cost of non-compliance is meaningful, and the practical burden is low, so she is more likely than most to handle it soon.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1328",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport or physical effort even for a short trip", "bureaucratic inertia"],
+    "reasoning": "Being retired removes the work-time barrier, but at R$700 a month even small transport costs and a long wait feel significant. Still, the office is only 3 km away and she is under 70, so the cancellation risk is likely enough to push her to go eventually, possibly after reminders or with help from family.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1336",
+    "decision": "will_register_eventually",
+    "main_barriers": ["losing daily income from informal work", "queue time", "small transport costs that matter at low income"],
+    "reasoning": "For an informal worker earning about R$1000, the main problem is not distance but giving up time that could generate cash that day. That makes delay likely. But the office is near, she has the needed ID, and the consequences of a cancelled registration are serious enough that she probably goes before the deadline rather than ignores it entirely.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1351",
+    "decision": "will_register_eventually",
+    "main_barriers": ["irregular self-employed schedule", "lost earnings from taking time off", "bureaucratic delay"],
+    "reasoning": "Self-employed hospitality work often means unstable hours and strong pressure to prioritize immediate income over paperwork. A 4 km trip in São Paulo is still feasible, and the penalties give her a clear reason not to let it lapse forever. She is likely to put it off, then go once the deadline or local reminders create urgency.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1352",
+    "decision": "will_register_eventually",
+    "main_barriers": ["fitting the visit around formal work", "travel and waiting time", "non-urgent tasks getting postponed"],
+    "reasoning": "She has enough income, education, and urban access to complete the process without major confusion. The practical barrier is mostly having to carve out time from work for a task that can be delayed. Because the downside of cancellation is real and there is no clear distrust barrier, she likely complies, but not immediately.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1357",
+    "decision": "will_register_eventually",
+    "main_barriers": ["50 km rural travel", "transport cost and logistics", "lost work time in agriculture"],
+    "reasoning": "This is a meaningful trip, and for a self-employed agricultural worker it probably takes planning and may need to be combined with another town errand. That makes early action unlikely. But the income is enough to make the trip affordable, and the legal consequences should be strong enough that she eventually goes rather than risking cancellation.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1372",
+    "decision": "will_register_eventually",
+    "main_barriers": ["tight budget", "queue and transport inconvenience", "low urgency despite having free time"],
+    "reasoning": "As a retired person she does not face the work-time barrier, which helps, but at R$1800 a month even a modest bureaucratic trip can feel annoying and easy to postpone. Because the office is still reasonably close and she is under 70, the requirement is likely to be met eventually once the deadline approaches.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1379",
+    "decision": "will_register_eventually",
+    "main_barriers": ["extreme income precarity", "lost earnings from taking even a short break", "bureaucratic hassle"],
+    "reasoning": "At only R$500 per month, almost any non-essential errand competes with immediate survival needs, so she is very unlikely to go quickly. The reason this still leans toward eventual compliance is that the office is only 2 km away and can likely be reached on foot, while the cost of losing voter regularity may feel too risky to ignore for a full year.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p1413",
+    "decision": "probably_wont_register",
+    "main_barriers": ["low perceived necessity at age 71", "bureaucratic hassle for little immediate benefit", "possible discomfort with queues or in-person visits"],
+    "reasoning": "Although he has the money and proximity to do it, a 71-year-old retiree is no longer under the same practical pressure to keep voting status active, so the incentive is weaker than it would be for younger voters. Unless he is especially motivated to keep voting, many people in this position would let the matter slide rather than make a dedicated trip for biometric updating.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1422",
+    "decision": "probably_wont_register",
+    "main_barriers": ["low perceived need because of age", "in-person bureaucratic hassle", "little material payoff from updating"],
+    "reasoning": "He has abundant resources and no work barrier, so access is not the problem. The issue is motivation: at 71, the practical need to preserve active voter status is weaker, and an inactive older adult may simply not prioritize an in-person update unless he strongly values continued voting. That makes non-registration more likely than in younger profiles.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p1424",
+    "decision": "will_register_eventually",
+    "main_barriers": ["some reduced urgency at age 71", "bureaucratic inertia", "minor inconvenience of travel and waiting"],
+    "reasoning": "Because he is retired, reasonably comfortable financially, and only 3 km from the office, the visit is easy to accomplish. His age lowers the pressure somewhat, but someone who has spent decades voting may still want to preserve that habit and keep documents regular. That points to compliance, though more likely after some delay than immediately.",
+    "confidence": 0.58
+  }
+]

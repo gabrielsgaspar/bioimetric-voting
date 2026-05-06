@@ -1,0 +1,32 @@
+file_format: csv
+cluster_var: municipality_id
+event_time_var: dist_to_first_bvr_mayor_election
+event_time_never_value: 9999
+lead: 20
+lag: 12
+reference_event_time: -4
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/mayor_ideology/pct_mayor_L_any_bvr/twfe_dynamic
+notes: Mayor-left vote share event-time DID. Treatment is first strict-or-hybrid BVR
+  exposure, mapped to the first mayoral election at or after the rollout year because
+  the outcome is observed only in municipal election years.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1.0
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+plot_title: ~
+omit_plot_title: yes
+estimator: twfe_dynamic
+data_path: data/interim/tse/mayor_left_bvr_event_time_did_panel.csv
+outcome: pct_mayor_L
+unit_id: municipality_id
+time_id: year
+group_id: year_first_bvr_mayor_election
+seed: 20260427

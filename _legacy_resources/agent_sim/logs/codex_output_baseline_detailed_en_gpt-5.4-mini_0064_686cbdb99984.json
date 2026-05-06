@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1261",
+    "decision": "probably_wont_register",
+    "main_barriers": ["46 km rural trip to the cartorio", "very low monthly income", "no identity document", "missed farm work and transport cost"],
+    "reasoning": "The threat of losing voter registration matters, but the long rural trip, lack of ID, and very tight budget make this hard to complete within a year, so non-compliance is likely.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1262",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Needs to fit the visit around work", "small time cost of a 4 km trip"],
+    "reasoning": "With a stable formal job, high income, an ID already in hand, and a nearby office, the update is easy enough that he is likely to do it quickly to avoid cancellation.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1263",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Construction work schedule", "modest income", "time off work"],
+    "reasoning": "He is close enough to the office and the sanctions are real, but construction shifts make it more likely he delays until he can spare a day.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1264",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Only routine trip to the office"],
+    "reasoning": "He is not working and the office is close, so there is little practical friction and the legal requirement should push him to go quickly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1265",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employment can interrupt income while visiting", "small travel/time cost"],
+    "reasoning": "The office is nearby and his income is decent, so he will probably comply, but self-employed work makes it more likely that he postpones the trip.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1266",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "transport cost relative to budget", "bureaucratic hassle"],
+    "reasoning": "Even though the office is not far, the trip is costly relative to his resources, so he is likely to put it off, but the compulsory rule should still eventually push him to go.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1267",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Transport worker shifts", "5 km trip", "modest income"],
+    "reasoning": "The distance is manageable and the sanctions are real, so he will likely comply, but shift work makes delay more likely than immediate action.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1268",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed schedule", "4 km trip", "opportunity cost of lost work time"],
+    "reasoning": "He has enough income and the office is reachable, but self-employed workers often postpone bureaucracy until it becomes urgent, so he will probably go later in the year.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1269",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "time off manufacturing work", "5 km trip"],
+    "reasoning": "The legal pressure should eventually outweigh the inconvenience, but his very tight budget and work schedule make the trip more burdensome than for most urban voters.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1270",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed hospitality schedule", "5 km trip", "moderate travel cost"],
+    "reasoning": "He is not far from the office and faces real penalties if he does nothing, so he will likely comply after some delay to avoid losing registration.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1271",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Mostly just ordinary scheduling"],
+    "reasoning": "With a nearby office, flexible self-employment, and no document problem, he can handle the update quickly and has little reason to postpone.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1272",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "transport and bureaucratic hassle", "low urgency"],
+    "reasoning": "He is not constrained by a job, so the main obstacle is money and motivation; that makes compliance plausible, but probably not immediate.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1273",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Construction work schedule", "low income", "4 km trip"],
+    "reasoning": "He is likely to comply because the office is accessible and the sanctions matter, but he will probably wait for a workable day off from construction.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1274",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Informal work makes time off costly", "4 km trip", "bureaucratic hassle"],
+    "reasoning": "The update is close enough to be doable, but informal income and the need to stop working make delay likely even though he should still register before the deadline.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1275",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Modest income", "5 km trip", "time off formal work"],
+    "reasoning": "He has enough structure and incentive to comply, but the combination of work and travel makes a later trip more likely than an immediate one.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1276",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Work schedule", "5 km trip", "low-to-moderate income"],
+    "reasoning": "Nothing here blocks him outright, and the legal risk of losing registration is enough to motivate a trip, but he will probably arrange it later rather than at once.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1277",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employment schedule", "3 km trip", "bureaucratic delay"],
+    "reasoning": "The office is close and he can likely spare the time, so he should comply, though self-employed people often wait until the task becomes more salient.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1278",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low income", "formal work schedule", "2 km trip"],
+    "reasoning": "The office is close, but the low wage and need to fit the visit around work make him more likely to delay than to rush, even though he probably will comply.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1279",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor work scheduling", "2 km trip"],
+    "reasoning": "In Sao Paulo the office is very close, he has formal employment, and there is no document obstacle, so this is easy enough for prompt compliance.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1280",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Small time cost of a 4 km trip", "needs to fit around formal work"],
+    "reasoning": "He has good income, a formal job, and a manageable distance, so the bureaucratic cost is low and he is likely to register soon.",
+    "confidence": 0.88
+  }
+]

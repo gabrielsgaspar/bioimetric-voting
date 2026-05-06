@@ -1,0 +1,60 @@
+[
+  {
+    "persona_id": "p0007",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "40 km trip to the cartorio eleitoral",
+      "Low monthly income makes transport costly",
+      "No identity document adds paperwork",
+      "The update is voluntary and the tax credit is small"
+    ],
+    "reasoning": "She is retired, so time is not the main problem, but the distance, transport cost, and extra bureaucracy are. Because she can still vote without updating and there is no penalty for skipping it, the small tax credit is unlikely to justify a special trip.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0021",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km distance to the electoral office",
+      "Illiteracy makes the process harder to navigate",
+      "Self-employed farm work makes leaving work costly",
+      "No identity document and only a small tax credit"
+    ],
+    "reasoning": "This profile faces high friction on every side: long travel, low bureaucratic literacy, and work that is hard to leave. Since the update is optional and there is no real downside to ignoring it, he is unlikely to make the trip.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Only routine bureaucracy and possible waiting time",
+      "The update is voluntary, so urgency is low"
+    ],
+    "reasoning": "She lives in town, has higher education, is retired, already has an identity document, and the office is only 3 km away. With very low practical friction and a small tax credit as extra motivation, she is likely to go soon rather than postpone.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Illiteracy and low bureaucratic literacy",
+      "No identity document",
+      "Zero income makes even small travel or paperwork costs matter",
+      "The update is voluntary, so there is no urgent push"
+    ],
+    "reasoning": "The short distance and lack of work make the trip feasible, but the process still feels difficult because he has no ID and may need help understanding what to do. He is more likely to delay until he has assistance or a stronger reason, rather than going right away.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km distance to the electoral office",
+      "Illiteracy makes the process hard to handle alone",
+      "Self-employed agriculture makes time away expensive",
+      "No identity document and only a small tax credit"
+    ],
+    "reasoning": "He faces the same basic barriers as other rural low-income voters, but with even less administrative ease because of illiteracy and no ID. With no penalty for skipping the voluntary update, the burden is too high relative to the benefit, so he probably will not go.",
+    "confidence": 0.92
+  }
+]

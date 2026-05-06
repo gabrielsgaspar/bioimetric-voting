@@ -1,0 +1,211 @@
+[
+  {
+    "persona_id": "p0981",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income makes transport and small costs noticeable",
+      "Primary education may slow the paperwork"
+    ],
+    "reasoning": "She is retired and lives in an urban area only 5 km from the office, so the trip is feasible. The main effect is likely delay and needing help with transport or forms, but the risk of losing registration should still push her to comply within the year.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0982",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "47 km rural distance",
+      "No identity document",
+      "Very low income"
+    ],
+    "reasoning": "A 47 km rural trip at age 72, with no identity document and very low income, is a major obstacle. The sanctions help, but the practical burden is so high that she is likely to miss the deadline.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0983",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related mobility limits",
+      "Primary education may slow the paperwork"
+    ],
+    "reasoning": "She has an ID, a decent pension, and an urban trip of about 4 km, so the update is manageable. Age and basic schooling may slow her down, but the legal risk makes compliance likely within the year.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0984",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Advanced age",
+      "Need for transport or accompaniment"
+    ],
+    "reasoning": "The office is close, but at 85 even a 2 km trip can be tiring and may require assistance. She is still likely to comply eventually because the office is nearby and she has no work barrier.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0985",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "48 km rural trip",
+      "Very advanced age",
+      "Transport dependence despite moderate income"
+    ],
+    "reasoning": "At 86, a 48 km rural trip is a very large mobility and transport burden even with a moderate income and an ID. The consequence of losing registration is not enough to overcome that practical difficulty for many people in her situation.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0986",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "58 km rural trip",
+      "Age-related mobility",
+      "Transport coordination"
+    ],
+    "reasoning": "The 58 km rural distance is still a serious hurdle, but her income is enough to pay for transport and she already has an ID. She is likely to delay and need help, yet still comply within the year.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0987",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related inconvenience",
+      "Paperwork and transport planning"
+    ],
+    "reasoning": "Urban access and a 4 km distance are manageable, and retirement removes work constraints. She will likely get it done within the year, though not necessarily the same day she learns about it.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0988",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Short trip still requires transport planning",
+      "Basic paperwork may take a little help"
+    ],
+    "reasoning": "A 2 km urban trip is short, she has an ID, and her income is enough to cover small transport costs. The registration threat should make this a straightforward prompt errand.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0989",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Extreme age",
+      "Mobility or health limits",
+      "Transport dependence"
+    ],
+    "reasoning": "At 95, even an urban 4 km trip can be difficult without family support or special transport. The bureaucratic errand is likely to be postponed or missed despite the penalties.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0990",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Short trip only",
+      "Some paperwork hassle"
+    ],
+    "reasoning": "She is 66, inactive, urban, and only 2 km away, so the practical burden is low. The risk of losing registration should push her to go quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0991",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "36 km rural distance",
+      "Low income"
+    ],
+    "reasoning": "No identity document, 36 km of rural travel, and low income combine into a heavy bureaucratic and transport burden. She is likely to fall behind even with compulsory voting rules.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0992",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "Very advanced age",
+      "Low income"
+    ],
+    "reasoning": "At 88, the short distance helps, but lacking an identity document makes the process much harder and may require extra steps or help. Low income also makes paid transport or accompaniment harder to arrange.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0993",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Extremely low income",
+      "No identity document",
+      "35 km rural distance"
+    ],
+    "reasoning": "This is a very hard case: extremely low income, no ID, and a 35 km rural trip. The cost and logistics are likely too much for her to complete the update on time.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0994",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income makes transport less easy",
+      "5 km trip still needs planning"
+    ],
+    "reasoning": "The office is in an urban area, but 5 km is still far enough that transport and planning matter on a tight income. She is likely to comply eventually because the process is feasible, just not effortless.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0995",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related mobility",
+      "Low income",
+      "Need to arrange transport"
+    ],
+    "reasoning": "She has an ID and the office is only 3 km away, so the trip is possible. Age 81 and low income make her more likely to wait for help or a convenient day than to go immediately.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0996",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related inconvenience",
+      "Some transport planning"
+    ],
+    "reasoning": "Urban location, a moderate income, and an ID make the update manageable. Age-related inconvenience may slow her down, but she is still likely to complete it within the deadline.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0997",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related mobility",
+      "Transport or accompaniment planning"
+    ],
+    "reasoning": "High income removes most transport cost, and she has no work obligation. The main friction is age-related inconvenience, so she is likely to comply after arranging transport or accompaniment.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0998",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Transport cost",
+      "Some paperwork hassle"
+    ],
+    "reasoning": "The office is fairly close, but her very low income makes even small transport or help costs noticeable. She will probably do it eventually, but may delay until it becomes urgent.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0999",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Low income makes transport less comfortable",
+      "Basic bureaucracy"
+    ],
+    "reasoning": "A 2 km urban trip and no work conflict make this easy to fit in, even with low income. Compulsory voting and the threat of losing registration should lead to prompt compliance.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1000",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Routine transport planning",
+      "Minor paperwork hassle"
+    ],
+    "reasoning": "With good income, an ID, retirement, and only 4 km to travel, there is almost no practical barrier. She is very likely to comply promptly.",
+    "confidence": 0.89
+  }
+]

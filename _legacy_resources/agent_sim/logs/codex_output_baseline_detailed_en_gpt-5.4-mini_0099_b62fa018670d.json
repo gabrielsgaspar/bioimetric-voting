@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1961",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related effort", "transport cost for a 5 km trip", "modest income"],
+    "reasoning": "She is retired and educated, so the bureaucracy itself is manageable, and the risk of losing voting eligibility makes compliance likely. At 79, the trip is still a hassle, so she is more likely to do it after some delay than immediately.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1962",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off from public-sector work", "transport to the cartorio"],
+    "reasoning": "A public worker usually has the organization to handle paperwork, and the compulsory-voting rules create strong pressure to comply. The main friction is finding time away from work, so she is likely to register but not right away.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1963",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "She is retired, well educated, and has enough income to make a short city trip without much strain. With no obvious trust problem and clear penalties for non-compliance, prompt registration is likely.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1964",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport cost"],
+    "reasoning": "Very low income makes even a short trip more burdensome, but retirement and the legal risk still make eventual compliance more likely. She may delay until she can fit the trip into a very tight budget.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1965",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "very low income", "transport cost"],
+    "reasoning": "At 79 with a very small household budget, the errand is inconvenient and easy to postpone. Still, the urban distance is manageable and the compulsory rule should push her to comply before the deadline.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1966",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic-work schedule", "transport cost", "age-related effort"],
+    "reasoning": "Domestic work can make it hard to leave on a convenient day, and the budget is not roomy. Still, the short distance and legal consequences should get her there eventually.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1967",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "High income and retirement leave almost no practical barrier, and she can easily solve the trip with taxi or family support. The cost of ignoring the update is enough to make prompt compliance very likely.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1968",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "Retired, urban, and only 3 km away, she has little friction beyond the chore itself. The legal penalty for missing the update makes a prompt visit the most likely outcome.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1969",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "No work constraint and a comfortable income make the trip straightforward. With the office only 3 km away and voting tied to compliance, she is likely to go soon.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1970",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "possible mobility limitations"],
+    "reasoning": "The office is close, but at 86 she may need help arranging the outing or choosing a day when travel is easier. That makes compliance likely, but not necessarily immediate.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1971",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "possible mobility limitations"],
+    "reasoning": "Her income and education reduce friction, but being 80 can make even a short bureaucratic trip feel like a bigger task. She is still likely to comply within the year rather than skip it.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1972",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no personal income", "transport cost"],
+    "reasoning": "She has no work schedule blocking her, but zero income makes transport and incidental costs harder to absorb. The legal penalty and the short urban distance still make eventual compliance more likely than non-compliance.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1973",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "She is not working, has moderate income, and lives in a city with a manageable 4 km trip. With no sign of distrust and a clear legal consequence for ignoring the update, prompt compliance is likely.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1974",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no personal income", "transport cost"],
+    "reasoning": "The urban distance is not huge, but having no income makes the trip easier to postpone. She is still likely to register before the deadline because the penalty for missing it is real.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p1975",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "informal work demands", "transport cost"],
+    "reasoning": "Low income and informal work make the trip easier to delay, even though the office is not far. The compulsory rule and the risk of losing voter registration should still bring her in eventually.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1976",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "Retired and reasonably affluent, she can absorb the small cost and time needed for a 4 km urban trip. There is little to stop her from handling the registration soon.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1977",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "At 65, retired, and only 3 km away, there is little practical friction. The compulsory nature of the update makes a prompt visit likely.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1978",
+    "decision": "will_register_eventually",
+    "main_barriers": ["37 km rural distance", "limited transport options", "travel cost"],
+    "reasoning": "The rural distance is a real obstacle, especially if transport is infrequent or costly. Even so, she is educated, not destitute, and the legal requirement makes eventual compliance more likely than outright refusal.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1979",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work demands", "age-related effort", "transport"],
+    "reasoning": "She likely has some schedule flexibility, but informal work and older age can still make the trip easy to postpone. The 4 km urban distance and compulsory voting rules make eventual registration the likelier outcome.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1980",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "Retired, educated, and with enough income to cover transport, she faces little practical friction. Even with a 5 km trip, the legal risk is enough to make prompt compliance likely.",
+    "confidence": 0.86
+  }
+]

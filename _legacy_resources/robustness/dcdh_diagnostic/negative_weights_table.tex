@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+    \caption{Negative-Weight Diagnostic for the Baseline TWFE Design}
+    \label{tab:negative-weights}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.08}
+    \resizebox{0.92\textwidth}{!}{%
+    \begin{tabular}{lcccc}
+        \doubletoprule
+        Outcome & Negative components & Total components & Share negative & Negative weight mass \\
+        \midrule
+        Log registered voters & 3 & 5,460 & 0.055\% & 0.000004 \\
+        Low-education share & 3 & 5,460 & 0.055\% & 0.000004 \\
+        High-education share & 3 & 5,460 & 0.055\% & 0.000004 \\
+        \doublebottomrule
+    \end{tabular}}
+    \vspace{1.0em}
+    \begin{minipage}{0.92\textwidth}
+        {\footnotesize \textbf{Note:} The table reports the de Chaisemartin-D'Haultfoeuille negative-weight diagnostic using \texttt{TwoWayFEWeights} for the absorbing-treatment version of the baseline BVR design. The reported share negative is the fraction of ATT components receiving negative weight under the implied two-way fixed-effects aggregation; the final column reports the absolute mass of those negative weights. \par}
+    \end{minipage}
+\end{table}

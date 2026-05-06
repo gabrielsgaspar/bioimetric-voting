@@ -1,0 +1,19 @@
+run_type: lapop_backlash_public_wave_2021
+lapop_data_path: data/raw/lapop/2021/bra_2021_cy_spa-eng_p_v1-2.dta
+regression_ready_path: data/clean/lapop/lapop_brazil_backlash_2021_regression_ready.parquet
+population_2021_path: data/clean/ibge/municipality_population_2021.parquet
+survey_year: 2021
+support_proxy: m1 -> bolsonaro_approve
+outcomes:
+  - count_fair_always
+  - ballot_secret_never
+controls:
+  - low_ed
+  - female
+  - white
+  - age
+  - urban
+  - log_total_pop
+weights: wt
+cluster:
+  - municipality_id

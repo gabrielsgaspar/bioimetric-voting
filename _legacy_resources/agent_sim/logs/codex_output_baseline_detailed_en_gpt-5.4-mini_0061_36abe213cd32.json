@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1201",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor scheduling around formal work", "Short 2 km trip"],
+    "reasoning": "High income, a stable formal job, and a nearby office make the errand easy to fit in. With compulsory voting and the risk of losing registration, she is very likely to comply quickly.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1202",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "Informal work schedule", "Transport and time-off costs"],
+    "reasoning": "The office is still reachable, but informal work and a 5 km trip create enough friction that she may postpone it. The legal penalties make eventual compliance more likely than skipping it.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1203",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "Informal hospitality hours", "Transport cost"],
+    "reasoning": "The office is close, but her very low budget and irregular work make even a short bureaucratic errand feel costly. She is likely to delay, but the threat of losing voter status should still push her to register eventually.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1204",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low disposable income", "Low urgency to handle bureaucracy"],
+    "reasoning": "She is not working, so time is available, and the office is only 2 km away. Still, her very low income makes the trip easy to put off until the deadline gets closer.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1205",
+    "decision": "will_register_eventually",
+    "main_barriers": ["4 km trip", "Transport cost", "Low urgency despite being unemployed"],
+    "reasoning": "Being unemployed removes the leave-from-work problem, but the 4 km trip and modest finances still add friction. Compulsory voting and the risk of registration cancellation make eventual compliance likely.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1206",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low wage", "Formal work schedule", "5 km trip"],
+    "reasoning": "Her formal job means she has to carve out time, and the 5 km trip is not trivial at this income level. She will probably comply, but not immediately.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1207",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low income", "3 km trip", "Need to fit it around work"],
+    "reasoning": "The distance is manageable, but low pay and a work schedule make it easy to postpone. The compulsory-voting rules should still get her there before the deadline.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1208",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor scheduling only", "Short 2 km trip"],
+    "reasoning": "She has high income, works for herself, and lives close to the office, so the practical cost is low. She is very likely to go soon.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1209",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low pay", "5 km trip", "Formal work schedule"],
+    "reasoning": "A formal job plus a 5 km trip is enough hassle to create delay, especially on a low salary. The legal penalties make eventual compliance more likely than noncompliance.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1210",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Informal agriculture work", "Limited income", "3 km trip"],
+    "reasoning": "Her work is irregular and income is modest, so the trip competes with daily earnings. The office is not far, but she is more likely to delay than to go right away.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1211",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low pay", "4 km trip", "Time off work"],
+    "reasoning": "The low income and moderate distance make the errand annoying, but a public-sector or uniformed worker is usually more exposed to bureaucratic compliance. She should eventually do it to avoid losing registration.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1212",
+    "decision": "probably_wont_register",
+    "main_barriers": ["32 km rural trip", "High transport cost", "Full-day time loss", "Irregular access to transport"],
+    "reasoning": "This is the hardest case because the office is far from home and the trip is expensive relative to the benefit. Even with compulsory voting, she may miss the deadline rather than make the journey.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1213",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "3 km trip", "Low motivation to handle bureaucracy"],
+    "reasoning": "She has time because she is inactive, and the office is within urban reach. The main issue is low income and procrastination, so she is likely to comply eventually.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1214",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low disposable income", "2 km trip", "Procrastination"],
+    "reasoning": "With no work schedule and a short distance, the trip is feasible. The main drag is limited money and low urgency, so she is likely to wait until the deadline pressure rises.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1215",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Formal work schedule", "5 km trip", "Transport and time cost"],
+    "reasoning": "A formal job and a 5 km trip create a moderate hassle, but not a severe one. Because registration is mandatory and penalties exist, she will probably do it before the deadline.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1216",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "Even small transport costs matter", "2 km trip"],
+    "reasoning": "The office is close, but her very low budget makes any bureaucratic errand feel burdensome. She is more likely to delay than to ignore it entirely.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1217",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor scheduling only", "Short 2 km trip"],
+    "reasoning": "In São Paulo, a 2 km trip with no work barrier is a simple errand. She is likely to register quickly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1218",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor scheduling only", "Short 2 km trip"],
+    "reasoning": "The practical burden is low, and the compulsory-voting rules make noncompliance unattractive. She should comply promptly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1219",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Small scheduling issue", "2 km trip"],
+    "reasoning": "A public worker with a nearby office faces very little friction, and document compliance matters more in this setting. She is likely to register immediately.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1220",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Small work-schedule adjustment", "3 km trip"],
+    "reasoning": "Her formal job and moderate income make the trip manageable, and the office is still close enough in the city. The legal pressure should push her to go quickly.",
+    "confidence": 0.87
+  }
+]

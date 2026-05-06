@@ -1,0 +1,61 @@
+estimator: callaway_santanna
+data_path: data/interim/tse/tse_age_education_bands_did_cs_sample.parquet
+file_format: parquet
+outcome: log_num_voters_high_ed_age_16_30
+unit_id: municipality_id
+time_id: year_election
+group_id: year_first_strict_bvr
+treatment_var: null
+event_time_var: dist_strict_bvr
+controls: []
+cluster_var: municipality_id
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: false
+never_treated_value: 9999
+reference_event_time: -2
+plot_reference_event_time: -2
+seed: 20260427
+output_dir: resources/regressions/did_cs_log_num_voters_high_ed_age_16_30
+notes: 'Callaway-Sant''Anna DID for a log age-by-education electorate-count outcome.
+  The specification matches resources/regressions/did_cs_log_num_voters: strict-BVR
+  cohort timing via year_first_strict_bvr, never-treated controls, no controls, and
+  municipality-clustered standard errors. Age groups are built from raw TSE age bins
+  assigned by midpoint; exact ages are not observed.'
+output:
+  save_csv: true
+  save_parquet: false
+  save_json: true
+  save_yaml_metadata: true
+  save_model_summary: true
+plot:
+  latex_figure_format: pdf
+  save_tight_png: true
+  save_png: false
+  width: 8
+  height: 5
+  dpi: 320
+  omit_title: true
+  x_label: Distance to treatment
+  y_label: null
+  reference_line: true
+  reference_line_type: dashed
+  zero_line: true
+  zero_line_width: 1.1
+  show_ci: true
+  ci_geom: linerange
+  show_border: true
+  show_grid: true
+  x_breaks:
+  - -8
+  - -6
+  - -4
+  - -2
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8

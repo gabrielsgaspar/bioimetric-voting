@@ -1,0 +1,46 @@
+estimator,success,config,output_dir,log
+callaway_santanna,True,resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/configs/callaway_santanna.yml,resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/callaway_santanna,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+Some `group_id` values are not observed in `time_id`. Check treatment timing support.
+Warning message:
+In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/callaway_santanna"
+sun_abraham,True,resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/configs/sun_abraham.yml,resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/sun_abraham,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+Some `group_id` values are not observed in `time_id`. Check treatment timing support.
+NOTE: 7,454 observations removed because of NA values (RHS: 7,454).
+The variables 'fixest:::.__time_id__::4:cohort::2016',
+'fixest:::.__time_id__::8:cohort::2012' and
+'fixest:::.__time_id__::12:cohort::2008' have been removed because of
+collinearity (see $collin.var).
+Finished `sun_abraham`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/sun_abraham"
+twfe_dynamic,True,resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/configs/twfe_dynamic.yml,resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+Some `group_id` values are not observed in `time_id`. Check treatment timing support.
+The variable 'fixest::.__event_time_plot__::12:.__ever_treated__' has been
+removed because of collinearity (see $collin.var).
+Warning messages:
+1: Removed 6 rows containing missing values (`geom_segment()`).
+2: Removed 7 rows containing missing values (`geom_line()`).
+3: Removed 7 rows containing missing values (`geom_point()`).
+4: Removed 6 rows containing missing values (`geom_segment()`).
+5: Removed 7 rows containing missing values (`geom_line()`).
+6: Removed 7 rows containing missing values (`geom_point()`).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/twfe_dynamic"

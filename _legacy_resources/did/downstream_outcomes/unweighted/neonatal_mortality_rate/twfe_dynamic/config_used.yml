@@ -1,0 +1,32 @@
+file_format: parquet
+treatment_var: ~
+cluster_var:
+- municipality_id
+- year_election
+event_time_var: dist_treatment
+event_time_never_value: -9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/downstream_outcomes/unweighted/neonatal_mortality_rate/twfe_dynamic
+notes: Downstream-outcomes run for `neonatal_mortality_rate`.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1.0
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+plot_title: ~
+omit_plot_title: no
+data_path: data/clean/downstream/downstream_outcomes_panel.parquet
+outcome: neonatal_mortality_rate
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+estimator: twfe_dynamic

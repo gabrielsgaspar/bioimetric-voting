@@ -1,0 +1,39 @@
+Category: Female
+Outcome: Trust in institutions
+Formula: z_score_pca1_trust ~ factor(treatment_dummy) * factor(female) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(female)1
+Base effect: 0.003024 (0.049627)
+Interaction effect: 0.082225 (0.056276)
+Combined effect: 0.085248 (0.051276)
+
+Category: White
+Outcome: Trust in institutions
+Formula: z_score_pca1_trust ~ factor(treatment_dummy) * factor(white) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(white)1
+Base effect: 0.054931 (0.036276)
+Interaction effect: -0.039202 (0.053548)
+Combined effect: 0.015729 (0.070504)
+
+Category: Married
+Outcome: Trust in institutions
+Formula: z_score_pca1_trust ~ factor(treatment_dummy) * factor(married) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(married)1
+Base effect: 0.059730 (0.037595)
+Interaction effect: -0.046587 (0.058429)
+Combined effect: 0.013143 (0.069243)
+
+Category: Low Education
+Outcome: Trust in institutions
+Formula: z_score_pca1_trust ~ factor(treatment_dummy) * factor(low_ed) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(low_ed)1
+Base effect: -0.008128 (0.048707)
+Interaction effect: 0.122792 (0.030594)
+Combined effect: 0.114664 (0.040582)

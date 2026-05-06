@@ -1,0 +1,25 @@
+data_path: data/clean/tse/tse_clean_panel_2000_2018.csv
+file_format: csv
+outcome: pct_voters_high_ed
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+treatment_var: null
+controls: []
+cluster_var: municipality_id
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/estimator_comparison/pct_voters_high_ed/bjs
+notes: Municipality-clustered DID estimator comparison run for Brazil BVR outcome
+  `pct_voters_high_ed`.
+estimator: bjs
+event_time_step: 2
+pretrends:
+- 2
+- 4
+- 6
+- 8

@@ -1,0 +1,82 @@
+\begin{table}[htbp]
+    \caption{Biometric Registration and New Party Affiliations}
+    \label{tab:filiacao-flow-main}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.08}
+    \begin{tabular*}{0.82\textwidth}{@{\extracolsep{\fill}}lcc}
+        \doubletoprule
+        Years relative to BVR adoption & TWFE & Callaway-Sant'Anna \\
+        \midrule
+        \multicolumn{3}{l}{\textit{Panel A: Log new affiliations}} \\
+        $-6$ & 0.051 & -0.085 \\
+         & (0.108) & (0.022) \\
+        $-4$ & 0.144 & 0.112 \\
+         & (0.086) & (0.023) \\
+        $-2$ & 0.000 & -0.163 \\
+         &  & (0.024) \\
+        $0$ & 0.036 & 0.031 \\
+         & (0.082) & (0.022) \\
+        $2$ & -0.059 & -0.056 \\
+         & (0.075) & (0.026) \\
+        $4$ & 0.237*** & 0.377 \\
+         & (0.056) & (0.045) \\
+        $6$ & 0.138 & 0.249 \\
+         & (0.081) & (0.063) \\
+        \addlinespace[0.25em]
+        Municipality FE & \checkmark & -- \\
+        Election-year FE & \checkmark & -- \\
+        Observations & 55,710 & 55,710 \\
+        Mean dep. var. & 4.564 & 4.564 \\
+        SD dep. var. & 1.656 & 1.656 \\
+        \midrule
+        \multicolumn{3}{l}{\textit{Panel B: New affiliations per 1,000 residents}} \\
+        $-6$ & -0.337 & -0.625 \\
+         & (1.204) & (0.445) \\
+        $-4$ & 0.884 & 0.886 \\
+         & (0.568) & (0.394) \\
+        $-2$ & 0.000 & -0.479 \\
+         &  & (0.452) \\
+        $0$ & -0.465 & -0.813 \\
+         & (0.716) & (0.457) \\
+        $2$ & -1.312 & -0.708 \\
+         & (0.930) & (0.329) \\
+        $4$ & 0.325 & -0.376 \\
+         & (0.878) & (0.808) \\
+        $6$ & 0.175 & 0.579 \\
+         & (1.056) & (0.530) \\
+        \addlinespace[0.25em]
+        Municipality FE & \checkmark & -- \\
+        Election-year FE & \checkmark & -- \\
+        Observations & 55,605 & 55,605 \\
+        Mean dep. var. & 17.850 & 17.850 \\
+        SD dep. var. & 21.060 & 21.060 \\
+        \midrule
+        \multicolumn{3}{l}{\textit{Panel C: New affiliations per 1,000 adults}} \\
+        $-6$ & -0.239 & -1.174 \\
+         & (1.751) & (0.630) \\
+        $-4$ & 1.473 & 1.352 \\
+         & (0.931) & (0.587) \\
+        $-2$ & 0.000 & -0.903 \\
+         &  & (0.643) \\
+        $0$ & -0.463 & -0.969 \\
+         & (1.089) & (0.604) \\
+        $2$ & -1.826 & -0.886 \\
+         & (1.110) & (0.455) \\
+        $4$ & 1.187 & 0.607 \\
+         & (1.249) & (1.117) \\
+        $6$ & -0.332 & 0.930 \\
+         & (1.761) & (0.631) \\
+        \addlinespace[0.25em]
+        Municipality FE & \checkmark & -- \\
+        Election-year FE & \checkmark & -- \\
+        Observations & 55,360 & 55,360 \\
+        Mean dep. var. & 24.927 & 24.927 \\
+        SD dep. var. & 29.252 & 29.252 \\
+        \doublebottomrule
+    \end{tabular*}
+    \vspace{1.1em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The table reports dynamic event-study estimates for new TSE party affiliation flows in the two-year window before each election. The TWFE specification includes municipality and election-year fixed effects and clusters standard errors by municipality and election year. Event time $-2$ is the omitted TWFE reference period. Callaway-Sant'Anna estimates use never-treated municipalities as the comparison group and municipality-clustered standard errors. All dependent variables are winsorized at the 1st and 99th municipality-election percentiles. $^{*} p<0.10$, $^{**} p<0.05$, $^{***} p<0.01$. \par}
+    \end{minipage}
+\end{table}

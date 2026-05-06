@@ -1,0 +1,4 @@
+z_score_pca1_trust ~ factor(treatment_dummy) * factor(low_ed) +
+    muni_exit_rate_active * factor(low_ed) + factor(female) +
+    factor(white) + factor(married) + factor(working) + age +
+    log_gdp_pc + log_total_pop | municipality_id + year

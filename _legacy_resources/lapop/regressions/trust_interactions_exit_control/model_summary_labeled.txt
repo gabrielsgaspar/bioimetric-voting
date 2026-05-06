@@ -1,0 +1,73 @@
+OLS estimation, Dep. Var.: z_score_pca1_trust
+Observations: 10,632
+Fixed-effects: municipality_id: 235,  year: 7
+Standard-errors: Clustered (municipality_id & year)
+                                                                     Estimate
+factor(treatment_dummy)1                                             0.119938
+factor(low_ed)1                                                      0.065089
+factor(female)1                                                     -0.015565
+factor(white)1                                                      -0.050755
+factor(married)1                                                     0.039641
+factor(working)1                                                    -0.053904
+age                                                                  0.003287
+log_gdp_pc                                                          -0.044227
+log_total_pop                                                       -0.157119
+factor(treatment_dummy)1:factor(low_ed)1                             0.037543
+treatment_dummy:muni_exit_rate_at_treatment_control                 -1.239458
+factor(low_ed)1:treatment_dummy:muni_exit_rate_at_treatment_control  0.789909
+                                                                    Std. Error
+factor(treatment_dummy)1                                              0.077873
+factor(low_ed)1                                                       0.039942
+factor(female)1                                                       0.033435
+factor(white)1                                                        0.018314
+factor(married)1                                                      0.035146
+factor(working)1                                                      0.018510
+age                                                                   0.000979
+log_gdp_pc                                                            0.182703
+log_total_pop                                                         0.573993
+factor(treatment_dummy)1:factor(low_ed)1                              0.045917
+treatment_dummy:muni_exit_rate_at_treatment_control                   0.658076
+factor(low_ed)1:treatment_dummy:muni_exit_rate_at_treatment_control   0.542039
+                                                                      t value
+factor(treatment_dummy)1                                             1.540180
+factor(low_ed)1                                                      1.629615
+factor(female)1                                                     -0.465537
+factor(white)1                                                      -2.771394
+factor(married)1                                                     1.127892
+factor(working)1                                                    -2.912133
+age                                                                  3.359166
+log_gdp_pc                                                          -0.242073
+log_total_pop                                                       -0.273729
+factor(treatment_dummy)1:factor(low_ed)1                             0.817632
+treatment_dummy:muni_exit_rate_at_treatment_control                 -1.883456
+factor(low_ed)1:treatment_dummy:muni_exit_rate_at_treatment_control  1.457291
+                                                                    Pr(>|t|)
+factor(treatment_dummy)1                                            0.174446
+factor(low_ed)1                                                     0.154305
+factor(female)1                                                     0.657965
+factor(white)1                                                      0.032363
+factor(married)1                                                    0.302438
+factor(working)1                                                    0.026906
+age                                                                 0.015245
+log_gdp_pc                                                          0.816786
+log_total_pop                                                       0.793472
+factor(treatment_dummy)1:factor(low_ed)1                            0.444815
+treatment_dummy:muni_exit_rate_at_treatment_control                 0.108633
+factor(low_ed)1:treatment_dummy:muni_exit_rate_at_treatment_control 0.195301
+
+factor(treatment_dummy)1
+factor(low_ed)1
+factor(female)1
+factor(white)1                                                      *
+factor(married)1
+factor(working)1                                                    *
+age                                                                 *
+log_gdp_pc
+log_total_pop
+factor(treatment_dummy)1:factor(low_ed)1
+treatment_dummy:muni_exit_rate_at_treatment_control
+factor(low_ed)1:treatment_dummy:muni_exit_rate_at_treatment_control
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.964076     Adj. R2: 0.156352
+                 Within R2: 0.009157

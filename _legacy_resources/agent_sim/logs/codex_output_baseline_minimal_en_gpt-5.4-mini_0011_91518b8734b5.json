@@ -1,0 +1,59 @@
+[
+  {
+    "persona_id": "p0007",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "40 km rural travel",
+      "no identity document",
+      "low income",
+      "bureaucratic steps"
+    ],
+    "reasoning": "She is retired and has secondary education, so she can probably navigate the process eventually, but the 40 km rural trip, lack of ID, and transport cost make it unlikely to happen right away.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0021",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural travel",
+      "no identity document",
+      "illiteracy",
+      "self-employed farm work",
+      "low income"
+    ],
+    "reasoning": "The long trip, no ID, illiteracy, and the need to leave farm work make compliance hard; the compulsory rule helps, but he is still more likely to miss the deadline than complete the update.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "will_register_immediately",
+    "main_barriers": [],
+    "reasoning": "She has higher education, a valid ID, decent income, is retired, and the office is only 3 km away, so this is a routine errand and she is very likely to do it promptly.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "illiteracy",
+      "zero income",
+      "needs help with paperwork"
+    ],
+    "reasoning": "Being urban and not working lowers the time and travel cost, so the close office makes compliance feasible, but no ID, no money, and low bureaucratic literacy make him likely to delay until he gets help.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km rural travel",
+      "no identity document",
+      "illiteracy",
+      "self-employed farm work",
+      "low income"
+    ],
+    "reasoning": "He faces the same structural barriers as p0021: a long rural trip, no ID, illiteracy, and the cost of missing farm work; the voting penalty is unlikely to outweigh the hassle.",
+    "confidence": 0.65
+  }
+]

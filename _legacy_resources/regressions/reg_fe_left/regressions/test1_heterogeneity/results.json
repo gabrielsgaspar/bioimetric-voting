@@ -1,0 +1,68 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_left/regression_data/test1.parquet",
+  "formula": "delta_pt_2010_2014 ~ bvr_by_2014 + bvr_by_2014_x_pc1 + pc1_2006_2010_score_z + log_population_2010 + log_gdp_per_capita_2010 | state",
+  "outcome": "delta_pt_2010_2014",
+  "regressors": ["bvr_by_2014", "bvr_by_2014_x_pc1", "pc1_2006_2010_score_z"],
+  "controls": ["log_population_2010", "log_gdp_per_capita_2010"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 2004,
+    "ncoefficients": 5,
+    "r2": 0.52979895273239164,
+    "adj_r2": 0.52289123724568409,
+    "within_r2": 0.091256748648381181,
+    "adj_within_r2": 0.088954967363296,
+    "rmse": 0.059047919888530392
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "bvr_by_2014",
+      "estimate": -0.0068227533904442091,
+      "std_error": 0.005350352370562657,
+      "statistic": -1.2751970184211832,
+      "p_value": 0.21444604915936213,
+      "conf_low": -0.017865337952251571,
+      "conf_high": 0.0042198311713631548
+    },
+    {
+      "term": "bvr_by_2014_x_pc1",
+      "estimate": -0.014318970241635151,
+      "std_error": 0.0057291464884087493,
+      "statistic": -2.4993199721119708,
+      "p_value": 0.019683948116028468,
+      "conf_low": -0.026143347438418223,
+      "conf_high": -0.0024945930448520802
+    },
+    {
+      "term": "pc1_2006_2010_score_z",
+      "estimate": -0.020570646980646819,
+      "std_error": 0.0047177249343131073,
+      "statistic": -4.3602896029464828,
+      "p_value": 0.00021130631694037415,
+      "conf_low": -0.030307552686732311,
+      "conf_high": -0.010833741274561326
+    },
+    {
+      "term": "log_population_2010",
+      "estimate": -0.00076114588676292781,
+      "std_error": 0.001433822141203919,
+      "statistic": -0.530850978576622,
+      "p_value": 0.6004005642330339,
+      "conf_low": -0.0037204093416241119,
+      "conf_high": 0.0021981175680982562
+    },
+    {
+      "term": "log_gdp_per_capita_2010",
+      "estimate": -0.020848841789278472,
+      "std_error": 0.0037599522032722185,
+      "statistic": -5.5449752183376431,
+      "p_value": 1.0533814488417172e-05,
+      "conf_low": -0.028609001733402129,
+      "conf_high": -0.013088681845154816
+    }
+  ]
+}

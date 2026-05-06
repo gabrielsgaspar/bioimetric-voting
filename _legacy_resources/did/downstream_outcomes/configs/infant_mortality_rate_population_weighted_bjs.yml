@@ -1,0 +1,25 @@
+data_path: data/clean/downstream/downstream_outcomes_panel.parquet
+file_format: parquet
+outcome: infant_mortality_rate
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+cluster_var:
+- municipality_id
+- year_election
+weights_var: population_estimate
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/downstream_outcomes/population_weighted/infant_mortality_rate/bjs
+controls: []
+notes: Downstream-outcomes run for `infant_mortality_rate`.
+estimator: bjs
+event_time_step: 2
+pretrends:
+- 2
+- 4
+- 6
+- 8

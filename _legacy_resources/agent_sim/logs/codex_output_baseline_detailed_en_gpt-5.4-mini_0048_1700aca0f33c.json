@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0941",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "older age and 3 km trip"],
+    "reasoning": "She is retired and lives in an urban area, so the trip is feasible, but missing identity documents and basic bureaucratic literacy make the process cumbersome. The compulsory voting rule and the risk of cancellation should still push her to comply within the year, just not right away.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0942",
+    "decision": "probably_wont_register",
+    "main_barriers": ["60 km rural distance", "very low income", "older age and no identity document"],
+    "reasoning": "A 60 km rural trip is a major burden for a 78-year-old retiree with very low income and no identity document. The sanctions matter, but the transport and paperwork burden is likely too large, so she probably never goes.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0943",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "limited bureaucratic literacy", "moderate transport burden"],
+    "reasoning": "The office is still reasonably close and she is retired, so the trip is feasible. Lacking an identity document should delay her, but the compulsory rule makes eventual compliance likely.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0944",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "age and transport hassle"],
+    "reasoning": "The 4 km urban trip is manageable, but she lacks an identity document and has limited money. That makes the process annoying rather than impossible, so she is likely to comply before the deadline.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0945",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport effort", "older age"],
+    "reasoning": "She has an identity document, a decent pension, and an urban office within 5 km, so there is little friction. She is likely to handle it promptly rather than wait.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0946",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport effort", "older age"],
+    "reasoning": "She has the document needed, stable retirement income, and a close urban office. The compliance burden is low enough that she would likely take care of it quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0947",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "bureaucratic hassle"],
+    "reasoning": "A 4 km urban office is reachable, but no identity document and low income create the kind of friction that leads to procrastination. The registration threat should still pull her in eventually.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0948",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "older age and limited mobility"],
+    "reasoning": "The office is close enough that this is not a hard no, but very low income, no identity document, and age make the trip easy to postpone. She is more likely to manage it eventually than never, but not quickly.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0949",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "3 km transport burden"],
+    "reasoning": "The 3 km urban trip is feasible, but her income is low and she lacks an identity document, which makes the task feel costly and bureaucratic. She should still get it done eventually because the legal consequences are concrete.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0950",
+    "decision": "will_register_immediately",
+    "main_barriers": ["advanced age", "need for transport or assistance"],
+    "reasoning": "She has an identity document, strong income, and a nearby urban office, so transport is easy to arrange. Advanced age may slow her down, but not enough to prevent prompt compliance.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0951",
+    "decision": "probably_wont_register",
+    "main_barriers": ["38 km rural distance", "no identity document", "farm work and low income"],
+    "reasoning": "A 38 km rural trip plus self-employed farm work makes the visit hard to fit into daily life, especially without an identity document. The legal penalties are not enough to outweigh the distance and cost, so she probably does not go.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0952",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "no identity document", "need for assistance"],
+    "reasoning": "The office is only 2 km away and she has no work obligations, so the trip is possible. Age and missing documents will make her depend on help, which points to delay rather than refusal.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0953",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "older age"],
+    "reasoning": "A 2 km urban trip is easy enough that she probably will not ignore it forever. The main drag is the missing identity document and low income, so she is likely to delay and then comply.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0954",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "some transport effort", "bureaucratic steps"],
+    "reasoning": "She has an identity document and a moderate pension, so the main issue is age rather than cost. That points to eventual compliance, likely with some help and not immediately.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0955",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "older age", "3 km trip"],
+    "reasoning": "The office is close, but the extremely low income and older age make even a short trip something she may put off. Since she already has an identity document, eventual compliance is still more likely than noncompliance.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0956",
+    "decision": "will_register_eventually",
+    "main_barriers": ["limited income", "older age", "5 km trip"],
+    "reasoning": "She has the needed document and lives in an urban area, so the trip is doable. The remaining friction is age and a 5 km journey, which makes delay more likely than immediate action.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0957",
+    "decision": "probably_wont_register",
+    "main_barriers": ["36 km rural distance", "no identity document", "agricultural work demands"],
+    "reasoning": "A 36 km rural trip, agricultural work, and no identity document create a very high burden. She probably never gets around to it, even with the voting penalties.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0958",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "older age", "possible transport cost"],
+    "reasoning": "The 2 km urban trip is manageable, but her very low income and age make it easy to postpone. The compulsory voting rule should still push her toward eventual compliance.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0959",
+    "decision": "will_register_eventually",
+    "main_barriers": ["modest income", "older age", "4 km trip"],
+    "reasoning": "She has an identity document and only a 4 km urban trip, so there is no major access barrier. Low income and age can still slow her down, making eventual compliance more likely than immediate action.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0960",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "older age", "3 km trip"],
+    "reasoning": "An urban 3 km trip is feasible, and retirement removes work conflict. Low income and age still make the task feel inconvenient, so she is more likely to do it eventually than right away.",
+    "confidence": 0.83
+  }
+]

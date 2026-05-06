@@ -1,0 +1,17 @@
+column_name,data_type
+ano,INT64
+turno,INT64
+id_eleicao,STRING
+tipo_eleicao,STRING
+data_eleicao,DATE
+sigla_uf,STRING
+id_municipio,STRING
+id_municipio_tse,STRING
+cargo,STRING
+numero_partido,STRING
+sigla_partido,STRING
+titulo_eleitoral_candidato,STRING
+sequencial_candidato,STRING
+numero_candidato,STRING
+resultado,STRING
+votos,INT64

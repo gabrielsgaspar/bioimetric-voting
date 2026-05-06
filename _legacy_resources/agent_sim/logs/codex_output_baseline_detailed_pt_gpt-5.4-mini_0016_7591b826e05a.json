@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_immediately",
+    "main_barriers": ["needs to take time off work", "minor transport or queue hassle"],
+    "reasoning": "She is young, educated, formally employed, has an ID, and the cartorio is only 2 km away. The trip is easy enough to fit in, and the risk of losing voter registration is high enough that she is likely to handle it soon rather than ignore it.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "probably_wont_register",
+    "main_barriers": ["illiteracy and low bureaucratic literacy", "no identity document", "very low income for transport or assistance"],
+    "reasoning": "She does not have work to conflict with the trip, but the combination of illiteracy, no ID, and very little money makes an in-person update hard to navigate. The penalty for non-compliance is real, but without outside help she is more likely to miss the deadline than complete the process.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_eventually",
+    "main_barriers": ["irregular self-employment", "lost-work time", "transport cost"],
+    "reasoning": "He has the education and ID needed to handle the process, and the office is close enough in an urban area. Because his work is irregular and income is modest, he may postpone the trip, but the penalties for non-compliance should eventually push him to go before the deadline.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_immediately",
+    "main_barriers": ["possible age or mobility discomfort", "queue and time hassle"],
+    "reasoning": "She is retired, has no work schedule to manage, lives only 2 km from the office, and already has ID. That makes the update easy to complete, so she is likely to do it soon even if she moves slowly or needs some help getting there.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "will_register_eventually",
+    "main_barriers": ["primary schooling and lower bureaucratic literacy", "self-employed construction schedule", "transport and time cost"],
+    "reasoning": "He has enough income and already has ID, so the trip is feasible, but his self-employed construction work makes it easy to delay, and his lower schooling makes the bureaucracy less straightforward. Still, the threat of losing registration and facing voting-related penalties makes eventual compliance likely.",
+    "confidence": 0.8
+  }
+]

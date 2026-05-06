@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0031",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor inconvenience of an in-person visit", "finding a convenient time"],
+    "reasoning": "She lives in an urban area, is only 2 km from the electoral office, has an ID, has secondary education, and is not working, so the process is easy to fit in. Because failure to comply would cancel her registration and affect voting rights, she is very likely to go promptly.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "probably_wont_register",
+    "main_barriers": ["51 km travel distance", "transport cost and lost work time", "illiteracy", "no identity document"],
+    "reasoning": "The office is very far from a rural home, travel would be expensive, and self-employed farm work makes a long trip costly. Illiteracy and lacking an ID add serious bureaucratic friction, so the penalties are unlikely to outweigh the practical burden.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0033",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "illiteracy", "no identity document", "time off formal work"],
+    "reasoning": "He is in a city and only 3 km away, so the trip is feasible, but he will probably need help with the paperwork and to fit it around work. The compulsory-voting penalties make compliance more likely than not, but probably after delay.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time away from work", "routine in-person visit"],
+    "reasoning": "She has higher education, a stable formal job, a decent income, an ID, and lives only 2 km away. With so few barriers and real penalties for noncompliance, she is very likely to go promptly.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "illiteracy", "no identity document", "transport cost or walking distance"],
+    "reasoning": "She is not working and lives in an urban area within a few kilometers of the office, so the trip is possible, but she will likely need help with documents and transport. The bureaucracy and poverty make her unlikely to go immediately, but the deadline and voting penalties should still push her to comply eventually.",
+    "confidence": 0.58
+  }
+]

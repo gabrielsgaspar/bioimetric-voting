@@ -1,0 +1,40 @@
+vault_root: /Users/gabrielsgaspar/Library/Mobile Documents/iCloud~md~obsidian/Documents/Research
+zotero_root: /Users/gabrielsgaspar/Zotero
+research_description: |
+  The paper studies the impact of biometric voter registration (recadastramento
+  biometrico) in Brazil on voter composition, voting, trust in institutions,
+  institutional legitimacy, and welfare. The initial seed set is exactly the
+  bibliography in paper/references/references.bib. The review should prioritize
+  papers already in the Obsidian literature network and should focus on
+  biometric voter registration, voter ID laws, registration costs, enfranchisement
+  and disenfranchisement, voter composition, turnout and voting behavior, trust
+  in institutions, political representation, welfare and downstream policy
+  consequences, polarization, and institutional legitimacy. The review should
+  explain how this paper connects voter-ID and registration-cost literatures to
+  evidence on biometric administrative reforms, electoral participation,
+  composition of the electorate, political attitudes, and welfare consequences.
+context_paths:
+  - /Users/gabrielsgaspar/Projects/bioimetric-voting/paper/references/references.bib
+review_output_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/paper/sections/literature2.tex
+bib_output_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/paper/references/references2.bib
+additions_output_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/literature_review/literature2_additions.csv
+api_mode: batch_wait
+summary_model: gpt-4o-mini
+review_model: gpt-4o-mini
+max_relevant_papers: 40
+max_review_papers: 22
+max_openalex_additions: 20
+relevance_threshold: 0.035
+min_verified_papers_for_review: 8
+batch_completion_window: 24h
+batch_poll_seconds: 30
+batch_max_wait_seconds: 1800
+force_resummarize_statuses:
+  - local_structured_draft_no_llm_key
+  - not_started
+accepted_api_summary_status_prefixes:
+  - api_structured
+  - llm_structured
+review_run_label: literature2_seed_references
+prefer_existing_network: true
+openalex_mailto: ""

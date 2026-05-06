@@ -1,0 +1,249 @@
+outcome_name,outcome_var,tier,spec,estimator,success,config_path,output_dir,log
+investment_spending_pc,log_investment_spending_pc,tier2,baseline,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/investment_spending_pc_baseline_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,374 observations removed because of NA values (LHS: 2,374).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/twfe_dynamic"
+investment_spending_pc,log_investment_spending_pc,tier2,baseline,callaway_santanna,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/investment_spending_pc_baseline_callaway_santanna.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/callaway_santanna,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning messages:
+1: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  dropped 2374 rows from original data due to missing data
+2: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/callaway_santanna"
+investment_spending_pc,log_investment_spending_pc,tier2,baseline,bjs,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/investment_spending_pc_baseline_bjs.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/bjs,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In eval(sub, parent.frame(), parent.frame()) : NAs introduced by coercion
+Finished `bjs`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/bjs"
+investment_spending_pc,log_investment_spending_pc,tier2,population_weighted,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/investment_spending_pc_population_weighted_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/investment_spending_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,374 observations removed because of NA values (LHS: 2,374, Weights: 95).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/investment_spending_pc/twfe_dynamic"
+investment_spending_pc,log_investment_spending_pc,tier2,state_year_fe,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/investment_spending_pc_state_year_fe_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/investment_spending_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,374 observations removed because of NA values (LHS: 2,374).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/investment_spending_pc/twfe_dynamic"
+investment_spending_pc,log_investment_spending_pc,tier2,nonhybrid,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/investment_spending_pc_nonhybrid_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/investment_spending_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1,795 observations removed because of NA values (LHS: 1,795).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/investment_spending_pc/twfe_dynamic"
+IPTU_pc,log_IPTU_pc,tier3,baseline,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/IPTU_pc_baseline_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/IPTU_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/IPTU_pc/twfe_dynamic"
+IPTU_pc,log_IPTU_pc,tier3,baseline,callaway_santanna,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/IPTU_pc_baseline_callaway_santanna.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/IPTU_pc/callaway_santanna,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning messages:
+1: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  dropped 2391 rows from original data due to missing data
+2: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/IPTU_pc/callaway_santanna"
+IPTU_pc,log_IPTU_pc,tier3,baseline,bjs,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/IPTU_pc_baseline_bjs.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/IPTU_pc/bjs,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In eval(sub, parent.frame(), parent.frame()) : NAs introduced by coercion
+Finished `bjs`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/IPTU_pc/bjs"
+IPTU_pc,log_IPTU_pc,tier3,population_weighted,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/IPTU_pc_population_weighted_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/IPTU_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391, Weights: 95).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/IPTU_pc/twfe_dynamic"
+IPTU_pc,log_IPTU_pc,tier3,state_year_fe,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/IPTU_pc_state_year_fe_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/IPTU_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/IPTU_pc/twfe_dynamic"
+IPTU_pc,log_IPTU_pc,tier3,nonhybrid,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/IPTU_pc_nonhybrid_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/IPTU_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1,810 observations removed because of NA values (LHS: 1,810).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/IPTU_pc/twfe_dynamic"
+ISS_pc,log_ISS_pc,tier3,baseline,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/ISS_pc_baseline_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/ISS_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/ISS_pc/twfe_dynamic"
+ISS_pc,log_ISS_pc,tier3,baseline,callaway_santanna,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/ISS_pc_baseline_callaway_santanna.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/ISS_pc/callaway_santanna,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning messages:
+1: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  dropped 2391 rows from original data due to missing data
+2: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/ISS_pc/callaway_santanna"
+ISS_pc,log_ISS_pc,tier3,baseline,bjs,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/ISS_pc_baseline_bjs.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/ISS_pc/bjs,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In eval(sub, parent.frame(), parent.frame()) : NAs introduced by coercion
+Finished `bjs`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/ISS_pc/bjs"
+ISS_pc,log_ISS_pc,tier3,population_weighted,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/ISS_pc_population_weighted_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/ISS_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391, Weights: 95).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/ISS_pc/twfe_dynamic"
+ISS_pc,log_ISS_pc,tier3,state_year_fe,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/ISS_pc_state_year_fe_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/ISS_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/ISS_pc/twfe_dynamic"
+ISS_pc,log_ISS_pc,tier3,nonhybrid,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/ISS_pc_nonhybrid_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/ISS_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1,810 observations removed because of NA values (LHS: 1,810).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/ISS_pc/twfe_dynamic"
+total_tax_revenue_pc,log_total_tax_revenue_pc,tier3,baseline,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/total_tax_revenue_pc_baseline_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/total_tax_revenue_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/total_tax_revenue_pc/twfe_dynamic"
+total_tax_revenue_pc,log_total_tax_revenue_pc,tier3,baseline,callaway_santanna,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/total_tax_revenue_pc_baseline_callaway_santanna.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/total_tax_revenue_pc/callaway_santanna,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning messages:
+1: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  dropped 2391 rows from original data due to missing data
+2: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/total_tax_revenue_pc/callaway_santanna"
+total_tax_revenue_pc,log_total_tax_revenue_pc,tier3,baseline,bjs,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/total_tax_revenue_pc_baseline_bjs.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/total_tax_revenue_pc/bjs,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In eval(sub, parent.frame(), parent.frame()) : NAs introduced by coercion
+Finished `bjs`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/total_tax_revenue_pc/bjs"
+total_tax_revenue_pc,log_total_tax_revenue_pc,tier3,population_weighted,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/total_tax_revenue_pc_population_weighted_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/total_tax_revenue_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391, Weights: 95).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/population_weighted/total_tax_revenue_pc/twfe_dynamic"
+total_tax_revenue_pc,log_total_tax_revenue_pc,tier3,state_year_fe,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/total_tax_revenue_pc_state_year_fe_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/total_tax_revenue_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 2,391 observations removed because of NA values (LHS: 2,391).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/state_year_fe/total_tax_revenue_pc/twfe_dynamic"
+total_tax_revenue_pc,log_total_tax_revenue_pc,tier3,nonhybrid,twfe_dynamic,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/configs/total_tax_revenue_pc_nonhybrid_twfe_dynamic.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/total_tax_revenue_pc/twfe_dynamic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1,810 observations removed because of NA values (LHS: 1,810).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/total_tax_revenue_pc/twfe_dynamic"
+ic,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1,795 observations removed because of NA values (LHS: 1,795).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/debt_service_pc/twfe_dynamic"

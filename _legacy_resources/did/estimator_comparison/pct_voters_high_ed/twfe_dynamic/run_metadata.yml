@@ -1,0 +1,36 @@
+timestamp: 2026-04-23 22:10:37 BST
+estimator: twfe_dynamic
+data_path: data/clean/tse/tse_clean_panel_2000_2018.csv
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/estimator_comparison/pct_voters_high_ed/twfe_dynamic
+notes: Municipality-clustered DID estimator comparison run for Brazil BVR outcome
+  `pct_voters_high_ed`.
+n_estimates: 8
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 55661.0
+  - 5571.0
+  - 10.0
+  - 2000.0
+  - 2018.0
+  - 2794.0
+  - 2777.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.

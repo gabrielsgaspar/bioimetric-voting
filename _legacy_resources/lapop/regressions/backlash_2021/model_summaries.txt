@@ -1,0 +1,31 @@
+Outcome: Count Fair
+Model: baseline
+Interaction included: No
+Observations: 698
+Municipalities: 338
+Weighted mean of dependent variable: 0.4205
+R-squared: 0.0631
+
+Outcome: Count Fair
+Model: interaction
+Interaction included: Yes
+Observations: 698
+Municipalities: 338
+Weighted mean of dependent variable: 0.4205
+R-squared: 0.0701
+
+Outcome: Ballot Secret
+Model: baseline
+Interaction included: No
+Observations: 715
+Municipalities: 376
+Weighted mean of dependent variable: 0.3290
+R-squared: 0.0326
+
+Outcome: Ballot Secret
+Model: interaction
+Interaction included: Yes
+Observations: 715
+Municipalities: 376
+Weighted mean of dependent variable: 0.3290
+R-squared: 0.0353

@@ -1,0 +1,68 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_pt_exit_low_ed_2018/analysis_data.parquet",
+  "formula": "pct_votes_pt_2018_runoff ~ exit_rate_2018 + exit_rate_2018_x_low_ed_share_2008 + low_ed_share_2008 + pct_votes_pt_2014_runoff + log_gdp_pc | state",
+  "outcome": "pct_votes_pt_2018_runoff",
+  "regressors": ["exit_rate_2018", "exit_rate_2018_x_low_ed_share_2008"],
+  "controls": ["low_ed_share_2008", "pct_votes_pt_2014_runoff", "log_gdp_pc"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 5569,
+    "ncoefficients": 5,
+    "r2": 0.93030786853369063,
+    "adj_r2": 0.92993033802737257,
+    "within_r2": 0.72217680969441744,
+    "adj_within_r2": 0.72192597618926624,
+    "rmse": 0.058554269459143188
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "exit_rate_2018",
+      "estimate": 0.019770714447659404,
+      "std_error": 0.068010494997486431,
+      "statistic": 0.29070093444239892,
+      "p_value": 0.77367803424717618,
+      "conf_low": -0.12029952199149918,
+      "conf_high": 0.15984095088681799
+    },
+    {
+      "term": "exit_rate_2018_x_low_ed_share_2008",
+      "estimate": -0.0080027693015936319,
+      "std_error": 0.089320781971678795,
+      "statistic": -0.089595826692729738,
+      "p_value": 0.92932233995087299,
+      "conf_low": -0.19196236333433783,
+      "conf_high": 0.17595682473115057
+    },
+    {
+      "term": "low_ed_share_2008",
+      "estimate": 0.3267265470492115,
+      "std_error": 0.03802333183454297,
+      "statistic": 8.5927910912949237,
+      "p_value": 6.2296230941896849e-09,
+      "conf_low": 0.24841602923183848,
+      "conf_high": 0.40503706486658453
+    },
+    {
+      "term": "pct_votes_pt_2014_runoff",
+      "estimate": 0.81250029470187757,
+      "std_error": 0.025980812825850838,
+      "statistic": 31.273089881677681,
+      "p_value": 1.4509556898302931e-21,
+      "conf_low": 0.75899180905517039,
+      "conf_high": 0.86600878034858475
+    },
+    {
+      "term": "log_gdp_pc",
+      "estimate": -0.016005132693896681,
+      "std_error": 0.0045866059222003522,
+      "statistic": -3.4895373540656114,
+      "p_value": 0.0018124175237981565,
+      "conf_low": -0.025451424416954901,
+      "conf_high": -0.0065588409708384632
+    }
+  ]
+}

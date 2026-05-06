@@ -1,0 +1,8 @@
+Estimator: Borusyak-Jaravel-Spiess
+Outcome: neonatal_mortality_rate
+Unit id: municipality_id
+Time id: year_election
+Group id: year_treated
+Horizons requested: 0, 2, 4, 6, 8
+Pretrends requested: 2, 4, 6, 8
+Estimated with `didimputation::did_imputation()` and a first-stage specification that includes unit and time fixed effects.

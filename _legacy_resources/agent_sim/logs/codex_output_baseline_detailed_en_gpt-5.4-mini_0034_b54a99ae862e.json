@@ -1,0 +1,222 @@
+[
+  {
+    "persona_id": "p0661",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "57 km rural trip to the cartorio",
+      "transport and fuel cost",
+      "lost time from self-employed farm work"
+    ],
+    "reasoning": "He has an identity document and the compulsory deadline makes non-compliance risky, but the long trip and the need to pause farm work make this something he is likely to delay rather than do right away.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0662",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low monthly income",
+      "no identity document",
+      "35 km rural distance and transport cost"
+    ],
+    "reasoning": "The fines and voting restrictions are real, but for someone this poor and remote, the cost and bureaucratic friction of making the trip are likely too high to overcome.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0663",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "46 km rural distance",
+      "transport and paperwork burden"
+    ],
+    "reasoning": "The missing ID and long distance will slow him down, but his income is not so low that the trip is out of reach, and the compulsory deadline gives him a reason to eventually handle it.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0664",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "zero income",
+      "no identity document",
+      "58 km rural distance"
+    ],
+    "reasoning": "With no income, no ID, and the office far away, the practical obstacles are overwhelming; compulsory voting is unlikely to be enough to make this trip happen.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0665",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "formal work schedule",
+      "low wage",
+      "need to fit a 4 km trip into the workday"
+    ],
+    "reasoning": "He is close enough to the office that compliance is feasible, but a formal manufacturing job and a modest income make it more likely that he delays until he can arrange time off.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0666",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "57 km rural distance",
+      "transport cost",
+      "time off from formal construction work"
+    ],
+    "reasoning": "The long rural trip is the main obstacle, but his formal job and moderate income make compliance manageable enough that he is likely to do it after some delay.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0667",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "formal work schedule",
+      "5 km trip to the office",
+      "need to plan around work hours"
+    ],
+    "reasoning": "The office is not far away and he has the money to manage it, but a formal manufacturing schedule usually means he will wait for a convenient day instead of going immediately.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0668",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "36 km rural distance",
+      "transport and bureaucratic burden"
+    ],
+    "reasoning": "Lacking an ID makes the process harder, but the distance is not extreme and his income is enough that the compulsory update is still likely to happen eventually.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0669",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "modest transport cost",
+      "low urgency despite compulsory voting"
+    ],
+    "reasoning": "Being inactive removes the work conflict, but poverty and the small hassle of getting to the office still make him more likely to postpone than to act immediately.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0670",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal work takes daily time",
+      "5 km urban trip",
+      "transport or lost-income cost"
+    ],
+    "reasoning": "He is probably able to comply, but informal construction work makes the timing awkward, so he is more likely to delay until he finds a workable day.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0671",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "self-employed work schedule",
+      "3 km trip still has a cost"
+    ],
+    "reasoning": "The office is close, but his income is so low that even a small trip can feel costly, so he is likely to put it off before eventually doing it.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0672",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor scheduling around work",
+      "routine paperwork",
+      "small 3 km trip"
+    ],
+    "reasoning": "With a decent income, an ID already in hand, and a nearby office, there is little to stop him from handling the update quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0673",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "self-employed schedule",
+      "3 km urban trip",
+      "paperwork and waiting time"
+    ],
+    "reasoning": "The office is close and his income is enough to absorb the trip, so the mandatory update is likely to be dealt with soon rather than postponed for long.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0674",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "needs to fit the visit around work",
+      "small 2 km trip",
+      "basic paperwork"
+    ],
+    "reasoning": "The office is very close, he has the needed ID, and the formal job is the only meaningful obstacle, so compliance should happen quickly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0675",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "self-employed work schedule",
+      "2 km urban trip",
+      "time away from paid work"
+    ],
+    "reasoning": "Even with a modest income, the trip is short and his work is flexible enough that he is likely to take care of the update without much delay.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0676",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "informal construction work",
+      "3 km trip and lost day earnings"
+    ],
+    "reasoning": "The office is not far, but his low income makes even a short trip costly in practice, so he is more likely to delay and then go when the deadline feels real.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0677",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "54 km rural distance",
+      "transport cost",
+      "lost time from farm work"
+    ],
+    "reasoning": "The long trip is a real burden, but he has an ID and enough income to make one organized trip within the year, especially with voter cancellation as the consequence.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0678",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low income",
+      "no identity document",
+      "36 km rural distance"
+    ],
+    "reasoning": "This is a bad combination of poverty, missing ID, and rural distance, so the trip is unlikely to happen unless someone else helps him substantially.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0679",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal work schedule",
+      "5 km trip to the office",
+      "moderate transport and waiting cost"
+    ],
+    "reasoning": "He is likely to comply because the office is reachable and the rules are compulsory, but informal service work makes it more likely that he delays until it is convenient.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0680",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "formal manufacturing schedule",
+      "4 km urban trip",
+      "time off work"
+    ],
+    "reasoning": "The trip is feasible and his income is stable, but a formal job usually means he will need to pick a convenient day rather than go straight away.",
+    "confidence": 0.83
+  }
+]

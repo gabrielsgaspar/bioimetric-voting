@@ -1,0 +1,13 @@
+data:
+  path: resources/regressions/reg_fe_compare/analysis_panel.parquet
+regression:
+  outcome: norm_2006_voters
+  regressors:
+  - D_str_0
+  - D_hyb_0
+  fixed_effects:
+  - municipality_id
+  - year_election
+  cluster: municipality_id
+output:
+  dir: resources/regressions/reg_fe_compare/norm_voters

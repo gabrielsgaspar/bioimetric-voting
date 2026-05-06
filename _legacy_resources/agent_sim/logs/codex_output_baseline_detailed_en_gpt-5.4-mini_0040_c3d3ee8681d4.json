@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0781",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "paperwork and photo/fingerprint update", "some transport effort despite retirement"],
+    "reasoning": "Retirement removes the work barrier, and compulsory voting plus the risk of losing registration make compliance likely; the main friction is just the trip and paperwork, so he is more likely to do it after a short delay.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0782",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed construction schedule", "low income", "transport and time cost"],
+    "reasoning": "He is close enough for the trip to be manageable and the sanctions matter, but self-employed construction work and low income make him more likely to wait for a convenient day.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0783",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work hours", "very low income", "bureaucratic paperwork"],
+    "reasoning": "The office is reachable and the penalties matter, but a fixed manufacturing job and very low income make a delayed visit more likely than an immediate one.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0784",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "irregular self-employed work", "5 km trip and transport cost", "primary education"],
+    "reasoning": "He probably will comply because losing registration is costly, but poverty and irregular self-employed work make procrastination likely.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0785",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost fares from self-employed transport work", "5 km trip", "low income"],
+    "reasoning": "Compulsory voting and the risk of losing registration should push him to comply, but he will probably wait until he can spare a day without losing fares.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0786",
+    "decision": "probably_wont_register",
+    "main_barriers": ["45 km rural distance", "no identity document", "low income and informal farm work", "transport and paperwork are both costly"],
+    "reasoning": "The combination of distance, no ID, and informal low-paid farm work makes successful re-registration unlikely even with the legal pressure.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0787",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km trip", "paperwork friction", "time away from work if he is still active"],
+    "reasoning": "High income and control over his schedule make the trip easy to absorb, so he is likely to handle it promptly.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0788",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "paperwork steps", "3 km trip"],
+    "reasoning": "A formal public admin job usually means better scheduling and more bureaucratic comfort, so he is very likely to register quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0789",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal services schedule", "5 km trip", "bureaucratic friction"],
+    "reasoning": "He will likely comply within the year, but a formal work schedule and the 5 km trip make delay more likely than immediate action.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0790",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal manufacturing shifts", "3 km trip", "modest income"],
+    "reasoning": "He is likely to comply, but factory shifts and modest income create enough friction that he will probably postpone the trip first.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0791",
+    "decision": "will_register_eventually",
+    "main_barriers": ["zero income", "bureaucratic steps", "transport cost"],
+    "reasoning": "He has time because he is unemployed, but zero income makes even small transport and paperwork costs harder, so compliance is more likely after delay.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0792",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "4 km trip", "income loss if he stops working"],
+    "reasoning": "He should register eventually because the office is not far and the penalties matter, but self-employment makes scheduling the main obstacle.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0793",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal agriculture schedule", "4 km trip", "modest income"],
+    "reasoning": "The trip is manageable and the sanctions matter, but a formal agriculture schedule and modest income make a delayed visit more likely.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0794",
+    "decision": "will_register_immediately",
+    "main_barriers": ["2 km trip", "paperwork only"],
+    "reasoning": "Retirement and the very short distance make this an easy prompt-compliance case.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0795",
+    "decision": "will_register_eventually",
+    "main_barriers": ["construction work schedule", "3 km trip", "modest income"],
+    "reasoning": "He is likely to comply, but construction work and modest income make it more realistic that he delays until he can spare time.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0796",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km trip", "paperwork is minor", "no work barrier"],
+    "reasoning": "With retirement, high income, and only a short trip, he has very little friction and should register promptly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0797",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "2 km trip", "paperwork"],
+    "reasoning": "He is close enough and has enough income to comply, but self-employment makes him more likely to do it when convenient rather than immediately.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0798",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km trip", "shift/work schedule", "paperwork"],
+    "reasoning": "The office is manageable and public-sector work usually comes with stronger compliance habits, so he is likely to go soon.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0799",
+    "decision": "probably_wont_register",
+    "main_barriers": ["39 km rural distance", "no identity document", "low income", "self-employed farm work"],
+    "reasoning": "Rural distance, no ID, and low income make the trip hard to pull off, so noncompliance is more likely than registration.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0800",
+    "decision": "probably_wont_register",
+    "main_barriers": ["51 km rural distance", "no identity document", "zero income", "limited transport access"],
+    "reasoning": "This is the most difficult case: no ID, no income, and a 51 km rural trip make re-registration unlikely despite the penalties.",
+    "confidence": 0.95
+  }
+]

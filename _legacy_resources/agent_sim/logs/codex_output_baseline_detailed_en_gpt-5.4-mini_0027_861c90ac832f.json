@@ -1,0 +1,209 @@
+[
+  {
+    "persona_id": "p0521",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal work makes missing a day costly",
+      "small transport and paperwork burden"
+    ],
+    "reasoning": "The office is close and the legal risk of losing registration is real, so he is likely to comply. The main reason he may not go immediately is that informal work and low income make it harder to spare time and handle the bureaucratic trip.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0522",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "irregular informal work schedule",
+      "transport fare and bureaucratic hassle"
+    ],
+    "reasoning": "A 2 km office in an urban area makes the trip manageable, and compulsory voting raises the cost of ignoring it. He is more likely to delay than to skip it because informal work and low schooling add friction.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0523",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "daily income lost by stopping work",
+      "time needed to travel and wait at the office"
+    ],
+    "reasoning": "The office is close enough that distance is not a major problem, and the voting penalty makes noncompliance risky. Still, an informal transport worker is likely to delay until he can spare a workday.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0524",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very long 32 km rural trip",
+      "no income for transport or a lost day",
+      "likely weak bureaucratic access"
+    ],
+    "reasoning": "For someone with no income in a rural area, the travel cost and logistics are severe. The compulsory voting penalty is real, but it is not strong enough to outweigh the practical barrier of getting to the office.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0525",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no personal income for transport",
+      "bureaucratic hassle and procrastination"
+    ],
+    "reasoning": "Being a student means he has more time flexibility, and the 5 km urban trip is still feasible. Lack of money may delay him, but compulsory registration makes eventual compliance likely.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0526",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost daily wages from informal construction work",
+      "transport cost relative to very low income"
+    ],
+    "reasoning": "The office is not far, so this is not an impossible trip. The main friction is that an informal worker on very low income may wait for a convenient day, but the legal consequences should still push him to register.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0527",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "missing a workday",
+      "transport and paperwork inconvenience"
+    ],
+    "reasoning": "A 4 km urban trip is manageable, and formal voting pressure makes compliance likely. He may still postpone because construction work creates day-to-day income pressure.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0528",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal earnings lost while attending",
+      "transport fare and low income"
+    ],
+    "reasoning": "The office is close enough that distance is not the issue. The likely pattern is delay rather than refusal, because informal work and low income make the trip inconvenient but not prohibitive.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0529",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "brief scheduling around a work shift",
+      "minor trip logistics"
+    ],
+    "reasoning": "High income, formal employment, and a short urban distance make the trip easy to absorb. He is very likely to handle it quickly once informed.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0530",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "time off from formal manufacturing work",
+      "transport cost"
+    ],
+    "reasoning": "Formal employment helps, but the wage is so low that even a small trip is meaningful. He is likely to comply within the year, but probably not right away.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0531",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "loss of informal service income",
+      "transport and bureaucracy"
+    ],
+    "reasoning": "The 4 km urban distance is manageable, and compulsory voting raises the cost of ignoring the requirement. Informal work makes him more likely to delay than to skip it.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0532",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "extremely low income",
+      "transport cost",
+      "difficulty missing work"
+    ],
+    "reasoning": "Even though he has formal employment, the pay is very low and the trip still costs real money and time. That makes delay likely, but the office is close enough that eventual compliance is still more probable than refusal.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0533",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor scheduling around self-employment"
+    ],
+    "reasoning": "Self-employment and a 2 km office make this an easy bureaucratic errand. With decent income and little travel burden, he is likely to take care of it quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0534",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low motivation and procrastination",
+      "transport cost",
+      "bureaucratic hassle"
+    ],
+    "reasoning": "Being unemployed removes the work conflict, so the trip is feasible. The main issue is that he may not prioritize it immediately, but the legal pressure and manageable urban distance make eventual compliance likely.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0535",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "missing time from work",
+      "small transport burden"
+    ],
+    "reasoning": "The office is close and formal employment makes the trip possible, but a household income of R$ 500 leaves little room for extra costs. He is likely to go, but probably after some delay.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0536",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "time off work",
+      "transport and waiting time"
+    ],
+    "reasoning": "A 3 km urban trip is not hard, and compulsory voting should eventually push him to comply. The low income and formal work schedule make it more likely that he postpones than that he refuses.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0537",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very long 43 km rural trip",
+      "transport cost and time off work",
+      "full-day logistics"
+    ],
+    "reasoning": "The distance is the main obstacle by far, but his formal job and decent income make the trip possible within a year. He is likely to delay because the rural travel burden is high, but not to ignore it entirely.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0538",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal commerce interruptions",
+      "small scheduling and transport burden"
+    ],
+    "reasoning": "The office is close and he can usually choose a slow moment to go. Informal work creates some delay, but the compliance pressure is strong enough that he is likely to show up eventually.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0539",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "procrastination",
+      "transport cost",
+      "basic bureaucratic friction"
+    ],
+    "reasoning": "Without a job, he has time, and a 5 km urban trip is manageable. The main risk is low urgency, so he is more likely to delay than to ignore the requirement.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0540",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal work income lost while attending",
+      "transport and waiting time"
+    ],
+    "reasoning": "A 2 km office makes the trip easy enough to complete, and the compulsory rule creates a real incentive to comply. Informal manufacturing work means he may not go immediately, but he should register within the year.",
+    "confidence": 0.8
+  }
+]

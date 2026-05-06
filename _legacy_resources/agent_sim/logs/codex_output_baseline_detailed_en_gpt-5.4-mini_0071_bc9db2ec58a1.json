@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1401",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "He is retired, lives in an urban area, has an identity document, and the office is only 4 km away. With no work or childcare constraints, the cancellation risk should make this an easy and prompt trip.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1402",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine scheduling"],
+    "reasoning": "A public worker with a very short 2 km trip faces little friction, and there is no document gap. The legal consequences make prompt compliance very likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1403",
+    "decision": "will_register_eventually",
+    "main_barriers": ["slightly longer urban trip"],
+    "reasoning": "He is retired and urban, so the main issue is just the somewhat less convenient 5 km trip. He is likely to comply, but more after some delay than right away.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1404",
+    "decision": "probably_wont_register",
+    "main_barriers": ["52 km rural distance", "no identity document", "high transport cost", "low income"],
+    "reasoning": "The combination of a 52 km rural trip, very low income, and no identity document makes this a major bureaucratic and transport burden. The legal penalties are unlikely to outweigh those frictions.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1405",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related mobility convenience", "small transport hassle"],
+    "reasoning": "He is retired and urban with a nearby office, so compliance is feasible. At 71, he may wait for convenience or assistance, but he is still likely to go within the year.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1406",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "modest income"],
+    "reasoning": "The short urban trip makes compliance realistic, but being employed and on a low income means taking time out has some cost. He is likely to do it, just not immediately.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1407",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "transport assistance"],
+    "reasoning": "Age 81 raises mobility and planning friction, but he is retired, urban, and has enough income to arrange the trip. The loss of registration should still push him to comply eventually.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1408",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employment schedule", "limited income", "trip costs"],
+    "reasoning": "Self-employment and low income make missing work costly, but the office is close enough that he should still manage the trip after some delay. The legal risk should keep him from ignoring it.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1409",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed business hours", "some travel inconvenience"],
+    "reasoning": "He can likely afford the trip and the office is nearby, but running a business makes it easy to postpone. He is still likely to comply before the deadline.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1410",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "need to plan transport"],
+    "reasoning": "He is retired and the office is only 3 km away, but his age makes him more likely to delay than to go immediately. He should still comply within the year.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1411",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very advanced age", "no personal income", "transport dependence"],
+    "reasoning": "At 85 with no income, travel likely requires help or careful budgeting, but the urban distance is still manageable enough that he could comply if assisted. The main effect is delay, not refusal.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1412",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employment schedule", "time off work"],
+    "reasoning": "A 3 km urban trip and the risk of cancellation make compliance likely, though self-employed work can push it back. He is more likely to go after some delay than to ignore it.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1413",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minimal barriers", "short trip"],
+    "reasoning": "High income, retirement, and a nearby office make this a low-friction errand. He is likely to handle it quickly once the requirement is announced.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1414",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "occasional mobility hassle"],
+    "reasoning": "The trip itself is easy, but at 78 he may wait until he can do it with support or a convenient appointment. He should still comply within the deadline.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1415",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "lost income from a day off"],
+    "reasoning": "Informal work creates a real cost if he spends a day on paperwork, but the 2 km distance and legal pressure make eventual compliance more likely than not.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1416",
+    "decision": "probably_wont_register",
+    "main_barriers": ["55 km rural distance", "transport cost", "low cash flow"],
+    "reasoning": "A 55 km rural round trip is expensive and time-consuming, and low cash plus rural access make compliance unlikely. The penalty threat is not enough to overcome that burden.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1417",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal transport work schedule", "some lost work time"],
+    "reasoning": "Informal transport work can make scheduling awkward, but the office is close enough that he should manage the trip within 12 months. He is more likely to delay than to skip it.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1418",
+    "decision": "will_register_eventually",
+    "main_barriers": ["54 km rural distance", "farm-work scheduling", "travel cost"],
+    "reasoning": "The 54 km distance is a major burden, but his moderate income and self-employed farm work make a one-time trip feasible if he plans ahead. He is likely to comply, just not quickly.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1419",
+    "decision": "will_register_immediately",
+    "main_barriers": ["some travel inconvenience", "self-employment scheduling"],
+    "reasoning": "He has high income, flexible self-employment, and only a 5 km trip, so the process is low friction. The legal risk should push him to comply promptly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1420",
+    "decision": "probably_wont_register",
+    "main_barriers": ["50 km rural distance", "transport cost", "low income"],
+    "reasoning": "A 50 km rural trip on a low income is a major obstacle, and self-employed farm work makes it easy to put off indefinitely. He is unlikely to complete the re-registration.",
+    "confidence": 0.95
+  }
+]

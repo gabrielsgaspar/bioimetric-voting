@@ -1,0 +1,8 @@
+Estimator: Callaway-Sant'Anna
+Outcome: pct_mayor_L
+Unit id: municipality_id
+Time id: year
+Group id: year_first_any_bvr
+Control group: nevertreated
+Anticipation periods: 0
+Estimated group-time ATT(g,t) with `did::att_gt()` and dynamic, simple, calendar, and group aggregations via `did::aggte()`.

@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0903",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "older age", "4 km trip", "basic bureaucracy"],
+    "reasoning": "The office is within reach in an urban area, and the threat of losing registration is strong enough to push compliance. He is more likely to delay because of age, low income, and the inconvenience of the trip than to skip it entirely.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0906",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "self-employed work schedule", "2 km trip"],
+    "reasoning": "Even at 82, the cartorio is close enough that the trip is feasible, especially since self-employment gives some scheduling flexibility. He will likely put it off a bit, but the risk of cancellation should eventually get him there.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0908",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor age-related mobility issues", "normal queue or paperwork"],
+    "reasoning": "He is retired, has ID, and the cartorio is only 2 km away, so there is little practical friction. With compulsory voting and the threat of losing registration, he is likely to comply quickly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0913",
+    "decision": "probably_wont_register",
+    "main_barriers": ["49 km rural trip", "no identity document", "limited transport access", "paperwork complexity"],
+    "reasoning": "The long rural distance plus the lack of an ID creates a multi-step bureaucratic problem that is easy to postpone and hard to solve. Even with retirement income, this looks like the kind of case that often misses the deadline.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0915",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "older age", "4 km trip", "bureaucratic literacy"],
+    "reasoning": "The trip is not far, and retirement means he has time, but the low income and administrative hassle can cause delay. The penalty for non-compliance should still make him comply before the deadline.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0916",
+    "decision": "will_register_eventually",
+    "main_barriers": ["older age", "self-employed work", "4 km trip"],
+    "reasoning": "He is old but still active, and the cartorio is close enough that the errand is manageable. Work schedule and age make immediate action less likely, but not completing it would be too risky.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0931",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "primary schooling", "3 km trip"],
+    "reasoning": "This is a fairly manageable urban case, but low education and low income can slow down bureaucratic tasks. He is likely to wait until the deadline gets closer, then go.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0938",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "older age", "3 km trip", "need for assistance with paperwork"],
+    "reasoning": "The distance is short, and retirement means she has time, but missing ID makes the process harder to start and may require help. She is still more likely to eventually resolve it than to abandon it.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0947",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "older age", "4 km trip"],
+    "reasoning": "She is close enough to reach the office, but missing ID and limited money make the process more cumbersome. The legal risk should push her to comply, though probably not right away.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0948",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very low income", "no identity document", "older age", "paperwork and transport costs"],
+    "reasoning": "Although the cartorio is only 4 km away, extreme poverty and lack of ID make the bureaucratic burden substantial. This looks like a case where the task is easy to defer indefinitely and may not get done in time.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p0966",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "basic bureaucratic literacy", "2 km trip"],
+    "reasoning": "The office is very close, and she does not have a work schedule to fight against, so the trip itself is manageable. The missing ID will slow her down, but the penalty for non-compliance should still bring her in.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0975",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor mobility issues", "normal queue or paperwork"],
+    "reasoning": "She is retired, lives only 2 km away, and already has ID, so there is little practical friction. This is the kind of case where the person is likely to go soon after hearing the requirement.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0979",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "5 km trip", "basic bureaucratic literacy"],
+    "reasoning": "She is not working, so time is available, but missing ID and a slightly longer trip make the task less straightforward. The requirement is likely to be handled eventually, though with delay.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1003",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "informal work schedule", "3 km trip"],
+    "reasoning": "He is young and the office is not far, so the trip is feasible, but informal work and poverty make any bureaucratic errand easy to postpone. The registration threat should still eventually push him to comply.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1012",
+    "decision": "will_register_eventually",
+    "main_barriers": ["extreme poverty", "informal work", "5 km trip"],
+    "reasoning": "The main obstacle is not distance but the cost in time and money for someone living on a very small informal income. Even so, the registration requirement is close enough and important enough that he will probably manage it before the deadline.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1013",
+    "decision": "will_register_immediately",
+    "main_barriers": ["normal travel time", "paperwork"],
+    "reasoning": "He is a student, has ID, and lives in an urban area with a relatively short trip to the cartorio. With few barriers and strong consequences for non-compliance, he is likely to handle it quickly.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1042",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "formal work schedule", "5 km trip"],
+    "reasoning": "A formal job makes taking time off more annoying, and the family income is low enough that transport costs matter. Still, the urban distance is manageable, so he is more likely to go than to ignore it.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1043",
+    "decision": "will_register_eventually",
+    "main_barriers": ["33 km rural trip", "agricultural work schedule", "travel cost"],
+    "reasoning": "The distance is significant, and rural travel takes planning, especially around agricultural work. He likely delays, but the legal consequences and decent income make eventual compliance plausible.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1050",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor inconvenience", "normal queue or paperwork"],
+    "reasoning": "He is young, has no work barrier, and can easily handle a 5 km urban trip with a high household income. There is little reason for him to delay a mandatory registration.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1052",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor inconvenience", "normal queue or paperwork"],
+    "reasoning": "As a student in an urban area with a close cartorio and strong household resources, he faces almost no practical obstacles. He is very likely to comply quickly.",
+    "confidence": 0.95
+  }
+]

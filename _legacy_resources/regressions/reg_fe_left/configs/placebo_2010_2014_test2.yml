@@ -1,0 +1,15 @@
+data:
+  path: resources/regressions/reg_fe_left/regression_data/placebo2.parquet
+regression:
+  outcome: delta_pt_2010_2014
+  regressors:
+  - bvr_by_2018_minus_2014_only
+  controls:
+  - log_population_2010
+  - log_gdp_per_capita_2010
+  fixed_effects:
+  - state
+  cluster:
+  - state
+output:
+  dir: resources/regressions/reg_fe_left/regressions/placebo_2010_2014_test2

@@ -1,0 +1,31 @@
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\doubletoprule
+ & (1) Municipality-level & (2) Individual ITT & (3) Individual triple-difference \\
+\midrule
+\multicolumn{4}{l}{\textit{Panel A. Trust in institutions}} \\
+Baseline treatment effect & 0.251** & 0.235 & 0.257 \\
+ & (0.106) & (0.184) & (0.194) \\
+Treatment $\times$ low education & 0.041 &  & -0.310 \\
+ & (0.093) &  & (0.219) \\
+\midrule
+\multicolumn{4}{l}{\textit{Panel B. Trust in democracy}} \\
+Baseline treatment effect & 0.428*** & 0.097 & 0.071 \\
+ & (0.146) & (0.243) & (0.250) \\
+Treatment $\times$ low education & 0.088 &  & 0.358 \\
+ & (0.139) &  & (0.370) \\
+\midrule
+Observations & 2,425 & 2,425 & 2,425 \\
+Municipalities & 8 & 8 & 8 \\
+Survey waves & 8 & 8 & 8 \\
+Municipality-year cells & 64 & 64 & 64 \\
+Always-BVR respondents &  & 28 & 28 \\
+Mixed-cohort respondents &  & 247 & 247 \\
+\doublebottomrule
+\end{tabular}
+}
+
+\begin{minipage}{\textwidth}
+\footnotesize
+\textbf{Note:} Column~(1) keeps the current municipality-level BVR treatment assignment but re-estimates it on the balanced municipality sample used here. Columns~(2) and (3) use respondent-level exposure timing constructed from interview age and municipal rollout year. The sample is restricted to benchmark years 2005--2020, respondents age 18 or older, and municipalities observed in every survey wave in that window. All columns include municipality and survey-year fixed effects and cluster standard errors by municipality-year cell. Individual controls are low education, female, white, married, working, and age; respondent-level columns add a cubic in age because exposure timing is age-imputed. The mixed cohort is retained as a separate control group in columns~(2) and (3), with coefficients omitted from the table.
+\end{minipage}

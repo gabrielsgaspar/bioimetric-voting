@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1461",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "older age", "transport cost to the office"],
+    "reasoning": "She is retired and the office is only 5 km away, so the trip is feasible, but her very low income and older age make it more likely she postpones it. The risk of losing voter registration should still push her to comply before the deadline.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1462",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "minor transport burden"],
+    "reasoning": "She is retired, has a nearby office at 3 km, and has enough income to handle the trip without much strain. With compulsory voting and the risk of losing registration, she is likely to act quickly.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1463",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off work", "low income", "transport cost"],
+    "reasoning": "She works as a health worker, so scheduling the trip around work is the main friction even though she is literate and the office is reachable. The legal consequences of non-compliance make eventual registration likely, but not necessarily right away.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1464",
+    "decision": "will_register_eventually",
+    "main_barriers": ["older age", "transport logistics", "moderate income"],
+    "reasoning": "She is retired, so there is no work barrier, but at age 70 and with a 5 km trip, she may delay until it is convenient. The compulsory-voting rule and cancellation threat still make compliance likely within the year.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1465",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "minor transport burden"],
+    "reasoning": "She has high income, is retired, and the electoral office is only 3 km away, so there are few practical obstacles. She is very likely to handle the update promptly rather than risk losing her registration.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1466",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "transport to the office"],
+    "reasoning": "She is retired, has a moderate-high income, and the office is only 5 km away, so the trip is manageable. The cost of losing voting rights is enough to make prompt compliance likely.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1467",
+    "decision": "will_register_eventually",
+    "main_barriers": ["extremely low income", "transport cost", "older age"],
+    "reasoning": "The office is relatively close, but her very low income makes even a short bureaucratic trip harder to prioritize. She will probably comply eventually because losing voter registration has consequences, but she may delay for a long time.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1468",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "older age", "moderate transport burden"],
+    "reasoning": "She is not working, so time is available, but her low income and the 5 km distance create enough friction that she may postpone the trip. The compulsory nature of voting still makes eventual registration more likely than non-compliance.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1469",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "mobility concerns", "transport logistics"],
+    "reasoning": "Her income is high and the office is not far, so money is not the issue, but age 86 makes any in-person bureaucracy slower and more cumbersome. She is still likely to do it within the year, especially to avoid losing her registration.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1470",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off work", "transport cost", "older age"],
+    "reasoning": "As a domestic worker, she may have to negotiate time away from work, which is the main obstacle despite the short distance. The legal consequences of not re-registering make eventual compliance likely.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1471",
+    "decision": "probably_wont_register",
+    "main_barriers": ["48 km distance", "no identity document", "very low income", "transport logistics"],
+    "reasoning": "This is a severe barrier combination: she lives far from the office, lacks an ID, and has very little income to fund travel or extra bureaucratic steps. Even with the threat of losing voter registration, she is unlikely to complete the process.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1472",
+    "decision": "will_register_eventually",
+    "main_barriers": ["older age", "transport logistics", "moderate income"],
+    "reasoning": "She is retired and has an office within 5 km, but at age 79 she may move slowly and delay the errand. Because the consequences of non-compliance are real, she is still more likely than not to register before the deadline.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1473",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "minor transport burden"],
+    "reasoning": "Her income is strong, she is retired, and the office is only 3 km away, so there are very few practical barriers. The compulsory-voting rule and risk of cancellation make prompt compliance very likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1474",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "low income", "transport cost"],
+    "reasoning": "At age 82, the main friction is the effort of getting to the office and handling the trip on a limited budget. She is still likely to comply eventually because losing her registration would be a meaningful inconvenience.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1475",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "minor transport burden"],
+    "reasoning": "She has a short 2 km trip, a solid income, and no work barrier because she is retired. That combination makes it likely she handles the re-registration quickly rather than waiting.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1476",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "physically demanding work", "transport cost"],
+    "reasoning": "Her self-employed work gives some schedule flexibility, but the combination of age 72 and very low income makes the errand hard to prioritize. She may delay, yet the loss of voter registration should still eventually push her to go.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p1477",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "minor transport burden"],
+    "reasoning": "She has high income, is self-employed, and can likely choose a convenient time to go even with a 5 km trip. The cancellation risk makes prompt compliance likely.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1478",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "5 km distance", "older age"],
+    "reasoning": "She is not working, so time is available, but her low income and the moderate trip distance make the errand easy to postpone. She is still likely to comply within 12 months because she does not want her registration cancelled.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1479",
+    "decision": "will_register_eventually",
+    "main_barriers": ["57 km travel distance", "rural transport logistics", "older age"],
+    "reasoning": "The main obstacle is the very long rural trip, which makes the process expensive and inconvenient even though she has enough income to pay for it. She is likely to delay, but the voting consequences make eventual compliance more likely than non-compliance.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1480",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off work", "low income", "transport cost"],
+    "reasoning": "As a domestic worker with a modest income, she may have trouble finding the time and money for the trip even though the office is only 5 km away. The threat of losing her voter registration should still make her eventually go.",
+    "confidence": 0.72
+  }
+]

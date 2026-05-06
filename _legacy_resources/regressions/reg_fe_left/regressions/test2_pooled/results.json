@@ -1,0 +1,50 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_left/regression_data/test2.parquet",
+  "formula": "delta_pt_2014_2018 ~ bvr_by_2018 + log_population_2010 + log_gdp_per_capita_2010 | state",
+  "outcome": "delta_pt_2014_2018",
+  "regressors": "bvr_by_2018",
+  "controls": ["log_population_2010", "log_gdp_per_capita_2010"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 5564,
+    "ncoefficients": 3,
+    "r2": 0.45751077995604028,
+    "adj_r2": 0.45476648037858214,
+    "within_r2": 0.072667971566075629,
+    "adj_within_r2": 0.072165352580474629,
+    "rmse": 0.061663773793771595
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "bvr_by_2018",
+      "estimate": 0.003260262420397419,
+      "std_error": 0.0050060353185049826,
+      "statistic": 0.65126636409170868,
+      "p_value": 0.52081666795943726,
+      "conf_low": -0.0070498603145082257,
+      "conf_high": 0.013570385155303063
+    },
+    {
+      "term": "log_population_2010",
+      "estimate": -0.011551304422684344,
+      "std_error": 0.0029835825589664493,
+      "statistic": -3.8716221838640394,
+      "p_value": 0.00068844499437500039,
+      "conf_low": -0.017696107728198088,
+      "conf_high": -0.0054065011171706024
+    },
+    {
+      "term": "log_gdp_per_capita_2010",
+      "estimate": -0.018584092481987915,
+      "std_error": 0.0047233993031390396,
+      "statistic": -3.9344741550089668,
+      "p_value": 0.00058613945671116797,
+      "conf_low": -0.028312115446850826,
+      "conf_high": -0.0088560695171250019
+    }
+  ]
+}

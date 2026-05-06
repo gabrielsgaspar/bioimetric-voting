@@ -1,0 +1,230 @@
+[
+  {
+    "persona_id": "p1428",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "42 km rural trip",
+      "transport cost and lost work time",
+      "no identity document",
+      "very low income"
+    ],
+    "reasoning": "He faces a long rural trip, has no identity document, and lives on very limited income. Because the update is voluntary and the tax credit is small, the effort is unlikely to be worth it, so he probably skips it.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1437",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "5 km trip",
+      "needs to fit around work",
+      "optional update gives little urgency"
+    ],
+    "reasoning": "He has enough resources to handle the trip, but the update is not required and the credit is small. That makes it more likely he does it later when convenient rather than treating it as urgent.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1439",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "advanced age",
+      "still needs to make a short trip",
+      "small credit is only a mild motivator"
+    ],
+    "reasoning": "At only 2 km away, the trip is easy for an urban retiree with an ID and moderate resources. With no penalty for skipping, the update is still simple enough that he is likely to do it soon.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1446",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "3 km trip",
+      "older age",
+      "small tax credit may not feel urgent"
+    ],
+    "reasoning": "She can probably manage the visit from an urban area and is not tied to work, so the update is feasible. But because it is voluntary and carries no downside, she is more likely to delay it than to act immediately.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1451",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "4 km trip",
+      "retired so no strong deadline",
+      "small incentive"
+    ],
+    "reasoning": "The office is reasonably close and she has time, so the trip is doable. Still, the lack of any penalty means she is more likely to do it when convenient rather than rush out right away.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1460",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low income",
+      "5 km trip and transport cost",
+      "older age",
+      "small tax credit"
+    ],
+    "reasoning": "For an elderly retiree on R$ 500 a month, a voluntary trip with only a small credit is easy to postpone. Since skipping has no consequence for voting, she probably does not go.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1461",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low income",
+      "5 km trip",
+      "older age",
+      "low urgency because voting is unaffected"
+    ],
+    "reasoning": "The update is optional and the benefit is minor, while the trip still costs time and money. At this income level, she is likely to leave it undone.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1463",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "work schedule",
+      "low income",
+      "5 km trip",
+      "small tax credit"
+    ],
+    "reasoning": "Her urban location and education make the paperwork manageable, but she still has to fit the visit around work. She is more likely to do it later when she has time than to make a special trip immediately.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1464",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "5 km trip",
+      "modest income",
+      "age-related inconvenience",
+      "no strong legal need"
+    ],
+    "reasoning": "She can probably manage the trip from an urban area, but there is little urgency because nothing is at risk if she waits. That makes eventual completion more likely than immediate action.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1472",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "age 79",
+      "urban travel can still be tiring",
+      "small tax credit"
+    ],
+    "reasoning": "The office is not far and she is retired, so the trip is feasible. Still, at her age she may wait until the errand is convenient or until someone can accompany her.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p1484",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "age 74",
+      "minor travel effort",
+      "optional nature of the update"
+    ],
+    "reasoning": "She is only 2 km away and retired, so there is very little logistical friction. With no penalty for waiting, the update is still easy enough that she is likely to do it soon.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1497",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "age 80",
+      "possible mobility limits",
+      "very low or no income",
+      "small tax credit"
+    ],
+    "reasoning": "She has no work constraint and the office is close, so the trip is feasible. The small credit matters more when income is zero, but age may still make her delay until it is convenient.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p1507",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "50 km rural distance",
+      "transport cost and time",
+      "public-worker schedule",
+      "small tax credit"
+    ],
+    "reasoning": "The long rural trip is the main obstacle, and the update is optional. Even with education and stable work, the cost and effort are too high for a minor benefit.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1515",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "needs to fit around work",
+      "4 km trip",
+      "small tax credit"
+    ],
+    "reasoning": "He is young, educated, urban, and close to the office, so there is little friction beyond scheduling. A public worker is also likely to handle the paperwork without much trouble.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1523",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "work schedule",
+      "4 km trip",
+      "small tax credit"
+    ],
+    "reasoning": "He can probably manage the bureaucracy, but the low salary and work commitments reduce urgency. He is more likely to do it later than to make a special trip right away.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p1527",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "needs to schedule a short trip",
+      "small tax credit is modest"
+    ],
+    "reasoning": "He has strong capacity to comply: young, educated, urban, and only 3 km away. With almost no practical barrier, he is likely to go promptly.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1529",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "small tax credit",
+      "3 km trip"
+    ],
+    "reasoning": "The trip is short and he is young, but the low income makes even a minor errand feel costly. He is likely to do it only when it becomes convenient or useful.",
+    "confidence": 0.56
+  },
+  {
+    "persona_id": "p1531",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "needs to make time from work",
+      "small tax credit",
+      "short 2 km trip"
+    ],
+    "reasoning": "This is a very easy case: urban, educated, steady income, and close to the office. The update is optional, but the convenience is high enough that he is likely to comply quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1538",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "student schedule",
+      "small tax credit",
+      "short 2 km trip"
+    ],
+    "reasoning": "Being a student usually means flexible time, and the office is close. With minimal effort required, he is likely to handle the update promptly.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1542",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "53 km rural distance",
+      "transport cost and time off work",
+      "small tax credit",
+      "optional update"
+    ],
+    "reasoning": "The distance is the dominant obstacle, and there is no penalty for skipping. Even with education and formal work, a 53 km trip for a minor benefit is unlikely.",
+    "confidence": 0.94
+  }
+]

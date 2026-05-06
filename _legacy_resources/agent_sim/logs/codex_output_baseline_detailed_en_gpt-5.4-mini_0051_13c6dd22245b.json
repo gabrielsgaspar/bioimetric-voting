@@ -1,0 +1,222 @@
+[
+  {
+    "persona_id": "p1001",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "age-related mobility limits",
+      "need for accompaniment or transport",
+      "limited schooling and bureaucracy"
+    ],
+    "reasoning": "She is retired and already has an ID, and the office is only 5 km away, so the trip is feasible. At 77, though, she is more likely to delay until she can arrange help or feel well enough to go.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1002",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low and unstable informal income",
+      "time lost from day work",
+      "transport and paperwork hassle"
+    ],
+    "reasoning": "The office is close and he already has the required ID, so there is no major structural obstacle. Still, informal work and tight cash flow make him more likely to postpone than to go right away, even with the risk of losing registration.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1003",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "irregular informal agriculture work",
+      "transport cost and bureaucratic hassle"
+    ],
+    "reasoning": "A 3 km urban trip is manageable, and the penalties for noncompliance create pressure to act. But his very limited income and irregular work make delay likely, so compliance would probably happen later rather than immediately.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1004",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor scheduling around student life",
+      "small amount of transport or travel time",
+      "routine bureaucratic friction"
+    ],
+    "reasoning": "He is a student with moderate income and the office is only 3 km away, so the task is easy to fit into his routine. The mandatory rule and risk of cancellation should push him to handle it quickly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1005",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "5 km trip costs time and money",
+      "student schedule and procrastination"
+    ],
+    "reasoning": "He is urban and already has an ID, so the trip is possible, but his low income makes even a short bureaucratic errand easy to postpone. He is still likely to comply within the year because the registration loss has real consequences.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1006",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "52 km rural distance",
+      "no identity document",
+      "low income and high travel cost"
+    ],
+    "reasoning": "The combination of a long rural trip, no ID, and limited income creates a major bureaucratic and financial burden. Even with compulsory voting and penalties, he is unlikely to complete the process within 12 months.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1007",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "zero income",
+      "no identity document",
+      "52 km rural distance"
+    ],
+    "reasoning": "This is the hardest case: there is no money, no document, and the office is very far away. Unless someone else pays and helps with transport and paperwork, he probably will not register.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1008",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor scheduling around work",
+      "short urban trip",
+      "ordinary bureaucratic hassle"
+    ],
+    "reasoning": "He has a formal job, decent income, an ID, and the office is only 3 km away, so compliance is easy to organize. The practical friction is low enough that he is likely to do it promptly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1009",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "self-employment makes timing irregular",
+      "5 km trip and transport cost"
+    ],
+    "reasoning": "He can choose his own time, but low income and self-employment make it easy to delay. Because the office is still within an urban area and he already has an ID, he is more likely to comply later than to skip it entirely.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1010",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "40 km rural distance",
+      "no identity document",
+      "very low income"
+    ],
+    "reasoning": "The travel burden is large and he would first need to solve the missing-ID problem, which adds another bureaucratic step. With limited money and a rural location, compliance is unlikely within a year.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1011",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal work schedule",
+      "limited income",
+      "4 km trip and routine bureaucracy"
+    ],
+    "reasoning": "The office is close and he already has the necessary document, so the task is doable. Informal work and modest income make delay more likely, but the registration requirement should still bring him in eventually.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1012",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "extreme poverty",
+      "informal work",
+      "5 km trip and transport hassle"
+    ],
+    "reasoning": "An urban 5 km trip is not impossible, especially with secondary education and an ID already in hand. The real barrier is that his income is so low that even a simple bureaucratic errand is easy to postpone, though he is still more likely to do it than not.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1013",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor student scheduling",
+      "short 4 km trip",
+      "routine paperwork"
+    ],
+    "reasoning": "He is young, urban, educated, and has enough income to absorb a short trip to the office. With only modest friction and real consequences for noncompliance, prompt registration is likely.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1014",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "informal work hours",
+      "small amount of travel",
+      "ordinary bureaucratic hassle"
+    ],
+    "reasoning": "Even though he works informally, the office is only 2 km away and his income is fairly strong. That makes the trip easy enough to fit in quickly, especially with registration being mandatory.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1015",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor student scheduling",
+      "short 2 km trip",
+      "routine bureaucratic steps"
+    ],
+    "reasoning": "A student with moderate income and a very close office faces little practical friction. The risk of losing registration is enough to push him to handle it promptly.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1016",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal work schedule",
+      "moderate income and transport friction",
+      "4 km trip"
+    ],
+    "reasoning": "The office is close and he has an ID, so the task is manageable. Still, informal work and the nuisance of the process make delay more likely than immediate action, even though he should comply within the year.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1017",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "only minor scheduling issues",
+      "short urban trip",
+      "routine paperwork"
+    ],
+    "reasoning": "He has a formal job, high income, and a nearby office, so there are very few obstacles. The inconvenience is small relative to the downside of losing registration, so quick compliance is likely.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1018",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "extreme poverty",
+      "student budget and limited flexibility",
+      "3 km trip and bureaucratic hassle"
+    ],
+    "reasoning": "The office is close enough that walking or a short trip is realistic, so this is not an impossible case. But an income around R$100 leaves very little room for travel or missed time, so he is likely to delay before eventually registering.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1019",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km rural distance",
+      "low income",
+      "informal agricultural work and transport cost"
+    ],
+    "reasoning": "Even with an ID, the 51 km trip is a major barrier, and his income is too low to make repeated travel easy. The legal penalties help, but they are unlikely to overcome the distance and cost in practice.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1020",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor student scheduling",
+      "very short 2 km trip",
+      "ordinary bureaucratic friction"
+    ],
+    "reasoning": "He is a student with decent income, an ID, and a very close office, so compliance is straightforward. There is little reason for him to delay once the requirement is announced.",
+    "confidence": 0.95
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "formal work schedule",
+      "needs to fit the trip around work hours",
+      "some procrastination because the deadline is far away"
+    ],
+    "reasoning": "She has higher education, an ID, and the office is only 2 km away, so the update is manageable, but a formal health-worker job makes it more likely she delays until she can take time off or choose a quiet day.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "no identity document",
+      "illiteracy and low bureaucratic literacy",
+      "very low income for transport and paperwork",
+      "4 km trip may require help"
+    ],
+    "reasoning": "At 67 and not working, she has some time, but the lack of an ID plus illiteracy and poverty make this a high-friction task that is easy to postpone and hard to complete without assistance.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal self-employment with irregular hours",
+      "low income",
+      "4 km distance adds travel time and cost"
+    ],
+    "reasoning": "He has an ID and enough education to understand the requirement, and the legal penalty should matter, but his unstable work and limited income make him more likely to put it off until he finds a free day.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor inconvenience of an in-person trip",
+      "possible age-related mobility effort"
+    ],
+    "reasoning": "She is retired, has an ID, and the office is only 2 km away, so there is little work or money barrier; this looks like the kind of errand she can handle soon after hearing about it.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "self-employment can make it easy to postpone",
+      "4 km trip still takes time",
+      "primary education may slow the bureaucratic process"
+    ],
+    "reasoning": "He has enough income and already has an ID, so compliance is feasible, but a self-employed construction schedule usually means waiting for a slow workday rather than going right away.",
+    "confidence": 0.78
+  }
+]

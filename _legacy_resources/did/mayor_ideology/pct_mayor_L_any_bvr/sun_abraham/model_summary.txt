@@ -1,0 +1,7 @@
+Estimator: Sun-Abraham
+Outcome: pct_mayor_L
+Unit id: municipality_id
+Time id: year
+Group id: year_first_bvr_mayor_election
+Estimated with unit and time fixed effects using `fixest::feols()` and `fixest::sunab()`.
+Relative-period effects were extracted with `fixest::aggregate(..., "period")` and the overall ATT with `fixest::aggregate(..., "att")` when available.

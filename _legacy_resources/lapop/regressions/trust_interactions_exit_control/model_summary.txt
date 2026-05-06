@@ -1,0 +1,34 @@
+OLS estimation, Dep. Var.: z_score_pca1_trust
+Observations: 10,632
+Fixed-effects: municipality_id: 235,  year: 7
+Standard-errors: Clustered (municipality_id & year)
+                                          Estimate Std. Error   t value
+factor(treatment_dummy)1                  0.119938   0.077873  1.540180
+factor(low_ed)1                           0.065089   0.039942  1.629615
+muni_exit_rate_active                    -1.239458   0.658076 -1.883456
+factor(female)1                          -0.015565   0.033435 -0.465537
+factor(white)1                           -0.050755   0.018314 -2.771394
+factor(married)1                          0.039641   0.035146  1.127892
+factor(working)1                         -0.053904   0.018510 -2.912133
+age                                       0.003287   0.000979  3.359166
+log_gdp_pc                               -0.044227   0.182703 -0.242073
+log_total_pop                            -0.157119   0.573993 -0.273729
+factor(treatment_dummy)1:factor(low_ed)1  0.037543   0.045917  0.817632
+factor(low_ed)1:muni_exit_rate_active     0.789909   0.542039  1.457291
+                                         Pr(>|t|)
+factor(treatment_dummy)1                 0.174446
+factor(low_ed)1                          0.154305
+muni_exit_rate_active                    0.108633
+factor(female)1                          0.657965
+factor(white)1                           0.032363 *
+factor(married)1                         0.302438
+factor(working)1                         0.026906 *
+age                                      0.015245 *
+log_gdp_pc                               0.816786
+log_total_pop                            0.793472
+factor(treatment_dummy)1:factor(low_ed)1 0.444815
+factor(low_ed)1:muni_exit_rate_active    0.195301
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.964076     Adj. R2: 0.156352
+                 Within R2: 0.009157

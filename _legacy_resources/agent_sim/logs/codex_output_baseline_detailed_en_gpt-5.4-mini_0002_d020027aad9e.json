@@ -1,0 +1,219 @@
+[
+  {
+    "persona_id": "p0021",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "limited bureaucratic literacy",
+      "needs to travel 5 km in an urban area"
+    ],
+    "reasoning": "The office is close enough that the trip is feasible, and compulsory voting plus the risk of losing registration should matter. He is still likely to need help with the paperwork and may not go right away because he lacks an ID and has low literacy.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "40 km rural distance",
+      "very low income and transport cost",
+      "no identity document and low literacy"
+    ],
+    "reasoning": "A long rural trip from very little income is a major burden, and the process is made harder by no ID and low bureaucratic literacy. The fine for non-compliance is unlikely to outweigh the practical cost of traveling to the office.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0023",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "informal construction work",
+      "limited literacy and modest transport cost"
+    ],
+    "reasoning": "He is close enough in the city that the trip is manageable, and the legal risk creates pressure to comply. Still, informal work, missing ID, and low literacy make delay more likely than an immediate visit.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "low income",
+      "limited bureaucratic literacy"
+    ],
+    "reasoning": "Retirement removes the work barrier, and a 4 km urban trip is not too hard. The main friction is the missing ID and the paperwork, so he is likely to comply after some delay or assistance.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0025",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "zero income for transport",
+      "limited motivation and bureaucratic literacy",
+      "5 km urban trip"
+    ],
+    "reasoning": "He does have an ID and no job to miss, so the trip is possible, especially in an urban area. Zero income and low initiative make postponement likely, but the compulsory rule should still pull him in over time.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0026",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "36 km rural distance",
+      "no identity document",
+      "informal farm work and transport planning"
+    ],
+    "reasoning": "The travel burden is substantial, but his income is high enough to pay for transport, and the legal consequences create real pressure. He is more likely to comply once he can arrange the trip than to ignore it entirely.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0027",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "47 km rural distance",
+      "no identity document",
+      "low income and limited bureaucratic literacy"
+    ],
+    "reasoning": "Even though he is retired, the distance and paperwork are still major obstacles, and there is no work schedule pushing him to make the trip. The penalty for non-compliance is probably not strong enough to overcome the travel burden.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0028",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "limited bureaucratic literacy",
+      "needs to fit the process around irregular income"
+    ],
+    "reasoning": "The office is only 2 km away, so the physical trip is easy, and he does not have a formal job to negotiate around. Still, missing ID and low literacy mean he is likely to need help and may delay before completing it.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0029",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "informal agriculture work",
+      "limited bureaucratic literacy"
+    ],
+    "reasoning": "Urban distance makes the visit possible, and compulsory voting creates pressure to comply. Even so, missing ID, low literacy, and informal work make it more likely that he registers later rather than immediately.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0030",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "55 km rural distance",
+      "no identity document",
+      "low income and limited literacy"
+    ],
+    "reasoning": "A 55 km trip is a very large hurdle for someone with little money and no ID, and student status does not remove the transport and bureaucratic burden. He is unlikely to complete the re-registration within the year.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0031",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "very low income",
+      "limited bureaucratic literacy and 5 km distance"
+    ],
+    "reasoning": "The office is close enough that the trip is realistic, and the threat of losing voter registration should matter. Still, the lack of ID, low income, and low bureaucratic confidence make delay likely.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "very low income",
+      "limited initiative and bureaucratic literacy"
+    ],
+    "reasoning": "At 3 km in an urban area, the trip is physically easy, but the missing ID and low income create friction. He is likely to go only after some delay or after getting help with the process.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p0033",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "limited bureaucratic literacy",
+      "4 km urban trip"
+    ],
+    "reasoning": "The office is within reach, and compulsory voting gives him a reason to comply. The missing ID and low bureaucratic literacy make postponement more likely than an immediate visit.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "formal construction work limits time off",
+      "limited bureaucratic literacy"
+    ],
+    "reasoning": "The office is only 2 km away, so the trip itself is not hard. A formal job makes time off more costly, and the paperwork burden means he is likely to comply but not immediately.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "bureaucratic paperwork",
+      "4 km urban trip"
+    ],
+    "reasoning": "Being a student gives him schedule flexibility, and the office is not far. Even so, no ID and limited bureaucratic literacy mean he is more likely to delay than to show up right away.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0036",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "no identity document",
+      "limited bureaucratic literacy"
+    ],
+    "reasoning": "A student with a 2 km trip has very low practical barriers, so the legal risk should push him to register quickly. The main friction is paperwork, but it is not enough to create much delay.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "no identity document",
+      "limited bureaucratic literacy"
+    ],
+    "reasoning": "The office is very close and he has a flexible student schedule, so the trip is easy to fit in. Even without an ID, he is likely to go soon because the process is not physically or financially demanding.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "needs to take time away from self-employment",
+      "limited bureaucratic literacy"
+    ],
+    "reasoning": "He already has an ID, works for himself, and the office is only 4 km away, so the trip is manageable. The compulsory requirement and risk of losing registration should trigger prompt compliance.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "37 km rural distance",
+      "low income and informal farm work",
+      "no identity document"
+    ],
+    "reasoning": "The combination of distance, low income, and informal farm work makes the trip costly and disruptive, especially without an ID. The voting penalty is unlikely to outweigh the practical barriers.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0040",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "no identity document",
+      "limited bureaucratic literacy",
+      "some transport effort for a 3 km trip"
+    ],
+    "reasoning": "Retirement removes work conflict, the office is only 3 km away, and his income is enough to cover transport. That makes prompt compliance likely despite the missing ID and paperwork.",
+    "confidence": 0.81
+  }
+]

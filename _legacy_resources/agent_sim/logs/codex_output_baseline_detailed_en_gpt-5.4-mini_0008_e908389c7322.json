@@ -1,0 +1,55 @@
+[
+  {
+    "persona_id": "p0036",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "needs to take a short trip to the cartorio eleitoral",
+      "may need to schedule a brief break from his formal job"
+    ],
+    "reasoning": "He has high education, a stable formal finance job, good income, an ID already, and the office is only 5 km away. The bureaucratic task is manageable, the legal risk of losing registration is meaningful, and nothing suggests distrust or serious inconvenience, so he is likely to handle it quickly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very limited income for transport and incidental costs",
+      "irregular self-employment makes scheduling harder",
+      "some hassle from the paperwork"
+    ],
+    "reasoning": "He is close enough to reach the office, but low income and unpaid or self-consumption work make it easier to postpone the trip. Because voting is compulsory and losing registration has real penalties, he is still likely to go within the year rather than ignore it entirely.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "age may make the trip less comfortable",
+      "may need transport or accompaniment"
+    ],
+    "reasoning": "She is retired, has no work schedule to fight against, and the office is only 2 km away, so the trip is feasible. At 72 she may move a bit more slowly, but the requirement and the risk of losing her voter registration make prompt compliance likely.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "self-employed construction work can interrupt income for a day",
+      "primary education may make bureaucratic steps feel cumbersome",
+      "needs to fit the trip around irregular work"
+    ],
+    "reasoning": "He is not far from the office and has enough income to absorb the trip cost, but self-employment makes it easier to delay. The compulsory-voting penalty and loss of registration are strong incentives, so he is more likely to go eventually than to skip it.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0040",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "49 km rural distance",
+      "transport cost and likely full-day travel",
+      "need to coordinate time off work"
+    ],
+    "reasoning": "The long rural trip is the biggest obstacle, but he has a formal public job, secondary education, and enough income to make an occasional trip possible. Because losing registration would block him from voting, he is likely to comply once he can organize the travel, though not immediately.",
+    "confidence": 0.86
+  }
+]

@@ -1,0 +1,107 @@
+outcome,specification,estimator,success,config,log
+log_new_affiliations,main,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations"
+log_new_affiliations,main,callaway_santanna,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_callaway_santanna.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna/log_new_affiliations"
+new_affiliations_per_pop,main,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/new_affiliations_per_pop_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 105 observations removed because of NA values (LHS: 105).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/new_affiliations_per_pop"
+new_affiliations_per_pop,main,callaway_santanna,True,resources/did/tse_filiacao_flow/configs/new_affiliations_per_pop_callaway_santanna.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning messages:
+1: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  dropped 105 rows from original data due to missing data
+2: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna/new_affiliations_per_pop"
+new_affiliations_per_adult_pop,main,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/new_affiliations_per_adult_pop_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 350 observations removed because of NA values (LHS: 350).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/new_affiliations_per_adult_pop"
+new_affiliations_per_adult_pop,main,callaway_santanna,True,resources/did/tse_filiacao_flow/configs/new_affiliations_per_adult_pop_callaway_santanna.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning messages:
+1: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  dropped 350 rows from original data due to missing data
+2: In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna/new_affiliations_per_adult_pop"
+log_new_affiliations,state_year_fe,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_state_year_fe_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 0/0/10 fixed-effect singletons were removed (10 observations).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations_robustness/state_year_fe"
+log_new_affiliations,population_weighted,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_population_weighted_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations_robustness/population_weighted"
+log_new_affiliations,exclude_hybrid,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_exclude_hybrid_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations_robustness/exclude_hybrid"
+log_new_affiliations,exclude_cleanup_windows,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_exclude_cleanup_windows_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+Some `group_id` values are not observed in `time_id`. Check treatment timing support.
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations_robustness/exclude_cleanup_windows"
+log_new_affiliations,drop_2000_2002,twfe_dynamic,True,resources/did/tse_filiacao_flow/configs/log_new_affiliations_drop_2000_2002_twfe_dynamic.yml,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations_robustness/drop_2000_2002"

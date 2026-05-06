@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1841",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport", "queue or appointment hassle", "bureaucratic errand"],
+    "reasoning": "She is retired, educated, urban, already has ID, and the office is only 5 km away. The trip is manageable, and the risk of losing registration and voting rights makes quick compliance likely.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1842",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport", "bureaucratic hassle", "time spent waiting"],
+    "reasoning": "Being retired with higher education and a short trip to the office makes the requirement easy to handle. Since voting is compulsory and noncompliance has real penalties, she is likely to go soon.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1843",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "time off from formal employment", "queue or appointment hassle"],
+    "reasoning": "She has the education and urban access to complete it, but a formal health job can make it harder to go immediately. She will probably fit it in within the deadline rather than right away.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1844",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport cost", "bureaucratic hassle", "trip planning"],
+    "reasoning": "She is not working, so time-off barriers are low, and the office is only 5 km away in an urban area. Compulsory voting and the threat of cancellation make prompt compliance likely.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1845",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work scheduling", "routine bureaucracy", "brief travel"],
+    "reasoning": "A public worker with higher income and an office about 5 km away faces very little friction. The mandatory rule and penalties make it likely she handles it quickly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1846",
+    "decision": "will_register_eventually",
+    "main_barriers": ["manufacturing shift schedule", "time off work", "queue or appointment hassle"],
+    "reasoning": "The office is close, but a formal manufacturing job can make it awkward to leave during business hours. She is still likely to comply, just not necessarily right away.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1847",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "time off from formal employment", "bureaucratic errand"],
+    "reasoning": "She is educated and urban, so the task is feasible, but a formal health-worker job usually means arranging a specific day to go. That makes delay more likely than immediate action.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1848",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling inconvenience", "queue or appointment hassle", "brief travel"],
+    "reasoning": "A public worker with a high household income and a short distance to the office has few practical obstacles. The compulsory rule should push her to comply quickly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1849",
+    "decision": "will_register_immediately",
+    "main_barriers": ["self-employment scheduling only", "bureaucratic visit", "possible queue"],
+    "reasoning": "She has high income, higher education, and flexible self-employment, so the trip should be easy to fit in. The risk of losing voter registration makes quick compliance likely.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1850",
+    "decision": "probably_wont_register",
+    "main_barriers": ["33 km rural travel", "very low income for transport", "work leave and logistics"],
+    "reasoning": "The combination of a long rural trip and very low monthly income makes this a costly errand. Even with legal penalties, she is at high risk of putting it off until the deadline passes.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p1851",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor work scheduling", "queue or appointment hassle", "brief travel"],
+    "reasoning": "A formal public admin worker in an urban area with the office only 2 km away faces very little friction. Compliance should be quick because the administrative cost is low and the penalty for missing it is real.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1852",
+    "decision": "will_register_eventually",
+    "main_barriers": ["32 km rural travel", "transport cost", "informal work logistics"],
+    "reasoning": "She has education and some income, so she can probably manage the trip, but the rural distance is still a real burden. Informal work makes timing flexible, so she is more likely to delay than to skip it.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1853",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine bureaucracy", "brief travel"],
+    "reasoning": "High income, higher education, and urban access make the trip straightforward. With compulsory voting and only a 5 km distance, she is very likely to comply quickly.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1854",
+    "decision": "will_register_eventually",
+    "main_barriers": ["34 km rural travel", "transport cost", "planning a full trip"],
+    "reasoning": "She is not working, so time is available, but the long rural distance still makes this a planned outing rather than an easy errand. She will probably go, but after some delay.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1855",
+    "decision": "will_register_immediately",
+    "main_barriers": ["self-employment scheduling", "bureaucratic visit", "minor travel"],
+    "reasoning": "She is self-employed, educated, urban, and the office is only 5 km away, so the administrative burden is low. The compulsory rule makes quick compliance likely.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1856",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling inconvenience", "bureaucratic errand", "brief travel"],
+    "reasoning": "A formal public admin worker with high income and a nearby office has very low barriers to compliance. The easiest path is to go soon rather than risk cancellation.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1857",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "self-employment scheduling", "bureaucratic hassle"],
+    "reasoning": "She is educated and urban, so the trip is feasible, but low income can make non-urgent tasks easy to postpone. She will probably comply, but not immediately.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1858",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling inconvenience", "brief travel", "bureaucratic visit"],
+    "reasoning": "A public worker with high income and a short trip to the office faces little practical resistance. The mandatory requirement makes immediate compliance the most likely outcome.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1859",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "time off from formal employment", "queue or appointment hassle"],
+    "reasoning": "She is educated and urban, so she can comply, but a formal health job makes immediate action less likely. The compulsory rule should still push her to do it within the year.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1860",
+    "decision": "will_register_immediately",
+    "main_barriers": ["self-employment scheduling", "bureaucratic errand", "brief travel"],
+    "reasoning": "She is self-employed, has a solid income, and lives in an urban area with the office 5 km away. There is little friction, so she is likely to go quickly.",
+    "confidence": 0.93
+  }
+]

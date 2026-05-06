@@ -1,0 +1,59 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_pt_exit_2018_interaction/analysis_data.parquet",
+  "formula": "pct_votes_pt_2018_runoff ~ exit_rate_2018 + exit_rate_2018_x_pct_votes_pt_2014_runoff + pct_votes_pt_2014_runoff + log_gdp_pc | state",
+  "outcome": "pct_votes_pt_2018_runoff",
+  "regressors": ["exit_rate_2018", "exit_rate_2018_x_pct_votes_pt_2014_runoff"],
+  "controls": ["pct_votes_pt_2014_runoff", "log_gdp_pc"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 5569,
+    "ncoefficients": 4,
+    "r2": 0.9231490547196981,
+    "adj_r2": 0.92274669374964424,
+    "within_r2": 0.69363865982353079,
+    "adj_within_r2": 0.69341742036501741,
+    "rmse": 0.061488132112652083
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "exit_rate_2018",
+      "estimate": 0.068805128032884313,
+      "std_error": 0.046193644191914553,
+      "statistic": 1.4894933975554918,
+      "p_value": 0.14886605478235818,
+      "conf_low": -0.026332463072532161,
+      "conf_high": 0.16394271913830077
+    },
+    {
+      "term": "exit_rate_2018_x_pct_votes_pt_2014_runoff",
+      "estimate": -0.077756783732973858,
+      "std_error": 0.077574243557834502,
+      "statistic": -1.0023531028698109,
+      "p_value": 0.32577686219410373,
+      "conf_low": -0.23752392904100816,
+      "conf_high": 0.082010361575060434
+    },
+    {
+      "term": "pct_votes_pt_2014_runoff",
+      "estimate": 0.86343871337625222,
+      "std_error": 0.030677759017189006,
+      "statistic": 28.145429817492872,
+      "p_value": 1.8847151974667322e-20,
+      "conf_low": 0.80025668596827637,
+      "conf_high": 0.92662074078422807
+    },
+    {
+      "term": "log_gdp_pc",
+      "estimate": -0.031217265773215555,
+      "std_error": 0.0062689751602445134,
+      "statistic": -4.979644196260935,
+      "p_value": 3.9286839306252058e-05,
+      "conf_low": -0.044128461801991911,
+      "conf_high": -0.018306069744439199
+    }
+  ]
+}

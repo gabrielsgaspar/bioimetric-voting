@@ -1,0 +1,9 @@
+metric,value,notes
+n_rows,40337,Rows in the input analysis sample.
+n_units,4038,Distinct units after validation.
+n_periods,10,Distinct time periods after validation.
+min_time,2000,Minimum observed time value.
+max_time,2018,Maximum observed time value.
+n_treated_units,2793,Units with non-missing first-treatment timing.
+n_never_treated_units,1245,Units standardized as never treated.
+group_id_standardized_from_zero_or_na,0,TRUE means the scripts converted 0 or NA into the internal never-treated representation.

@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0006",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off work", "administrative hassle", "moderate travel distance"],
+    "reasoning": "He lives in an urban area, already has ID, and the office is only 4 km away, so the trip is manageable. As a public worker, the compulsory-voting penalties and the risk of losing registration give him a strong reason to comply, but he may still delay until he can fit the visit around work.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0007",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very long distance to the office", "high transport cost relative to income", "no identity document", "rural access and mobility burden"],
+    "reasoning": "She is poor, elderly, rural, and 40 km from the electoral office, which makes an in-person trip difficult and expensive. Losing voter registration is a real downside, but for someone in this situation the practical cost and effort are likely to outweigh the fine and other indirect penalties, so she probably never goes.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0008",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around studying", "routine administrative inconvenience"],
+    "reasoning": "She has higher education, good income, an ID, and the office is reasonably close in an urban area. There are few real obstacles, and compulsory voting plus the risk of losing registration should make her act quickly rather than postpone.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0009",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "routine bureaucratic inconvenience"],
+    "reasoning": "He is urban, educated, has ID, and the office is only 2 km away, so the logistics are easy. As a public worker, he has a strong incentive to avoid any registration problem, so he is very likely to go promptly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0010",
+    "decision": "will_register_eventually",
+    "main_barriers": ["older age", "lower bureaucratic literacy", "possible mobility inconvenience"],
+    "reasoning": "She is retired and lives in an urban area with the office about 4 km away, so the trip is feasible, but her primary education and age make the process feel more cumbersome. The compulsory nature of voting and the risk of losing eligibility should still push her to comply, though probably after some delay or with help.",
+    "confidence": 0.77
+  }
+]

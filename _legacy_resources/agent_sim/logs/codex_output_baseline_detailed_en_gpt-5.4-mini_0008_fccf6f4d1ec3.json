@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0141",
+    "decision": "will_register_eventually",
+    "main_barriers": ["illiteracy", "informal day labor", "no identity document", "transport and time cost"],
+    "reasoning": "The 5 km urban trip is not trivial for someone with no ID and informal construction work, but it is still close enough that the compulsory-voting deadline and risk of losing registration make eventual compliance likely.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0142",
+    "decision": "will_register_eventually",
+    "main_barriers": ["extreme poverty", "no identity document", "illiteracy", "transport cost"],
+    "reasoning": "He has no work schedule to fight, and the office is only 3 km away, so the trip is feasible; the main reason he would delay is lack of money and bureaucratic difficulty, not inability.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0143",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "informal transport work", "no identity document", "bureaucratic literacy"],
+    "reasoning": "An informal transport worker with very low income and no ID faces real friction, but a 4 km urban trip is still manageable and the legal consequences should eventually push him to comply.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0144",
+    "decision": "probably_wont_register",
+    "main_barriers": ["55 km rural distance", "transport expense", "no identity document", "illiteracy", "time off work"],
+    "reasoning": "A 55 km rural round trip is a major logistical and cash barrier, and the paperwork burden is high enough that the compulsory-voting penalties are unlikely to overcome inertia within 12 months.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0145",
+    "decision": "probably_wont_register",
+    "main_barriers": ["zero income", "no identity document", "illiteracy", "5 km travel cost"],
+    "reasoning": "With no income and no ID, even a 5 km urban trip is hard to start, and there is no work-related pressure to force action, so he is more likely to miss the deadline than complete the update.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0146",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "informal services work", "no identity document", "illiteracy"],
+    "reasoning": "The office is close enough to reach from the city, and compulsory voting plus cancellation risk should eventually push him to go, but low income and low literacy make delay likely.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0147",
+    "decision": "will_register_eventually",
+    "main_barriers": ["zero income", "no identity document", "illiteracy", "bureaucratic friction"],
+    "reasoning": "No job conflict and a 3 km urban distance make compliance possible, but zero income and no ID mean he will probably procrastinate until he gets help or feels the deadline.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0148",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "formal work schedule", "no identity document", "4 km travel"],
+    "reasoning": "A formal worker with a 4 km urban trip is likely to manage the visit, but the low wage and lack of ID create enough friction that he probably will not go immediately.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0149",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "formal construction schedule", "no identity document", "3 km travel"],
+    "reasoning": "The trip is short enough to be doable, and legal pressure matters, but low pay, work hours, and missing documents make a delayed visit more likely than an immediate one.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0150",
+    "decision": "will_register_eventually",
+    "main_barriers": ["illiteracy", "no identity document", "low income", "bureaucratic hassle"],
+    "reasoning": "He has no work constraint and the office is only 3 km away, but illiteracy and no ID make the process easy to postpone even though he is likely to comply within the year.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0151",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "formal construction work", "no identity document", "4 km travel"],
+    "reasoning": "The distance is manageable, but the combination of a low wage, construction hours, and missing documents means he is more likely to delay than go right away.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0152",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal construction work", "no identity document", "3 km travel", "bureaucratic literacy"],
+    "reasoning": "Higher income and a short urban trip make compliance realistic, but the lack of ID and work schedule still create enough friction that he is more likely to go later than immediately.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0153",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work schedule", "no identity document", "5 km travel", "bureaucratic literacy"],
+    "reasoning": "The 5 km urban trip is doable and his income is not too low, but formal work plus missing documents make a delayed trip more plausible than a prompt one.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0154",
+    "decision": "will_register_immediately",
+    "main_barriers": ["informal work", "no identity document", "bureaucratic steps"],
+    "reasoning": "The office is only 2 km away, his income is relatively better, and informal work gives flexibility, so despite missing documents he is likely to handle the update promptly.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0155",
+    "decision": "probably_wont_register",
+    "main_barriers": ["52 km rural distance", "transport cost", "no identity document", "illiteracy", "agricultural workload"],
+    "reasoning": "The trip is long, costly, and bureaucratically hard, and even with moderate income the rural distance is enough that he is more likely to skip it than complete it within 12 months.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0156",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km travel", "time off work", "bureaucratic steps"],
+    "reasoning": "He already has an identity document, has a strong income, and the office is only 5 km away, so the remaining hassle is small enough that prompt compliance is likely.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0157",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time off work", "4 km travel", "bureaucratic steps"],
+    "reasoning": "With a solid income, an identity document, and an urban office nearby, he is likely to take care of the update quickly despite construction work hours.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0158",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal construction schedule", "no identity document", "5 km travel", "bureaucratic literacy"],
+    "reasoning": "The trip is manageable in Rio, but formal work and the absence of an ID make it more likely that he delays until the deadline pressure becomes real.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0159",
+    "decision": "probably_wont_register",
+    "main_barriers": ["33 km rural distance", "transport expense", "very low income", "no identity document", "illiteracy"],
+    "reasoning": "A 33 km rural trip is expensive relative to his income, and the paperwork burden is high enough that he is more likely to miss the requirement than complete it.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0160",
+    "decision": "will_register_eventually",
+    "main_barriers": ["illiteracy", "no identity document", "self-employment variability", "3 km travel"],
+    "reasoning": "Self-employment gives him flexibility and the office is only 3 km away, but low-to-moderate income and missing documents make a delayed visit more likely than an immediate one.",
+    "confidence": 0.68
+  }
+]

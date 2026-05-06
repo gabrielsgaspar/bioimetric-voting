@@ -1,0 +1,215 @@
+[
+  {
+    "persona_id": "p0561",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "No identity document",
+      "Low income limits transport costs",
+      "Primary education may make paperwork confusing"
+    ],
+    "reasoning": "She lives in an urban area and the office is only about 3 km away, so the trip is feasible. The missing ID and low income make the process slower and more burdensome, so she is more likely to delay than go right away, but the compulsory voting rule makes eventual compliance likely.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0562",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Rural location with a 36 km trip",
+      "No identity document",
+      "Very low income and limited mobility"
+    ],
+    "reasoning": "The distance to the cartorio is large for someone with little money and no ID, so the in-person process is costly and bureaucratically hard. The legal penalty exists, but for an inactive adult in a rural area it may not be enough to overcome the travel and document barriers.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0563",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Long 43 km trip",
+      "Transport and time cost from rural area",
+      "Need to fit the trip around farm work"
+    ],
+    "reasoning": "She has an identity document and a much higher income than the poorer rural cases, so she has a realistic way to make the trip. The distance is still substantial, so she is more likely to wait until she can organize transport and a full day away from work, but the compulsory rule should push her to comply.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0564",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Only a short 3 km trip",
+      "Basic paperwork still required"
+    ],
+    "reasoning": "An urban resident with no work obligation, an identity document, and a nearby office faces very little friction. The compulsory voting rule and the risk of losing registration make prompt compliance the most likely outcome.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0565",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Rural isolation with a 41 km trip",
+      "No identity document",
+      "Very low income and inactive status"
+    ],
+    "reasoning": "She has multiple stacked barriers: long travel, no ID, and too little income to make the trip feel easy or urgent. The penalties for non-compliance are real, but they are likely abstract compared with the immediate cost and effort required.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0566",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Low income",
+      "Still needs to make a small in-person trip"
+    ],
+    "reasoning": "The office is only about 2 km away, she already has an identity document, and she has no work schedule to negotiate. Even with a very low income, the practical barrier is small enough that she is likely to comply quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0567",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Self-employment makes time off costly",
+      "5 km trip still requires transport",
+      "Primary education may slow bureaucracy"
+    ],
+    "reasoning": "She probably understands the need to comply, but as a self-employed worker she may delay until she can spare the time and travel cost. Because the office is within the city and she has an ID, eventual registration is still likely.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0568",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Low but manageable income",
+      "Short 2 km trip"
+    ],
+    "reasoning": "With no job barrier, an identity document, and a very close office, there is little stopping her. The compulsory rule and the threat of losing voter status should make immediate compliance likely.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0569",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Low income",
+      "Need to arrange the trip to the office"
+    ],
+    "reasoning": "The office is nearby and she is not tied to paid work, so the practical burden is small. Legal compulsion and the risk of sanctions make immediate or near-immediate compliance the most likely path.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0570",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Domestic work schedule may make time off hard",
+      "Some transport cost even for a short trip"
+    ],
+    "reasoning": "The office is close and she has an ID, so this is doable, but domestic work and very tight finances can delay the trip. The compulsory voting rule should still pull her into compliance before the deadline.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0571",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Very low income",
+      "Minor transport cost"
+    ],
+    "reasoning": "She is urban, has an identity document, and the office is only 2 km away. With no work constraint, the cost and effort are low enough that she is likely to register promptly.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0572",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Only a short urban trip",
+      "Has the document and resources to absorb any small cost"
+    ],
+    "reasoning": "High income and a nearby office make the process easy, and self-employment should not block her from fitting in the visit. The mandatory rule should translate into quick compliance.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0573",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "5 km urban trip",
+      "Need to take time to go in person"
+    ],
+    "reasoning": "Nothing here makes compliance impossible, but the combination of low income and a modest distance makes delay more likely than an immediate visit. Because the law is compulsory, she should still eventually go.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0574",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Rural location with a 38 km trip",
+      "No identity document",
+      "Low income and student status"
+    ],
+    "reasoning": "Getting to the cartorio is a major trip, and without an ID she may face extra bureaucratic steps on top of the travel cost. Even with compulsory voting, this looks like the kind of case where the deadline is missed.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0575",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No income",
+      "No identity document",
+      "32 km rural trip"
+    ],
+    "reasoning": "She has almost no financial slack and would need to solve both transportation and document problems to comply. The legal penalties are unlikely to outweigh the immediate practical burden, so she probably does not register.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0576",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "40 km rural trip",
+      "No identity document",
+      "Low income and unpaid work"
+    ],
+    "reasoning": "The distance and missing ID create a strong barrier, and the unpaid or self-consumption work means she may not have the cash or flexibility to handle the trip. Compulsory voting helps, but not enough to make compliance likely here.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0577",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Self-employment may make scheduling difficult",
+      "5 km trip still costs time and transport"
+    ],
+    "reasoning": "She is in an urban area and already has an ID, so the task is feasible, but the very low income makes procrastination more likely. The compulsory rule should still get her to comply eventually rather than never.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0578",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "5 km trip",
+      "Possible procrastination despite having no work"
+    ],
+    "reasoning": "She has the paperwork and does not face a job barrier, but a 5 km in-person trip still takes effort and money. The legal requirement makes eventual compliance more likely than non-compliance.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0579",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Rural isolation with a 44 km trip",
+      "No identity document",
+      "Very low income and student status"
+    ],
+    "reasoning": "This is a severe access problem: long travel, no ID, and little money. Even with compulsory voting and sanctions, the immediate cost and complexity are high enough that she probably does not complete the update.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0580",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "4 km trip",
+      "Low income"
+    ],
+    "reasoning": "With no work constraint, an ID, and only a 4 km urban trip, the visit is manageable. The legal deadline should push her to comply promptly rather than leave it for later.",
+    "confidence": 0.86
+  }
+]

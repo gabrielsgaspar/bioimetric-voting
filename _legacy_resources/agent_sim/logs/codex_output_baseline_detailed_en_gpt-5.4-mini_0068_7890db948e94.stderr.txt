@@ -1,0 +1,413 @@
+Reading additional input from stdin...
+OpenAI Codex v0.122.0-alpha.13 (research preview)
+--------
+workdir: /tmp/codex_agent_sim
+model: gpt-5.4-mini
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: none
+reasoning summaries: none
+session id: 019dbd3f-de58-7763-a18a-110d9e2770e5
+--------
+user
+SYSTEM:
+You are simulating the decision-making of specific Brazilian voters. Think carefully about what someone with each profile would actually do, given real-world barriers like transportation cost, time off work, information access, and bureaucratic literacy. Do not impose idealized rational-choice reasoning. Evaluate each persona independently and return only valid JSON.
+
+USER:
+Return a JSON array. Each array item must contain exactly these fields: persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one of these decision labels for every persona: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1341:
+You are a 64-year-old female living in a urban area of Paraiba, Brazil. You have secondary education, work as a retired, your household income is approximately R$ 2100 per month, you currently do have an identity document, and the nearest electoral office is about 3 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1342:
+You are a 60-year-old female living in a urban area of Pernambuco, Brazil. You have secondary education, work as a formal business services worker, your household income is approximately R$ 1750 per month, you currently do have an identity document, and the nearest electoral office is about 2 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1343:
+You are a 61-year-old female living in a urban area of Bahia, Brazil. You have secondary education, work as a self employed manufacturing, your household income is approximately R$ 4050 per month, you currently do have an identity document, and the nearest electoral office is about 3 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1344:
+You are a 50-year-old female living in a urban area of Minas Gerais, Brazil. You have secondary education, work as a inactive adult, your household income is approximately R$ 2200 per month, you currently do have an identity document, and the nearest electoral office is about 2 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1345:
+You are a 45-year-old female living in a rural area of Sao Paulo, Brazil. You have secondary education, work as a domestic worker, your household income is approximately R$ 1400 per month, you currently do not have an identity document, and the nearest electoral office is about 39 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1346:
+You are a 45-year-old female living in a rural area of Rio de Janeiro, Brazil. You have secondary education, work as a formal agriculture worker, your household income is approximately R$ 3100 per month, you currently do have an identity document, and the nearest electoral office is about 35 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1347:
+You are a 61-year-old female living in a urban area of Minas Gerais, Brazil. You have secondary education, work as a retired, your household income is approximately R$ 1900 per month, you currently do have an identity document, and the nearest electoral office is about 2 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1348:
+You are a 61-year-old female living in a urban area of Sao Paulo, Brazil. You have secondary education, work as a employer agriculture, your household income is approximately R$ 8500 per month, you currently do have an identity document, and the nearest electoral office is about 4 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1349:
+You are a 59-year-old female living in a urban area of Minas Gerais, Brazil. You have secondary education, work as a informal agriculture worker, your household income is approximately R$ 4600 per month, you currently do have an identity document, and the nearest electoral office is about 4 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1350:
+You are a 45-year-old female living in a urban area of Sao Paulo, Brazil. You have secondary education, work as a uniformed or public worker, your household income is approximately R$ 5000 per month, you currently do have an identity document, and the nearest electoral office is about 4 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1351:
+You are a 46-year-old female living in a urban area of Sao Paulo, Brazil. You have secondary education, work as a self employed hospitality, your household income is approximately R$ 1700 per month, you currently do have an identity document, and the nearest electoral office is about 4 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1352:
+You are a 46-year-old female living in a urban area of Minas Gerais, Brazil. You have secondary education, work as a formal services worker, your household income is approximately R$ 3500 per month, you currently do have an identity document, and the nearest electoral office is about 4 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1353:
+You are a 58-year-old female living in a urban area of Sao Paulo, Brazil. You have secondary education, work as a inactive adult, your household income is approximately R$ 6700 per month, you currently do have an identity document, and the nearest electoral office is about 5 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1354:
+You are a 50-year-old female living in a urban area of Sao Paulo, Brazil. You have secondary education, work as a inactive adult, your household income is approximately R$ 12300 per month, you currently do have an identity document, and the nearest electoral office is about 5 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1355:
+You are a 48-year-old female living in a urban area of Sao Paulo, Brazil. You have secondary education, work as a inactive adult, your household income is approximately R$ 2700 per month, you currently do have an identity document, and the nearest electoral office is about 2 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1356:
+You are a 47-year-old female living in a rural area of Santa Catarina, Brazil. You have secondary education, work as a inactive adult, your household income is approximately R$ 3400 per month, you currently do have an identity document, and the nearest electoral office is about 38 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1357:
+You are a 57-year-old female living in a rural area of Santa Catarina, Brazil. You have secondary education, work as a self employed agriculture, your household income is approximately R$ 3500 per month, you currently do have an identity document, and the nearest electoral office is about 50 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1358:
+You are a 52-year-old female living in a urban area of Parana, Brazil. You have secondary education, work as a formal hospitality worker, your household income is approximately R$ 2000 per month, you currently do have an identity document, and the nearest electoral office is about 5 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1359:
+You are a 56-year-old female living in a urban area of Parana, Brazil. You have secondary education, work as a retired, your household income is approximately R$ 4400 per month, you currently do have an identity document, and the nearest electoral office is about 4 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+
+Persona p1360:
+You are a 58-year-old female living in a rural area of Rio Grande do Sul, Brazil. You have secondary education, work as a retired, your household income is approximately R$ 1500 per month, you currently do have an identity document, and the nearest electoral office is about 56 km away.
+The government has announced that every voter in your municipality must visit the cartorio eleitoral in person within the next 12 months to register fingerprints, take a new photo, and update the voter ID. If you do not comply, your voter registration will be cancelled and you will be unable to vote in the next election. Voting is legally compulsory in Brazil and failure to vote without justification can trigger a fine and restrictions on issuing passports or taking public-sector jobs.
+Will this person make the trip to re-register?
+Think step by step about:
+1. practical barriers such as transportation, time off work, childcare, and bureaucratic literacy
+2. the cost of non-compliance such as fines and document restrictions
+3. trust in the electoral system
+4. whether the person goes immediately, delays, or probably never goes
+Return a JSON object with persona_id, decision, main_barriers, reasoning, confidence.
+Use exactly one decision label: will_register_immediately, will_register_eventually, probably_wont_register.
+2026-04-24T02:09:33.365548Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: prompt must be at most 128 characters path=/Users/gabrielsgaspar/.codex/.tmp/plugins/plugins/build-ios-apps/.codex-plugin/plugin.json
+2026-04-24T02:09:33.371086Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=/Users/gabrielsgaspar/.codex/.tmp/plugins/plugins/plugin-eval/.codex-plugin/plugin.json
+2026-04-24T02:09:33.596007Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: prompt must be at most 128 characters path=/Users/gabrielsgaspar/.codex/.tmp/plugins/plugins/build-ios-apps/.codex-plugin/plugin.json
+2026-04-24T02:09:33.597191Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=/Users/gabrielsgaspar/.codex/.tmp/plugins/plugins/plugin-eval/.codex-plugin/plugin.json
+2026-04-24T02:09:35.393568Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: prompt must be at most 128 characters path=/Users/gabrielsgaspar/.codex/.tmp/plugins/plugins/build-ios-apps/.codex-plugin/plugin.json
+2026-04-24T02:09:35.395320Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=/Users/gabrielsgaspar/.codex/.tmp/plugins/plugins/plugin-eval/.codex-plugin/plugin.json
+2026-04-24T02:09:40.244066Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/gabrielsgaspar/.codex/shell_snapshots/019dbd3f-de58-7763-a18a-110d9e2770e5.tmp-1776996572773091000"): Os { code: 2, kind: NotFound, message: "No such file or directory" }
+codex
+I’m mapping each profile against the practical burden of a one-time in-person trip, then assigning the most likely timing under compulsory voting rules. The output will be a JSON array only, with each persona assessed independently.
+codex
+[
+  {
+    "persona_id": "p1341",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport cost", "short queue time"],
+    "reasoning": "She is retired, urban, and only 3 km from the office, so the trip is easy to fit in and the compulsory-voting penalty should push her to comply quickly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1342",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "small transport/time cost"],
+    "reasoning": "The office is close, but she still has to fit the visit around formal work hours, so she is likely to go within the year rather than right away.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1343",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from work", "small transport/queue burden"],
+    "reasoning": "Self-employment gives her some schedule flexibility, income is moderate, and the office is nearby, so she is likely to comply quickly.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1344",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief trip/queue time"],
+    "reasoning": "She is not working, lives close to the office, and has no obvious mobility or document barrier, so immediate compliance is likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1345",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long-distance transport cost", "time off domestic work", "no identity document"],
+    "reasoning": "A 39 km rural trip with low income, domestic work, and no ID creates a large practical and bureaucratic burden, so she may not complete the trip within the deadline.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1346",
+    "decision": "will_register_eventually",
+    "main_barriers": ["distance to office", "time off work", "transport cost"],
+    "reasoning": "She has a formal job and a 35 km rural trip to arrange, so she will probably comply, but after some delay to coordinate transport and leave.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1347",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport/queue time"],
+    "reasoning": "Retired, urban, and 2 km away, she faces very little friction, so she is likely to go soon.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1348",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small travel time", "routine bureaucracy"],
+    "reasoning": "High income, urban location, and only 4 km away make the trip easy, and she can absorb the cost of any travel or paperwork.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1349",
+    "decision": "will_register_eventually",
+    "main_barriers": ["irregular work schedule", "small transport/time cost"],
+    "reasoning": "Although she is in a city and not far away, informal work can make it easier to postpone the trip, so she is likely to do it later rather than immediately.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1350",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time off", "small transport cost"],
+    "reasoning": "As a public worker in the city with a nearby office, she can probably fit the visit into her schedule quickly.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1351",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost work time", "transport cost", "bureaucratic hassle"],
+    "reasoning": "She is close to the office, but low income and self-employment make taking a day away from earning risky, so she is likely to delay but still comply.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1352",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "routine paperwork"],
+    "reasoning": "Formal employment is the main friction, but the office is close and the income is stable enough that she will likely manage the trip within the year.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1353",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small transport time"],
+    "reasoning": "Retired, well-off, and in an urban area, she has almost no practical barrier to a quick visit.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1354",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel time"],
+    "reasoning": "She is inactive, high-income, urban, and near the office, so compliance should be easy and immediate.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1355",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel/queue time"],
+    "reasoning": "She is inactive and only 2 km away, so there is little reason to delay.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1356",
+    "decision": "will_register_eventually",
+    "main_barriers": ["long transport distance", "travel cost"],
+    "reasoning": "The 38 km rural trip is the main obstacle; with no work constraint she can probably arrange it, but likely not right away.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1357",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very long travel distance", "transport cost", "work scheduling"],
+    "reasoning": "She has some income and no document problem, but a 50 km rural trip plus self-employed farm work makes the visit a planned chore rather than an easy one.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1358",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "transport/time cost"],
+    "reasoning": "Urban location and nearby office help, but formal hospitality work means she will likely need to choose a convenient day or shift.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1359",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport time"],
+    "reasoning": "Retired, urban, and close to the office, so she is a straightforward immediate case.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1360",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very long transport distance", "low income", "travel cost"],
+    "reasoning": "The 56 km rural trip is expensive and inconvenient for a retired person on a low income, and the sanction is unlikely to outweigh the effort, so she may simply not go.",
+    "confidence": 0.69
+  }
+]
+tokens used
+13,661

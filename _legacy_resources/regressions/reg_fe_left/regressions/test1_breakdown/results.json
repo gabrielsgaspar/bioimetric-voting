@@ -1,0 +1,59 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_left/regression_data/test1.parquet",
+  "formula": "delta_pt_2010_2014 ~ bvr_by_2014_strict + bvr_by_2014_hybrid + log_population_2010 + log_gdp_per_capita_2010 | state",
+  "outcome": "delta_pt_2010_2014",
+  "regressors": ["bvr_by_2014_strict", "bvr_by_2014_hybrid"],
+  "controls": ["log_population_2010", "log_gdp_per_capita_2010"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 2004,
+    "ncoefficients": 4,
+    "r2": 0.49419712485631406,
+    "adj_r2": 0.48702624865174537,
+    "within_r2": 0.022450179615466692,
+    "adj_within_r2": 0.020470331877978976,
+    "rmse": 0.061242576577260233
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "bvr_by_2014_strict",
+      "estimate": -0.010712060302875945,
+      "std_error": 0.0063700571843226363,
+      "statistic": -1.6816270235751454,
+      "p_value": 0.10561008978460815,
+      "conf_low": -0.023859212163087704,
+      "conf_high": 0.0024350915573358133
+    },
+    {
+      "term": "bvr_by_2014_hybrid",
+      "estimate": -0.024138415483303279,
+      "std_error": 0.042280608661792556,
+      "statistic": -0.57090983898527192,
+      "p_value": 0.57336824044242118,
+      "conf_low": -0.11140130288513438,
+      "conf_high": 0.063124471918527811
+    },
+    {
+      "term": "log_population_2010",
+      "estimate": -0.00051236678408442694,
+      "std_error": 0.0016934407277368741,
+      "statistic": -0.3025596205951403,
+      "p_value": 0.76483224156534191,
+      "conf_low": -0.0040074566662628777,
+      "conf_high": 0.0029827230980940243
+    },
+    {
+      "term": "log_gdp_per_capita_2010",
+      "estimate": -0.016505156862876565,
+      "std_error": 0.003321284386743624,
+      "statistic": -4.9695102680018195,
+      "p_value": 4.4908670918301917e-05,
+      "conf_low": -0.023359950931434351,
+      "conf_high": -0.00965036279431878
+    }
+  ]
+}

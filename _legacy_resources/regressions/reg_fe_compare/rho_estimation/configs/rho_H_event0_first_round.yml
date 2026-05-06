@@ -1,0 +1,15 @@
+data:
+  path: resources/regressions/reg_fe_compare/rho_estimation/rho_dataset_event0.parquet
+regression:
+  outcome: dilma_share_2010_first_round
+  regressors:
+  - cost_proxy_high_ed
+  controls:
+  - log_population_2010
+  - log_gdp_per_capita_2010
+  fixed_effects:
+  - state
+  cluster:
+  - state
+output:
+  dir: resources/regressions/reg_fe_compare/rho_estimation/regressions/rho_H_event0_first_round

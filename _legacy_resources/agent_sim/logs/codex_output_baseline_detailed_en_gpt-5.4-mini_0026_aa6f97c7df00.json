@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0501",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "unpaid/subsistence work", "some bureaucratic hassle"],
+    "reasoning": "The office is only 3 km away and he already has an ID, so the trip is manageable, but his very low income and informal work make it more likely that he delays before eventually complying.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0502",
+    "decision": "probably_wont_register",
+    "main_barriers": ["51 km rural distance", "no identity document", "very low income", "informal construction work"],
+    "reasoning": "A long rural trip on a very small income, plus the extra bureaucracy of having no ID, makes compliance unlikely even with compulsory-voting penalties.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0503",
+    "decision": "will_register_immediately",
+    "main_barriers": ["some work disruption", "basic bureaucratic hassle", "time to visit the office"],
+    "reasoning": "He lives in an urban area, the office is only 5 km away, and he already has an ID, so the update is easy enough that he is likely to do it quickly.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0504",
+    "decision": "probably_wont_register",
+    "main_barriers": ["zero income", "38 km rural distance", "transportation cost"],
+    "reasoning": "He has no money and the office is far away, so the travel cost is the main obstacle and the legal penalties are unlikely to be enough to force a trip.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0505",
+    "decision": "probably_wont_register",
+    "main_barriers": ["44 km rural distance", "no identity document", "very low income", "informal subsistence work"],
+    "reasoning": "The combination of no ID, poverty, and a long rural journey makes the process cumbersome enough that he is unlikely to complete it within the year.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0506",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor time off work", "queue and transport hassle"],
+    "reasoning": "An urban office 3 km away, an existing ID, and a decent income make the trip easy to absorb, so he should comply quickly.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0507",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no personal income", "32 km rural distance", "dependence on family or transport", "school schedule"],
+    "reasoning": "As a student he has some schedule flexibility, but the rural distance and lack of money make a delayed visit more likely than an immediate one.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0508",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "36 km rural distance", "low income", "informal work"],
+    "reasoning": "He would need to solve both travel and paperwork problems, and the added bureaucratic burden of having no ID makes noncompliance more likely than a successful trip.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0509",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "self-employment time volatility", "some delay risk"],
+    "reasoning": "The office is only 5 km away and he has an ID, so compliance is realistic, but his low income and self-employment make it more likely that he puts it off first.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0510",
+    "decision": "probably_wont_register",
+    "main_barriers": ["54 km rural distance", "no identity document", "bureaucratic complexity", "transport cost"],
+    "reasoning": "Being inactive does not solve the cost and paperwork problems, and a 54 km rural trip without an ID is too much friction for a likely trip.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0511",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "34 km rural distance", "low income", "informal farm work"],
+    "reasoning": "A poor rural informal worker without an ID faces both travel and paperwork barriers, so he is unlikely to make the update happen.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0512",
+    "decision": "will_register_eventually",
+    "main_barriers": ["59 km rural distance", "no identity document", "needs leave from formal work", "extra paperwork"],
+    "reasoning": "The long trip and missing ID are serious obstacles, but formal employment and moderate income make it feasible that he eventually takes care of it.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0513",
+    "decision": "will_register_eventually",
+    "main_barriers": ["36 km rural distance", "needs to fit it around formal work", "transport logistics"],
+    "reasoning": "He has enough income and already has an ID, so he is likely to comply, but rural travel means he may still delay until he can plan the trip.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0514",
+    "decision": "probably_wont_register",
+    "main_barriers": ["extreme poverty", "60 km rural distance", "no identity document", "transportation cost", "informal agriculture work"],
+    "reasoning": "With very little income, no ID, and the longest rural trip in the set, the practical burden is so high that compliance is unlikely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0515",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "student schedule", "minor transport and queue hassle"],
+    "reasoning": "The office is close enough to reach and he already has an ID, but his tiny income makes it more likely that he delays until it becomes necessary.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0516",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "40 km rural distance", "low income", "self-employed agriculture work"],
+    "reasoning": "Even with some schedule flexibility, the missing ID and long rural trip create too much friction for him to reliably complete the update.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0517",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very low income", "58 km rural distance", "no identity document", "high travel friction"],
+    "reasoning": "This is a very hard case: no money, no ID, and a long rural journey, so he is unlikely to comply within 12 months.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0518",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor time off work", "queue and transport hassle"],
+    "reasoning": "A 2 km urban office, moderate income, and an existing ID make the update straightforward, so he should do it quickly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0519",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "self-employment volatility", "need to fit the visit around work"],
+    "reasoning": "The office is close and he has an ID, but his extremely low income and informal self-employment make a delayed visit more likely than an immediate one.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0520",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor time off self-employed work", "short trip and queue hassle"],
+    "reasoning": "With an urban office only 4 km away, a decent income, and an ID already in hand, compliance should be easy and prompt.",
+    "confidence": 0.9
+  }
+]

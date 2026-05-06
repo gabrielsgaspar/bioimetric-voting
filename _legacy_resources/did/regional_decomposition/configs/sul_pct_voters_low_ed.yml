@@ -1,0 +1,25 @@
+estimator: "twfe_dynamic"
+data_path: "data/interim/tse/regional_decomposition/sul_panel.csv"
+file_format: "csv"
+outcome: "pct_voters_low_ed"
+unit_id: "municipality_id"
+time_id: "year_election"
+group_id: "year_treated"
+treatment_var: null
+controls: []
+cluster_var:
+  - "municipality_id"
+  - "year_election"
+weights_var: null
+event_time_var: "dist_treatment"
+event_time_never_value: -9999
+never_treated_value: 9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: "nevertreated"
+balanced_panel_required: false
+omit_plot_title: true
+output_dir: "resources/did/regional_decomposition/sul/pct_voters_low_ed"
+notes: "Regional decomposition TWFE event study for pct_voters_low_ed; sample: Sul region only; clustered by municipality and election year."

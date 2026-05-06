@@ -1,0 +1,38 @@
+timestamp: 2026-04-27 22:36:41 BST
+estimator: callaway_santanna
+data_path: data/interim/tse/electorate_size_cs_nonhybrid_sample.csv
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna_nonhybrid/log_num_voters
+notes: Figure 3 electorate-size rerun using Callaway-Sant'Anna with never-treated
+  controls, municipality-clustered standard errors, and municipalities ever flagged
+  as hybrid excluded. Outcome is log registered voters; treatment cohort is first
+  strict BVR year.
+n_estimates: 54
+n_event_study: 9
+diagnostics:
+  metric:
+  - n_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 37207.0
+  - 3725.0
+  - 10.0
+  - 2000.0
+  - 2018.0
+  - 2480.0
+  - 1245.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.

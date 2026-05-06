@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0016",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Missing identity document", "Low literacy and paperwork complexity", "Old age and possible mobility limits"],
+    "reasoning": "The missing ID and illiteracy make the in-person update cumbersome, and at 85 he may need help arranging transport or documents. Still, he lives in town, the office is only 3 km away, he can afford the trip, and the threat of losing registration makes eventual compliance more likely than skipping it.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0017",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Missing identity document", "Low income limits transport or paid help", "Advanced age and low bureaucratic literacy"],
+    "reasoning": "Retirement removes the work conflict, but low income, weak schooling, no ID, and advanced age make the process slow and tiring. Because the office is still only 3 km away in an urban area and the penalties matter, he is more likely to manage it after some delay than to avoid it entirely.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0018",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Need to take time off a formal construction job", "Some scheduling friction"],
+    "reasoning": "He has an ID, enough schooling, and only a short trip, so the process is straightforward. The main friction is fitting the visit around a formal construction schedule, which suggests a delay but not avoidance.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0019",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Need to fit the visit around work hours", "Moderate 5 km trip"],
+    "reasoning": "High education, a formal finance job, a solid income, and an ID make compliance easy, and the 5 km distance is manageable. He is likely to arrange the visit promptly because the penalties for non-compliance outweigh the inconvenience.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0020",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Need to fit the visit around work hours", "Moderate 5 km trip"],
+    "reasoning": "She has strong bureaucratic literacy, a formal job, an ID, and enough income to handle transport. The only meaningful friction is scheduling the 5 km trip around work, so she is likely to comply quickly.",
+    "confidence": 0.89
+  }
+]

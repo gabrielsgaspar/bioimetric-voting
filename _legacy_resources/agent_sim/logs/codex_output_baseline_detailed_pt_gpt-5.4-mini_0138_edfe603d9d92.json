@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1428",
+    "decision": "probably_wont_register",
+    "main_barriers": ["42 km rural trip", "low income and farm work", "no identity document", "older age"],
+    "reasoning": "He faces a long and costly trip, would need to solve the missing-ID issue, and his farming work makes a day away harder. The legal threat matters, but the burden is high enough that he is likely to postpone indefinitely or not complete it.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1437",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling", "short 5 km trip"],
+    "reasoning": "Urban location, high income, and a nearby cartorio make the process easy, so the registration threat should prompt a quick trip.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1439",
+    "decision": "will_register_immediately",
+    "main_barriers": ["age and mobility", "small transport logistics"],
+    "reasoning": "Even at 80, he is retired, urban, and only 2 km away, so the trip is manageable and likely done promptly to avoid losing voting rights.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1446",
+    "decision": "will_register_immediately",
+    "main_barriers": ["senior mobility", "short urban trip"],
+    "reasoning": "She is retired and the office is only 3 km away, so there is little to stop her from going soon once the requirement is clear.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1451",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine transport", "possible queue time"],
+    "reasoning": "Retired, with an ID and a 4 km trip, she has enough time and resources to comply quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1460",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "age and transport cost", "bureaucratic hassle"],
+    "reasoning": "The legal risk should matter, but the combination of poverty, age, and a 5 km trip makes her more likely to wait for help or delay until necessary.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1461",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very limited income", "age and transport", "bureaucratic hassle"],
+    "reasoning": "She is retired and only 5 km away, so compliance is possible, but the low income makes transport and the trip itself something she may postpone.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1463",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "low income", "transport to cartorio"],
+    "reasoning": "She probably will comply because the cancellation threat is real, but being employed and low income makes her more likely to fit it in later rather than immediately.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1464",
+    "decision": "will_register_immediately",
+    "main_barriers": ["age-related mobility", "moderate transport logistics"],
+    "reasoning": "Retired, urban, and 5 km from the office, she has few strong barriers, so the requirement should lead her to go promptly.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1472",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "trip logistics in a large city"],
+    "reasoning": "She likely wants to keep her registration, but at 79 she may delay until she can arrange transport or support.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1484",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport", "older age"],
+    "reasoning": "The office is only 2 km away and she is retired, so compliance is straightforward and likely quick.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1497",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no income", "advanced age", "dependence on others for transport"],
+    "reasoning": "The 2 km distance helps, but at 80 with no income she may need family help or a very low-cost way to get there, so compliance is likely but not immediate.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1507",
+    "decision": "will_register_eventually",
+    "main_barriers": ["50 km rural trip", "transport cost", "time off work"],
+    "reasoning": "He is young and politically exposed through a public job, so he will probably comply, but the long rural trip makes it more of a planned errand than a quick one.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1515",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "small transport logistics"],
+    "reasoning": "With a decent income, urban location, and a 4 km cartorio, he is likely to take care of it quickly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1523",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "work schedule", "transport cost"],
+    "reasoning": "He is likely to comply because the penalty is real, but low income and working hours make delay more likely than an immediate trip.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1527",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport", "work schedule"],
+    "reasoning": "A 3 km urban trip is easy to manage, and his income and education make compliance very likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1529",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "self-employment pressure", "transport cost"],
+    "reasoning": "He has flexibility because he is self-employed and the office is close, but the very tight budget makes the trip something he may put off until he has to.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1531",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling", "short trip"],
+    "reasoning": "He is urban, well educated, and only 2 km away, so there is little reason not to register promptly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1538",
+    "decision": "will_register_immediately",
+    "main_barriers": ["student schedule", "short urban trip"],
+    "reasoning": "As a student with good income and a nearby cartorio, he can fit the visit in without much trouble.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1542",
+    "decision": "will_register_eventually",
+    "main_barriers": ["53 km rural trip", "transport and time cost", "work leave"],
+    "reasoning": "He is educated and employed, so he will likely comply, but the long rural distance makes it more likely he delays and plans the trip carefully.",
+    "confidence": 0.77
+  }
+]

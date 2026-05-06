@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1788",
+    "decision": "will_register_eventually",
+    "main_barriers": ["procrastination because the deadline is long", "minor transport and queue inconvenience", "no immediate work-related pressure"],
+    "reasoning": "He is retired, educated, already has ID, and lives only 4 km from the office, so the process is very feasible. Because he is still under 70, the risk of cancellation and later electoral restrictions is meaningful. The main pattern is delay rather than refusal.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1801",
+    "decision": "will_register_eventually",
+    "main_barriers": ["weekday work schedule", "possible queue and service delays", "small transport cost"],
+    "reasoning": "As a public worker with higher education, he is likely to understand the rule and take institutional compliance seriously. The office is reachable, but a 5 km trip during office hours still creates friction, so he is more likely to wait for a convenient day than go immediately.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1802",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost income from taking time away from self-employment", "transport cost relative to a tight budget", "queue uncertainty"],
+    "reasoning": "The strongest barrier is opportunity cost: for a lower-income self-employed worker, a bureaucratic errand can mean missed earnings. Still, he has higher education, already has documents, lives in an urban area, and faces real consequences if he lets the registration lapse. That points to delay, not abandonment.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1807",
+    "decision": "will_register_immediately",
+    "main_barriers": ["finding a convenient time slot", "possible queues"],
+    "reasoning": "He has very low practical friction: high income, higher education, public-sector profile, and the office is only 2 km away. The downside of irregular electoral status is salient for someone tied to the state, so he is likely to handle it promptly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1810",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time away from self-employed work", "queue uncertainty"],
+    "reasoning": "The office is close and his income is sufficient to absorb the trip, so noncompliance is unlikely. But self-employed workers often postpone bureaucratic tasks until a slow day, especially when the deadline is a year away. He probably complies later rather than immediately.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1840",
+    "decision": "will_register_immediately",
+    "main_barriers": ["weekday scheduling", "possible queues"],
+    "reasoning": "She is a formal public administration worker with higher education, high income, and a 2 km trip. Bureaucratic literacy is high, trust in the process is likely sufficient, and the penalties are credible. There is little reason for her to risk delay.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1842",
+    "decision": "will_register_eventually",
+    "main_barriers": ["trip and queue inconvenience", "tendency to postpone because she is retired"],
+    "reasoning": "She has time flexibility and enough education to navigate the process, so the task is manageable. But because she is retired and the office is 4 km away, she is more likely to wait for a less busy moment than act right away. The threat of cancellation still makes eventual compliance likely.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1853",
+    "decision": "will_register_eventually",
+    "main_barriers": ["busy work schedule as an employer", "queue uncertainty", "weekday opportunity cost"],
+    "reasoning": "She has the resources and literacy to comply, and the legal consequences are meaningful. The main obstacle is not money or access but fitting a bureaucratic trip into a demanding work routine. That makes eventual registration more likely than immediate registration.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1866",
+    "decision": "will_register_eventually",
+    "main_barriers": ["tight household budget", "bureaucratic hassle", "possible discomfort with waiting in line"],
+    "reasoning": "She does not face a time-off-work barrier and the office is only 2 km away, which favors compliance. But lower income and low day-to-day urgency make it easy to put off. She is still under 70, so the legal downside should push her to complete it eventually.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1867",
+    "decision": "will_register_immediately",
+    "main_barriers": ["fitting it around work hours", "possible queues"],
+    "reasoning": "She is a higher-educated public worker and the office is extremely close. Even with moderate income, the practical burden is low and the institutional stakes are clear. That profile is more likely to respond quickly than to delay for months.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1871",
+    "decision": "will_register_eventually",
+    "main_barriers": ["difficulty missing work on a low income", "queue uncertainty", "tight transport budget"],
+    "reasoning": "She is still likely to comply because she is educated, works in the public sector, and only needs to travel 2 km. But at this income level, even a short bureaucratic trip can be disruptive, so she may postpone until it becomes more urgent.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1874",
+    "decision": "will_register_eventually",
+    "main_barriers": ["minor transport or physical effort", "procrastination because he is not working"],
+    "reasoning": "He has time, education, and a short trip, so access is not the main issue. At 68 he is still within compulsory voting age, which keeps the sanction meaningful. He probably does it, but not right away.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1876",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip and transport hassle", "queue aversion", "modest income"],
+    "reasoning": "Being retired removes the work barrier, but a 5 km trip still creates enough friction to encourage delay. Since he is 66, the obligation to keep electoral status regular still matters. He is more likely to postpone than refuse.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1880",
+    "decision": "will_register_eventually",
+    "main_barriers": ["inconvenience of the trip", "queues and bureaucracy"],
+    "reasoning": "He has moderate financial comfort, higher education, and no work-time constraint, so the trip is quite feasible. The office is not next door, though, and retirees often defer errands with long deadlines. That points to eventual compliance rather than immediate action.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1915",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km travel inconvenience", "procrastination", "possible dislike of bureaucratic lines"],
+    "reasoning": "He is retired and educated, so he can navigate the process without much confusion. At 67, voting remains compulsory, so the consequences are still relevant. The likely pattern is waiting until later, then going before the deadline.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1917",
+    "decision": "will_register_eventually",
+    "main_barriers": ["reduced urgency because he is close to age 70", "procrastination"],
+    "reasoning": "The trip is easy and his resources are strong, so access is not the problem. The main reason he may delay is that at 69 he is close to the age when voting becomes optional, which softens the pressure. Even so, his education, income, and 2 km distance make eventual compliance slightly more likely than not.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1920",
+    "decision": "will_register_eventually",
+    "main_barriers": ["transport and queue burden", "procrastination"],
+    "reasoning": "He is still under 70, so the legal cost of letting the registration lapse remains meaningful. He has enough literacy and time to handle it, but a 5 km trip is inconvenient enough that he is likely to put it off until later in the year.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1935",
+    "decision": "probably_wont_register",
+    "main_barriers": ["low personal urgency after age 70", "bureaucratic hassle", "queues"],
+    "reasoning": "At 72, voting is no longer compulsory in Brazil, so the strongest sanction in the scenario loses much of its force. He has the means to go, but as a retired person with no public-sector job need, the remaining benefit may not feel worth even a modest bureaucratic trip. That makes non-registration plausible.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1958",
+    "decision": "will_register_eventually",
+    "main_barriers": ["reduced urgency because she is near age 70", "inconvenience and queues"],
+    "reasoning": "She has time, money, education, and only a moderate trip, so she can do it without major hardship. The main drag is that at 69 she may feel less urgency because compulsory voting is close to ending. Still, she is likely to preserve her ability to vote and keep her status regular.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1983",
+    "decision": "will_register_eventually",
+    "main_barriers": ["tight household budget", "bureaucratic hassle", "possible mobility or health discomfort"],
+    "reasoning": "Her income is low, so even small errands carry weight, but the office is only 2 km away and she does not need time off work. Since she is 65, electoral obligations still matter. She is likely to comply after some delay rather than risk cancellation.",
+    "confidence": 0.78
+  }
+]

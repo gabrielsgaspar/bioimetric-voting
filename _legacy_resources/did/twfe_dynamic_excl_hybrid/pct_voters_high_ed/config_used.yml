@@ -1,0 +1,35 @@
+file_format: csv
+treatment_var: ~
+controls: []
+cluster_var:
+- municipality_id
+- year_election
+weights_var: ~
+event_time_var: dist_treatment
+event_time_never_value: -9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/pct_voters_high_ed
+notes: Dynamic TWFE robustness run excluding municipalities ever flagged as hybrid
+  in the official 2018 status source; never-treated municipalities remain in the sample
+  as controls.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1.0
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+omit_plot_title: yes
+data_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/data/interim/tse/tse_clean_panel_2000_2018_excl_hybrid_municipalities.csv
+estimator: twfe_dynamic
+outcome: pct_voters_high_ed
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated

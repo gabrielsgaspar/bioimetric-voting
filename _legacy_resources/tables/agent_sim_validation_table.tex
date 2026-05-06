@@ -1,0 +1,24 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lc}
+\doubletoprule
+Statistic & Value \\
+\midrule
+Municipalities in validation sample & 2,789 \\
+Predicted-observed correlation & 0.067 \\
+Population-weighted correlation & 0.297 \\
+Scatter-plot $R^2$ & 0.004 \\
+Mean predicted dropout rate & 0.405 \\
+Mean observed dropout rate & 0.092 \\
+Mean predicted dropout, low education & 0.461 \\
+Mean predicted dropout, high education & 0.309 \\
+Implied low-education share change & -0.039 \\
+Observed low-education share change & -0.140 \\
+Paper benchmark low-education share change & -0.089 \\
+North-region prediction residual & 0.445 \\
+High-quality-model agreement (200-persona subsample) & 0.770 \\
+\doublebottomrule
+\end{tabular*}
+
+\begin{minipage}{\textwidth}
+\footnotesize
+\textbf{Note:} Observed dropout is the municipality-specific change in the log number of registered voters between event time $-2$ and event time $0$, converted to a proportional drop as $1 - \exp(\Delta \log V)$. The implied low-education share change uses LLM-predicted low- and high-education dropout rates together with pre-treatment TSE education shares. The high-quality-model agreement compares the main `gpt-5.4-mini` batch to a 200-persona `gpt-5.4` validation subsample.
+\end{minipage}

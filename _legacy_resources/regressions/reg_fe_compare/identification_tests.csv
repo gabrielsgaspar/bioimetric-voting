@@ -1,0 +1,4 @@
+"test","statistic","estimate","se","ci_lower","ci_upper","pass"
+"Hybrid total electorate effect is zero","gamma_N_hyb",-0.00634515748594013,0.00127416270979453,-0.00884251639713741,-0.00384779857474285,FALSE
+"Hybrid low-plus-high education effects sum to zero","gamma_L_hyb + gamma_H_hyb",-0.00612952897299334,0.00127545260489024,-0.0086294160785782,-0.00362964186740847,FALSE
+"Placebo event-time -4 coefficients are zero","all D_str_minus4 and D_hyb_minus4 coefficients",NA,NA,NA,NA,FALSE

@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1064",
+    "decision": "probably_wont_register",
+    "main_barriers": ["48 km rural trip", "no identity document", "zero income for transport"],
+    "reasoning": "The fine and loss of voter status matter, but the combination of no ID, no personal income, and a long rural journey makes compliance hard to complete within a year. This is more likely to end in noncompliance than in a completed trip.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1069",
+    "decision": "will_register_immediately",
+    "main_barriers": ["limited cash", "routine bureaucratic hassle"],
+    "reasoning": "The cartorio is close, she is not tied to a work schedule, and the trip cost is low. With compulsory voting and the risk of cancellation, she is likely to handle it soon.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1118",
+    "decision": "will_register_eventually",
+    "main_barriers": ["43 km rural distance", "transport cost", "time off work"],
+    "reasoning": "She has a formal public-sector job and enough income to afford the trip, but the rural distance makes it a real logistics problem. She is likely to go after arranging transport and leave rather than right away.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1119",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "work schedule"],
+    "reasoning": "The office is only 2 km away and she has formal employment, so the practical burden is low. The legal risk of losing registration should push early compliance.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1149",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed lost income", "low cash flow", "bureaucratic hassle"],
+    "reasoning": "The 5 km distance is manageable, but as a very low-income self-employed worker he is likely to postpone because a day away from paid work costs him directly. The penalties should eventually push him to go, but not immediately.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1157",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "work schedule", "minor transport cost"],
+    "reasoning": "The cartorio is close and he has a formal job, so this is doable, but the low income makes any lost time feel costly. He is more likely to delay and go later than to act right away.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1161",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low pay", "construction shift work", "minor transport cost"],
+    "reasoning": "The short distance keeps the task feasible, but construction schedules and low income make it easier to postpone. He is still likely to comply before the deadline because the official risk is real.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1164",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "workday scheduling"],
+    "reasoning": "The office is close, he has a stable formal job, and his income is enough to absorb a small inconvenience. This is the kind of person who can comply quickly once the rule is announced.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1165",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km urban trip", "work schedule"],
+    "reasoning": "The trip is short enough to be easy in city conditions, and formal service work usually makes a one-time office visit manageable. He is likely to take care of it soon rather than risk cancellation.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1173",
+    "decision": "will_register_eventually",
+    "main_barriers": ["shift work", "moderate transport effort"],
+    "reasoning": "The distance is not huge, but manufacturing work can make scheduling harder than it looks on paper. He is likely to comply, just after he finds the right day off.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1175",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "work schedule"],
+    "reasoning": "The cartorio is very close, he has a stable formal job, and his income is relatively comfortable. With little friction and real legal consequences, prompt compliance is likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1185",
+    "decision": "will_register_eventually",
+    "main_barriers": ["49 km rural distance", "transport cost", "time off agricultural work"],
+    "reasoning": "The trip is a serious rural logistics problem, but he has formal work and enough income to make it possible. He is more likely to organize the trip later than to ignore it completely.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1189",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "work schedule"],
+    "reasoning": "The office is only 2 km away and he has a formal services job, so the practical burden is low. The risk of losing voter registration should be enough to prompt a quick visit.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1195",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km urban trip", "work schedule"],
+    "reasoning": "A 5 km trip in an urban area is manageable, and a formal services job usually allows a one-off bureaucratic errand. The registration threat makes early compliance likely.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1203",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work income loss", "very low income", "irregular schedule"],
+    "reasoning": "The cartorio is close, but informal hospitality work and scarce cash make any missed workday costly. She is likely to postpone until the pressure becomes unavoidable.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1211",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "low income", "work scheduling"],
+    "reasoning": "The office is only 4 km away, and a uniformed or public-sector job usually makes documentation requirements more salient. Even with low income, the trip is easy enough that she is likely to do it soon.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1236",
+    "decision": "will_register_eventually",
+    "main_barriers": ["59 km rural distance", "travel cost", "time off work"],
+    "reasoning": "She can afford the trip better than most rural residents, but the distance is still a real obstacle. The most likely pattern is planned compliance after arranging transport and leave, not an immediate visit.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1243",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work income loss", "very low income", "3 km trip"],
+    "reasoning": "The office is nearby, but informal manufacturing work and very low income make losing even part of a day expensive. She is likely to delay rather than go right away, though the deadline pressure should eventually matter.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1252",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "routine paperwork"],
+    "reasoning": "She is retired and the cartorio is close, so there is little practical friction. With no work conflict and clear penalties for ignoring the rule, she is likely to handle it promptly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1263",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "minor transport cost"],
+    "reasoning": "The office is only 3 km away and his income is enough to absorb the small cost of compliance. A formal job and the risk of losing registration make a prompt trip likely.",
+    "confidence": 0.87
+  }
+]

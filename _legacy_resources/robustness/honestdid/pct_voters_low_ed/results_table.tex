@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+    \caption{HonestDiD Sensitivity for Low-education share}
+    \label{tab:honestdid-pct_voters_low_ed}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.08}
+    \begin{tabular*}{0.94\textwidth}{@{\extracolsep{\fill}}lcccc}
+        \doubletoprule
+        Restriction & Violation bound & Lower bound & Upper bound & Rejects zero \\
+        \midrule
+        Smoothness & 0.0 & -0.093 & -0.084 & Yes \\
+        Smoothness & 0.5 & -0.548 & 0.416 & No \\
+        Smoothness & 1.0 & -1.048 & 0.916 & No \\
+        Smoothness & 1.5 & -1.548 & 1.415 & No \\
+        Smoothness & 2.0 & -2.048 & 1.917 & No \\
+        \midrule
+        Relative magnitudes & 0.0 & -0.093 & -0.084 & Yes \\
+        Relative magnitudes & 0.5 & -0.094 & -0.083 & Yes \\
+        Relative magnitudes & 1.0 & -0.095 & -0.081 & Yes \\
+        Relative magnitudes & 1.5 & -0.097 & -0.079 & Yes \\
+        Relative magnitudes & 2.0 & -0.099 & -0.077 & Yes \\
+        \midrule
+        Breakdown $\bar{M}$ & \multicolumn{4}{c}{>2.0} \\
+        \doublebottomrule
+    \end{tabular*}
+    \vspace{1.0em}
+    \begin{minipage}{0.94\textwidth}
+        {\footnotesize \textbf{Note:} The table reports Rambachan-Roth sensitivity intervals for the event-time $0$ effect using the baseline dynamic TWFE specification. The smoothness rows impose bounds on second differences in latent violations of parallel trends. The relative-magnitudes rows bound post-treatment deviations relative to the largest pre-treatment deviation. The breakdown value is the smallest relative-magnitude violation at which the 95\% identified set contains zero; entries above the search grid are reported as lower bounds. \par}
+    \end{minipage}
+\end{table}

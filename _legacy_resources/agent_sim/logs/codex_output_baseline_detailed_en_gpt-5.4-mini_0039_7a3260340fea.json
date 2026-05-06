@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0761",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "travel cost", "low bureaucratic literacy"],
+    "reasoning": "He is low-income and works informally, so losing a work day and paying for travel may cause delay, but the office is only about 5 km away and he has the needed ID. The risk of losing voter registration should still push him to comply within the year.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0762",
+    "decision": "will_register_immediately",
+    "main_barriers": ["informal construction work schedule", "minor transport/time cost"],
+    "reasoning": "A 2 km trip in an urban area is easy enough to fit around informal construction work, and he already has an ID for the paperwork. The risk of losing registration should prompt quick compliance.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0763",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "self-employed work", "older age"],
+    "reasoning": "Even though the office is only 5 km away and he has an ID, self-employment and low income make the visit something he is likely to delay rather than do right away. He still has enough incentive to go before the deadline because noncompliance would cancel his registration.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0764",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small travel inconvenience"],
+    "reasoning": "He has a formal public job, a decent income, an ID, and only a 5 km trip, so the administrative burden is low. With the threat of registration cancellation, he is likely to take care of it quickly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0765",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "38 km rural travel", "low income", "transportation cost"],
+    "reasoning": "Without an ID, with a very long rural trip and very low income, the practical cost of complying is too high relative to the weak penalties for noncompliance. He is unlikely to make the trip within 12 months.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0766",
+    "decision": "probably_wont_register",
+    "main_barriers": ["extreme poverty", "no identity document", "40 km distance", "transportation access"],
+    "reasoning": "At R$200 per month, he is unlikely to afford special travel, and the lack of an ID adds another bureaucratic hurdle. This makes compliance within 12 months unlikely.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p0767",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "43 km rural distance", "low income", "mobility/transport burden"],
+    "reasoning": "Retirement removes the work barrier, but the lack of ID, long rural distance, and low income still create too much friction for routine compliance. He is unlikely to complete the update unless he gets outside help.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0768",
+    "decision": "will_register_eventually",
+    "main_barriers": ["zero income", "transport cost", "bureaucratic hassle"],
+    "reasoning": "He has no work schedule to conflict with, and the office is only 5 km away in an urban area, so the trip is possible. The biggest issue is finding transport money and dealing with the bureaucracy, so he is more likely to delay than skip it.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0769",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "self-employed work", "travel/time cost"],
+    "reasoning": "He has an ID and lives in town, so the office is reachable, but his very low income and self-employed agricultural work make the visit easy to postpone. The compulsory-voting penalty should still push him to do it before the deadline.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0770",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport cost"],
+    "reasoning": "He is not working, has an ID, and the office is only 4 km away, so there is little friction beyond arranging the trip. The registration requirement should be easy to satisfy quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0771",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed work schedule", "travel/time cost"],
+    "reasoning": "He can probably afford the trip and the office is close, but self-employed transport work makes it more likely he waits for a convenient day. He is still likely to comply within the year because the consequences of noncompliance are real.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0772",
+    "decision": "will_register_immediately",
+    "main_barriers": ["self-employed work schedule"],
+    "reasoning": "The office is only 2 km away and he has an ID, so the practical burden is small. Even with self-employed work, he is likely to make the trip soon rather than risk losing registration.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0773",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule"],
+    "reasoning": "A formal job, moderate income, and an urban 5 km trip make compliance straightforward. He is likely to handle the update early to avoid any risk of cancellation.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0774",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "38 km rural distance", "low income", "transportation cost"],
+    "reasoning": "He faces the same hard distance problem as other rural voters, but without an ID and with limited income the bureaucracy is even harder to clear. The required trip is unlikely to happen within 12 months.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0775",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "38 km rural distance", "informal work", "low income"],
+    "reasoning": "An informal agricultural worker with no ID and a 38 km trip has too many barriers for routine compliance. The cost and effort are likely to outweigh the relatively small penalties for noncompliance.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0776",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "35 km rural distance", "transportation cost", "bureaucratic complexity"],
+    "reasoning": "Retirement reduces the scheduling problem, but the missing ID and long rural trip still make this cumbersome enough that he may not follow through. He is more likely to stay unregistered unless someone helps him.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0777",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "43 km rural distance", "low income", "transport logistics"],
+    "reasoning": "He has little income, no ID, and a very long trip to the electoral office, so compliance is unlikely to be prioritized. The legal penalties are not strong enough to overcome those barriers.",
+    "confidence": 0.90
+  },
+  {
+    "persona_id": "p0778",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "minor travel inconvenience"],
+    "reasoning": "He has an ID, stable formal work, and the office is only 5 km away in an urban area. That makes the update easy enough to do promptly.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0779",
+    "decision": "will_register_eventually",
+    "main_barriers": ["rural travel distance", "self-employed work", "transport cost"],
+    "reasoning": "He already has an ID and enough income to pay for one trip, so compliance is feasible. The rural distance and self-employment make delay more likely than immediate action.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0780",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel inconvenience"],
+    "reasoning": "A retired urban resident with an ID and only a 2 km trip has very little friction. He is likely to go soon to avoid having his registration canceled.",
+    "confidence": 0.92
+  }
+]

@@ -1,0 +1,21 @@
+data_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/data/interim/siconfi_bdd/downstream_outcomes_panel_v2_prepared.parquet
+file_format: parquet
+outcome: log_investment_spending_pc
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+cluster_var:
+- municipality_id
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/baseline/investment_spending_pc/callaway_santanna
+controls: []
+notes: SICONFI Base dos Dados downstream-fiscal run for `log_investment_spending_pc`.
+plot_title: null
+omit_plot_title: true
+estimator: callaway_santanna
+control_group: nevertreated

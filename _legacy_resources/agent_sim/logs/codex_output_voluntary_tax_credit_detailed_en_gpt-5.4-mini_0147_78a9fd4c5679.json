@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1273",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Formal construction schedule", "Lost work time", "4 km trip"],
+    "reasoning": "He has the education and ID to handle the paperwork, and the low income makes the tax credit somewhat appealing, but the voluntary nature and the need to miss construction work make same-day action unlikely. With no penalty for waiting, he is more likely to go later when he can spare a day.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1275",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Work hours", "5 km trip", "Small reward"],
+    "reasoning": "Urban access is manageable and the formal job reduces chaos, but the update is optional and the credit is small, so he is likely to postpone until it is convenient. There is no strong compliance pressure pushing him to go immediately.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1277",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed schedule", "Opportunity cost of a workday", "3 km trip"],
+    "reasoning": "Self-employment gives some flexibility, but he still has to give up paid time, and the update is not required. The short distance helps, yet he is more likely to do it on a convenient day than to rush.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p1288",
+    "decision": "probably_wont_register",
+    "main_barriers": ["Work schedule", "Small tax credit relative to income", "Optional update"],
+    "reasoning": "The office is close, but the update is voluntary and the credit is too small to matter much at his income level. With a formal work schedule and no penalty for waiting, he is more likely to ignore it unless it becomes convenient for another reason.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p1304",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed construction work", "Time away from paid jobs", "2 km trip"],
+    "reasoning": "The trip is short, but self-employed construction means any visit cuts into paid work. The update is optional, so he is likely to put it off until he has a slow day.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1308",
+    "decision": "probably_wont_register",
+    "main_barriers": ["39 km rural distance", "Transport cost", "Self-employed farm work"],
+    "reasoning": "The long rural trip is the main issue, and self-employed agriculture makes taking a day off expensive. Since the update is voluntary and the credit is small, he is unlikely to bother.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1313",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed work schedule", "Opportunity cost of leaving work", "4 km trip"],
+    "reasoning": "Distance is manageable and there is no obvious distrust barrier, but he still has to choose a day when leaving work is worth it. That makes eventual compliance more likely than immediate action.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1314",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Formal work hours", "5 km trip", "Small tax credit"],
+    "reasoning": "He can probably handle the bureaucracy, but the trip has to be fitted around work and the incentive is modest. With no penalty for waiting, he is more likely to do it later.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1320",
+    "decision": "probably_wont_register",
+    "main_barriers": ["54 km rural distance", "Transport logistics", "Low urgency"],
+    "reasoning": "Even with plenty of time and money, a 54 km rural trip for a voluntary update is a big hassle. The small tax credit does not create enough pressure to offset that.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1324",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Formal job schedule", "2 km trip", "Need to pick a convenient time"],
+    "reasoning": "The office is close and the bureaucracy should be manageable, but she still needs to work the visit around employment hours. That makes the update plausible, but not urgent.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1328",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Short trip logistics"],
+    "reasoning": "She is retired, the office is only 3 km away, and the low income makes the credit relatively meaningful. With little practical friction and no need to work around a job, she is likely to go soon.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1336",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Informal work income", "Need to prioritize daily earnings", "3 km trip"],
+    "reasoning": "The distance is not bad, but informal work and very low income make the day-to-day cost of going more salient. She may do it when business is slow, but it is not automatic.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p1351",
+    "decision": "probably_wont_register",
+    "main_barriers": ["Self-employed hospitality work", "Low income", "4 km trip"],
+    "reasoning": "The update is optional and the credit is small, while her work is likely to be irregular and income-constrained. That makes the trip easy to postpone indefinitely.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1352",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Formal work schedule", "4 km trip", "Small credit"],
+    "reasoning": "She has enough income and proximity for the trip to be feasible, but a formal job still creates friction. Without a penalty for delay, she is more likely to go when convenient.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1357",
+    "decision": "probably_wont_register",
+    "main_barriers": ["50 km rural distance", "Self-employed farm work", "Transport and time cost"],
+    "reasoning": "This is a classic high-friction case: long travel, rural logistics, and no obligation to comply. The small credit is unlikely to outweigh the cost of a dedicated trip.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1372",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor travel logistics"],
+    "reasoning": "Retirement removes the work barrier and 4 km in an urban area is manageable. The tax credit is enough of a nudge that she is likely to take care of it promptly.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1379",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Need to fit around self-employment", "Small travel/time cost"],
+    "reasoning": "Her income is very low, so even a small credit matters, and the office is only 2 km away. That combination makes an immediate trip plausible despite self-employment.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1413",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor transport logistics"],
+    "reasoning": "As a retired urban resident with a short trip, he faces almost no real friction. The update is voluntary, but the hassle is low enough that he would likely do it promptly.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1422",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Short 5 km trip"],
+    "reasoning": "He is inactive, has high income, and is close enough to make the trip without much effort. With no work constraint and no penalty for waiting, the update is still easy to complete soon.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1424",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor travel logistics"],
+    "reasoning": "Retirement and a 3 km urban office keep the cost of compliance low, and there is no strong reason to defer. He is likely to handle it promptly.",
+    "confidence": 0.85
+  }
+]

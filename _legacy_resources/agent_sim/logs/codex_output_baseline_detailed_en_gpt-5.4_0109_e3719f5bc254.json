@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1547",
+    "decision": "will_register_eventually",
+    "main_barriers": ["taking time away from construction work", "queue uncertainty at the cartorio", "tight household budget"],
+    "reasoning": "The office is very close and he has the ID and education needed to navigate the process, so access is not the main problem. As a young construction employer on a modest income, he is more likely to postpone until a slower workday, but the risk of cancellation and future document restrictions is serious enough that he probably goes before the deadline; nothing in the profile suggests distrust strong enough to stop him.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1548",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low immediate urgency", "no income for incidental costs", "weak daily routine"],
+    "reasoning": "He has time and the cartorio is only 2 km away, so the trip itself is manageable, even on foot. The bigger issue is drift: with no job and no current income, he may not treat the announcement as urgent at first, but higher education and the need to keep his status regular for future jobs and documents make eventual compliance more likely than total noncompliance.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p1567",
+    "decision": "will_register_eventually",
+    "main_barriers": ["student schedule and class timing", "small transport cost", "tendency to delay low-salience bureaucracy"],
+    "reasoning": "A 3 km trip in an urban area is feasible, and as a higher-educated student with ID she should understand the process without much bureaucratic confusion. She is likely to delay until it fits around classes or another errand, but the downside of losing electoral status outweighs the modest hassle, and there is no clear sign that distrust in the system would keep her away.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1570",
+    "decision": "will_register_eventually",
+    "main_barriers": ["limited cash for transport", "class schedule", "low urgency until the deadline feels closer"],
+    "reasoning": "The office is still within reachable urban distance and she has the education and documents to complete the update. With only about R$1000 in household income, she is unlikely to rush to do it immediately, but the legal obligation and future restrictions make it likely that she finds a day and goes before cancellation actually happens.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1579",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "inflexible work hours", "possible lost wages or hassle from taking time off"],
+    "reasoning": "Her main obstacle is not literacy or trust but schedule and money: formal utilities work can be rigid, and R$550 a month leaves little room for even small extra costs. Still, the office is close, she already has ID, and someone in formal work has strong reason to keep official records regular, so she is likely to go eventually rather than immediately.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1582",
+    "decision": "will_register_eventually",
+    "main_barriers": ["17 km rural travel distance", "transport availability and cost", "losing a workday in informal employment"],
+    "reasoning": "This is the hardest case on pure logistics: a 17 km rural trip can mean real transport expense, waiting time, and income loss. Even so, she has higher education, an ID, and enough connection to public-facing work in education and health to understand the consequences; she is unlikely to go right away, but over a 12 month window she probably makes the trip when combining it with other errands in town.",
+    "confidence": 0.60
+  },
+  {
+    "persona_id": "p1632",
+    "decision": "will_register_eventually",
+    "main_barriers": ["weekday work schedule", "possible lines at the cartorio", "moderate income constraint"],
+    "reasoning": "A 4 km urban trip is manageable, and his education plus formal work in education or health mean bureaucratic literacy is high. He is likely to delay until he can fit it around work, but the penalties for irregular voter status are meaningful and there is no obvious anti-system barrier here, so eventual compliance is the likelier outcome.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1644",
+    "decision": "will_register_immediately",
+    "main_barriers": ["finding a convenient weekday slot", "possible wait time at the office"],
+    "reasoning": "He is a public or uniformed worker, which usually comes with stronger bureaucratic awareness and a sharper sense that document regularity matters. The cartorio is only 4 km away, he has ID, and the cost of falling out of compliance lands especially hard on someone tied to public institutions, so he is likely to handle it early rather than leave it hanging.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1658",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor time cost during business hours", "possible queues"],
+    "reasoning": "This profile has very low friction: stable formal public administration work, higher income than most in the set, an urban location, and a cartorio only 2 km away. He is highly likely to understand the administrative consequences and to trust the procedure enough to treat it as routine compliance, so early registration is the most plausible outcome.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1672",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost earnings from taking time off self-employed transport work", "weekday office hours", "low urgency despite low practical difficulty"],
+    "reasoning": "He can afford the trip and is close to the cartorio, but self-employed transport work often makes time away from work feel expensive and annoying. That pushes toward delay, not refusal; given his education, ID, and the real downside of cancellation, he probably gets it done once he can slot it into a lighter day.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1680",
+    "decision": "will_register_eventually",
+    "main_barriers": ["opportunity cost from self-employed work", "queue uncertainty", "tendency to postpone paperwork"],
+    "reasoning": "Distance and money are not major obstacles here, but self-employed workers often deprioritize state paperwork unless the deadline is close. Since the penalties are tangible and nothing suggests distrust strong enough to override them, he is more likely to delay than ignore the requirement entirely.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1700",
+    "decision": "will_register_immediately",
+    "main_barriers": ["fitting the visit around work hours", "possible office wait time"],
+    "reasoning": "She has a public-sector profile, an ID, and a very short 2 km trip to the cartorio. For someone in a uniformed or public role, keeping electoral status regular is a standard bureaucratic obligation, so she is likely to comply early rather than risk future restrictions; trust is unlikely to be the sticking point.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1712",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "work-hour inflexibility", "transport and queue costs relative to budget"],
+    "reasoning": "With only about R$750 in household income, even a modest in-person administrative trip can feel burdensome, especially if it means missing work or paying for transport. Still, she has the education and documents to manage it, the office is not far, and the legal and administrative consequences are strong enough that she likely goes before the deadline, just not right away.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1720",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no paid time off in informal work", "5 km urban travel", "low immediate urgency"],
+    "reasoning": "Her work is informal, so taking time for bureaucracy carries a real income and scheduling cost, and 5 km is enough to make it a planned trip rather than a quick errand. Even so, she is educated, already documented, and likely to understand that losing voter regularity can close off future formal opportunities, so she probably registers after some delay.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1722",
+    "decision": "will_register_immediately",
+    "main_barriers": ["busy employer schedule", "minor inconvenience of in-person attendance"],
+    "reasoning": "She has high income, very short distance to the cartorio, and strong bureaucratic capacity. Although employers can be busy, this is exactly the kind of compliance task that someone with resources and a lot to lose from documentation problems tends to clear quickly, and there is no obvious trust barrier in the profile.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1724",
+    "decision": "will_register_eventually",
+    "main_barriers": ["office hours conflicting with formal work", "5 km trip in a large city", "tendency to delay routine bureaucracy"],
+    "reasoning": "She has the education, ID, and income to complete the process without major difficulty, but formal business-service work in a big urban setting often means long days and postponing non-urgent admin tasks. Because the consequences of noncompliance are concrete, she still likely gets it done before the deadline rather than skipping it.",
+    "confidence": 0.80
+  },
+  {
+    "persona_id": "p1753",
+    "decision": "will_register_immediately",
+    "main_barriers": ["taking time during work hours", "possible lines at the office"],
+    "reasoning": "Even with modest income, the strongest factor here is that he works in formal public administration and is therefore likely to understand both the process and the risks of being irregular with electoral records. The cartorio is only 4 km away and trust in the institution is unlikely to be a major obstacle, so early compliance is the most plausible call.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1766",
+    "decision": "will_register_eventually",
+    "main_barriers": ["possible dislike of queues", "some mobility and comfort costs at age 62", "low urgency because he has flexible time"],
+    "reasoning": "Retirement removes the work-schedule barrier, and a 3 km urban trip is not large, so access is fairly good. He may not feel pressure to do it immediately and could wait for a convenient day with shorter lines, but the legal obligation and practical restrictions tied to cancellation make eventual compliance more likely than letting it lapse.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1767",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost business time from self-employment", "paperwork procrastination", "weekday office scheduling"],
+    "reasoning": "The office is close and his income is enough to absorb the trip, but self-employed business workers often put off bureaucratic errands because the time feels unproductive. That said, he is educated, documented, and facing real penalties for noncompliance, so he probably makes the visit once the deadline becomes more salient.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1768",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling inconvenience", "possible wait time"],
+    "reasoning": "He has high income, short distance to the cartorio, and a public or uniformed work profile that usually correlates with strong compliance habits and comfort with official procedures. The practical barriers are small compared with the downside of losing regular electoral status, so he is likely to go early rather than procrastinate.",
+    "confidence": 0.86
+  }
+]

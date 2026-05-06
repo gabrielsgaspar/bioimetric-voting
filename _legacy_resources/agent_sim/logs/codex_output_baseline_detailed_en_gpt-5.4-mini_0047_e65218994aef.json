@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0921",
+    "decision": "will_register_eventually",
+    "main_barriers": ["34 km rural trip", "no identity document", "low income", "limited transport access"],
+    "reasoning": "The rural trip and missing ID create real friction, but retirement and the risk of losing his voter registration make it more likely he arranges the visit before the deadline than ignores it.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0922",
+    "decision": "will_register_eventually",
+    "main_barriers": ["3 km urban trip", "modest income", "older age"],
+    "reasoning": "The office is close and he has ID, but as a low-income retiree he may still postpone the bureaucratic errand until it feels urgent.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0923",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "older age", "transport cost"],
+    "reasoning": "The short trip is feasible, but his very limited budget and age make it the kind of task he may delay until he can manage the outing.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0924",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from self-employment", "bureaucratic errand"],
+    "reasoning": "He has good income, an ID, and only a short urban trip, so the update is easy to fit in and he is likely to handle it promptly.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0925",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "mobility or health limits", "need for accompaniment"],
+    "reasoning": "At 90, the main issue is physical effort rather than money or distance, so he may need help and is more likely to delay than act immediately.",
+    "confidence": 0.70
+  },
+  {
+    "persona_id": "p0926",
+    "decision": "will_register_eventually",
+    "main_barriers": ["49 km rural trip", "no identity document", "transport logistics", "leaving farm work"],
+    "reasoning": "He can probably afford the trip, but the long rural distance and missing ID make it cumbersome enough that compliance is more likely later in the year.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0927",
+    "decision": "will_register_eventually",
+    "main_barriers": ["47 km rural trip", "no identity document", "transport cost", "time away from agriculture work"],
+    "reasoning": "He has enough resources to make the trip, yet the distance and extra paperwork still point to delay rather than immediate action.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0928",
+    "decision": "will_register_immediately",
+    "main_barriers": ["scheduling around self-employment", "bureaucratic errand"],
+    "reasoning": "The office is only 2 km away and he has both income and ID, so the registration update is a straightforward errand he is likely to do soon.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0929",
+    "decision": "probably_wont_register",
+    "main_barriers": ["36 km rural trip", "no identity document", "tight budget", "subsistence work"],
+    "reasoning": "The cost and hassle of a long rural trip without ID are high relative to his resources, so the warning is unlikely to be enough to get him there.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0930",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "low income", "bureaucratic hassle"],
+    "reasoning": "The office is nearby, but informal work and a very small budget make him likely to put it off until the deadline feels closer.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0931",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "older age", "small transport cost"],
+    "reasoning": "Retirement and a nearby office make compliance feasible, but low income and age make this more likely a delayed errand than an immediate one.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0932",
+    "decision": "will_register_eventually",
+    "main_barriers": ["2 km trip", "low income", "older age"],
+    "reasoning": "The distance is very short, but a low-income retiree may still delay a bureaucratic task until he is ready to handle it.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0933",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "low income", "mobility needs"],
+    "reasoning": "The office is close enough that he can likely comply, but at 80 he may need help and may not rush to do it.",
+    "confidence": 0.70
+  },
+  {
+    "persona_id": "p0934",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "older age", "need to plan transport"],
+    "reasoning": "He has no work barrier and decent income, but a 5 km trip still makes this something he is likely to schedule rather than do at once.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0935",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very old age", "very low income", "mobility limits"],
+    "reasoning": "Even with a nearby office, his age and very small pension make the trip easy to postpone, though not impossible with help.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0936",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "older age", "some transport planning"],
+    "reasoning": "The office is reachable and he is retired, but the trip is still enough of an errand that he is likely to delay it.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0937",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very advanced age", "low income", "mobility or health limits"],
+    "reasoning": "At 90, physical effort is the main barrier, so he is likely to wait for assistance before making the trip.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0938",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missing identity document", "bureaucratic follow-up", "small transport burden"],
+    "reasoning": "The nearby office helps, but lacking an identity document adds an extra bureaucratic step, so she is likely to comply after some delay.",
+    "confidence": 0.70
+  },
+  {
+    "persona_id": "p0939",
+    "decision": "probably_wont_register",
+    "main_barriers": ["37 km rural distance", "no identity document", "low income", "transport cost"],
+    "reasoning": "The trip is expensive and complicated for her budget and location, and the missing ID makes compliance even less likely.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0940",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no income", "no identity document", "40 km rural distance", "transport logistics"],
+    "reasoning": "With zero income and a long rural trip, the barriers are severe enough that non-compliance is the most likely outcome.",
+    "confidence": 0.96
+  }
+]

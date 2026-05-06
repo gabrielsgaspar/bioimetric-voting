@@ -1,0 +1,24 @@
+estimator: callaway_santanna
+data_path: data/interim/tse/electorate_size_cs_nonhybrid_sample.csv
+file_format: csv
+outcome: log_num_voters
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated_cs
+treatment_var: null
+controls: []
+cluster_var: municipality_id
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+control_group: nevertreated
+seed: 20260427
+omit_plot_title: true
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna_nonhybrid/log_num_voters
+notes: Figure 3 electorate-size rerun using Callaway-Sant'Anna with never-treated
+  controls, municipality-clustered standard errors, and municipalities ever flagged
+  as hybrid excluded. Outcome is log registered voters; treatment cohort is first
+  strict BVR year.

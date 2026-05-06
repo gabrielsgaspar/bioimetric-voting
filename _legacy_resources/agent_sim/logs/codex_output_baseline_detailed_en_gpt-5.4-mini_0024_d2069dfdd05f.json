@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0461",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "very low income", "no ID", "low literacy", "transport cost"],
+    "reasoning": "She is retired and in the city, so the trip is possible, but she lacks an ID, has very little money, and may need help navigating the office. The compulsory rule and risk of losing registration should push her to comply, but likely only after delay or with assistance.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0462",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "no ID", "low literacy", "transport cost"],
+    "reasoning": "Urban distance is manageable and she is retired, so there is no work barrier. The main friction is the missing ID and bureaucratic process, but the legal consequences make eventual compliance likely.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0463",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "low income", "transport cost"],
+    "reasoning": "She is inactive, not working, and lives in a city, which makes attendance feasible. The missing ID and low bureaucratic literacy make it slower, but the deadline and compulsory voting should still bring her in.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0464",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low literacy", "3 km trip"],
+    "reasoning": "She has an ID, good income, and a nearby office, so the trip is straightforward. The only real friction is paperwork literacy, so she is likely to go soon.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0465",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very advanced age", "domestic work schedule", "no ID", "low literacy"],
+    "reasoning": "Even with the office only 2 km away, age 84, no ID, and domestic work make the process hard. She may need to coordinate time and assistance before she goes, but the legal rule should still push her toward compliance.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0466",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no ID", "low literacy", "transport cost"],
+    "reasoning": "She has no work conflict and lives in the city, so attendance is possible, but the low income, no ID, and literacy issues make it cumbersome. The cancellation threat makes eventual compliance more likely than not.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0467",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "domestic work schedule", "low literacy", "transport cost"],
+    "reasoning": "Although she has an ID and good income, she is 80 and still working, so arranging the trip may be awkward. She is likely to comply because the rule is compulsory, but probably not right away.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0468",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "very low income", "no ID", "low literacy", "transport cost"],
+    "reasoning": "Retirement removes work pressure, but age, poverty, and no ID make the process slow. Still, a city trip is feasible enough that she likely complies before the deadline.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0469",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "low income", "transport cost"],
+    "reasoning": "She is retired and very close to the office, so access is relatively easy. The main barrier is the missing ID and weak bureaucratic literacy, which may delay her, but not enough to make compliance unlikely.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0470",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "transport cost"],
+    "reasoning": "She is retired and lives in the city, so the trip is manageable. The main friction is the missing ID and paperwork, but the compulsory rule should still bring her in.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0471",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "no ID", "low literacy", "low income", "transport cost"],
+    "reasoning": "She is not working, so time is available, but age, low literacy, and no ID make the process cumbersome. The legal risk of losing registration should eventually motivate her, though she may delay.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0472",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "transport cost"],
+    "reasoning": "She has enough income to handle a city trip and no job conflict, so the main issue is bureaucracy and missing documents. That should cause some delay, but eventual compliance is still more likely than not.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0473",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "transport cost"],
+    "reasoning": "Her situation is similar to other retired urban voters: the trip is doable, but no ID and low bureaucratic literacy make it slow. The compulsory rule and risk of cancellation should still pull her into compliance.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0474",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "transport cost"],
+    "reasoning": "She has no work barrier and decent income, but missing ID means extra bureaucracy. She is more likely to delay than to go right away, though compliance within the year is still likely.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0475",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very long-distance travel", "rural transport cost", "no ID", "low literacy", "low income"],
+    "reasoning": "The distance is the dominant barrier: a 57 km round trip from a rural area is expensive and hard to arrange on a retirement income. Even with compulsory voting, the travel burden is likely too high for her to complete the update.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0476",
+    "decision": "probably_wont_register",
+    "main_barriers": ["extreme age", "mobility limits", "no ID", "low literacy"],
+    "reasoning": "Even though the office is not far, age 98 makes travel, waiting, and paperwork difficult. Without an ID and with low income, she is unlikely to manage the process within the deadline.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0477",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very long-distance travel", "rural transport cost", "no ID", "low literacy", "low income"],
+    "reasoning": "A 51 km trip from a rural area is a major barrier, especially for an elderly retiree with little income and no ID. The compulsory rule is unlikely to outweigh the cost and effort of traveling that far.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0478",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "low literacy", "transport cost"],
+    "reasoning": "She has an ID, no work barrier, and enough income to cover transport, so prompt compliance is likely. Age and literacy are the main frictions, but not enough to stop a short city trip.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0479",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "low literacy", "transport cost", "low income"],
+    "reasoning": "She is retired and the office is close, so the physical trip is feasible. The missing ID and weak bureaucratic literacy may slow her down, but the compulsory rule should eventually bring her in.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0480",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very long-distance travel", "rural transport cost", "no ID", "low literacy", "high transport cost"],
+    "reasoning": "Even with a decent income, a 60 km rural trip is a serious logistics problem for an elderly retiree. The cost, distance, and paperwork burden make non-compliance more likely than successful re-registration.",
+    "confidence": 0.92
+  }
+]

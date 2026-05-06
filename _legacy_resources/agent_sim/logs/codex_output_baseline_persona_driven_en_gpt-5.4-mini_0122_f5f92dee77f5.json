@@ -1,0 +1,226 @@
+[
+  {
+    "persona_id": "p0267",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "informal daily earnings make time off costly",
+      "3 km trip still requires transport or walking time",
+      "no identity document and low literacy"
+    ],
+    "reasoning": "He is close enough to eventually handle the trip, but losing a workday and dealing with paperwork without an ID makes him likely to delay until the deadline gets real.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0270",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "4 km trip and transport cost",
+      "no identity document",
+      "limited literacy and paperwork help"
+    ],
+    "reasoning": "With no formal job to miss, he can probably fit the trip in, but the need to arrange transport and navigate the process means he is more likely to go after some delay than right away.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0284",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "5 km trip",
+      "formal work schedule",
+      "no identity document"
+    ],
+    "reasoning": "The office is still reachable in the city, and the penalty is serious enough that he will probably comply, but a workday and missing documents make this more likely to happen later than immediately.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0303",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "no identity document",
+      "limited literacy",
+      "small but nonzero travel effort"
+    ],
+    "reasoning": "He has no job to miss and the office is only 2 km away, so the practical burden is low enough that he is likely to act quickly.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0308",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "missing a construction work shift",
+      "no identity document",
+      "2 km trip still needs time"
+    ],
+    "reasoning": "The distance is short and the income is decent, so he should eventually get it done, but construction work makes a same-week trip less likely than after some planning.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p0313",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "53 km rural distance",
+      "high transport cost",
+      "no identity document",
+      "limited income and literacy"
+    ],
+    "reasoning": "The trip is too far and expensive for her situation, and with no work-related push she is likely to postpone until the deadline passes.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0323",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "4 km trip",
+      "no identity document",
+      "low income for transport"
+    ],
+    "reasoning": "She can probably manage eventually because she has no job to miss and the office is in urban reach, but the cost and paperwork should slow her down.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0326",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "38 km rural trip",
+      "transport cost and availability",
+      "no identity document",
+      "illiteracy makes paperwork harder"
+    ],
+    "reasoning": "The long trip is a real burden, but the flexible self-consumption work and the legal penalty make compliance plausible if she gets help, so she is more likely to do it eventually than never.",
+    "confidence": 0.57
+  },
+  {
+    "persona_id": "p0331",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "34 km rural trip",
+      "very low income",
+      "no identity document",
+      "limited support for travel"
+    ],
+    "reasoning": "With no job to force a town trip and little cash to fund one, she is likely to keep putting it off and miss the deadline.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0339",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "limited literacy",
+      "time to visit the office"
+    ],
+    "reasoning": "She has money, no work barrier, an identity document, and only a 3 km trip, so this is the kind of case that should be handled quickly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0340",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "domestic work schedule",
+      "low income",
+      "no identity document",
+      "transport cost"
+    ],
+    "reasoning": "She can probably do it, but domestic work and missing pay make her more likely to wait until she can arrange a day off or get help.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0347",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "no identity document",
+      "3 km trip",
+      "needs help with forms or queueing"
+    ],
+    "reasoning": "The office is close enough that she can eventually make it, but poverty and lack of document knowledge should create delay.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0348",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no cash for transport",
+      "zero household income",
+      "5 km trip"
+    ],
+    "reasoning": "She is not blocked by work, but having no income makes any trip harder to organize, so she is likely to delay even if she eventually finds a way.",
+    "confidence": 0.57
+  },
+  {
+    "persona_id": "p0357",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "short 2 km trip",
+      "minor bureaucratic hassle"
+    ],
+    "reasoning": "Retirement, a decent income, and an existing ID leave very little friction, so she should comply promptly.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0361",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "5 km trip",
+      "low income",
+      "no identity document"
+    ],
+    "reasoning": "She has the time to go because she is retired, but the missing document and distance mean she will probably do it after some procrastination.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0369",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "self-employment makes time away costly",
+      "no identity document",
+      "3 km trip"
+    ],
+    "reasoning": "He is close enough to make the trip, but because every hour away can cost him income, he is likely to postpone until he can fit it around work.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0373",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "no identity document",
+      "5 km trip"
+    ],
+    "reasoning": "Her situation is not impossible, but the combination of poverty and missing documents makes compliance more likely to slip than to happen immediately.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p0374",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "domestic work schedule",
+      "3 km trip",
+      "need to miss paid time"
+    ],
+    "reasoning": "She is close enough and has an ID, so she should eventually get it done, but domestic work means she may need to negotiate time off first.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0393",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural distance",
+      "very low income",
+      "no identity document",
+      "weak transport access"
+    ],
+    "reasoning": "This is a very costly and time-consuming trip for someone in a remote rural area, so the most likely outcome is that she does not complete it.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0395",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "4 km trip",
+      "low income",
+      "no identity document"
+    ],
+    "reasoning": "Retirement removes the work barrier, and the office is close enough in an urban area that he will probably manage it eventually, though not without some delay.",
+    "confidence": 0.67
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0341",
+    "decision": "probably_wont_register",
+    "main_barriers": ["extreme poverty", "no identity document", "low literacy", "4 km trip"],
+    "reasoning": "The office is not far, but R$100 a month leaves almost no room for transport or paperwork costs, and she lacks the ID and bureaucratic skills to handle the process easily. Compulsory voting and fines are unlikely to outweigh day-to-day survival priorities, so she is likely to miss the deadline.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0342",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "low income"],
+    "reasoning": "A 2 km trip in urban Sao Paulo is feasible and she is not tied to a job, so the practical burden is moderate rather than extreme. She will likely need help with documents and forms, which makes delay more likely than immediate action.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0343",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "bureaucratic complexity"],
+    "reasoning": "Unemployed status and a stronger income make the trip easier to absorb, and 3 km is manageable in the city. The missing ID and low literacy still mean she will probably need help and may not go right away, but compliance within 12 months is likely.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0344",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "time off from formal work"],
+    "reasoning": "She has a formal job, so arranging a visit takes more coordination than for a retired or unemployed person, even though the office is only 4 km away. The legal risk should push her to comply, but the paperwork and schedule make a delay more likely than an immediate trip.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0345",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "5 km distance", "low literacy"],
+    "reasoning": "She is retired and has time, but the combination of a very small income, no ID, and a longer urban trip makes the errand easy to postpone. Still, the compulsory-voting penalties make eventual compliance more likely than total noncompliance.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p0346",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low literacy", "2 km distance"],
+    "reasoning": "With a strong income, an ID already in hand, retirement, and only a short trip, she has few real obstacles. This is the kind of case where the deadline should lead to prompt compliance.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0347",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "low literacy"],
+    "reasoning": "She is not tied to a job and the office is only 3 km away, so the trip is possible, but the low income and missing ID make it easy to delay. The legal consequences should eventually bring her in.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0348",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no cash income", "low literacy", "5 km distance"],
+    "reasoning": "A zero-income household makes even a short bureaucratic trip feel expensive, but she is urban, not working, and already has an ID, so the trip is still feasible. She is more likely to wait until it becomes urgent than to ignore it completely.",
+    "confidence": 0.56
+  },
+  {
+    "persona_id": "p0349",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "no identity document", "low literacy"],
+    "reasoning": "Being retired and urban reduces the time barrier, and 3 km is manageable, but the low income and missing ID still create enough friction to slow her down. She will probably comply once the deadline or related document needs become real.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0350",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "5 km distance", "low literacy"],
+    "reasoning": "Her income is better than the poorest cases and she is not working, so the trip is doable, but the 5 km distance and lack of ID make it more likely that she delays. Compulsory voting should eventually pull her through.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0351",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low literacy", "5 km distance"],
+    "reasoning": "She has a decent retirement income and already has the required ID, so the main hurdle is just making the trip. Even with a 5 km distance, this looks like prompt compliance rather than procrastination.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0352",
+    "decision": "probably_wont_register",
+    "main_barriers": ["35 km rural distance", "self-employed farm work", "no identity document", "transport cost"],
+    "reasoning": "This is the toughest case in the set: the office is very far away, she would have to leave agricultural work, and she lacks the ID that would make the process smoother. Even with mandatory voting, the travel and opportunity cost make noncompliance likely.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0353",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "bureaucratic complexity"],
+    "reasoning": "A 2 km urban trip is manageable, and retirement gives her time, but lacking an ID and having limited literacy means she will probably need help to get through the process. That makes delay likely, but eventual compliance still more likely than not.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0354",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low income", "low literacy"],
+    "reasoning": "The office is not far and she is not working, so the trip is feasible, but the missing ID and modest income make the paperwork and transport easier to postpone. The election deadline should eventually get her to go.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0355",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "need for transport"],
+    "reasoning": "A 2 km city trip is workable and her income is not extremely low, so compliance is realistic. The lack of ID and low literacy mean she may need assistance and is more likely to delay than to go right away.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0356",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low literacy", "3 km distance"],
+    "reasoning": "She has a strong income, already has an ID, and is retired, so the practical costs are low. The 3 km distance is not enough to stop prompt compliance.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0357",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low literacy", "2 km distance"],
+    "reasoning": "With good income, retirement, an ID already available, and only a short trip, she has very little friction. She is likely to comply soon after learning about the requirement.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0358",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "4 km distance"],
+    "reasoning": "She is urban and not working, so the trip is possible, but no ID and limited literacy still make the process cumbersome. She will probably delay but eventually comply because the registration loss is important.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0359",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "no identity document", "4 km distance"],
+    "reasoning": "The urban setting keeps the trip within reach, but her income is still low enough that transport and paperwork can be a real burden. She is more likely to put it off than to skip it forever.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0360",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "2 km distance"],
+    "reasoning": "This is one of the easier low-document cases because the office is close and she is not working, but she still lacks the ID and the bureaucratic know-how to handle the process quickly. That points to delay rather than immediate action.",
+    "confidence": 0.81
+  }
+]

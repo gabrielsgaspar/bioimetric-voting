@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0011",
+    "decision": "will_register_eventually",
+    "main_barriers": ["36 km rural distance", "arranging transport on rural roads", "time and hassle of an in-person cartorio visit"],
+    "reasoning": "He is retired, well educated, has a high income, and already has an ID, so he can absorb the cost and understand the process. The main friction is the long rural trip, so he is more likely to delay than to skip it, but the loss of voter registration should still push him to comply within the year.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0012",
+    "decision": "will_register_eventually",
+    "main_barriers": ["illiteracy", "navigating election bureaucracy", "small time cost of the trip"],
+    "reasoning": "The office is only about 2 km away and she has an ID, so access is not a major problem. Illiteracy makes the paperwork and instructions harder to handle, but compulsory voting and the risk of losing her registration make eventual compliance likely.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0013",
+    "decision": "will_register_eventually",
+    "main_barriers": ["extreme poverty", "transport cost or walking time", "competing day-to-day survival needs"],
+    "reasoning": "She is unemployed, so time is available, and the 4 km urban trip is not impossible. Very low income makes any transport or bureaucratic errand easy to postpone, but the compulsory-voting penalty still makes eventual compliance more likely than not.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0014",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor age-related mobility inconvenience", "routine bureaucracy"],
+    "reasoning": "He is retired, educated, has a stable income, and lives only 2 km from the office, so the practical burden is low. With clear penalties for non-compliance and little friction, he is likely to go as soon as it is practical.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0015",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "low income", "advanced age and possible mobility limits", "limited bureaucratic literacy"],
+    "reasoning": "The short urban distance helps, but the lack of an ID, low schooling, and very limited income make the paperwork and any follow-up steps much harder. Since she is retired and the sanctions are less salient to her day-to-day life, she is less likely to complete the update within the deadline.",
+    "confidence": 0.68
+  }
+]

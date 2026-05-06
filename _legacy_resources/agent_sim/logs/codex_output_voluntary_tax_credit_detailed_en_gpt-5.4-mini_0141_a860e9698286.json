@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0001",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missing identity document", "formal work schedule", "low bureaucratic literacy", "transport and time cost"],
+    "reasoning": "The office is close enough in an urban area, but a formal job, no identity document, and low literacy make the trip feel like avoidable hassle. With no real penalty for skipping and only a small tax credit, he is more likely to delay than go right away.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0041",
+    "decision": "probably_wont_register",
+    "main_barriers": ["50 km distance", "very low income", "informal work", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "The 50 km distance, very low income, informal work, and lack of ID make the trip expensive and hard to arrange. Since the update is optional and skipping has no real downside, he probably does not go.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p0063",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missing identity document", "low bureaucratic literacy", "5 km trip", "some transport cost"],
+    "reasoning": "Being retired removes the work-schedule barrier and the office is only 5 km away, so the trip is feasible. Low literacy and missing ID still create friction, so she is more likely to do it later than immediately.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0077",
+    "decision": "will_register_eventually",
+    "main_barriers": ["zero income", "transport cost", "low bureaucratic literacy", "4 km urban trip"],
+    "reasoning": "No income makes transport harder, but she has no job schedule to work around and the office is still within urban reach. The small credit may eventually pull her in, though the lack of urgency means she can delay.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p0094",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missing identity document", "low bureaucratic literacy", "small travel cost", "paperwork friction"],
+    "reasoning": "The office is only 3 km away and there is no work conflict, so the trip is manageable. Missing ID and low literacy slow the process, so she is more likely to wait for help or a convenient day than go right away.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0098",
+    "decision": "probably_wont_register",
+    "main_barriers": ["zero income", "5 km trip", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "Zero income, no ID, and a 5 km trip make even a small outing costly relative to the benefit. With no penalty for skipping, he is likely to keep postponing and never make the trip.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0102",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor bureaucratic paperwork", "short trip to the office"],
+    "reasoning": "A student with a solid household income, an identity document, and a 4 km urban trip faces very little friction. The small tax credit is enough to make this a quick errand.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0105",
+    "decision": "will_register_immediately",
+    "main_barriers": ["missing identity document", "bureaucratic steps", "short trip"],
+    "reasoning": "Retirement removes the schedule problem, the office is very close, and the tax credit gives a mild nudge. Missing ID and low literacy are annoyances, but the trip is easy enough to do soon.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0112",
+    "decision": "probably_wont_register",
+    "main_barriers": ["42 km rural distance", "extremely low income", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "The 42 km rural distance, extremely low income, no ID, and low literacy make the trip impractical. Since there is no penalty for not updating, she is very unlikely to go.",
+    "confidence": 0.99
+  },
+  {
+    "persona_id": "p0117",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor paperwork", "short urban trip"],
+    "reasoning": "As a student with good income, an identity document, and a 3 km urban trip, she faces very little friction. The update is easy to fit in and the credit makes it worthwhile.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0140",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "low income", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "An informal agriculture worker with low income and no ID has some scheduling and paperwork friction even in an urban area. The 4 km distance is manageable, so he is more likely to go later than never.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0168",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "The office is only 2 km away, so travel is not the main issue, but very low income and missing ID still create hassle. He may eventually walk there when the trip becomes convenient.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0203",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "missing identity document", "low bureaucratic literacy", "transport cost"],
+    "reasoning": "She has no work schedule to manage and the office is close, but the combination of very low income, no ID, and low literacy still creates friction. She is more likely to delay until someone helps or until the credit feels worth the effort.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0204",
+    "decision": "probably_wont_register",
+    "main_barriers": ["56 km rural distance", "almost no income", "missing identity document", "transport cost"],
+    "reasoning": "A 56 km rural trip is expensive and time-consuming, especially with almost no income and no ID. With no penalty for skipping, she probably never makes the trip.",
+    "confidence": 0.99
+  },
+  {
+    "persona_id": "p0223",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor paperwork", "time to make the trip"],
+    "reasoning": "There is little to block her: no job conflict, an urban office only 3 km away, and enough income to cover transport. She is likely to treat it as a quick errand and go now.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0231",
+    "decision": "will_register_eventually",
+    "main_barriers": ["56 km rural distance", "transport cost", "missing identity document", "paperwork friction"],
+    "reasoning": "Higher income and flexible self-consumption work help, but the 56 km rural distance still makes the trip a major hassle. With no penalty for waiting and only a small credit, she is more likely to postpone until another reason brings her to town.",
+    "confidence": 0.55
+  },
+  {
+    "persona_id": "p0232",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "missing identity document", "5 km trip", "low bureaucratic literacy"],
+    "reasoning": "The 5 km urban trip is not huge, and she has no job conflict, but very low income and no ID make the process harder to start. She is more likely to go later if helped or if transport is cheap enough.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0233",
+    "decision": "probably_wont_register",
+    "main_barriers": ["43 km rural distance", "transport cost", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "Even with moderate income, a 43 km rural trip and no ID create a lot of friction for a voluntary update with little reward. The small tax credit is unlikely to outweigh the travel burden, so she probably skips it.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0264",
+    "decision": "will_register_eventually",
+    "main_barriers": ["missing identity document", "low bureaucratic literacy", "some transport cost"],
+    "reasoning": "At 60, with no work schedule and an office only 3 km away, the trip is feasible. Low literacy and no ID still slow things down, so he is more likely to eventually go than to do it immediately.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0265",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "missing identity document", "low bureaucratic literacy"],
+    "reasoning": "The office is close enough to walk to, but very low income and no ID still make the trip easy to defer. He may eventually go if he can fit it into the day, but it is not a priority.",
+    "confidence": 0.63
+  }
+]

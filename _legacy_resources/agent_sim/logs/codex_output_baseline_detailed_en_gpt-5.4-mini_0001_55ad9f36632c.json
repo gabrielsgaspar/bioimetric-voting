@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0001",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low income makes transport/fare less comfortable", "needs to spare time for an in-person visit", "minor bureaucratic hassle"],
+    "reasoning": "She is urban, educated, has an ID, and is not tied to a job, so the office 3 km away is manageable. The compulsory vote rule and risk of losing voter registration should push her to comply without much delay.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0002",
+    "decision": "probably_wont_register",
+    "main_barriers": ["58 km rural distance to the office", "low income makes travel expensive", "illiteracy and no identity document make the process hard to navigate"],
+    "reasoning": "The legal penalties matter, but the combination of distance, cost, and low bureaucratic literacy is severe, especially without an ID. In a realistic setting she is unlikely to complete the trip unless someone actively helps her.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0003",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic-work schedule and possible loss of daily wage", "low income", "some bureaucratic friction despite short distance"],
+    "reasoning": "The office is only 2 km away and she has an ID, so access is fairly good. Her main obstacle is fitting the visit around domestic work and limited money, so she is more likely to delay than to skip it.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0004",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "student schedule and procrastination", "4 km trip and modest bureaucratic effort"],
+    "reasoning": "She is young, urban, and has an ID, so the trip is feasible, but the very low income makes even a short trip feel costly. The compulsory rule should get her there, but likely not right away.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0005",
+    "decision": "will_register_immediately",
+    "main_barriers": ["possible age-related mobility inconvenience", "5 km trip", "primary-education-level bureaucratic comfort"],
+    "reasoning": "He is retired, has a relatively comfortable income, and lives in an urban area, so he has time and resources to handle the visit. The distance is moderate, and the legal consequences make prompt compliance likely.",
+    "confidence": 0.82
+  }
+]

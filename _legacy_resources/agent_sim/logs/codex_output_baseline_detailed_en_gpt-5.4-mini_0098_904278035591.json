@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1941",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel logistics", "small scheduling inconvenience"],
+    "reasoning": "She has high education, strong income, and flexible self-employment, with the office only 5 km away. The cost of losing registration and vote access is high enough that she is likely to handle it soon after the announcement.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1942",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport and queue time"],
+    "reasoning": "Retired, educated, and only 3 km away, she faces very little friction. The risk of being unable to vote makes prompt compliance likely.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1943",
+    "decision": "will_register_eventually",
+    "main_barriers": ["limited transport budget", "trip inconvenience"],
+    "reasoning": "She is retired and educated, but her very low income makes the errand somewhat costly to organize. She is still likely to comply before the deadline because losing registration is a real penalty.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1944",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "need to take time off"],
+    "reasoning": "She can afford it and understands the process, but a workday trip from 5 km away is enough to delay action. She will probably register, just not immediately.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1945",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "No work or childcare barrier is apparent, and 3 km is manageable. The risk of losing the vote makes prompt compliance likely.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1946",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "mobility and transport burden"],
+    "reasoning": "At 84, a 5 km in-person trip is more effortful and may require help. She is still more likely to comply eventually than to ignore the requirement.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1947",
+    "decision": "will_register_immediately",
+    "main_barriers": ["age-related inconvenience", "trip logistics"],
+    "reasoning": "She is retired, educated, and only 3 km away, so the trip is manageable despite being 77. The threat of losing registration makes compliance likely without a long delay.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1948",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "routine trip logistics"],
+    "reasoning": "High income, high education, and a public-sector job make document compliance routine, and the office is only 4 km away. She should act quickly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1949",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "age-related pacing"],
+    "reasoning": "She understands the requirement and can afford the trip, but being employed at 75 makes it more likely she postpones until a convenient day. She will probably do it within the deadline.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1950",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "Retired, educated, and only 3 km away, she faces very little friction. The risk of losing registration should get her to go promptly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1951",
+    "decision": "will_register_eventually",
+    "main_barriers": ["limited transport budget", "5 km distance"],
+    "reasoning": "The trip is manageable, but for a low-income retiree it is still a noticeable hassle. She is likely to comply once the deadline feels real.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1952",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "With retirement, a solid income, and a 3 km office, there is little practical barrier. She has enough incentive to handle it promptly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1953",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "income pressure from taking time off"],
+    "reasoning": "The office is close, but a public job makes it easier to put the trip off until leave or a free day. She will probably comply, but after some delay.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1954",
+    "decision": "will_register_immediately",
+    "main_barriers": ["daily work interruption", "small income loss from time away"],
+    "reasoning": "Her informal work gives some flexibility, and the office is only 2 km away. The legal risk is enough that she is likely to do it soon rather than let it slide.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1955",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "Retired, educated, and only 2 km away, she has very little reason to delay. The registration update should be easy to complete.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1956",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine travel only"],
+    "reasoning": "With very high income, retirement, and a 3 km trip, the process is easy to absorb. She is very likely to comply promptly.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p1957",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "She is retired, educated, and the office is only 2 km away. The update is straightforward and the consequences of ignoring it are enough to motivate quick action.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1958",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine trip logistics"],
+    "reasoning": "High income and no work barrier make the update easy, even with a 4 km trip. She is very likely to comply right away.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1959",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "appointment timing"],
+    "reasoning": "The office is only 2 km away and she is well positioned to handle the paperwork. She will likely schedule it promptly, even if she has to fit it around work.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1960",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "She is retired, educated, and only 2 km away, so the trip is easy to make. The update is a simple compliance task.",
+    "confidence": 0.95
+  }
+]

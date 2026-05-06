@@ -1,0 +1,19 @@
+data:
+  path: resources/regressions/reg_fe_pt_exit_low_ed_2018/analysis_data.parquet
+
+regression:
+  outcome: pct_votes_pt_2018_runoff
+  regressors:
+    - exit_rate_2018
+    - exit_rate_2018_x_low_ed_share_2008
+  controls:
+    - low_ed_share_2008
+    - pct_votes_pt_2014_runoff
+    - log_gdp_pc
+  fixed_effects:
+    - state
+  cluster:
+    - state
+
+output:
+  dir: resources/regressions/reg_fe_pt_exit_low_ed_2018/results

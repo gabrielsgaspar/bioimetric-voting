@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1547",
+    "decision": "will_register_eventually",
+    "main_barriers": ["construction work schedule", "transport cost", "bureaucratic errand"],
+    "reasoning": "The cartorio is only 2 km away and the penalties for losing registration are real, so he is likely to comply. The main friction is fitting the visit around construction work and taking time off, so he probably delays but still goes within the year.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1548",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine inertia", "small administrative errand"],
+    "reasoning": "With no work conflict and only 2 km away, there is little practical reason to delay, and the legal penalties should push him to handle it promptly.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1567",
+    "decision": "will_register_eventually",
+    "main_barriers": ["student schedule", "transport cost", "bureaucratic errand"],
+    "reasoning": "A 3 km urban trip is manageable, and compulsory voting plus document penalties create pressure to comply. Student timing and low income make it more likely she waits for a free day, but she should eventually go.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1570",
+    "decision": "will_register_eventually",
+    "main_barriers": ["student schedule", "transport cost", "trip planning"],
+    "reasoning": "The office is not far, but the combination of low income and student obligations makes the trip easy to postpone. The legal consequences are strong enough that she probably completes it later rather than ignore it.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1579",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "time off work", "transport cost"],
+    "reasoning": "She works formally, so she can usually arrange a visit, and the 3 km distance is not a major access problem. The main drag is that the trip costs time and money relative to a very small household budget, so she is likely to delay but still comply.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1582",
+    "decision": "will_register_eventually",
+    "main_barriers": ["rural distance", "transport availability", "lost informal income"],
+    "reasoning": "The trip is the hardest here, but the deadline is long and the voting and document penalties are real, so she is more likely to arrange a one-off trip than to ignore it entirely.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p1632",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work hours", "transport time", "bureaucratic errand"],
+    "reasoning": "He has the education and a nearby office, so compliance is straightforward in principle. A formal health job still creates some scheduling friction, so he is likely to go eventually rather than immediately.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1644",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief work scheduling", "short queue time"],
+    "reasoning": "A 4 km trip is manageable, and a public-sector or uniformed job usually means better bureaucratic literacy and stronger incentive to keep documents current. The penalties for non-compliance make prompt registration the most likely outcome.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1658",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small scheduling hassle", "short trip"],
+    "reasoning": "He is a public admin worker, has higher education, and the cartorio is only 2 km away. Those conditions make the errand easy to complete quickly, and the voting penalties give him a clear reason not to wait.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1672",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed work schedule", "opportunity cost of lost work time", "bureaucratic errand"],
+    "reasoning": "Even with good income and only a 3 km trip, self-employed transport work can be hard to interrupt. He is likely to comply, but probably after choosing a convenient break in his schedule.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1680",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "opportunity cost", "trip planning"],
+    "reasoning": "The office is close enough that access is not the issue, but a self-employed services worker can easily postpone a low-priority errand. Because the consequences of skipping registration are real, he should eventually go.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1700",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief work scheduling", "short trip"],
+    "reasoning": "She has a stable public-worker type job and only needs to go 2 km. With the registration cancellation risk and no major access barrier, she is likely to handle it quickly.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1712",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "time off work", "transport cost"],
+    "reasoning": "The trip is not far, but the household budget is tight and even a small administrative errand can be hard to fit into a low-paid formal job. She is still likely to comply once she can arrange the time.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1720",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "transport cost", "bureaucratic errand"],
+    "reasoning": "Her education and the 5 km urban distance make the process feasible, but informal work means the visit has to be fitted around uncertain income. She is more likely to delay than to skip it.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1722",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling", "short trip"],
+    "reasoning": "She has high income, higher education, and the cartorio is only 2 km away. There is little practical friction, and the loss of voter registration is enough to push an early visit.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1724",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "travel time", "bureaucratic errand"],
+    "reasoning": "The trip is manageable for a formal business-services worker, but a 5 km visit still requires planning around work and transit. She is likely to comply, just not necessarily right away.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1753",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small scheduling hassle", "short trip"],
+    "reasoning": "As a public admin worker with higher education, he is likely to understand the deadline and paperwork risk. The office is close enough that the errand should be easy to complete promptly.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1766",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor mobility or queue hassle"],
+    "reasoning": "He is retired, so there is no work conflict, and the cartorio is only 3 km away. The trip is low-friction and the consequences of non-compliance are strong, so prompt registration is likely.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1767",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "opportunity cost", "bureaucratic errand"],
+    "reasoning": "Even though the office is close and income is moderate, self-employed work creates a natural tendency to put off administrative tasks. He is still likely to go within the year because the legal penalties are meaningful.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1768",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief work scheduling", "short trip"],
+    "reasoning": "He has a high income, higher education, and a nearby office, with no obvious access barrier. The safest prediction is that he registers promptly.",
+    "confidence": 0.86
+  }
+]

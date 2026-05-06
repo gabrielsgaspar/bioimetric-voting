@@ -1,0 +1,61 @@
+[
+  {
+    "persona_id": "p0007",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "40 km rural trip to the cartorio",
+      "Low monthly income makes transport costly",
+      "No identity document",
+      "Older age can make travel and bureaucracy harder"
+    ],
+    "reasoning": "She has meaningful access barriers, but she is retired and literate enough to handle the paperwork if she can arrange transport or family help. The risk of losing voter registration and the legal pressure around compulsory voting make eventual compliance more likely than skipping it entirely.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0021",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural trip to the cartorio",
+      "Illiteracy makes the process hard to navigate",
+      "No identity document",
+      "Self-employed farm work and low cash make the trip expensive"
+    ],
+    "reasoning": "The distance, lack of ID, and illiteracy create a high-friction bureaucratic task, and he also has to fit the trip around agricultural work. Even with compulsory voting and possible fines, the cost and hassle are likely high enough that he delays until the deadline and may never complete it.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Very few barriers beyond normal inconvenience",
+      "Short 3 km trip",
+      "None of the major documentation problems"
+    ],
+    "reasoning": "She is urban, retired, educated, already has identity documents, and the cartorio is close. The trip is easy to complete and the legal risk of noncompliance is enough that she is likely to do it soon after the announcement.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Illiteracy makes the paperwork confusing",
+      "No identity document",
+      "No income leaves little buffer for incidental costs",
+      "May need help to handle forms and document requirements"
+    ],
+    "reasoning": "The cartorio is only 3 km away and he has no work schedule to protect, so the physical trip is feasible. He is still likely to delay because the process is bureaucratically difficult for an illiterate person without ID, but the short distance and compulsory voting pressure make eventual compliance more likely than not.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km rural trip to the cartorio",
+      "Illiteracy makes the process hard to navigate",
+      "No identity document",
+      "Self-employed farm work and low income make the trip costly"
+    ],
+    "reasoning": "He faces almost the same barriers as p0021: long rural travel, weak bureaucratic literacy, missing ID, and the need to leave agricultural work to make the trip. The penalties for noncompliance are real but not strong enough to outweigh the practical burden, so he is more likely to avoid the trip than complete it.",
+    "confidence": 0.65
+  }
+]

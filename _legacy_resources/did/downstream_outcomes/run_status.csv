@@ -1,0 +1,21 @@
+outcome,outcome_var,weights,estimator,success,log
+PT_vote_share_president,PT_vote_share_president,population_weighted,twfe_dynamic,True,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 39,023 observations removed because of NA values (LHS: 39,015, Weights: 107).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/downstream_outcomes/population_weighted/PT_vote_share_president/twfe_dynamic"
+PSDB_vote_share_president,PSDB_vote_share_president,population_weighted,twfe_dynamic,True,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 39,023 observations removed because of NA values (LHS: 39,015, Weights: 107).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/downstream_outcomes/population_weighted/PSDB_vote_share_president/twfe_dynamic"

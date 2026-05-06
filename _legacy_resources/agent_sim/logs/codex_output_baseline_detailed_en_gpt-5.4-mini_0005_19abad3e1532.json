@@ -1,0 +1,57 @@
+[
+  {
+    "persona_id": "p0021",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km trip to the electoral office",
+      "very low income and self-employed farm work",
+      "no identity document",
+      "illiteracy and low bureaucratic literacy"
+    ],
+    "reasoning": "The combination of a long rural trip, very limited cash, farm work that is hard to leave, and no ID makes compliance difficult. The fine and loss of voting rights matter, but the practical cost and complexity are high enough that he is more likely to miss the deadline than complete the update.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "small urban trip to the cartorio",
+      "minor scheduling inconvenience"
+    ],
+    "reasoning": "She has high education, a stable retirement situation, an identity document, and the office is only 3 km away. There is very little friction, so the compulsory deadline and voting consequences should push her to handle it quickly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0023",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "small urban trip to the cartorio",
+      "minor scheduling inconvenience"
+    ],
+    "reasoning": "This is almost the same situation as p0022, with only a slightly longer 4 km trip. The barriers are still very low, so she is likely to go right away rather than wait.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "illiteracy and bureaucratic navigation",
+      "limited cash even for a short urban trip"
+    ],
+    "reasoning": "He is close enough to the office and not working, so the trip is feasible, but lack of ID and low literacy make the process confusing and easy to delay. Because voting is compulsory, he is more likely to eventually seek help and go than to ignore it entirely.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0025",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "low income",
+      "low literacy",
+      "small but real travel and effort burden"
+    ],
+    "reasoning": "The office is close and she is retired, which lowers the cost of compliance, but she still lacks an ID and has limited resources. Those barriers make immediate action less likely, yet the compulsory rule should still pull her toward compliance within the year.",
+    "confidence": 0.73
+  }
+]

@@ -1,0 +1,32 @@
+file_format: parquet
+cluster_var:
+- municipality_id
+- year_election
+event_time_var: dist_treatment
+event_time_never_value: -9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/decomposition/event_study_y_L
+notes: Dynamic TWFE event study for y_L, normalized by each municipality's 2006 registered
+  electorate.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+plot_title: ~
+omit_plot_title: yes
+estimator: twfe_dynamic
+data_path: resources/decomposition/panel_normalized_2006.parquet
+outcome: y_L
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated

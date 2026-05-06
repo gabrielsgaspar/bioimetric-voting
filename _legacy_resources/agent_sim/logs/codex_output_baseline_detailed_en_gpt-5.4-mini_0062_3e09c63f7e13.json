@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1221",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low domestic-work income", "time off work", "transport cost"],
+    "reasoning": "Her pay is low and domestic work can make a day off hard, but the office is only 3 km away and the risk of losing registration and facing compulsory-voting penalties makes compliance likely within the year.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1222",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed work means lost earnings", "low income", "finding a slow work day"],
+    "reasoning": "As a self-employed worker she may hesitate to lose income, but the short trip and the consequences of not complying should push her to go once she can spare the time.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1223",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Only a short errand to schedule"],
+    "reasoning": "She is not working, has a solid income, and the office is not far, so the visit is easy to fit in and the legal penalties make early compliance likely.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1224",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Shift or duty schedule", "5 km commute"],
+    "reasoning": "Public or uniformed work can still mean fixed shifts, so she may need to wait for a leave window. The legal requirement and short distance still make eventual compliance likely.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1225",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Manufacturing shift schedule", "need to arrange leave", "transport time"],
+    "reasoning": "Formal manufacturing work creates a real scheduling barrier, but the trip is short and the penalties are meaningful, so she will probably go after arranging a day off.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1226",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor scheduling around work"],
+    "reasoning": "With a higher income, formal employment, and only a 4 km trip, the errand is easy to absorb, so she is likely to register quickly.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1227",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Only the need to make the trip"],
+    "reasoning": "Being inactive gives her time flexibility, and the office is only 5 km away, so there is little reason to delay once she hears about the requirement.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1228",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor travel time", "errand inconvenience"],
+    "reasoning": "She has no work constraint and can likely manage the short trip despite a modest income, so compliance looks straightforward and probably prompt.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1229",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low income", "formal work hours", "transport cost"],
+    "reasoning": "Low income and a formal job make the trip somewhat burdensome, so she may wait for a convenient day off, but the short distance and penalties still push her to comply eventually.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1230",
+    "decision": "probably_wont_register",
+    "main_barriers": ["48 km rural distance", "self-employed farm workload", "travel cost and lost work time"],
+    "reasoning": "The long rural trip is the dominant barrier, and self-employed agricultural work makes losing a day costly. The fine and registration loss are real, but not enough to make compliance likely within a year.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1231",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Extreme poverty", "transport affordability", "competing basic needs"],
+    "reasoning": "The office is close enough to walk and she is not working, but R$100 a month means even a small bureaucratic errand can be postponed. She is still more likely to manage it sometime during the year than to never go.",
+    "confidence": 0.57
+  },
+  {
+    "persona_id": "p1232",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Very few practical barriers"],
+    "reasoning": "No work constraint, decent income, and a 5 km office make the update easy to fit in, so she is likely to do it promptly.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1233",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "domestic-work schedule", "transport cost"],
+    "reasoning": "Her pay is too low and domestic work can be inflexible, but the 4 km urban trip keeps compliance feasible, so she is more likely to delay than to skip it entirely.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1234",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Manufacturing shift schedule", "low pay", "need to arrange time off"],
+    "reasoning": "Formal manufacturing work and low pay make taking time off mildly painful, but the office is close and the penalties are enough to make eventual compliance likely.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1235",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Almost none beyond arranging the visit"],
+    "reasoning": "She is unemployed, has a comfortable income, and the office is nearby, so there is almost no practical friction and she is likely to go early.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1236",
+    "decision": "will_register_eventually",
+    "main_barriers": ["59 km rural distance", "travel cost", "time off work"],
+    "reasoning": "The rural distance is the main friction, but her formal job and higher income make one planned trip realistic within a year, even if she delays it.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1237",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Low income", "short commute"],
+    "reasoning": "Public admin work usually comes with better bureaucratic familiarity and a clearer path to compliance, and the office is only 4 km away, so she is likely to handle it quickly despite low pay.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1238",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Formal work hours", "moderate transport/time cost"],
+    "reasoning": "The 4 km trip is not hard, but formal services work still means fitting the errand around work hours, so she is more likely to comply after some delay.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1239",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employed income loss", "5 km commute", "workday disruption"],
+    "reasoning": "Self-employed manufacturing work means every hour away from work has a cost, but the trip is not far, so she will probably comply after some delay.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1240",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Irregular hospitality shifts", "lost earnings", "need to fit around work"],
+    "reasoning": "Informal hospitality work tends to have irregular shifts and no paid leave, so she may need to wait for a slow day, but the short urban trip and penalties make eventual compliance likely.",
+    "confidence": 0.72
+  }
+]

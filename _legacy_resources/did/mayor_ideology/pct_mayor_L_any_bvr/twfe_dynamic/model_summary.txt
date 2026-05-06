@@ -1,0 +1,9 @@
+Estimator: Dynamic TWFE
+Outcome: pct_mayor_L
+Unit id: municipality_id
+Time id: year
+Clustered SEs: municipality_id
+Event-time source: existing_event_time_var
+Reference event time: -4
+Warning: dynamic TWFE can be misleading under staggered adoption with heterogeneous treatment effects.
+This estimator is included as a baseline or comparability check, not as the preferred staggered-DID design.

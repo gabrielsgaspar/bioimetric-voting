@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+    \caption{Pre-Treatment Covariate Balance by Treatment Cohort}
+    \label{tab:cohort-balance}
+    \centering
+    \scriptsize
+    \renewcommand{\arraystretch}{1.08}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{lcccccccc}
+        \doubletoprule
+        Cohort & $N_T$ & $N_N$ & Pop. (T) & Pop. (N) & log GDP pc (T) & log GDP pc (N) & Low ed. share (T) & Low ed. share (N) \\
+        \midrule
+        2008 & 3 & 2,774 & 17,204 & 37,659 & 9.194 & 8.771 & 0.725 & 0.767 \\
+        2010 & 57 & 2,774 & 30,126 & 38,072 & 8.995 & 8.991 & 0.756 & 0.737 \\
+        2012 & 239 & 2,775 & 42,624 & 38,258 & 8.926 & 9.206 & 0.791 & 0.717 \\
+        2014 & 464 & 2,776 & 38,105 & 38,795 & 9.528 & 9.437 & 0.699 & 0.686 \\
+        2016 & 779 & 2,776 & 28,410 & 40,463 & 9.493 & 9.607 & 0.706 & 0.669 \\
+        2018 & 1,251 & 2,776 & 27,663 & 41,045 & 9.608 & 9.740 & 0.661 & 0.636 \\
+        \doublebottomrule
+    \end{tabular}}
+    \vspace{1.0em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each row compares municipalities first treated in the indicated cohort to never-treated municipalities in the same pre-treatment election year $g-2$. Population and GDP per capita come from IBGE municipal covariates, and education shares come from the TSE electorate panel used in the main analysis. \par}
+    \end{minipage}
+\end{table}

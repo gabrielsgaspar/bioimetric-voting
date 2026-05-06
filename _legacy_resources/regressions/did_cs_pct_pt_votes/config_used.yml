@@ -1,0 +1,40 @@
+file_format: parquet
+cluster_var: municipality_id
+event_time_var: dist_strict_bvr
+event_time_never_value: ~
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_pt_votes
+notes: Callaway-Sant'Anna DID for the PT presidential second-round vote share using
+  strict BVR timing. The outcome `pct_votes_pt` is built from `data/clean/tse/president_pt_runoff_panel_2006_2018.csv`
+  and is observed in the 2006, 2010, 2014, and 2018 presidential runoff elections.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1.0
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+plot_title: ~
+plot_reference_event_time: -2
+plot_y_label: PT second-round vote share
+omit_plot_title: yes
+estimator: callaway_santanna
+data_path: data/interim/tse/pct_votes_pt_did_cs_sample.parquet
+outcome: pct_votes_pt
+unit_id: municipality_id
+time_id: year_election
+group_id: year_first_strict_bvr
+seed: 20260430
+output:
+  save_csv: yes
+  save_parquet: no
+  save_json: yes
+  save_yaml_metadata: yes
+  save_model_summary: yes

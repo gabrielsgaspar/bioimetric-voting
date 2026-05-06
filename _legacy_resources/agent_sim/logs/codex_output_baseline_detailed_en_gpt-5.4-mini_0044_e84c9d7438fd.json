@@ -1,0 +1,222 @@
+[
+  {
+    "persona_id": "p0861",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "domestic-work schedule",
+      "4 km urban trip"
+    ],
+    "reasoning": "The compulsory rule and risk of losing voter status should eventually push her to comply, but low pay and domestic-work hours make delay likely.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0862",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "formal work schedule",
+      "4 km urban trip"
+    ],
+    "reasoning": "Stable formal employment and a moderate income make the trip manageable, and the nearby office plus legal requirement should push her to handle it promptly.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0863",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "routine paperwork",
+      "3 km urban trip"
+    ],
+    "reasoning": "With no job constraints, an urban location, and a nearby office, the compulsory rule leaves little reason to delay.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0864",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "limited income",
+      "3 km urban trip"
+    ],
+    "reasoning": "Retirement removes work barriers, the office is close, and the compulsory requirement should still get her there quickly despite low income.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0865",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "subsistence work demands",
+      "5 km urban trip"
+    ],
+    "reasoning": "The legal pressure should eventually get her there, but the low budget and 5 km trip make it more likely to be delayed than immediate.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0866",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "very low income",
+      "domestic-work schedule",
+      "2 km urban trip"
+    ],
+    "reasoning": "She probably will comply because the office is close and the penalty for ignoring it is real, but very low income and domestic-work scheduling make delay likely.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0867",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "routine paperwork",
+      "3 km urban trip"
+    ],
+    "reasoning": "No work pressure, decent income, and a nearby office make this a simple errand, so the legal requirement should prompt compliance right away.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0868",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "hospitality work schedule",
+      "3 km urban trip"
+    ],
+    "reasoning": "She likely wants to avoid the penalty, but a modest wage and work schedule mean she may wait until she can fit the visit in.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0869",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "formal work schedule",
+      "5 km urban trip",
+      "transport cost"
+    ],
+    "reasoning": "The penalty matters, but a formal job and a somewhat longer urban trip make it likely she postpones until she can fit it in.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0870",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "5 km urban trip",
+      "routine paperwork"
+    ],
+    "reasoning": "Retirement and a decent income make the in-person update straightforward, and the legal requirement should be enough to prompt compliance.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0871",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "domestic-work schedule",
+      "2 km urban trip"
+    ],
+    "reasoning": "The short distance and stronger finances reduce friction a lot, so she is likely to handle the trip quickly.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0872",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "58 km rural trip",
+      "no identity document",
+      "very old age",
+      "low income"
+    ],
+    "reasoning": "Even compulsory voting and penalties are unlikely to overcome the 58 km rural trip, no ID, and limited money for a 76-year-old.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0873",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "36 km rural trip",
+      "no identity document",
+      "extreme age",
+      "no income"
+    ],
+    "reasoning": "At 98 with no income and no ID, the in-person trip is effectively out of reach, so he is unlikely to complete it.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0874",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "49 km rural trip",
+      "no identity document",
+      "bureaucratic steps",
+      "time away from farm work"
+    ],
+    "reasoning": "Even with higher income, the rural distance and missing ID still make it more likely he delays and may need help.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0875",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "52 km rural trip",
+      "no identity document",
+      "low income",
+      "older age"
+    ],
+    "reasoning": "Even with compulsory voting and penalties, a 73-year-old retiree with no ID and a 52 km trip faces too much cost and friction.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0876",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "44 km rural trip",
+      "no identity document",
+      "limited income"
+    ],
+    "reasoning": "He has an incentive to avoid losing registration, but the missing ID and long rural distance still make this more likely to happen later than immediately.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0877",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "older age",
+      "low income",
+      "4 km urban trip"
+    ],
+    "reasoning": "The penalty matters, but he is urban and retired; lacking ID and low income still makes the bureaucracy and logistics slow enough that he is likely to postpone.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0878",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "no identity document",
+      "routine paperwork"
+    ],
+    "reasoning": "The office is very close, he is retired, and the trip is short enough that he can likely sort the paperwork promptly despite lacking an identity document.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0879",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "very low income",
+      "age and mobility",
+      "3 km urban trip"
+    ],
+    "reasoning": "The penalty matters, but at 78 with no ID and very little income, the bureaucracy and physical effort make compliance more likely to slip than to happen quickly.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p0880",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "extreme age",
+      "no identity document",
+      "limited income",
+      "4 km urban trip"
+    ],
+    "reasoning": "Even with penalties, a 90-year-old without ID and with little money is likely to find the trip and paperwork too hard to manage.",
+    "confidence": 0.94
+  }
+]

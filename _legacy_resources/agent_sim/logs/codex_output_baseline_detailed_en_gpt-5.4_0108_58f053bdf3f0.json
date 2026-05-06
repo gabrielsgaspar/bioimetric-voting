@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1428",
+    "decision": "probably_wont_register",
+    "main_barriers": ["42 km travel from a rural area", "no identity document", "lost work time and transport cost", "high chance of bureaucratic friction"],
+    "reasoning": "He is still under mandatory voting age, but the real obstacle is access. A 42 km trip on R$1600 a month is costly for a self-employed rural worker, and not having an ID creates a serious risk of being turned away or needing extra steps first. The fine and formal restrictions may not feel immediate enough to overcome that mix of distance, cost, and paperwork, and there is no clear sign of strong institutional trust that would push him to act early.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1437",
+    "decision": "will_register_eventually",
+    "main_barriers": ["minor scheduling inconvenience", "possible procrastination", "business-hours bureaucracy"],
+    "reasoning": "At 72, the legal pressure is weaker because voting is no longer compulsory for him in practice, so he has little reason to rush. But he has high income, an ID, urban access, and the office is only 5 km away, so the task is easy to absorb. He is likely to put it off and then complete it once it becomes administratively convenient.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1439",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related mobility or health limits", "queue and paperwork aversion"],
+    "reasoning": "At 80, the downside of not regularizing is weaker than it is for younger voters, so urgency is low. Still, he is retired, has decent income, has an ID, and the office is only 2 km away. Assuming no major health issue, this looks more like a delayed errand than an impossible one, so eventual compliance is more likely than noncompliance.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p1446",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low urgency", "transport or walking burden", "bureaucratic hassle"],
+    "reasoning": "Because she is 74, the pressure from compulsory voting is reduced, which makes delay likely. But she is retired, has an ID, and a 3 km urban trip is still manageable on a modest income. She is unlikely to go immediately, but likely to do it later if reminded or helped with transport.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1451",
+    "decision": "will_register_eventually",
+    "main_barriers": ["routine bureaucratic hassle", "modest transport cost", "likely procrastination"],
+    "reasoning": "At 68, she is still in the mandatory-voting age range, so the consequences of losing regular status matter more. She is retired, has time, already has ID, and 4 km in an urban area is manageable. The likely pattern is delay rather than refusal: she waits, then goes before the deadline becomes risky.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1460",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very low income", "5 km urban trip cost", "low legal urgency at age 71", "bureaucratic discomfort"],
+    "reasoning": "At 71, she is past the age where voting is compulsory, so the perceived penalty is much weaker. On roughly R$500 a month, even bus fare and a day of hassle matter a lot, and a 5 km trip can still be a meaningful barrier for an older retiree. This is the kind of task that is easy to postpone indefinitely unless family actively helps.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1461",
+    "decision": "probably_wont_register",
+    "main_barriers": ["very low income", "5 km travel burden", "low urgency because voting is optional at her age", "possible dependence on others for logistics"],
+    "reasoning": "She is 72, so the strongest legal pressure is gone, and her income is low enough that even a simple in-person update carries real cost. With only moderate schooling and no work-based reason to keep documents current, the likely behavior is delay followed by noncompliance rather than prompt action.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1463",
+    "decision": "will_register_eventually",
+    "main_barriers": ["taking time during work hours", "transport cost on a low income", "waiting at the office"],
+    "reasoning": "At 67, she is still under compulsory voting rules, and as a formal health or education worker she is likely to understand the paperwork and care about staying regularized. The main obstacle is fitting it around work and paying for the trip on a tight budget. That points to delay, not abandonment.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1464",
+    "decision": "will_register_eventually",
+    "main_barriers": ["bureaucratic hassle", "5 km trip", "low tendency to act early"],
+    "reasoning": "At age 70, she is still inside the compulsory-voting bracket, so the legal downside is real. She is retired, has an ID, and the distance is manageable in an urban setting. She probably does not go right away, but the barriers are not large enough to stop her from eventually complying.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1472",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related mobility concerns", "5 km travel and queues", "low urgency because voting is optional at 79"],
+    "reasoning": "At 79, she is under less formal pressure to stay electorally active, so immediate action is unlikely. But she lives in a large urban area with available transport, has a moderate retirement income, and already has ID. If her health is reasonably stable, she is more likely to handle it later than to ignore it completely.",
+    "confidence": 0.59
+  },
+  {
+    "persona_id": "p1484",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low urgency", "age-related comfort and mobility concerns", "bureaucratic inconvenience"],
+    "reasoning": "At 74, the compulsory-voting incentive is weaker, so she may not rush. Still, the office is only 2 km away and she already has the needed identification. That makes eventual compliance fairly likely as long as her mobility is intact, even if she delays until reminders or deadlines pile up.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1497",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no household income", "possible mobility limitations at age 80", "dependence on others for transport or accompaniment", "low legal urgency"],
+    "reasoning": "Even though the office is only 2 km away, at age 80 a short trip can still be hard without money, support, or strong motivation. Because voting is no longer compulsory for her, the penalties are less salient, and someone with no income and weak institutional connection can easily let this lapse.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1507",
+    "decision": "will_register_eventually",
+    "main_barriers": ["50 km rural trip", "time off from work", "transport cost and logistics"],
+    "reasoning": "The distance is substantial, especially in rural Amapa, so immediate compliance is unlikely. But he is young, higher educated, employed in the public sector, and still subject to compulsory voting rules. Public-sector workers are also more likely to care about documentary regularity, so he is likely to plan the trip and comply later.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1515",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around work", "possible wait times at the office"],
+    "reasoning": "He is young, urban, higher educated, has an ID, and the office is only 4 km away. As a public worker, he is also more likely to understand and care about bureaucratic compliance. The frictions are small enough that he is likely to take care of it early rather than risk avoidable problems.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1523",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "time away from formal work", "routine transport and queue costs"],
+    "reasoning": "He has the literacy and urban access to complete the process, but on about R$1050 a month even a half-day of missed work or transport cost matters. Because he is young and still under compulsory voting rules, he is likely to go eventually, just not immediately.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1527",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small scheduling inconvenience", "possible wait times"],
+    "reasoning": "He is young, educated, formally employed, and only 3 km from the office in Sao Paulo. With an ID already in hand and relatively stable income, the practical barriers are low. This is the profile most likely to register early rather than let it become a bureaucratic risk.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1529",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "opportunity cost of leaving self-employed work", "business-hours bureaucracy"],
+    "reasoning": "He is higher educated and lives only 3 km from the office, so he can navigate the process. The real issue is that, as a self-employed worker earning around R$700, any lost time has a direct income cost. That usually means postponement, but compulsory voting pressure still makes eventual compliance likely.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1531",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling inconvenience", "possible office wait times"],
+    "reasoning": "He has stable income, formal employment, higher education, an ID, and the office is only 2 km away. There is very little real friction here, and the cost of remaining irregular is not worth the hassle. He is likely to get it done early.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1538",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around classes", "possible queue at the cartorio"],
+    "reasoning": "He is young, educated, close to the office, and financially comfortable enough that transport and lost time are not major barriers. A student schedule often still allows some flexibility, and there is little reason to delay a short in-person compliance task tied to mandatory voting.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1542",
+    "decision": "will_register_eventually",
+    "main_barriers": ["53 km rural travel", "time off from a formal job", "planning and transport logistics"],
+    "reasoning": "The rural distance is the dominant obstacle, so immediate compliance is unlikely. But he is young, higher educated, formally employed, already has ID, and is still under compulsory voting rules. Those factors make it likely that he eventually schedules the trip rather than letting the registration lapse.",
+    "confidence": 0.86
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "validation_metrics": {
+    "n_municipalities": 2789,
+    "corr_unweighted": 0.06653693695157434,
+    "corr_weighted": 0.2970279361138717,
+    "scatter_slope": 0.060479756308265395,
+    "scatter_intercept": 0.06708350733705884,
+    "scatter_r2": 0.004427163978897752,
+    "mean_predicted_dropout": 0.4054176876131677,
+    "mean_observed_dropout": 0.09160307028696366,
+    "mean_predicted_dropout_low_ed": 0.46127717872053015,
+    "mean_predicted_dropout_high_ed": 0.3086713537874107
+  },
+  "education_metrics": {
+    "pred_low_share_change_mean": -0.039044912226892464,
+    "observed_low_share_change_mean": -0.1397909116543258,
+    "paper_event_study_benchmark": -0.089
+  },
+  "sensitivity_metrics": {
+    "counterfactual_mean_dropout": 0.43849999999999995,
+    "baseline_validation_mean_dropout": 0.292,
+    "portuguese_mean_dropout": 0.26249999999999996,
+    "portuguese_agreement": 0.855,
+    "high_quality_mean_dropout": 0.3525,
+    "high_quality_agreement": 0.77
+  }
+}

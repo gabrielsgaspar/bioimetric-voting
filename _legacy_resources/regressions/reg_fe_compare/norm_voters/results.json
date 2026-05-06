@@ -1,0 +1,41 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_compare/analysis_panel.parquet",
+  "formula": "norm_2006_voters ~ D_str_0 + D_hyb_0 | municipality_id + year_election",
+  "outcome": "norm_2006_voters",
+  "regressors": ["D_str_0", "D_hyb_0"],
+  "controls": [],
+  "fixed_effects": ["municipality_id", "year_election"],
+  "cluster": "municipality_id",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 21066,
+    "ncoefficients": 2,
+    "r2": 0.80350972824473144,
+    "adj_r2": 0.73282548576525086,
+    "within_r2": 0.15790659890559156,
+    "adj_within_r2": 0.1577978855824449,
+    "rmse": 0.069239082340417007
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "D_str_0",
+      "estimate": -0.13147593444175484,
+      "std_error": 0.0018753100003000834,
+      "statistic": -70.108907018421661,
+      "p_value": 0,
+      "conf_low": -0.13515227451940826,
+      "conf_high": -0.12779959436410143
+    },
+    {
+      "term": "D_hyb_0",
+      "estimate": -0.006345157485940129,
+      "std_error": 0.0012741627097945301,
+      "statistic": -4.9798643745925837,
+      "p_value": 6.5550327108431728e-07,
+      "conf_low": -0.0088430140721682884,
+      "conf_high": -0.0038473008997119695
+    }
+  ]
+}

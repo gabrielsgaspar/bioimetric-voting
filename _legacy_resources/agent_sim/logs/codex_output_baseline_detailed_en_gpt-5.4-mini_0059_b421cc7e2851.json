@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1161",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "time off construction work", "lost wages from the trip"],
+    "reasoning": "The office is close and the legal penalties are real, but his very low income and construction schedule make time off work the main friction. He is more likely to delay than to skip it, but eventual compliance is still likelier than not.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1162",
+    "decision": "will_register_immediately",
+    "main_barriers": ["scheduling around self-employment", "routine paperwork"],
+    "reasoning": "He has a good income, controls his own schedule, and the office is close. With compulsory voting and the risk of registration cancellation, he is likely to handle it quickly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1163",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time off work", "routine paperwork"],
+    "reasoning": "High income, formal employment, and a nearby office leave little practical friction. The deadline and compulsory-voting rules make prompt compliance likely.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1164",
+    "decision": "will_register_eventually",
+    "main_barriers": ["shift timing at transport work", "lost wages or commute time", "bureaucratic hassle"],
+    "reasoning": "The office is close and the penalty for noncompliance is meaningful, but transport work can make scheduling awkward. He is likely to do it after some delay rather than immediately.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1165",
+    "decision": "will_register_eventually",
+    "main_barriers": ["moderate income pressure", "time off formal service work", "5 km trip"],
+    "reasoning": "He probably cares enough to avoid losing voter status, but the combination of a 5 km trip and work time makes procrastination likely. Compliance is still more likely than not within 12 months.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1166",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "time off transport work", "4 km trip"],
+    "reasoning": "Low income raises the cost of missing work or paying transport, and the office is not right next door. The mandatory rules should still pull him into compliance eventually.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1167",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "informal work instability", "transport cost and lost sales"],
+    "reasoning": "He is poor and works informally, so any lost day of earnings matters, but the office is still in the city and the election rules create some pressure to comply. He is more likely to delay than to ignore it entirely.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p1168",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "informal self-employment workload", "4 km trip"],
+    "reasoning": "He has some flexibility because he is self-employed, but the low income and the need to give up work time make the trip easy to postpone. The legal requirement makes eventual compliance more likely than not.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p1169",
+    "decision": "will_register_eventually",
+    "main_barriers": ["moderate time-off cost from manufacturing work", "4 km trip", "bureaucratic hassle"],
+    "reasoning": "The office is reachable and he has a formal job, so there is no major barrier, but workers often delay errands that require time off. He is likely to complete it before the deadline.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1170",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "informal work income loss", "5 km trip"],
+    "reasoning": "The office is only 5 km away and his work is flexible, but very low income means even a small trip competes with daily earnings. The mandate should still push him toward eventual compliance.",
+    "confidence": 0.57
+  },
+  {
+    "persona_id": "p1171",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off formal agriculture work", "3 km trip", "some scheduling friction"],
+    "reasoning": "Distance is manageable and the fine or loss of voter status matters, but formal work still adds enough friction that he is more likely to go after some delay than right away.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1172",
+    "decision": "will_register_eventually",
+    "main_barriers": ["minor scheduling around service work", "short trip to the cartorio"],
+    "reasoning": "He has a stable job, manageable income, and a short trip, so the effort is low. With compulsory voting and clear penalties, he is likely to comply within the year, but probably not immediately.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1173",
+    "decision": "will_register_eventually",
+    "main_barriers": ["manufacturing shift schedule", "5 km trip", "lost time from work"],
+    "reasoning": "He is still likely to comply because the office is within the city and the consequences of noncompliance are real, but shift work and a longer trip make delay more likely than immediate action.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p1174",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "time off service work", "wage loss even for a short errand"],
+    "reasoning": "The office is close, but the income is so low that even short errands can feel costly if they cut into paid hours. He is more likely to comply eventually than to ignore the requirement.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p1175",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor time off work", "routine paperwork"],
+    "reasoning": "High income, a formal job, and a nearby office make the trip easy to fit in. He is very likely to register promptly.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1176",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "low urgency due inactivity", "small transport cost"],
+    "reasoning": "He has time because he is inactive, but the low income and weak day-to-day routine make bureaucratic tasks easy to postpone. The legal requirement should still get him there eventually.",
+    "confidence": 0.56
+  },
+  {
+    "persona_id": "p1177",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor paperwork", "routine trip to the office"],
+    "reasoning": "Being unemployed removes the main scheduling barrier, and the household has enough money to absorb the trip cost. He is likely to deal with it quickly rather than wait.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1178",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work income loss", "moderate income pressure", "3 km trip"],
+    "reasoning": "The office is close, but informal commerce makes any time away from work feel expensive. That points to delay, though compliance within the year is still likely.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p1179",
+    "decision": "will_register_eventually",
+    "main_barriers": ["extreme poverty", "informal construction work", "daily income pressure"],
+    "reasoning": "He faces severe poverty and informal work pressure, but the office is close enough to walk and he does have an ID, so the barrier is more about prioritization than impossibility. He is more likely to delay a lot than to skip it outright.",
+    "confidence": 0.53
+  },
+  {
+    "persona_id": "p1180",
+    "decision": "probably_wont_register",
+    "main_barriers": ["55 km distance", "no identity document", "transport cost and time off work", "bureaucratic complexity"],
+    "reasoning": "He faces the heaviest combination of barriers: a long rural trip, no ID already in hand, and very limited income. Even with fines and voting restrictions, the cost and hassle make compliance unlikely within 12 months.",
+    "confidence": 0.96
+  }
+]

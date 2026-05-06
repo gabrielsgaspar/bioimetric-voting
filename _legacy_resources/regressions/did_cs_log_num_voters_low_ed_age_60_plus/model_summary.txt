@@ -1,0 +1,8 @@
+Estimator: Callaway-Sant'Anna
+Outcome: log_num_voters_low_ed_age_60_plus
+Unit id: municipality_id
+Time id: year_election
+Group id: year_first_strict_bvr
+Control group: nevertreated
+Anticipation periods: 0
+Estimated group-time ATT(g,t) with `did::att_gt()` and dynamic, simple, calendar, and group aggregations via `did::aggte()`.

@@ -1,0 +1,227 @@
+[
+  {
+    "persona_id": "p0406",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "Very low income",
+      "Illiteracy makes paperwork difficult",
+      "Optional update with only a small tax credit"
+    ],
+    "reasoning": "The office is not very far, but no ID, illiteracy, and very low income make an optional bureaucratic trip unattractive. With no penalty for skipping and only a small tax credit, he is likely to postpone it or never go.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0430",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "Illiteracy and low bureaucratic literacy",
+      "Age and possible mobility limits",
+      "Low income"
+    ],
+    "reasoning": "Even though the office is only 3 km away and he is retired, age 75, low income, illiteracy, and no ID make this optional update hard to prioritize. The small tax credit is not enough to overcome the effort.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0437",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "53 km distance to the office",
+      "High transport cost",
+      "Time away from self-employed farm work",
+      "No identity document"
+    ],
+    "reasoning": "A 53 km trip in rural Amazonas is a major cost for a self-employed agricultural worker, especially with no ID and low bureaucratic literacy. Because there is no penalty for not updating, the tax credit will not justify the travel.",
+    "confidence": 0.99
+  },
+  {
+    "persona_id": "p0472",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "No identity document",
+      "Illiteracy makes the process intimidating",
+      "Modest income",
+      "Needs help navigating the bureaucracy"
+    ],
+    "reasoning": "She is retired and lives in an urban area, so the trip is feasible, but no ID and low literacy make the paperwork intimidating. She may eventually go with help from family or when she has a reason to handle it.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0523",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Brief time away from informal transport work",
+      "Need to make a short trip to the office"
+    ],
+    "reasoning": "A short trip, a flexible informal job, and having ID make the update easy enough to do soon. The small credit is enough to motivate action when the cost is low.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0545",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Needs to fit the visit around formal work hours",
+      "Optional update means low urgency"
+    ],
+    "reasoning": "He has ID, solid income, and a close office, but a formal job creates scheduling friction and the update is optional. He is likely to do it once convenient, but not necessarily immediately.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0551",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Informal work schedule",
+      "Small incentive and optional nature of the update"
+    ],
+    "reasoning": "The office is close and he has ID, but very low income and informal transport work make any nonessential errand easy to postpone. He may go later if he wants the credit or bundles it with another trip.",
+    "confidence": 0.6
+  },
+  {
+    "persona_id": "p0552",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Brief interruption to informal work",
+      "Need to make a 4 km trip"
+    ],
+    "reasoning": "At age 20, with decent income, ID, and a reasonably close office, the trip is easy to fit in. There is little bureaucratic friction, so he is likely to act soon.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0567",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Self-employed schedule",
+      "5 km trip to the office",
+      "Only a small incentive"
+    ],
+    "reasoning": "She is close enough to the office and has ID, but self-employment and a 5 km trip create some friction. The update is optional, so she is more likely to delay than to go right away.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0569",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "Optional update means low urgency",
+      "Some paperwork hassle"
+    ],
+    "reasoning": "Not working removes the time-off barrier, and the office is only 3 km away, so the trip is doable. Still, low income and low urgency mean she may wait until it is convenient or someone helps her.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0572",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Need to make a short trip to the office",
+      "Routine bureaucratic steps"
+    ],
+    "reasoning": "High income, a 2 km distance, and no work constraint make this an easy errand. The small credit plus low hassle make immediate registration very likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0579",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "44 km rural distance",
+      "No identity document",
+      "Very low income",
+      "Student budget and transport cost"
+    ],
+    "reasoning": "A 44 km rural trip, no ID, very low income, and student status make the update costly and cumbersome. Since there is no penalty for skipping it, she is very unlikely to go.",
+    "confidence": 0.99
+  },
+  {
+    "persona_id": "p0597",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural distance",
+      "No identity document",
+      "Extremely low income",
+      "Travel and paperwork cost"
+    ],
+    "reasoning": "The combination of 54 km distance, poverty, no ID, and rural self-consumption work makes the trip unrealistic. With no enforcement and only a small credit, she will likely not register.",
+    "confidence": 0.99
+  },
+  {
+    "persona_id": "p0600",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "47 km rural distance",
+      "No identity document",
+      "Very low income",
+      "No strong urgency because the update is optional"
+    ],
+    "reasoning": "Even though she is not employed, the 47 km rural trip plus no ID and very low income make the errand too costly for a voluntary update. The small tax credit does not offset the travel and paperwork burden.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0601",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "Optional update means low urgency",
+      "Some paperwork hassle"
+    ],
+    "reasoning": "She has ID, no work barrier, and lives only 3 km from the office, so the trip is feasible. Low income and the optional nature of the update may delay her, but she could still do it later with little external pressure.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p0647",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "60 km rural distance",
+      "No identity document",
+      "Very low income",
+      "Time away from informal agriculture work"
+    ],
+    "reasoning": "A 60 km trip from rural Minas Gerais is a major obstacle for an informal agriculture worker with no ID and very limited income. Without any penalty for skipping, he is unlikely to take the trip.",
+    "confidence": 0.99
+  },
+  {
+    "persona_id": "p0648",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "5 km trip",
+      "Time away from informal work",
+      "Only a small incentive"
+    ],
+    "reasoning": "Urban location, decent income, and informal work make the trip possible, but a 5 km journey and optional bureaucratic effort create enough friction that he may not do it immediately. He is more likely to complete it once convenient.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0650",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "Formal work schedule",
+      "Optional update means low urgency"
+    ],
+    "reasoning": "The office is close and he has ID, but low income and a formal job mean the trip competes with paid time. Because the update is optional, he is more likely to do it later than right away.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0657",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Formal manufacturing schedule",
+      "Modest income",
+      "Optional update means low urgency"
+    ],
+    "reasoning": "He has a close office and no document problem, but formal manufacturing work still requires scheduling time off. With only a small credit and no penalty, he is likely to delay until it is convenient.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0668",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "35 km rural distance",
+      "No identity document",
+      "Travel cost",
+      "Time away from self-employed agriculture"
+    ],
+    "reasoning": "A 35 km rural trip, no ID, and self-employed agriculture make the update expensive in both money and lost work time. Since compliance is voluntary and the credit is small, he will probably skip it.",
+    "confidence": 0.98
+  }
+]

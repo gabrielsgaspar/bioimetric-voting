@@ -1,0 +1,25 @@
+data_path: data/interim/tse_filiacao/estimation_samples/exclude_hybrid.csv
+file_format: csv
+outcome: log_new_affiliations
+unit_id: municipality_id
+time_id: election_year
+group_id: year_treated
+treatment_var: null
+controls: []
+cluster_var:
+- municipality_id
+- election_year
+weights_var: null
+event_time_var: dist_treatment
+event_time_never_value: -9999
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+reference_event_time: -2
+omit_plot_title: true
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic/log_new_affiliations_robustness/exclude_hybrid
+notes: 'Party affiliation flow robustness: Exclude hybrid municipalities.'
+estimator: twfe_dynamic
+extra_fixed_effects: []

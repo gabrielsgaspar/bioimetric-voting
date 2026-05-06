@@ -1,0 +1,37 @@
+[
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Minor scheduling inconvenience around formal work"],
+    "reasoning": "She has higher education, a formal job, an ID, and the electoral office is only 2 km away, so the trip is low friction. Because the update is optional and the tax credit is only a small bonus, she is still likely to do it promptly rather than ignore it.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "probably_wont_register",
+    "main_barriers": ["Illiteracy and low bureaucratic literacy", "No identity document", "Very low income", "4 km distance and likely transport burden", "Possible mobility limits at age 67"],
+    "reasoning": "At 67, with illiteracy, very low income, no ID, and a 4 km trip, the update is hard to navigate and costly. Since it is voluntary and skipping it has no real downside, she is unlikely to make the trip.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low income", "Informal or self-consumption work makes time harder to free up", "4 km trip and transport cost", "No urgency because the update is optional"],
+    "reasoning": "He has higher education and an ID, so the process is understandable, but low income and informal work make the trip easy to postpone. The small tax credit may eventually motivate him, yet without any penalty for waiting he is more likely to delay than go right away.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Age-related mobility or health limits", "Need to arrange transport despite being retired"],
+    "reasoning": "She is retired, educated, has an ID, and lives only 2 km away, so the practical hurdles are modest. Age may slow her down, but the trip is still likely once she gets around to it.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "probably_wont_register",
+    "main_barriers": ["Primary education and lower bureaucratic literacy", "Informal construction work and opportunity cost", "Small tax credit is a weak incentive", "No penalty for skipping the update"],
+    "reasoning": "He has an ID and lives in an urban area, but primary education, informal construction work, and a modest tax credit make the update feel low priority. Since nothing bad happens if he skips it, he is likely to put it off indefinitely.",
+    "confidence": 0.64
+  }
+]

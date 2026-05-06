@@ -1,0 +1,22 @@
+data_path: data/clean/downstream/downstream_outcomes_panel.parquet
+file_format: parquet
+outcome: log_IPTU_collection_per_capita
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+cluster_var:
+- municipality_id
+- year_election
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/downstream_outcomes/unweighted/IPTU_collection_per_capita/twfe_dynamic
+controls: []
+notes: Downstream-outcomes run for `log_IPTU_collection_per_capita`.
+estimator: twfe_dynamic
+event_time_var: dist_treatment
+event_time_never_value: -9999
+reference_event_time: -2

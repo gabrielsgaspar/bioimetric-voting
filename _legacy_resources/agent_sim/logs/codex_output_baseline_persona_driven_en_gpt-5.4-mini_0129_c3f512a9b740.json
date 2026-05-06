@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1547",
+    "decision": "will_register_eventually",
+    "main_barriers": ["construction work schedule", "tight budget", "bureaucratic hassle"],
+    "reasoning": "The office is close enough that the trip is manageable, but construction work and low income make it more likely that he will postpone until he can spare time and transport money. The risk of losing voter registration and dealing with compulsory-voting penalties should still push him to comply before the deadline.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1548",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no steady income for incidental travel", "procrastination", "bureaucratic hassle"],
+    "reasoning": "He has plenty of time because he is not working, and the office is close, but zero income and low initiative make it more likely that he delays than goes straight away. The legal risk should still push him to do it before the deadline.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1567",
+    "decision": "will_register_eventually",
+    "main_barriers": ["student schedule", "transport cost", "administrative hassle"],
+    "reasoning": "As a student with moderate income and a nearby office, she can probably make it, but she is likely to wait for a free day or class break before going. The penalty makes noncompliance unlikely, but not immediate action.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1570",
+    "decision": "will_register_eventually",
+    "main_barriers": ["student schedule", "low cash for travel", "trip planning"],
+    "reasoning": "The office is only moderately far, so compliance is feasible, but limited income and class obligations make delay more likely than immediate action. She should still get it done once the deadline feels real.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1579",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "missing work", "transport/time cost"],
+    "reasoning": "Even with a formal job, her income is tight enough that any trip has a noticeable cost, so she is likely to postpone until the requirement feels unavoidable. The legal and voting penalties should still get her there eventually.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1582",
+    "decision": "will_register_eventually",
+    "main_barriers": ["rural distance to office", "transport availability/cost", "informal work income loss"],
+    "reasoning": "Seventeen kilometers is a real trip for someone in a rural area, and informal work makes missing time costly, so she is likely to delay. Still, the legal consequences and the importance of keeping her voter registration make eventual compliance more likely than skipping entirely.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p1632",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "transport time/cost", "bureaucratic inconvenience"],
+    "reasoning": "The office is not far and he has a stable formal job, so he should be able to get it done, but probably after arranging a convenient time rather than right away. The penalty is enough to motivate compliance, just not instant action.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1644",
+    "decision": "will_register_immediately",
+    "main_barriers": ["taking time off work", "waiting in line", "short trip"],
+    "reasoning": "A public worker with a nearby office is relatively well positioned to comply, and the legal penalty is serious enough that he is likely to act promptly once he notices the deadline. The main issue is just fitting a short absence into his week.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1658",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor work interruption", "waiting time"],
+    "reasoning": "He has the strongest mix of flexibility, income, and proximity among the urban profiles, so the administrative burden is small and he is very likely to register as soon as practical. The threat of losing voter status makes delay unlikely.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1672",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employment schedule", "lost income from time away", "bureaucratic delay"],
+    "reasoning": "He can afford the trip, but self-employed transport work makes any hour away feel costly, so he is likely to put it off until he finds a slow day and then comply. The penalty is real enough that he probably will not ignore it entirely.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1680",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed work schedule", "short-term job interruption", "bureaucratic hassle"],
+    "reasoning": "The office is close and income is solid, but as a self-employed worker he may keep postponing a non-urgent errand. The threat of cancellation should still get him there before the deadline.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1700",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief work disruption", "queue time", "small transport cost"],
+    "reasoning": "With a nearby office and a public-sector job, the trip is manageable and the penalty is serious enough that she is likely to sort it out quickly rather than wait. The barrier is mostly just scheduling a short absence from work.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1712",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "work schedule", "transport cost"],
+    "reasoning": "She should be able to comply in an urban area, but low pay and the need to fit the trip around work make delay likely. The registration cancellation risk makes eventual compliance more likely than noncompliance.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1720",
+    "decision": "will_register_eventually",
+    "main_barriers": ["longer urban trip", "transport cost", "informal work schedule"],
+    "reasoning": "Five kilometers is still doable, but an informal worker with moderate income is likely to procrastinate because the trip takes time and costs money. The compulsory voting rules should still push her to go before the deadline.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1722",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling inconvenience", "queue time"],
+    "reasoning": "High income, urban proximity, and strong access to transport make this a low-friction errand, so she is likely to register quickly once the requirement is known. There is little practical reason to delay.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1724",
+    "decision": "will_register_eventually",
+    "main_barriers": ["work schedule", "transport time", "bureaucratic inconvenience"],
+    "reasoning": "She has enough resources to comply, but a 5 km trip in Sao Paulo still takes planning and may get delayed by work. She is more likely to handle it eventually than to do it immediately.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1753",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "work schedule", "transport time"],
+    "reasoning": "He has a stable public-administration job and urban access, but the low household income makes any errand feel less optional and more likely to be delayed. The legal consequences should still get him there in the end.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1766",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor mobility/logistics", "short trip"],
+    "reasoning": "Retired status removes the work barrier, and the office is close enough that the remaining burden is just a simple errand. He is very likely to do it promptly.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1767",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "lost work time", "bureaucratic delay"],
+    "reasoning": "The trip is short and his income is adequate, but self-employment makes it easy to postpone paperwork. He will probably comply once it starts to feel urgent.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1768",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief work disruption", "queue time", "transport"],
+    "reasoning": "A public worker with good income and a nearby office has few real barriers, and the legal consequences are enough to make prompt compliance likely. This is the kind of errand he can absorb without much friction.",
+    "confidence": 0.88
+  }
+]

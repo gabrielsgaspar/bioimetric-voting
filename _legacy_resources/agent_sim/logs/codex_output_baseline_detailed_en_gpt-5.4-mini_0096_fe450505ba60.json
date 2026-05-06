@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1901",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off from public work", "transport/logistics for a 4 km trip"],
+    "reasoning": "He is educated and the legal penalty for not complying is meaningful, so refusal is unlikely. The main friction is fitting the trip around work and handling the commute, which makes delay more likely than same-day action.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1902",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport/logistics"],
+    "reasoning": "Retirement, high income, and a manageable 5 km trip leave very little friction. With voter registration cancellation and voting penalties on the line, he is very likely to take care of it quickly.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1903",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age and mobility", "arranging a trip to the office"],
+    "reasoning": "At 81, the errand may take extra effort even though the office is close and he has the means to get there. The sanctions are strong enough that he will probably comply, but not necessarily right away.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p1904",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related inconvenience", "transport/logistics"],
+    "reasoning": "The legal threat makes noncompliance unlikely, but at 70 he may wait until he can fit the 4 km trip and the transport cost into a convenient day. That points to eventual compliance rather than immediate action.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1905",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low disposable income", "transport cost and a 5 km trip"],
+    "reasoning": "Low income makes a simple bureaucratic errand easier to postpone, even for a retiree. Still, the office is reachable and losing registration would be costly enough that he will probably do it before the deadline.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1906",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "limited income for transport or assistance"],
+    "reasoning": "At 83, mobility and energy are the main issues, and low income can make transport or help harder to arrange. Even so, the urban setting and the legal consequences make eventual compliance more likely than refusal.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1907",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related mobility", "transport/logistics for a 4 km trip"],
+    "reasoning": "He is retired and understands the requirement, but age and the need to make a trip to the office add some friction. The mandatory-voting penalties should still push him to comply within the year.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1908",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time off formal work", "getting to the office"],
+    "reasoning": "High income and strong bureaucratic capacity make the task easy to absorb, and the legal penalties are serious. Even with a job, he is likely to handle the re-registration as soon as practical.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1909",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employment makes scheduling harder", "lost time from work"],
+    "reasoning": "He has the money and education to deal with the paperwork, but self-employment means the trip competes with paid work time. That makes delay likely, though not outright noncompliance.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1910",
+    "decision": "will_register_immediately",
+    "main_barriers": ["self-employment scheduling", "small transport logistics"],
+    "reasoning": "The office is close, income is high, and he can likely absorb the inconvenience. The cost of losing registration and facing voting restrictions makes quick compliance very likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1911",
+    "decision": "will_register_immediately",
+    "main_barriers": ["limited income", "minor transport logistics"],
+    "reasoning": "He is retired, the office is only 2 km away, and he has no work barrier. Even with a lower income, the trip is simple enough that the legal consequences should prompt early action.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1912",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed farm work schedule", "time away from work"],
+    "reasoning": "The office is close, but self-employed work can still make it easier to postpone the errand. Since losing registration would be costly, he is still more likely to comply eventually than not at all.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1913",
+    "decision": "will_register_eventually",
+    "main_barriers": ["working at an older age", "transport/logistics for 5 km"],
+    "reasoning": "At 77, the main barrier is fitting the trip around work and dealing with the longer commute. The legal risk is strong enough that actual noncompliance is unlikely, but delay is plausible.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1914",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "transport/logistics"],
+    "reasoning": "He is retired and can likely comply, but at 80 the errand is more effortful and may be postponed until convenient. The mandatory registration rule should still bring him in before the deadline.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1915",
+    "decision": "will_register_eventually",
+    "main_barriers": ["transport/logistics for a 5 km trip", "modest income"],
+    "reasoning": "Retirement removes the work barrier, but the 5 km trip and moderate income make this the kind of bureaucratic task people often delay. The legal penalties still make eventual compliance the likelier outcome.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1916",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no current income", "transport cost and getting to the office"],
+    "reasoning": "Zero household income makes transport or assistance less convenient, and there is no work-related urgency. But urban access and the risk of losing voter registration mean this is more likely to be delayed than abandoned.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1917",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor transport logistics"],
+    "reasoning": "He is retired, well off, and only 2 km from the office, so the practical burden is small. The compulsory-voting consequences make prompt compliance very likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1918",
+    "decision": "will_register_eventually",
+    "main_barriers": ["modest income", "transport/logistics for a 4 km trip"],
+    "reasoning": "He has no job constraint, but lower income and a 4 km trip create enough friction to encourage delay. Even so, the penalties for letting registration lapse should still bring him in within the year.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1919",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "transport/logistics"],
+    "reasoning": "The 3 km distance and decent income make compliance feasible, but at 78 he may not rush the errand. Since the consequences of noncompliance are real, he is still more likely to do it eventually.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1920",
+    "decision": "will_register_eventually",
+    "main_barriers": ["transport/logistics for a 5 km trip", "modest income"],
+    "reasoning": "He is retired and literate enough to handle the process, but the 5 km trip and moderate income make it a planned errand rather than an immediate one. The mandatory voting rules should still lead to eventual compliance.",
+    "confidence": 0.8
+  }
+]

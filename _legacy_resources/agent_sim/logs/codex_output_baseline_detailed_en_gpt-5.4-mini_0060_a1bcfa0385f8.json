@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1181",
+    "decision": "will_register_eventually",
+    "main_barriers": ["long rural distance", "transport cost", "time off work"],
+    "reasoning": "He has an ID and a public-sector job, so he is likely to comply, but the 39 km rural trip is expensive and inconvenient enough that he will probably delay. The compulsory voting rules and risk of losing registration should still push him to go within the year.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1182",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "low income", "transport cost"],
+    "reasoning": "The office is only 5 km away, but informal agricultural work and tight cash flow make it easy to postpone the visit. The sanctions for non-compliance are likely strong enough that he eventually makes the trip.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1183",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport cost", "work schedule"],
+    "reasoning": "A short urban trip is manageable, and the legal penalties matter, but his very low income makes even a small errand feel costly. He is more likely to delay than to refuse outright.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1184",
+    "decision": "will_register_eventually",
+    "main_barriers": ["long rural distance", "transport cost", "farm work schedule"],
+    "reasoning": "Self-employment gives him some flexibility, and his income is enough to absorb a trip, but 39 km in a rural area is still a real obstacle. He is likely to comply before the deadline rather than skip it.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p1185",
+    "decision": "will_register_eventually",
+    "main_barriers": ["longer rural distance", "transport cost", "farm work schedule"],
+    "reasoning": "He has formal work and moderate income, so compliance is plausible, but the 49 km distance adds enough friction that he may wait. The compulsory voting penalties should still bring him in eventually.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p1186",
+    "decision": "will_register_immediately",
+    "main_barriers": ["shift schedule", "office-hours visit", "modest income"],
+    "reasoning": "With a nearby office and formal employment, the trip is straightforward enough that he should act quickly. The legal risk of cancellation makes a prompt visit more likely than delay.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1187",
+    "decision": "will_register_immediately",
+    "main_barriers": ["office-hours visit", "paperwork"],
+    "reasoning": "Retirement, decent income, and a 4 km urban office leave very little friction. He is very likely to handle the registration quickly once the requirement is known.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1188",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "office-hours visit"],
+    "reasoning": "A public worker with a nearby office and good income has few practical obstacles. The compulsory rules and easy access make prompt compliance the most likely outcome.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1189",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "office-hours visit"],
+    "reasoning": "The office is only 2 km away and he has stable formal work, so the trip is easy to fit in. There is little reason for him not to comply quickly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1190",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling", "office-hours visit"],
+    "reasoning": "High income and a short urban trip make the process easy to complete. The mandatory rule should lead to a prompt visit rather than procrastination.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1191",
+    "decision": "will_register_immediately",
+    "main_barriers": ["self-employed schedule", "office-hours visit"],
+    "reasoning": "Although self-employment can create some scheduling friction, his high income and nearby office make compliance easy. The risk of losing voter registration should push him to go quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1192",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "long rural distance", "transport cost"],
+    "reasoning": "No ID, a 43 km rural trip, and low income combine into a serious bureaucratic and transport barrier. The penalties are real, but they are unlikely to overcome the practical difficulty of getting there and getting the paperwork sorted.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1193",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport cost"],
+    "reasoning": "Being out of the labor force removes work-schedule pressure, but the very low income makes even a short urban trip easy to postpone. The compulsory voting rules should still make eventual compliance more likely than refusal.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1194",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "extreme poverty", "long rural distance"],
+    "reasoning": "This is a very hard case: no ID, extreme poverty, and a 35 km rural trip. Even with mandatory voting, the practical and bureaucratic barriers are likely too high for compliance.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1195",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "office-hours visit"],
+    "reasoning": "A formal worker with an ID and a 5 km urban office faces modest friction only. The legal consequences of non-compliance should lead to quick registration.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1196",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "work schedule"],
+    "reasoning": "The office is close and she has an ID, but the very low income makes even a small errand easy to defer. The compulsory rules should still get her to comply before the deadline.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1197",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "very long rural distance", "transport cost"],
+    "reasoning": "A 59 km rural trip with no ID and low income is a major barrier. The sanctions are not likely to be enough to overcome the access and paperwork problems.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p1198",
+    "decision": "will_register_immediately",
+    "main_barriers": ["limited income", "office-hours visit"],
+    "reasoning": "Being out of work removes a big scheduling barrier, and the office is only 3 km away. The mandatory rule makes a quick trip the most likely outcome.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p1199",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic work schedule", "low pay", "transport cost"],
+    "reasoning": "Domestic work is often inflexible and low-paid, so she is likely to delay the trip. Still, the urban distance is manageable and the compulsory voting penalties should eventually push her to comply.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1200",
+    "decision": "will_register_immediately",
+    "main_barriers": ["work schedule", "office-hours visit"],
+    "reasoning": "A formal worker with an ID and a nearby urban office has few barriers. She is likely to handle the registration quickly once notified.",
+    "confidence": 0.91
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0181",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "low income and transport cost"],
+    "reasoning": "The compulsory-voting penalty gives him some reason to comply, but the lack of ID and low literacy make the trip harder than a simple same-day errand. Because he is not tied to a job and lives in an urban area, he is still likely to go once he has time or help.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0182",
+    "decision": "will_register_immediately",
+    "main_barriers": ["bureaucratic paperwork", "minor travel burden"],
+    "reasoning": "With an ID, no work barrier, and only a 2 km trip, there is little to stop him from complying quickly. The fine and loss of registration make the deadline enough to push immediate action.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0183",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "very low income", "informal work and bureaucracy"],
+    "reasoning": "The office is close, but very low income, no ID, and informal work make the bureaucracy harder to complete, so he is more likely to go after some delay. The compulsory-voting penalties add pressure, but not enough to make this effortless.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0184",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed work schedule", "no identity document", "travel cost to a 4 km office"],
+    "reasoning": "He can likely afford the trip, but self-employed construction work and no ID add enough friction that he may wait until a convenient day before going. The legal penalties make compliance likely within the year, just not immediately.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0185",
+    "decision": "probably_wont_register",
+    "main_barriers": ["extreme poverty", "no identity document", "low literacy"],
+    "reasoning": "The penalties for not complying exist, but extreme poverty, no identity document, and low literacy make a 4 km bureaucratic trip unlikely to happen. This is the kind of case where the deadline is more likely to be missed than met.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0186",
+    "decision": "probably_wont_register",
+    "main_barriers": ["zero income", "no identity document", "travel cost"],
+    "reasoning": "With zero income, no ID, and little bureaucratic capacity, even a 4 km trip is a major hurdle, so he probably misses the deadline. The compulsory-voting penalty is not strong enough to overcome that level of exclusion.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0187",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low pay", "time off formal work"],
+    "reasoning": "Formal employment and a 3 km trip make compliance possible, but no ID and low pay make it more likely that he goes eventually rather than immediately. The legal consequences for non-compliance should be enough to push him to finish it within the year.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0188",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long rural travel distance", "very low income", "no identity document"],
+    "reasoning": "A 53 km rural trip with no ID and only a tiny income is a heavy burden, so the compulsory-voting penalty is unlikely to overcome the logistics. She is more likely to skip it than complete the trip.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0189",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long rural travel distance", "low cash income", "no identity document"],
+    "reasoning": "Self-employed agriculture, no ID, low cash income, and a 54 km trip make compliance difficult enough that she probably never gets around to it. The fine and registration loss are real, but the practical costs are still too high.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0190",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no identity document", "low literacy"],
+    "reasoning": "Urban distance is manageable, but very low income, no ID, and low literacy still create enough friction that she likely delays before going. The compulsory-voting penalties make eventual compliance more likely than non-compliance.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0191",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long rural travel distance", "very low income", "no identity document"],
+    "reasoning": "A 54 km rural trip on about R$200 a month is too costly and cumbersome, so she probably will not register. The penalties for not voting are not enough to erase the travel and paperwork burden.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0192",
+    "decision": "probably_wont_register",
+    "main_barriers": ["rural travel distance", "low income", "no identity document"],
+    "reasoning": "Rural distance, low income, and no ID are enough to make the 37 km trip unlikely despite the compulsory-voting penalties. She may know the rule, but the logistics still work against compliance.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0193",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel burden", "routine paperwork"],
+    "reasoning": "She has an ID, is not working, and the office is only 5 km away, so there is little to stop her from registering right away. The enforcement threat should be enough to make this a straightforward errand.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0194",
+    "decision": "probably_wont_register",
+    "main_barriers": ["zero income", "long rural travel distance", "no identity document"],
+    "reasoning": "Zero income, no ID, and a 47 km rural trip make this the kind of case where the deadline is unlikely to be met. The legal penalties exist, but the practical barriers are overwhelming.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0195",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic work schedule", "no identity document", "low income"],
+    "reasoning": "The office is close, but domestic work schedule constraints and no ID mean she is more likely to go after some delay than immediately. The compulsory-voting penalties should still push her to complete the trip within the year.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0196",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long rural travel distance", "self-employed farm work", "no identity document"],
+    "reasoning": "A 49 km rural trip plus self-employed farm work and no ID create too much logistical friction for likely compliance. The fine and registration loss are not enough to make this easy to carry out.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0197",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "low literacy", "minor travel cost"],
+    "reasoning": "The short 2 km distance helps, but no ID and low literacy still make her more likely to need time or assistance before going. She is likely to comply eventually because the enforcement threat is real and the trip is manageable.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0198",
+    "decision": "will_register_eventually",
+    "main_barriers": ["long rural travel distance", "no identity document", "self-employed agriculture schedule"],
+    "reasoning": "Income is better than the poorest rural cases, and although the 43 km trip and no ID are real barriers, self-employed agriculture and a 12-month window make eventual compliance plausible. He is more likely to delay than to skip it entirely.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p0199",
+    "decision": "will_register_eventually",
+    "main_barriers": ["long rural travel distance", "no identity document", "transport arrangement"],
+    "reasoning": "Retirement and decent income help, but the 52 km rural trip and lack of ID mean she is likely to register only after arranging transport, not immediately. The penalties for non-compliance make eventual action more likely than failure to act.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0200",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long rural travel distance", "low income", "no identity document"],
+    "reasoning": "The 46 km rural trip, low income, and no ID make the process burdensome enough that she probably will not complete it. Even with compulsory voting, the logistical cost remains too high.",
+    "confidence": 0.84
+  }
+]

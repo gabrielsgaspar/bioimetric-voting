@@ -1,0 +1,37 @@
+timestamp: 2026-04-27 22:02:57 BST
+estimator: callaway_santanna
+data_path: data/interim/tse/mayor_left_bvr_event_time_did_panel.csv
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/mayor_ideology/pct_mayor_L_any_bvr/callaway_santanna
+notes: Mayor-left vote share event-time DID. Treatment is first strict-or-hybrid BVR
+  exposure, mapped to the first mayoral election at or after the rollout year because
+  the outcome is observed only in municipal election years.
+n_estimates: 20
+n_event_study: 8
+diagnostics:
+  metric:
+  - n_rows
+  - n_units
+  - n_periods
+  - min_time
+  - max_time
+  - n_treated_units
+  - n_never_treated_units
+  - group_id_standardized_from_zero_or_na
+  value:
+  - 33377.0
+  - 5568.0
+  - 6.0
+  - 2000.0
+  - 2020.0
+  - 4324.0
+  - 1244.0
+  - 0.0
+  notes:
+  - Rows in the input analysis sample.
+  - Distinct units after validation.
+  - Distinct time periods after validation.
+  - Minimum observed time value.
+  - Maximum observed time value.
+  - Units with non-missing first-treatment timing.
+  - Units standardized as never treated.
+  - TRUE means the scripts converted 0 or NA into the internal never-treated representation.

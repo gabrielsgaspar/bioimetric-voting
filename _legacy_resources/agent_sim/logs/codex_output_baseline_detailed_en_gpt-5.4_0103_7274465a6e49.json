@@ -1,0 +1,229 @@
+[
+  {
+    "persona_id": "p0406",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "missing identity document",
+      "illiteracy and low bureaucratic literacy",
+      "very low income for transport or document-related costs",
+      "older age and queue or mobility burden"
+    ],
+    "reasoning": "The office is close and he is retired, so time off work is not the main obstacle. He is likely to delay until he gets help from family or neighbors because the missing ID and paperwork are intimidating, but the risk of cancellation before age 70 should eventually push him to go; distrust is probably secondary to paperwork friction.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0430",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "missing identity document",
+      "illiteracy and dependence on help",
+      "older age and queue or mobility burden",
+      "low perceived personal cost of non-compliance"
+    ],
+    "reasoning": "Even though the office is nearby, the trip is not the hardest part; the documentation and navigating the office are. At 75 the compulsory-voting sanctions are not a strong personal motivator, so he is likely to keep postponing unless a relative takes charge.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0437",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "53 km rural trip with costly or unreliable transport",
+      "missing identity document",
+      "illiteracy and bureaucratic dependence",
+      "lost work time from self-employed agriculture"
+    ],
+    "reasoning": "This is a high-friction task, especially in rural Amazonas, so she is unlikely to go early. Still, because she is under 70 and household income is not at subsistence level, she is likely to wait for a town trip, local mobilization, or family assistance and register before losing her status.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0472",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "missing identity document",
+      "illiteracy and need for assistance",
+      "older age and physical effort or queues",
+      "weak perceived payoff from updating"
+    ],
+    "reasoning": "A 4 km urban trip is manageable, but the administrative step is hard without ID and literacy. Since she is over 70 and retired, the penalties and document restrictions feel less relevant, so repeated delay is more likely than compliance.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0523",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost income from taking time off informal work",
+      "queue uncertainty",
+      "routine procrastination on non-urgent bureaucracy"
+    ],
+    "reasoning": "He has an ID and the office is very close, so the task is feasible. He is likely to put it off until a slower workday because each hour matters in informal transport, but the risk of future electoral and document trouble should get him there eventually.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0545",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "having to fit the visit around formal work hours",
+      "queue and wait-time hassle"
+    ],
+    "reasoning": "He has the key prerequisites: ID, short distance, and enough income to absorb the small transport or time cost. The bureaucratic downside of ignoring the notice is larger than the inconvenience, so he is likely to handle it relatively quickly rather than wait for the deadline.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0551",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost daily income from informal work",
+      "low cash margin for a wasted trip or repeat visit",
+      "bureaucratic procrastination"
+    ],
+    "reasoning": "The office is close and he has an ID, so this is not a capacity problem. He will probably delay because informal work makes short-term earnings more salient than distant penalties, but he is still likely to regularize before cancellation.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0552",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "time cost and lost earnings from informal work",
+      "queue uncertainty",
+      "low urgency created by a long 12-month deadline"
+    ],
+    "reasoning": "He has enough income, an ID, and manageable distance, so the trip is realistic. He is more likely to procrastinate than refuse, then go once the deadline feels real or people around him start talking about the risk.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0567",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost income from self-employment",
+      "5 km trip plus waiting time",
+      "moderate bureaucratic hassle"
+    ],
+    "reasoning": "She has the documents and can choose her own schedule, which makes compliance plausible. The more likely pattern is delay until a convenient day, because the task costs work time but does not look urgent until closer to the deadline.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0569",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income for transport or errand costs",
+      "weak day-to-day urgency",
+      "possible dependence on family for navigating bureaucracy"
+    ],
+    "reasoning": "She has time availability and already has an ID, so the registration itself is not hard. The main risk is passive delay rather than active resistance, and the short urban distance makes eventual compliance more likely than non-compliance.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0572",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor time inconvenience",
+      "queue and wait-time hassle"
+    ],
+    "reasoning": "With high income, an ID, self-employment flexibility, and a very short trip, the practical barriers are small. She is likely to treat this as a routine bureaucratic errand and get it done early to avoid future restrictions.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0579",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "44 km rural trip with real transport cost",
+      "missing identity document",
+      "very low household income",
+      "limited bureaucratic support"
+    ],
+    "reasoning": "This requires money, planning, and probably an extra documentation step before the electoral visit is useful. For someone this poor and far away, the immediate burden outweighs the distant sanction risk, so repeated postponement is likely to end in non-registration.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0597",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural trip",
+      "missing identity document",
+      "extremely low household income",
+      "low bureaucratic access and support"
+    ],
+    "reasoning": "The travel and paperwork burden are severe relative to her resources, and unpaid or self-consumption work leaves little cash for transport. Unless there is an outreach action or someone organizes the trip for her, she is unlikely to regularize.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0600",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "47 km rural trip",
+      "missing identity document",
+      "very low income",
+      "low urgency in daily life"
+    ],
+    "reasoning": "She may have time, but time is not the binding constraint here; money, distance, and documentation are. Those frictions are large enough that she is more likely to keep delaying than to complete the process.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0601",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income for transport and errand costs",
+      "passive procrastination",
+      "possible need for help understanding procedures"
+    ],
+    "reasoning": "She has an ID, no work-schedule conflict, and only a short urban trip, so the task is manageable. The likely pattern is delay from low urgency rather than inability, which makes eventual compliance more likely than abandonment.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0647",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "60 km rural trip with high transport cost",
+      "missing identity document",
+      "lost income from informal agriculture work",
+      "limited bureaucratic access"
+    ],
+    "reasoning": "This is a very expensive errand in both cash and work time for a household living on about R$500 a month. Even if he understands the rule, the logistical burden is so high that non-registration is more likely than follow-through.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0648",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost income from missing informal work",
+      "5 km urban trip plus waiting time",
+      "bureaucratic hassle"
+    ],
+    "reasoning": "He has an ID and enough income to manage the trip, so this is mainly a scheduling problem. He is likely to delay until a convenient day because informal workers avoid low-return bureaucracy during earning hours, but he probably will regularize before losing his status.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0650",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "difficulty taking time off formal shift work",
+      "low income cushion for a wasted trip",
+      "queue uncertainty"
+    ],
+    "reasoning": "The office is close and he has the required ID, so access is not the problem. The main issue is fitting the visit around work, which points to delay rather than refusal; he is likely to go once he can line up a day or half-day off.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0657",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "difficulty leaving formal manufacturing work during office hours",
+      "queue and wait-time uncertainty",
+      "moderate income pressure"
+    ],
+    "reasoning": "He has the documents and the office is nearby, so the task is very doable. He is unlikely to rush, but the legal requirement and manageable distance make eventual compliance more likely than non-compliance.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0668",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "35 km rural trip",
+      "missing identity document",
+      "lost work time from self-employed agriculture",
+      "need to coordinate transport or combine with another town errand"
+    ],
+    "reasoning": "This is inconvenient enough that he probably will not go early, especially without an ID in hand. Still, the distance is not extreme by rural standards and his income is higher than the poorest rural cases, so he is likely to register eventually when he can bundle the trip with other business.",
+    "confidence": 0.64
+  }
+]

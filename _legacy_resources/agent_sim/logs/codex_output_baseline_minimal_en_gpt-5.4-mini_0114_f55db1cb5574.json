@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0675",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time away from self-employed construction work", "small transport and queue burden", "low income"],
+    "reasoning": "With an ID and only a 2 km trip, the main issue is scheduling around paid construction work; he is likely to comply once he can spare a day.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0677",
+    "decision": "probably_wont_register",
+    "main_barriers": ["54 km rural trip", "lost agricultural work time", "transport cost"],
+    "reasoning": "The trip is long enough and disruptive enough that, despite having an ID and some income, he may never prioritize it enough to finish the update.",
+    "confidence": 0.62
+  },
+  {
+    "persona_id": "p0688",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "no income for transport", "37 km rural trip"],
+    "reasoning": "Without ID, cash, or easy access, the bureaucracy and travel burden are too high for her to complete the process within a year.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0702",
+    "decision": "will_register_immediately",
+    "main_barriers": ["low income for transport", "bureaucratic steps"],
+    "reasoning": "She is not working and the office is only 4 km away, so the burden is low enough that she is likely to act quickly.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0706",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic-work schedule", "time away from paid work", "5 km trip"],
+    "reasoning": "She should comply, but domestic-work hours mean she may need to wait for a day off before going.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0707",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "domestic-work schedule", "5 km trip"],
+    "reasoning": "The office is reachable, but low income and domestic-work timing make it more likely she delays before completing it.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0709",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "lost earnings from a day off", "5 km trip"],
+    "reasoning": "She can probably fit the trip into her own schedule, but self-employment makes it likely she waits for a slow day to avoid losing income.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0783",
+    "decision": "will_register_eventually",
+    "main_barriers": ["factory shift schedule", "low income", "3 km trip"],
+    "reasoning": "A formal work schedule and limited income are the main frictions, but the office is close enough that he should still complete it by the deadline.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0785",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related mobility", "self-employed transport schedule", "5 km trip"],
+    "reasoning": "He is close enough to do it, but as an older self-employed worker he may postpone until he can spare the time and move around comfortably.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0799",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "39 km rural trip", "low income"],
+    "reasoning": "The combination of missing documents, a long rural trip, and low income makes the process too costly and bureaucratically hard to complete.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0805",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small transport cost", "possible queue"],
+    "reasoning": "He is not working and lives only 3 km away, so there is little practical friction to doing it right away.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0807",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal-work income loss", "4 km trip", "transport cost"],
+    "reasoning": "Informal construction work makes losing a day of earnings a real barrier, so he may delay until he has a slow period.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0817",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "58 km rural trip", "no cash for transport"],
+    "reasoning": "A 58 km rural trip with no ID and very little money is too hard to overcome, so she is unlikely to finish the process.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0824",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no identity document", "33 km rural trip", "bureaucratic steps"],
+    "reasoning": "Retirement gives her time, but the missing ID and the long rural trip still create enough friction that she is more likely to comply after some delay.",
+    "confidence": 0.65
+  },
+  {
+    "persona_id": "p0826",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small transport cost", "bureaucratic steps"],
+    "reasoning": "Being unemployed and close to the office means there is little scheduling barrier, so she is likely to handle it soon.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0839",
+    "decision": "will_register_eventually",
+    "main_barriers": ["domestic-work schedule", "very low income", "4 km trip"],
+    "reasoning": "Domestic-work obligations and very low income may push her to delay, but the office is close enough that she will probably get it done.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0851",
+    "decision": "will_register_eventually",
+    "main_barriers": ["47 km rural trip", "transport cost", "planning around farm or self-consumption work"],
+    "reasoning": "The trip is substantial, but she has income, an ID, and no fixed wage job, so she can probably arrange one visit within the year.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0855",
+    "decision": "probably_wont_register",
+    "main_barriers": ["no identity document", "52 km rural trip", "zero income"],
+    "reasoning": "With no income, no ID, and a 52 km rural trip, the logistical and bureaucratic burden is too high for her to overcome.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0865",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "household duties", "5 km trip"],
+    "reasoning": "She has an ID and a nearby office, so the main issue is finding time around subsistence work and household duties.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0897",
+    "decision": "will_register_immediately",
+    "main_barriers": ["age-related mobility", "small transport cost"],
+    "reasoning": "Retired, with decent income and only 2 km to travel, he has very low practical barriers to compliance.",
+    "confidence": 0.95
+  }
+]

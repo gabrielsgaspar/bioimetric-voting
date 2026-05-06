@@ -1,0 +1,217 @@
+[
+  {
+    "persona_id": "p0821",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low monthly income",
+      "Primary schooling and bureaucratic hassle",
+      "A 4 km trip still has transport cost"
+    ],
+    "reasoning": "She has an ID, no work obligation, and the office is reachable, so compliance is realistic. The likely pattern is delay because of cost and paperwork, but compulsory voting and the risk of losing registration should push her to go within the year.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0822",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Some bureaucratic steps for biometrics and a new photo",
+      "Minor travel planning, but the office is only 2 km away"
+    ],
+    "reasoning": "She has an ID, no job barrier, decent household income, and very close access to the office. With compulsory voting and little practical friction, she is likely to comply promptly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0823",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Primary schooling and paperwork burden",
+      "Transport cost for a 3 km trip"
+    ],
+    "reasoning": "The office is close enough and she has no work conflict, so the trip is feasible. Low cash flow makes her more likely to postpone, but the threat of losing registration should still get her there before the deadline.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0824",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "Long 33 km distance in a rural area",
+      "Transportation cost and low bureaucratic confidence"
+    ],
+    "reasoning": "Even with compulsory voting, the combination of no ID and a long rural trip makes compliance hard. She is more likely to delay until it is missed, or not complete the update at all.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0825",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "Very long 45 km distance",
+      "High transport cost relative to income"
+    ],
+    "reasoning": "The trip is too costly and cumbersome for a rural retiree without an identity document. The legal penalties for not voting matter, but the practical barriers are strong enough that she probably will not complete re-registration.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0826",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low-to-moderate income",
+      "5 km distance still requires planning and transport",
+      "Primary schooling and bureaucratic hassle"
+    ],
+    "reasoning": "She is unemployed and has an ID, so there is no work conflict, but the trip is not trivial. The compulsory rule should get her to comply, though likely after some delay.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0827",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Self-employment can make it hard to spare a day",
+      "Some transport cost even for a 3 km trip"
+    ],
+    "reasoning": "Because the office is nearby and she has an ID, compliance is possible. Irregular work and low cash make procrastination likely, but the compulsory voting rule should still pull her in before the deadline.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0828",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "46 km rural distance",
+      "Low income and limited access to transport"
+    ],
+    "reasoning": "This is a severe access problem: she would need money, transport, and extra document handling just to reach the office. The mandatory requirement helps, but the practical burden is high enough that she probably will not complete it.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0829",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Self-employment can create scheduling friction",
+      "Basic bureaucratic steps for biometrics and photo update"
+    ],
+    "reasoning": "She has an ID, reasonable income, and the office is only 2 km away, so access is easy. Because the legal consequences of not complying are concrete, she is likely to act quickly.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0830",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "A 4 km trip still has some transport cost",
+      "Bureaucratic hassle for an older retiree"
+    ],
+    "reasoning": "She is retired and has an ID, so nothing blocks her outright, but the trip is still inconvenient. She is likely to wait until it becomes necessary, then go before the deadline.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0831",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "Very long 43 km rural distance",
+      "Extremely low household income"
+    ],
+    "reasoning": "The combination of no ID, rural isolation, and very low income makes the update hard to complete. Even with compulsory voting, she is unlikely to make and finish the trip in time.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0832",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Extremely low income",
+      "4 km trip still costs money and effort",
+      "Primary schooling and administrative hassle"
+    ],
+    "reasoning": "Urban location, no work, and having an ID make compliance possible, but the very low income makes it easy to postpone. She is still likely to do it eventually because losing voter registration has real consequences.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0833",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Routine bureaucratic steps",
+      "Small amount of travel planning"
+    ],
+    "reasoning": "With an ID, retirement, decent income, and only 2 km to the office, the trip is easy. She is likely to comply quickly rather than wait.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0834",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "4 km distance and transport cost",
+      "Bureaucratic hassle"
+    ],
+    "reasoning": "She is retired and has an ID, so the task is doable, but the cost and inconvenience are enough to cause delay. Compulsory voting should still bring her in within the year.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0835",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "No identity document",
+      "44 km rural distance",
+      "Transport cost and agricultural work schedule"
+    ],
+    "reasoning": "A rural trip of this length without an ID is a serious obstacle, especially on a modest income. The compulsory rule is unlikely to outweigh the combined logistical burden.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p0836",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Zero household income",
+      "5 km trip still needs time and transport",
+      "Primary schooling and paperwork burden"
+    ],
+    "reasoning": "She has no work conflict and does have an ID, so the trip is possible, but poverty makes it easy to postpone. She is still more likely than not to comply eventually because the registration consequences matter.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0837",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income",
+      "3 km distance with some transport cost",
+      "Bureaucratic hassle for an older retiree"
+    ],
+    "reasoning": "Her access is fairly good, but the trip is not effortless and she may not rush. The compulsory rule and risk of losing registration should still get her to do it before the deadline.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0838",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Routine bureaucracy for biometrics and photo update",
+      "Minor travel planning for a 2 km trip"
+    ],
+    "reasoning": "She has an ID, reasonable income, no work barrier, and very close access to the office. This is the kind of case where prompt compliance is likely.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0839",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Domestic work can make time off difficult",
+      "Low income",
+      "4 km distance and transport cost"
+    ],
+    "reasoning": "Her job makes scheduling a trip harder than for a retired person, and money is tight. Still, the compulsory voting rule and the threat of cancelled registration make eventual compliance more likely than not.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0840",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Some transport planning for a 5 km trip",
+      "Basic bureaucratic steps"
+    ],
+    "reasoning": "She has an ID, no work barrier, and enough household income to absorb the trip. In a large urban area, a 5 km office is accessible enough that prompt compliance is likely.",
+    "confidence": 0.81
+  }
+]

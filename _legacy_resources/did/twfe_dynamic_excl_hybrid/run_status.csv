@@ -1,0 +1,31 @@
+outcome,success,config_path,output_dir,log
+log_num_voters,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/configs/log_num_voters.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/log_num_voters,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1/0 fixed-effect singleton was removed (1 observation).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/log_num_voters"
+pct_voters_low_ed,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/configs/pct_voters_low_ed.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/pct_voters_low_ed,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1/0 fixed-effect singleton was removed (1 observation).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/pct_voters_low_ed"
+pct_voters_high_ed,True,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/configs/pct_voters_high_ed.yml,/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/pct_voters_high_ed,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+NOTE: 1/0 fixed-effect singleton was removed (1 observation).
+Warning message:
+The VCOV matrix is not positive definite and was 'fixed' (see ?vcov).
+Finished `twfe_dynamic`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/twfe_dynamic_excl_hybrid/pct_voters_high_ed"

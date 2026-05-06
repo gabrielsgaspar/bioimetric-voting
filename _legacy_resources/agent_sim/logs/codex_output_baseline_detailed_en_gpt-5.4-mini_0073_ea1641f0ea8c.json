@@ -1,0 +1,207 @@
+[
+  {
+    "persona_id": "p1441",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low monthly income for transport",
+      "Age-related mobility and inconvenience"
+    ],
+    "reasoning": "She is retired and lives in an urban area with the office only 3 km away, so the trip is feasible. Low income and age may make her delay, but the risk of losing registration should still push her to comply within the year.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1442",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Need to fit the visit around work",
+      "Routine paperwork"
+    ],
+    "reasoning": "She has a high income, a nearby office, and a public job, so there is very little friction. With the risk of losing registration and work-related document problems, she should go promptly.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1443",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low monthly income for transport",
+      "Age-related mobility and inconvenience"
+    ],
+    "reasoning": "She is retired, has an ID, and lives in an urban area, so the paperwork itself should be manageable. The 4 km trip and limited income make it more likely that she postpones until later in the deadline window.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1444",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Age-related mobility and inconvenience",
+      "4 km trip to the office"
+    ],
+    "reasoning": "The office is still reachable in an urban area, but R$650 a month leaves little room for transport or assistance. She will probably delay, but the loss of registration should still make eventual compliance more likely than not.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1445",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Very long rural trip",
+      "No identity document",
+      "Very low income"
+    ],
+    "reasoning": "Nothing suggests distrust of the system; the problem is practical access. A 59 km rural trip without an identity document is too costly and cumbersome for a very low-income retiree, so compliance is unlikely even with the penalties.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1446",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related mobility and inconvenience",
+      "Moderate travel distance"
+    ],
+    "reasoning": "She is retired, has an ID, and the office is only 3 km away, so she can probably do it. Age and the lack of any immediate pressure make delay more likely than prompt action.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1447",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related mobility and inconvenience",
+      "Moderate travel distance"
+    ],
+    "reasoning": "The trip is manageable because she is retired, lives in an urban area, and the office is close. Still, at 76 she may wait until it is convenient rather than going right away.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1448",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Age-related mobility and inconvenience",
+      "Routine trip logistics"
+    ],
+    "reasoning": "Her income is comfortable and the office is only 2 km away, so there is almost no practical barrier. Age is the only mild friction, so she should go promptly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1449",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income for transport",
+      "Age-related mobility and inconvenience",
+      "5 km trip to the office"
+    ],
+    "reasoning": "The office is still within urban reach, but the 5 km distance and low income make it easy to postpone. She will probably comply later in the 12-month window once the registration risk becomes more salient.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1450",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Need to fit the visit around work",
+      "Routine paperwork"
+    ],
+    "reasoning": "She has a formal public job, a high income, and the office is only 2 km away. The combination of low friction and work-related incentive should push her to act quickly.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1451",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Moderate travel distance",
+      "Routine paperwork"
+    ],
+    "reasoning": "She has enough income and no work barrier, so compliance is likely. But with a 4 km trip and no urgent pressure, she is more likely to delay than to go immediately.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1452",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Age-related mobility and inconvenience",
+      "Moderate travel distance"
+    ],
+    "reasoning": "The office is reachable, and she has an ID, so the process is doable. At 77, though, the trip is more likely to be postponed until later rather than handled right away.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1453",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Low income for transport",
+      "Age-related mobility and inconvenience"
+    ],
+    "reasoning": "The office is only 2 km away, so access is not the main issue. Limited income and older age make it more likely that she delays, but she should still comply within the year.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1454",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Very long rural trip",
+      "No identity document",
+      "Very low income"
+    ],
+    "reasoning": "A 51 km rural trip with no identity document is a severe barrier for someone living on R$500 a month. The penalties are not likely to outweigh the transport and bureaucracy burden, so she probably will not complete it.",
+    "confidence": 0.98
+  },
+  {
+    "persona_id": "p1455",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Routine paperwork"
+    ],
+    "reasoning": "Very high income and only 2 km to travel make this an easy errand. She has little reason to postpone, so prompt compliance is likely.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1456",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "No identity document",
+      "Rural transport to a 12 km office",
+      "Transport cost"
+    ],
+    "reasoning": "The missing identity document and rural travel create real friction, but the distance is not extreme and she is retired. With a full 12 months, she may still manage it eventually, especially if she gets help.",
+    "confidence": 0.64
+  },
+  {
+    "persona_id": "p1457",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "Very long rural trip",
+      "No identity document",
+      "Rural transport access"
+    ],
+    "reasoning": "A 43 km rural trip without an identity document is a major practical obstacle. Even with the threat of losing registration, the access burden is high enough that compliance is unlikely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1458",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Advanced age and frailty",
+      "Low income for transport"
+    ],
+    "reasoning": "The office is close enough in urban Pernambuco that she could likely do it with help. At 89, though, mobility is the main issue, so she is more likely to delay than to act immediately.",
+    "confidence": 0.70
+  },
+  {
+    "persona_id": "p1459",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Routine trip logistics"
+    ],
+    "reasoning": "She has a high income, no work barrier, and the office is only 3 km away. That makes this a low-friction errand, so she should handle it quickly.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1460",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "Very low income",
+      "Longer urban trip",
+      "Age-related mobility and inconvenience"
+    ],
+    "reasoning": "She is still in an urban area and already has an ID, so compliance is possible. But R$500 a month and a 5 km trip make procrastination likely, even with the threat of losing registration.",
+    "confidence": 0.69
+  }
+]

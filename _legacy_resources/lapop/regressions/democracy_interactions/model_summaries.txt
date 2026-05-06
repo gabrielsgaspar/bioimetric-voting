@@ -1,0 +1,39 @@
+Category: Female
+Outcome: Trust in democracy
+Formula: z_score_pca1_dem ~ factor(treatment_dummy) * factor(female) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(female)1
+Base effect: 0.106760 (0.081400)
+Interaction effect: -0.015734 (0.079180)
+Combined effect: 0.091026 (0.079592)
+
+Category: White
+Outcome: Trust in democracy
+Formula: z_score_pca1_dem ~ factor(treatment_dummy) * factor(white) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(white)1
+Base effect: 0.089218 (0.075897)
+Interaction effect: 0.035761 (0.082278)
+Combined effect: 0.124980 (0.087248)
+
+Category: Married
+Outcome: Trust in democracy
+Formula: z_score_pca1_dem ~ factor(treatment_dummy) * factor(married) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(married)1
+Base effect: 0.078444 (0.072688)
+Interaction effect: 0.061905 (0.079996)
+Combined effect: 0.140349 (0.090410)
+
+Category: Low Education
+Outcome: Trust in democracy
+Formula: z_score_pca1_dem ~ factor(treatment_dummy) * factor(low_ed) + factor(low_ed) + factor(female) + factor(white) + factor(married) + factor(working) + age + log_gdp_pc + log_total_pop | municipality_id + year
+Observations: 10632
+Base treatment term: factor(treatment_dummy)1
+Interaction term: factor(treatment_dummy)1:factor(low_ed)1
+Base effect: 0.075687 (0.068711)
+Interaction effect: 0.054166 (0.034668)
+Combined effect: 0.129853 (0.076490)

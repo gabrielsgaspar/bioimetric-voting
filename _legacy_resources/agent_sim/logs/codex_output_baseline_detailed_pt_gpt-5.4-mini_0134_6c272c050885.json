@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0675",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Losing a work day as a self-employed construction worker", "basic paperwork and bureaucracy"],
+    "reasoning": "The cartorio is close enough that transport is not a major problem, and the risk of losing voter registration is real. The main reason he delays is the opportunity cost of taking time away from construction jobs, not inability to go.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0677",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Long rural trip", "transport cost", "time away from farm work"],
+    "reasoning": "A 54 km trip from rural Goias is costly and hard to fit around agriculture work, but the compulsory voting rule and moderate income make compliance likely once transport can be arranged. He is more likely to delay than to ignore it.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0688",
+    "decision": "probably_wont_register",
+    "main_barriers": ["No identity document", "37 km rural trip", "no money for transport"],
+    "reasoning": "With zero income, no ID, and a long rural trip, the practical and bureaucratic burden is too high. Even with the penalty for not registering, she is unlikely to complete the process without outside help.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0702",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Very limited cash for transport", "basic paperwork"],
+    "reasoning": "She is not working, the cartorio is only 4 km away, and the requirement is tied to losing her voter registration. The trip is easy enough that she would likely handle it soon rather than wait.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0706",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Time off domestic work", "paperwork and queuing"],
+    "reasoning": "The cartorio is only 5 km away and the legal penalty gives a reason to comply, but domestic work can make getting a free day difficult. She is likely to go, just not immediately.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0707",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "time off domestic work", "transport cost"],
+    "reasoning": "A 5 km urban trip is possible, and the registration loss is a real consequence, but very low income and work constraints make it easy to postpone. She is more likely to eventually comply than to refuse outright.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0709",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Self-employment schedule", "income loss from taking time off"],
+    "reasoning": "The cartorio is nearby, and the threat of losing voter registration should matter, but self-employment makes any trip feel like lost income. She is likely to delay until she can fit it into a slow work day.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0783",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Factory work schedule", "basic paperwork"],
+    "reasoning": "The cartorio is only 3 km away, so access is not the problem. He will probably comply, but he may need to plan around manufacturing shifts rather than going right away.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0785",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Income loss from stopping transport work", "paperwork"],
+    "reasoning": "The 5 km distance is manageable, but as a self-employed transport worker he loses money whenever he stops working. That makes delay likely, though the compulsory rule should still push him to go eventually.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0799",
+    "decision": "probably_wont_register",
+    "main_barriers": ["No identity document", "39 km rural trip", "low cash for transport"],
+    "reasoning": "The rural distance, low income, and missing ID create too many obstacles at once. The penalty for not voting is unlikely to outweigh the immediate transport and document burden.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0805",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Routine paperwork", "minor transport cost"],
+    "reasoning": "He is inactive, the cartorio is only 3 km away, and there is no job barrier. With the risk of losing voter registration, he is likely to take care of it quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0807",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Informal work schedule", "lost wages for a day", "transport cost"],
+    "reasoning": "The cartorio is close enough to reach, but informal construction work makes taking time off costly. He will probably wait until he can spare a day, then comply.",
+    "confidence": 0.82
+  },
+  {
+    "persona_id": "p0817",
+    "decision": "probably_wont_register",
+    "main_barriers": ["No identity document", "58 km rural trip", "no money for transport"],
+    "reasoning": "This is a very hard case: no ID, almost no income, and a very long rural trip. Even with compulsory voting, the logistical burden is likely too high for her to complete the process.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0824",
+    "decision": "will_register_eventually",
+    "main_barriers": ["No identity document", "33 km rural trip", "document bureaucracy"],
+    "reasoning": "Retirement gives her time, and the penalty for not registering is real, so she may eventually make the trip. But the missing ID and rural travel mean she will likely need help and may delay.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0826",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Routine paperwork", "small transport cost"],
+    "reasoning": "She is unemployed, the cartorio is only 5 km away, and there is no work schedule to work around. The trip is straightforward enough that prompt compliance is likely.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0839",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Very low income", "domestic work schedule", "transport cost"],
+    "reasoning": "The cartorio is nearby, so access is not a major issue, but very low income and domestic work make the trip harder to schedule. She is still likely to comply once it becomes unavoidable.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0851",
+    "decision": "will_register_eventually",
+    "main_barriers": ["47 km rural trip", "transport cost", "time away from self-consumption work"],
+    "reasoning": "The rural trip is substantial, but she has some income and no formal work lock-in, so the requirement is still manageable. She is more likely to arrange the trip eventually than to ignore it.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0855",
+    "decision": "probably_wont_register",
+    "main_barriers": ["No identity document", "52 km rural trip", "zero income for transport"],
+    "reasoning": "With no ID, no income, and a long rural journey, the process is too burdensome to assume compliance. She is unlikely to complete the registration without outside assistance.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0865",
+    "decision": "will_register_eventually",
+    "main_barriers": ["Low income", "basic paperwork", "trip logistics"],
+    "reasoning": "The cartorio is nearby and she has no formal work conflict, so the trip is feasible. Low income and low bureaucratic comfort make delay more likely than immediate action, but eventual compliance is still plausible.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0897",
+    "decision": "will_register_immediately",
+    "main_barriers": ["Routine paperwork", "possible mobility hassle"],
+    "reasoning": "He is retired, has a high household income, and lives only 2 km from the cartorio. There is very little practical friction, so prompt compliance is likely.",
+    "confidence": 0.93
+  }
+]

@@ -1,0 +1,39 @@
+\begin{table}[htbp]
+    \caption{Dynamic TWFE Event-Study Estimates}
+    \label{tab:twfe-dynamic-main}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.08}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc}
+        \doubletoprule
+        Years relative to BVR adoption & Log voters & Low education & High education \\
+        \midrule
+        $-8$ & -0.016*** & -0.004 & 0.004* \\
+          & (0.004) & (0.002) & (0.002) \\
+        $-6$ & -0.008* & -0.001 & 0.002 \\
+          & (0.004) & (0.002) & (0.002) \\
+        $-4$ & -0.003 & -0.001 & 0.001 \\
+          & (0.004) & (0.002) & (0.002) \\
+        $0$ & -0.115*** & -0.089*** & 0.089*** \\
+          & (0.006) & (0.002) & (0.002) \\
+        $2$ & -0.070*** & -0.078*** & 0.079*** \\
+          & (0.004) & (0.003) & (0.003) \\
+        $4$ & -0.044** & -0.065*** & 0.065*** \\
+          & (0.014) & (0.006) & (0.006) \\
+        $6$ & -0.002 & -0.061*** & 0.061*** \\
+          & (0.012) & (0.004) & (0.004) \\
+        $8$ & 0.027 & -0.054*** & 0.054*** \\
+          & (0.015) & (0.004) & (0.004) \\
+        \midrule
+        Municipality FE & \checkmark & \checkmark & \checkmark \\
+        Election-year FE & \checkmark & \checkmark & \checkmark \\
+        Observations & 55,661 & 55,661 & 55,661 \\
+        Mean dep. var. & 9.115 & 0.731 & 0.267 \\
+        SD dep. var. & 1.080 & 0.126 & 0.127 \\
+        \doublebottomrule
+    \end{tabular*}
+    \vspace{1.1em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each column reports the dynamic TWFE event-study coefficients shown in the main-text figures. Event time is measured in years relative to the first biometric election, with event time $-2$ omitted as the reference period. Standard errors clustered by municipality and election year are reported in parentheses beneath the estimates. The dependent-variable means and standard deviations are computed from the municipality-election analysis sample. $^{*} p<0.10$, $^{**} p<0.05$, $^{***} p<0.01$. \par}
+    \end{minipage}
+\end{table}

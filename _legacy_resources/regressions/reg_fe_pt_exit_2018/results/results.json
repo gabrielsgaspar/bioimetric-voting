@@ -1,0 +1,50 @@
+{
+  "estimator": "fixest::feols",
+  "data_path": "/Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/reg_fe_pt_exit_2018/analysis_data.parquet",
+  "formula": "pct_votes_pt_2018_runoff ~ exit_rate_2018 + pct_votes_pt_2014_runoff + log_gdp_pc | state",
+  "outcome": "pct_votes_pt_2018_runoff",
+  "regressors": "exit_rate_2018",
+  "controls": ["pct_votes_pt_2014_runoff", "log_gdp_pc"],
+  "fixed_effects": "state",
+  "cluster": "state",
+  "confidence_level": 0.94999999999999996,
+  "model_stats": {
+    "nobs": 5569,
+    "ncoefficients": 3,
+    "r2": 0.92312011295099006,
+    "adj_r2": 0.92273155034496623,
+    "within_r2": 0.69352328532792573,
+    "adj_within_r2": 0.6933573232080672,
+    "rmse": 0.061499709119139476
+  },
+  "fixed_effect_sizes": [],
+  "coefficients": [
+    {
+      "term": "exit_rate_2018",
+      "estimate": 0.022577331471440996,
+      "std_error": 0.019334594536253736,
+      "statistic": 1.1677168315635944,
+      "p_value": 0.25393753728241425,
+      "conf_low": -0.017243011377826842,
+      "conf_high": 0.062397674320708835
+    },
+    {
+      "term": "pct_votes_pt_2014_runoff",
+      "estimate": 0.85665538545746733,
+      "std_error": 0.029517245103604869,
+      "statistic": 29.022199817449973,
+      "p_value": 8.9476973110089728e-21,
+      "conf_low": 0.79586348119552464,
+      "conf_high": 0.91744728971941003
+    },
+    {
+      "term": "log_gdp_pc",
+      "estimate": -0.03121732988863532,
+      "std_error": 0.0062633109287320229,
+      "statistic": -4.9841577791436773,
+      "p_value": 3.8830624915597038e-05,
+      "conf_low": -0.044116860214239981,
+      "conf_high": -0.018317799563030656
+    }
+  ]
+}

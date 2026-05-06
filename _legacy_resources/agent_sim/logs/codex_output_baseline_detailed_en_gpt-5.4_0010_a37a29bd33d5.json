@@ -1,0 +1,57 @@
+[
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "taking time off during office hours",
+      "possible queues at the cartorio"
+    ],
+    "reasoning": "She has the required ID, lives very close to the office, has enough income to cover transport or a short interruption to work, and has the schooling to understand the consequences of cancellation. There is no obvious sign of distrust in the electoral system, so the main issue is scheduling. Because the legal cost of non-compliance is clear and document regularity matters for someone in formal work, she is likely to handle it early rather than risk forgetting.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "does not currently have an identity document",
+      "very low income makes transport and extra errands burdensome",
+      "illiteracy and low bureaucratic literacy",
+      "possible need for help or accompaniment to complete the process"
+    ],
+    "reasoning": "Her biggest obstacle is not just the 4 km trip but the missing ID combined with extreme income scarcity and difficulty navigating bureaucracy. She has time because she is inactive, but that does not remove the need for money, information, and assistance. The formal penalties may feel distant because passport and public-job restrictions are not very relevant to her daily life, and without active help from family or local services she is likely to keep postponing and fail to regularize.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost work time from a precarious livelihood",
+      "transport and wait-time costs",
+      "low urgency until the deadline feels close"
+    ],
+    "reasoning": "He has higher education and an ID, so he can understand the requirement and complete it without much bureaucratic confusion. The main friction is that even a short weekday trip can mean lost productive time when income is already limited. There is no strong reason to expect distrust to stop him; this looks more like a procrastination and opportunity-cost case. He is likely to delay until it becomes pressing, then make the trip.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "reduced urgency because voting is optional at her age",
+      "possible mobility or comfort concerns typical of older age",
+      "tendency to wait for a convenient day or accompaniment"
+    ],
+    "reasoning": "She is retired, has an ID, lives only 2 km away, and has enough income to manage the trip, so the practical barriers are fairly low. The main reason she may not go right away is weaker legal pressure: at 72, the compulsory-voting threat is less relevant, so there is less urgency to act immediately. Still, with moderate education and low logistical difficulty, she is more likely to regularize eventually if she wants to preserve the option to vote.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "difficulty leaving construction work during business hours",
+      "queue and travel time",
+      "some bureaucratic discomfort from lower schooling"
+    ],
+    "reasoning": "He has the ID and enough income that transport cost is not the main issue, but as a self-employed construction worker the real barrier is losing work time during the day. With only primary education, he may not enjoy dealing with bureaucracy and may put it off, but the consequences of cancellation are still meaningful and likely understandable. There is no clear sign that distrust would stop him, so delay is more likely than refusal. He probably goes, but not immediately.",
+    "confidence": 0.78
+  }
+]

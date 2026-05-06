@@ -1,0 +1,19 @@
+data_path: data/clean/downstream/downstream_outcomes_panel.parquet
+file_format: parquet
+outcome: log_total_discretionary_spending_per_capita
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+cluster_var:
+- municipality_id
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/downstream_outcomes/unweighted/total_discretionary_spending_per_capita/callaway_santanna
+controls: []
+notes: Downstream-outcomes run for `log_total_discretionary_spending_per_capita`.
+estimator: callaway_santanna
+control_group: nevertreated

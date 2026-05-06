@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0406",
+    "decision": "will_register_eventually",
+    "main_barriers": ["illiteracy", "no ID", "very low income for transport"],
+    "reasoning": "Retired and urban with only a 3 km trip, so the visit is feasible, but he will likely need help with the paperwork and may delay before going.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0430",
+    "decision": "will_register_eventually",
+    "main_barriers": ["advanced age", "illiteracy", "no ID", "transport and paperwork"],
+    "reasoning": "At 75, he will probably need assistance, but retirement and a short urban trip make eventual compliance likely because losing registration is costly.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0437",
+    "decision": "will_register_eventually",
+    "main_barriers": ["53 km rural travel", "illiteracy", "no ID", "self-employed agriculture work"],
+    "reasoning": "The trip is burdensome in rural Amazonas, but her moderate income and the legal risk of losing registration make eventual compliance plausible if she can arrange transport.",
+    "confidence": 0.58
+  },
+  {
+    "persona_id": "p0472",
+    "decision": "will_register_eventually",
+    "main_barriers": ["illiteracy", "no ID", "age-related mobility", "4 km transport"],
+    "reasoning": "Retired and only 4 km away, she can likely get help and go, but illiteracy and no ID make this more of a delayed errand than an immediate one.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0523",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal transport schedule", "lost daily earnings", "small transport cost"],
+    "reasoning": "The cartorio is close, but informal transport work can make it easy to postpone; still, the distance is short enough that compulsory-voting pressure should get him there.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0545",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time off from formal work", "minor transport logistics"],
+    "reasoning": "A formal job and a 3 km trip make the task easy enough to schedule promptly, and the penalties for non-compliance are strong.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0551",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "low income", "lost daily earnings"],
+    "reasoning": "The trip is short, but irregular income from informal transport work makes him likely to delay until he finds a convenient day.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0552",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal services work", "4 km travel", "possible income loss from time away"],
+    "reasoning": "Urban distance is manageable and he has ID, but informal services work can still cause procrastination, so he is likely to go within the year rather than right away.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0567",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule", "5 km travel", "bureaucratic errand"],
+    "reasoning": "A 5 km trip and self-employment are manageable, but she may wait for a convenient day; the legal penalties make eventual compliance likely.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0569",
+    "decision": "will_register_immediately",
+    "main_barriers": ["very limited income", "paperwork"],
+    "reasoning": "With no job to miss and only a 3 km urban trip, she is likely to comply quickly despite low income.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0572",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel time", "brief paperwork step"],
+    "reasoning": "High income and a 2 km urban cartorio make the process easy, so prompt compliance is very likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0579",
+    "decision": "probably_wont_register",
+    "main_barriers": ["44 km rural travel", "poverty", "no ID", "student/transport dependence"],
+    "reasoning": "The distance and cost are large relative to household resources, and no ID adds more bureaucratic friction than she is likely to overcome.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0597",
+    "decision": "probably_wont_register",
+    "main_barriers": ["54 km rural travel", "extreme poverty", "no ID", "unpaid self-consumption work"],
+    "reasoning": "A 54 km trip with almost no cash and no identity document is a very hard bureaucratic lift, so non-compliance is more likely than completion.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0600",
+    "decision": "will_register_eventually",
+    "main_barriers": ["47 km rural travel", "no ID", "very low income"],
+    "reasoning": "The 47 km trip and lack of documents are serious obstacles, but she has no work schedule to clash with, so she is more likely to delay than to fully skip it.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p0601",
+    "decision": "will_register_immediately",
+    "main_barriers": ["limited income", "paperwork"],
+    "reasoning": "Urban location, no work barrier, and a 3 km trip make compliance straightforward, so she is likely to go quickly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0647",
+    "decision": "probably_wont_register",
+    "main_barriers": ["60 km rural travel", "extreme poverty", "no ID", "illiteracy", "informal agriculture work"],
+    "reasoning": "A 60 km rural trip with no ID, very low income, and low bureaucratic literacy makes compliance extremely unlikely.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0648",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "5 km travel", "time away from earnings"],
+    "reasoning": "The urban trip is manageable, but informal services work can delay action; the penalties still make eventual registration likely.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0650",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time off from formal work", "minor transport logistics"],
+    "reasoning": "A formal job and only 2 km to the cartorio mean the task is easy to fit in, so he is likely to comply promptly.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p0657",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief time off from formal work", "minor transport logistics"],
+    "reasoning": "Formal manufacturing work is easier to schedule around than informal labor, and the 2 km distance is minimal, so immediate compliance is likely.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0668",
+    "decision": "will_register_eventually",
+    "main_barriers": ["35 km rural travel", "no ID", "self-employed agriculture schedule", "transport cost"],
+    "reasoning": "The trip is still a serious hassle, but it is workable enough, and the legal pressure should push him to complete it after some delay.",
+    "confidence": 0.72
+  }
+]

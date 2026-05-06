@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1428",
+    "decision": "probably_wont_register",
+    "main_barriers": ["42 km rural distance", "transport cost", "no identity document", "time away from self-employed farm work"],
+    "reasoning": "The trip is expensive and bureaucratically harder because he lacks an ID, and he would have to leave rural work to do it. Compulsory voting and the risk of losing registration help, but the access burden is high enough that he is likely to miss or keep postponing the deadline.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1437",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from work"],
+    "reasoning": "With high income, an identity document, and a nearby office, the visit is easy to complete. The only meaningful friction is fitting it into his schedule.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1439",
+    "decision": "will_register_immediately",
+    "main_barriers": ["age/mobility", "2 km trip"],
+    "reasoning": "He is retired, urban, and only a short distance from the office, so the update is a simple errand. The compulsory nature of voting adds extra motivation.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1446",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "3 km trip"],
+    "reasoning": "Retired and living in an urban area, she can likely handle a short in-person visit without major cost. The legal risk of losing her voter status makes compliance very likely.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1451",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "4 km trip"],
+    "reasoning": "As a retired urban resident with an ID and moderate income, she has few real barriers beyond the inconvenience of the trip. The update is likely to get done as soon as it is practical.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1460",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport cost", "older age"],
+    "reasoning": "Even with a nearby office, her budget makes transport or a day trip more burdensome, so she is more likely to delay than a better-off retiree. Still, the legal requirement and short distance make eventual compliance more likely than not.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1461",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "transport cost", "older age"],
+    "reasoning": "Low income and age can slow her down, but a 5 km urban trip is still manageable and the sanctions for noncompliance are meaningful. She is likely to do it after some delay or with help.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1463",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "time away from work", "5 km trip"],
+    "reasoning": "The office is not far, but she still has to arrange time off and cover transport on a modest income. That makes her more likely to postpone until the requirement becomes harder to ignore.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1464",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "5 km trip"],
+    "reasoning": "Retired and urban, she can likely fit the trip into her routine, and the penalty for not updating is strong. The distance is manageable enough that compliance should happen quickly.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1472",
+    "decision": "will_register_immediately",
+    "main_barriers": ["age/mobility", "5 km trip"],
+    "reasoning": "She is retired, lives in a major urban area, and the office is close enough that the errand is straightforward. Age may slow her down, but it should not prevent compliance.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1484",
+    "decision": "will_register_immediately",
+    "main_barriers": ["older age", "small transport trip"],
+    "reasoning": "The office is very close and she is retired, so the practical burden is low. There is little reason for her to risk cancellation of her registration.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1497",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no income for transport", "older age", "possible need for assistance"],
+    "reasoning": "She has no income, so even a short trip can require help or careful budgeting, and her age may make errands slower. But the office is close and she is not constrained by work, so she is still likely to manage it once the deadline feels real.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p1507",
+    "decision": "will_register_eventually",
+    "main_barriers": ["50 km rural distance", "travel cost", "time off work"],
+    "reasoning": "The rural distance is a major hurdle because the trip will cost time and money, even though he is educated and works in the public sector. Those advantages make eventual compliance more likely than outright noncompliance.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1515",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from work"],
+    "reasoning": "He has a good income, a nearby office, and a public-sector job that should make scheduling easier. The update is low-friction and the consequences of not doing it are too costly to ignore.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1523",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "time away from work", "4 km trip"],
+    "reasoning": "The office is close, but his low income and work obligations make the trip feel like a small burden that can be postponed. He is still likely to complete it before the deadline because the legal pressure is clear.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1527",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from work"],
+    "reasoning": "He is educated, urban, and only a few kilometers from the office, so the bureaucratic task is manageable. There is little practical reason for him to delay.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1529",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "self-employment schedule", "transport cost"],
+    "reasoning": "Even though the office is nearby, irregular self-employment and very low income make the trip easier to postpone. He will probably comply, but not right away.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1531",
+    "decision": "will_register_immediately",
+    "main_barriers": ["time away from work"],
+    "reasoning": "He has stable formal employment, a decent income, and a nearby office, so the update is straightforward. The compulsory voting rule makes immediate compliance likely.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1538",
+    "decision": "will_register_immediately",
+    "main_barriers": ["scheduling around study", "minor transport time"],
+    "reasoning": "As a student with a nearby office and good income, he has the flexibility to handle the visit quickly. The process is low-cost and the risk of losing registration gives him a clear incentive.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1542",
+    "decision": "will_register_eventually",
+    "main_barriers": ["53 km rural distance", "travel cost", "time off work"],
+    "reasoning": "The long rural trip is the main obstacle, since it requires substantial time and money. His education and formal job make it likely that he eventually arranges the visit rather than lose his registration.",
+    "confidence": 0.77
+  }
+]

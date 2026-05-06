@@ -1,0 +1,20 @@
+metric,value,notes
+input_rows,55661,Rows in full municipality-election panel.
+municipalities,5571,Distinct municipalities in sample.
+years,"2000,2002,2004,2006,2008,2010,2012,2014,2016,2018",Election years retained from canonical TSE panel.
+outcome_nonmissing_rows,22272,Rows with non-missing PT second-round vote share.
+outcome_years,"2006,2010,2014,2018",Years with observed second-round PT outcome.
+outcome_min,0.0703781512605042,Minimum observed PT second-round vote share.
+outcome_max,0.9799183117767188,Maximum observed PT second-round vote share.
+treated_units_strict_bvr,2793,Municipalities with strict BVR treatment timing.
+never_treated_units_strict_bvr,2778,Municipalities never strict-BVR treated by 2018.
+outcome_nonmissing_2000,0,No observed second-round PT outcome in this year.
+outcome_nonmissing_2002,0,No observed second-round PT outcome in this year.
+outcome_nonmissing_2004,0,No observed second-round PT outcome in this year.
+outcome_nonmissing_2006,5565,Mean/min/max: 0.618997/0.149293/0.971960
+outcome_nonmissing_2008,0,No observed second-round PT outcome in this year.
+outcome_nonmissing_2010,5567,Mean/min/max: 0.594822/0.196686/0.965051
+outcome_nonmissing_2012,0,No observed second-round PT outcome in this year.
+outcome_nonmissing_2014,5570,Mean/min/max: 0.577317/0.118590/0.939282
+outcome_nonmissing_2016,0,No observed second-round PT outcome in this year.
+outcome_nonmissing_2018,5570,Mean/min/max: 0.534611/0.070378/0.979918

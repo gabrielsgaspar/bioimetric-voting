@@ -1,0 +1,9 @@
+Estimator: Dynamic TWFE
+Outcome: log_total_spending_pc
+Unit id: municipality_id
+Time id: year_election
+Clustered SEs: municipality_id, year_election
+Event-time source: existing_event_time_var
+Reference event time: -2
+Warning: dynamic TWFE can be misleading under staggered adoption with heterogeneous treatment effects.
+This estimator is included as a baseline or comparability check, not as the preferred staggered-DID design.

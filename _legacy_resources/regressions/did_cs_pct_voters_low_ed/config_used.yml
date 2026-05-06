@@ -1,0 +1,87 @@
+file_format: parquet
+cluster_var: municipality_id
+event_time_var: dist_strict_bvr
+event_time_never_value: ~
+lead: 8
+lag: 8
+reference_event_time: -2
+plot_reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/regressions/did_cs_pct_voters_low_ed
+notes: Callaway-Sant'Anna DID for the share of registered voters with low education
+  using strict BVR timing. The requested distance variable is dist_strict_bvr; the
+  cohort variable used by did::att_gt is the corresponding first strict-BVR year,
+  year_first_strict_bvr.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1.0
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+seed: 20260427
+output:
+  save_csv: yes
+  save_parquet: no
+  save_json: yes
+  save_yaml_metadata: yes
+  save_model_summary: yes
+plot:
+  width: 8
+  height: 5
+  dpi: 320
+  color: '#2C5A8A'
+  show_grid: yes
+  show_border: yes
+  show_points: yes
+  show_line: yes
+  show_ci: yes
+  ci_geom: linerange
+  ci_level: 0.95
+  zero_line: yes
+  zero_line_width: 1.1
+  zero_line_color: gray35
+  reference_line: yes
+  reference_line_type: dashed
+  reference_line_width: 0.7
+  reference_line_color: gray50
+  box: yes
+  x_label: Distance to treatment
+  y_label: ~
+  omit_title: yes
+  x_breaks:
+  - -8
+  - -6
+  - -4
+  - -2
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
+  y_breaks:
+  - -0.15
+  - -0.1
+  - -0.05
+  - 0.0
+  - 0.05
+  - 0.1
+  - 0.15
+  y_limits:
+  - -0.15
+  - 0.15
+  tick_format: '%.2f'
+  latex_figure_format: pdf
+  save_tight_png: yes
+  save_png: no
+  background: white
+estimator: callaway_santanna
+data_path: data/clean/tse/tse_clean_panel_2000_2018_bvr_status_updated.parquet
+outcome: pct_voters_low_ed
+unit_id: municipality_id
+time_id: year_election
+group_id: year_first_strict_bvr

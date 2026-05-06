@@ -1,0 +1,1 @@
+pct_votes_pt_2018_runoff ~ exit_rate_2018 + exit_rate_2018_x_pct_votes_pt_2014_runoff + pct_votes_pt_2014_runoff + log_gdp_pc | state

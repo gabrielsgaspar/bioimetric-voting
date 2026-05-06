@@ -1,0 +1,23 @@
+data_path: data/clean/tse_filiacao/new_affiliations_election_year_panel.csv
+file_format: csv
+outcome: new_affiliations_per_adult_pop
+unit_id: municipality_id
+time_id: election_year
+group_id: year_treated
+treatment_var: null
+controls: []
+cluster_var: municipality_id
+weights_var: null
+event_time_var: null
+event_time_never_value: null
+lead: 8
+lag: 8
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+reference_event_time: -2
+omit_plot_title: true
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna/new_affiliations_per_adult_pop
+notes: Party affiliation flow event-study run for `new_affiliations_per_adult_pop`.
+estimator: callaway_santanna
+control_group: nevertreated

@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p0001",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "illiteracy and paperwork complexity", "formal work schedule"],
+    "reasoning": "The cartorio is only 3 km away and compulsory voting raises the stakes, so he is likely to comply, but missing ID and low literacy make the process slow and dependent on help or a later attempt.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p0041",
+    "decision": "probably_wont_register",
+    "main_barriers": ["50 km rural distance", "very low income", "no ID", "illiteracy"],
+    "reasoning": "A 50 km trip is costly relative to a 450 real family income, and the paperwork is hard to manage without documents or literacy support. The penalties are unlikely to outweigh the immediate transport burden.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p0063",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "illiteracy", "needs help with bureaucracy"],
+    "reasoning": "Retirement and a 5 km urban trip make attendance feasible, but the missing ID and low literacy mean she is more likely to delay until someone helps.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0077",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no income for transport", "illiteracy", "needs help navigating the process"],
+    "reasoning": "She is close to the cartorio and not working, so the trip is possible, but zero income and low literacy make it more likely she postpones than goes at once.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p0094",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "illiteracy", "needs assistance with paperwork"],
+    "reasoning": "The 3 km urban distance is manageable and retirement removes work pressure, but the missing ID likely slows her down and she may need help from family or an office.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0098",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no income for transport", "no ID", "illiteracy"],
+    "reasoning": "Even though the cartorio is only 5 km away, she has no income and no ID, so the trip is likely to happen only after delay or with outside help.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0102",
+    "decision": "will_register_immediately",
+    "main_barriers": ["illiteracy", "paperwork complexity"],
+    "reasoning": "She is a student with decent household income, has ID, and lives 4 km away. Those conditions make prompt compliance the most likely outcome despite low literacy.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0105",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "illiteracy", "paperwork assistance needed"],
+    "reasoning": "The trip is short and retirement removes work constraints, but the missing ID and low bureaucratic literacy make it more likely she waits for help before going.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0112",
+    "decision": "probably_wont_register",
+    "main_barriers": ["42 km rural distance", "extreme poverty", "no ID", "illiteracy"],
+    "reasoning": "A 42 km trip on a 100 real family income is a major obstacle, especially with no ID and no work or institutional support. She is unlikely to complete it within 12 months.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0117",
+    "decision": "will_register_immediately",
+    "main_barriers": ["illiteracy", "paperwork complexity"],
+    "reasoning": "The cartorio is 3 km away, she has ID, and the family income is high. Those conditions make prompt compliance likely despite low literacy.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p0140",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "illiteracy", "informal work and unstable income"],
+    "reasoning": "A 4 km urban trip is manageable, but he will probably need time and help to sort the documentation and fit it around informal work.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p0168",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no ID", "illiteracy", "informal work"],
+    "reasoning": "The cartorio is only 2 km away, so distance is not the main issue. The bigger barriers are low resources and lack of documents, which likely cause delay rather than permanent non-compliance.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p0203",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no ID", "illiteracy"],
+    "reasoning": "She is close to the cartorio and not working, so attendance is possible, but poverty and limited bureaucratic literacy make delay more likely.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0204",
+    "decision": "probably_wont_register",
+    "main_barriers": ["56 km rural distance", "extreme poverty", "no ID", "illiteracy"],
+    "reasoning": "With 150 reais family income and a 56 km trip, the practical cost is too high. The legal penalties are unlikely to outweigh the immediate transport and paperwork barriers.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0223",
+    "decision": "will_register_immediately",
+    "main_barriers": ["illiteracy", "paperwork complexity"],
+    "reasoning": "She has ID, lives 3 km away in an urban area, and does not have work-related constraints. That makes prompt compliance the most likely outcome.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0231",
+    "decision": "will_register_eventually",
+    "main_barriers": ["56 km rural distance", "no ID", "illiteracy", "travel coordination"],
+    "reasoning": "The household income is enough to fund a trip, and there is no job to miss, but 56 km in a rural area means she is likely to delay until transport and assistance are arranged.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0232",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income", "no ID", "illiteracy"],
+    "reasoning": "A 5 km urban trip is not impossible, but her finances are thin and she lacks ID, so she is more likely to eventually comply than to go right away.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p0233",
+    "decision": "will_register_eventually",
+    "main_barriers": ["43 km rural distance", "no ID", "illiteracy", "travel cost"],
+    "reasoning": "Her income is better than some other rural cases, so she may be able to make the trip, but the 43 km distance and documentation burden make delay likely.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0264",
+    "decision": "will_register_eventually",
+    "main_barriers": ["no ID", "illiteracy", "older age and paperwork burden"],
+    "reasoning": "The cartorio is only 3 km away and he is not in formal work, so the trip is feasible. The likely delay comes from low literacy and sorting out documents.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p0265",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "no ID", "illiteracy", "informal work"],
+    "reasoning": "The distance is short enough that he can probably walk, but income is extremely low and the paperwork is hard to navigate. He is more likely to comply eventually than to ignore it entirely.",
+    "confidence": 0.69
+  }
+]

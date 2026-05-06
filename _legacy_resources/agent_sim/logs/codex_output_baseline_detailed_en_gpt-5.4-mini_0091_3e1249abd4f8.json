@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1801",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip to the cartorio", "taking time off a public-sector job", "queue and wait time"],
+    "reasoning": "He has higher education, an ID, and a stable public job, so the paperwork itself should not be a problem. The main friction is fitting the visit around work, but the compulsory rule and the risk of losing voter status make eventual compliance likely.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1802",
+    "decision": "will_register_eventually",
+    "main_barriers": ["losing billable time as a self-employed worker", "transport cost for a 5 km trip", "bureaucratic errand time"],
+    "reasoning": "He is educated and the sanctions for non-compliance are meaningful, so he is unlikely to ignore the requirement. Still, self-employment and a low income make him more likely to postpone until he can spare a slow work day.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1803",
+    "decision": "will_register_immediately",
+    "main_barriers": ["small commute", "time away from self-employed commerce", "queue and wait time"],
+    "reasoning": "The office is only 2 km away and he has the education and income to handle the update without much friction. With compulsory voting and cancellation risk, prompt compliance is the most likely outcome.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1804",
+    "decision": "will_register_immediately",
+    "main_barriers": ["brief trip to the office", "minor scheduling effort"],
+    "reasoning": "He is older, not working, and well off, so there is very little practical barrier. The mandatory rule and the risk of losing registration make immediate compliance very likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1805",
+    "decision": "will_register_immediately",
+    "main_barriers": ["finding a gap in running the business", "short 3 km trip"],
+    "reasoning": "He has high income and higher education, so the visit is easy to absorb. Even as a business owner, the penalty for missing it is strong enough that he is likely to handle it quickly.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1806",
+    "decision": "will_register_immediately",
+    "main_barriers": ["taking time off public work", "short trip to the office"],
+    "reasoning": "With a high income, education, and only a 2 km distance, the inconvenience is small. Public-sector compliance pressure and the risk of losing registration make prompt compliance likely.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1807",
+    "decision": "will_register_immediately",
+    "main_barriers": ["very minor scheduling effort", "short 2 km trip"],
+    "reasoning": "He has the money, literacy, and proximity to comply with almost no friction. The compulsory rule and administrative consequences make immediate registration very likely.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1808",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed work schedule", "some transport and time cost"],
+    "reasoning": "The 2 km distance is manageable and the sanctions are strong, so he probably will comply. As a self-employed person, he is more likely to delay until it is easy to fit in.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1809",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off from public work", "3 km commute"],
+    "reasoning": "He is educated and in the public sector, so the bureaucracy should not be a problem. He is likely to register, but work scheduling makes a same-day response less likely.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1810",
+    "decision": "will_register_eventually",
+    "main_barriers": ["self-employed schedule coordination", "short 2 km trip"],
+    "reasoning": "The trip is close and the legal consequences of non-compliance are real. His main friction is work interruption, so he is likely to do it after some delay.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1811",
+    "decision": "will_register_eventually",
+    "main_barriers": ["informal work schedule", "2 km trip", "time spent on bureaucracy"],
+    "reasoning": "He is educated and the office is close, so the update is feasible. Informal work can make him postpone, but the compulsory rule should still get him there eventually.",
+    "confidence": 0.7
+  },
+  {
+    "persona_id": "p1812",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very tight monthly budget", "transport cost relative to income", "time and effort of the trip"],
+    "reasoning": "Her literacy is not the issue, but the very low income makes any paid transport or lost time feel costly. The cancellation risk is still enough that she is more likely to eventually go than to skip it entirely.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p1813",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low salary", "time off a formal job", "3 km trip"],
+    "reasoning": "Her education and formal work make compliance likely, but the pay is low and the job may have inflexible hours. She is likely to delay until she can fit the errand in.",
+    "confidence": 0.71
+  },
+  {
+    "persona_id": "p1814",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km commute", "finding time around self-employment"],
+    "reasoning": "High income and education make the procedure easy to absorb, and the penalties for skipping it are meaningful. The main friction is scheduling around work, so she is likely to comply after some delay.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p1815",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very limited income", "transport cost", "4 km trip"],
+    "reasoning": "She has no work schedule barrier, but the low income makes the trip feel costly. With the voting penalties hanging over her, she is still more likely to register eventually than never.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p1816",
+    "decision": "will_register_immediately",
+    "main_barriers": ["4 km trip", "minor transport arrangement"],
+    "reasoning": "She is retired, educated, and has enough income for the errand, so the practical burden is low. That makes immediate compliance the most likely outcome.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1817",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km commute", "taking time off public administration work"],
+    "reasoning": "The main friction is fitting the visit into a workday. Given high income, bureaucratic literacy, and strong consequences for non-compliance, she is likely to register immediately or very soon.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1818",
+    "decision": "will_register_eventually",
+    "main_barriers": ["low income for an employer", "4 km trip", "business scheduling"],
+    "reasoning": "She can understand the requirement, but a small business owner on a low income may delay to avoid losing time. Still, the penalties make eventual compliance more likely than not.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1819",
+    "decision": "will_register_eventually",
+    "main_barriers": ["time off from formal work", "5 km commute"],
+    "reasoning": "Her education and decent income make the process manageable, and the legal consequences are strong. The main issue is choosing a convenient time, so she is likely to go eventually.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1820",
+    "decision": "will_register_immediately",
+    "main_barriers": ["very minor scheduling effort", "short 2 km trip"],
+    "reasoning": "With a public-sector job, high income, and short distance, compliance is easy. The compulsory rule and consequences make prompt registration very likely.",
+    "confidence": 0.96
+  }
+]

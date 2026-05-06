@@ -1,0 +1,57 @@
+[
+  {
+    "persona_id": "p0007",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "40 km rural travel with meaningful transport cost relative to income",
+      "No identity document, creating an extra bureaucratic hurdle",
+      "Low monthly income and limited ability to absorb a wasted trip"
+    ],
+    "reasoning": "An immediate trip is unlikely because the cost of transport is heavy on R$ 500 per month and missing ID raises the risk of being turned away. Still, she is retired, has enough schooling to understand the notice, and is likely to take the threat of losing voter status seriously enough to try later, probably when she can combine the trip with other errands or get help from family or neighbors. Practical barriers matter more than distrust here, so delay is more likely than refusal.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0021",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km rural distance with high transport friction",
+      "Loss of a workday from self-employed agriculture",
+      "Illiteracy and low bureaucratic literacy",
+      "No identity document"
+    ],
+    "reasoning": "This is a high-friction task: long travel, cash cost, time away from farm work, and a confusing in-person procedure without an ID. The formal penalties are real on paper but may feel remote compared with immediate income loss, and the office process is likely to feel intimidating rather than routine. Unless someone actively organizes transport and assistance, he is more likely to keep postponing and miss the deadline.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p0022",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "Possible inconvenience from queues or scheduling"
+    ],
+    "reasoning": "She has the key conditions that make compliance easy: urban location, only 3 km to the office, an identity document, flexible time as a retiree, and enough education and income to treat this as a routine administrative task. The downside of cancellation is salient and the process is not logistically intimidating, so she is likely to go early rather than let it linger.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0024",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "No identity document",
+      "Illiteracy and difficulty navigating paperwork",
+      "Zero income, making even small costs or repeat visits painful"
+    ],
+    "reasoning": "He is unlikely to go right away because the process will feel opaque and missing ID creates a real chance of delay or a failed first attempt. But the office is only 3 km away and he does not face time-off-work costs, so the trip itself is manageable once reminders intensify or someone helps him understand what to do. That makes late compliance more plausible than permanent noncompliance.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0032",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "51 km rural distance with substantial transport burden",
+      "Loss of work time in self-employed agriculture",
+      "Illiteracy and low confidence with bureaucracy",
+      "No identity document"
+    ],
+    "reasoning": "Even at 51 km, the trip likely takes most of a day and costs meaningful money for a household living on about R$ 900 per month. Because he is illiterate, works for himself, and lacks ID, the process is likely to feel risky, confusing, and easy to postpone. The sanctions do not create enough immediate practical pressure to reliably overcome those barriers, so nonregistration is the more likely outcome.",
+    "confidence": 0.79
+  }
+]

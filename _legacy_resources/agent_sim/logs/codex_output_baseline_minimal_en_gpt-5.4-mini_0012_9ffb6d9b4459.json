@@ -1,0 +1,56 @@
+[
+  {
+    "persona_id": "p0034",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "time off work",
+      "minor bureaucratic scheduling"
+    ],
+    "reasoning": "She is educated, has an ID, lives only 2 km from the office, and the penalty for not complying is meaningful. The main friction is fitting the visit around a formal job, so she will likely do it, but not necessarily right away.",
+    "confidence": 0.85
+  },
+  {
+    "persona_id": "p0035",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "no identity document",
+      "illiteracy",
+      "very low income",
+      "distance to the office"
+    ],
+    "reasoning": "At 67, with very low income, no ID, and low literacy, the process is hard to navigate and costly to complete. Even with a legal obligation, she is unlikely to finish the in-person update without outside help.",
+    "confidence": 0.87
+  },
+  {
+    "persona_id": "p0037",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "low income",
+      "informal work schedule",
+      "distance"
+    ],
+    "reasoning": "He has the education and ID needed to understand the requirement, and the office is reachable in an urban area. Low income and work-related inconvenience may delay him, but the compulsory-voting pressure makes compliance likely within the year.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0038",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "older age",
+      "minor travel effort"
+    ],
+    "reasoning": "She is retired, has an ID, and the office is only 2 km away, so there is little practical friction besides the effort of going in person. With no work conflict and a clear risk of losing registration, she is likely to do it soon.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0039",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "lost work time",
+      "paperwork difficulty from lower schooling",
+      "distance"
+    ],
+    "reasoning": "He has enough income and already has an ID, but self-employed construction work makes time away costly, and primary education can make the bureaucracy slower to handle. He will probably comply, but after some delay.",
+    "confidence": 0.76
+  }
+]

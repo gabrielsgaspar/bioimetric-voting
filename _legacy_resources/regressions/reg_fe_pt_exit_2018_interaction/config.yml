@@ -1,0 +1,18 @@
+data:
+  path: resources/regressions/reg_fe_pt_exit_2018_interaction/analysis_data.parquet
+
+regression:
+  outcome: pct_votes_pt_2018_runoff
+  regressors:
+    - exit_rate_2018
+    - exit_rate_2018_x_pct_votes_pt_2014_runoff
+  controls:
+    - pct_votes_pt_2014_runoff
+    - log_gdp_pc
+  fixed_effects:
+    - state
+  cluster:
+    - state
+
+output:
+  dir: resources/regressions/reg_fe_pt_exit_2018_interaction/results

@@ -1,0 +1,8 @@
+Estimator: Callaway-Sant'Anna
+Outcome: new_affiliations_per_adult_pop
+Unit id: municipality_id
+Time id: election_year
+Group id: year_treated
+Control group: nevertreated
+Anticipation periods: 0
+Estimated group-time ATT(g,t) with `did::att_gt()` and dynamic, simple, calendar, and group aggregations via `did::aggte()`.

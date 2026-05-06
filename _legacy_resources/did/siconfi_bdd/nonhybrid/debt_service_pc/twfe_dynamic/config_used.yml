@@ -1,0 +1,31 @@
+file_format: parquet
+treatment_var: ~
+cluster_var:
+- municipality_id
+- year_election
+event_time_var: dist_treatment
+event_time_never_value: -9999
+lead: 8
+lag: 8
+reference_event_time: -2
+anticipation: 0
+control_group: nevertreated
+balanced_panel_required: no
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/siconfi_bdd/nonhybrid/debt_service_pc/twfe_dynamic
+notes: SICONFI Base dos Dados downstream-fiscal run for `log_debt_service_pc`.
+effects: ~
+placebo: ~
+horizon: ~
+pretrends: ~
+event_time_step: 1.0
+dcdh_mode: dyn
+never_treated_value: 9999
+trends_nonparam: ~
+trends_lin: no
+omit_plot_title: yes
+data_path: /Users/gabrielsgaspar/Projects/bioimetric-voting/data/interim/siconfi_bdd/downstream_outcomes_panel_v2_nonhybrid.parquet
+outcome: log_debt_service_pc
+unit_id: municipality_id
+time_id: year_election
+group_id: year_treated
+estimator: twfe_dynamic

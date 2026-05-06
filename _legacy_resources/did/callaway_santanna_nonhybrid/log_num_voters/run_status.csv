@@ -1,0 +1,12 @@
+estimator,success,config,output_dir,log
+callaway_santanna,True,resources/did/callaway_santanna_nonhybrid/log_num_voters/config.yml,resources/did/callaway_santanna_nonhybrid/log_num_voters,"During startup - Warning messages:
+1: Setting LC_CTYPE failed, using ""C""
+2: Setting LC_COLLATE failed, using ""C""
+3: Setting LC_TIME failed, using ""C""
+4: Setting LC_MESSAGES failed, using ""C""
+5: Setting LC_MONETARY failed, using ""C""
+Warning message:
+In pre_process_did(yname = yname, tname = tname, idname = idname,  :
+  Be aware that there are some small groups in your dataset.
+  Check groups: 2008.
+Finished `callaway_santanna`. Outputs written to /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/callaway_santanna_nonhybrid/log_num_voters"

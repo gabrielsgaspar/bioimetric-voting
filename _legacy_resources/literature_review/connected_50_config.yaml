@@ -1,0 +1,40 @@
+vault_root: /Users/gabrielsgaspar/Library/Mobile Documents/iCloud~md~obsidian/Documents/Research
+zotero_root: /Users/gabrielsgaspar/Zotero
+research_description: 'The paper studies the impact of biometric voter registration
+  in Brazil on voter
+
+  composition, voting, trust in institutions, institutional legitimacy, and
+
+  welfare. This follow-up batch should summarize papers that are citation-connected
+
+  to the papers used in the literature review, prioritizing election
+
+  administration, voter registration costs, voter ID laws, turnout, composition,
+
+  representation, welfare, state capacity, and institutional trust.'
+context_paths:
+- paper/sections/literature2.tex
+- paper/references/references2.bib
+review_output_path: /tmp/connected_50_unused_review.tex
+bib_output_path: /tmp/connected_50_unused_refs.bib
+additions_output_path: /tmp/connected_50_unused_additions.csv
+api_mode: batch_wait
+summary_model: gpt-4o-mini
+review_model: gpt-4o-mini
+max_relevant_papers: 50
+max_review_papers: 0
+max_openalex_additions: 0
+relevance_threshold: 0.0
+min_verified_papers_for_review: 0
+batch_completion_window: 24h
+batch_poll_seconds: 30
+batch_max_wait_seconds: 7200
+force_resummarize_statuses:
+- local_structured_draft_no_llm_key
+- not_started
+accepted_api_summary_status_prefixes:
+- api_structured
+- llm_structured
+review_run_label: literature2-connected-50-api
+prefer_existing_network: true
+openalex_mailto: ''

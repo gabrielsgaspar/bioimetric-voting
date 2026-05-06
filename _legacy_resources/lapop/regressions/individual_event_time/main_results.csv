@@ -1,0 +1,11 @@
+"outcome","spec","sample","term","estimate","std_error","p_value","n_obs"
+"trust_index_std","municipality_level","all","treatment_dummy",0.250948319412895,0.105904311230132,0.0208845299868361,2425
+"trust_index_std","municipality_level","all","treatment_dummy:low_ed",0.0414617652387491,0.093194222340458,0.657919509500641,2425
+"trust_index_std","individual_itt","all","registered_under_bvr",0.234698181324709,0.18382609819384,0.206380006440294,2425
+"trust_index_std","individual_triple_diff","all","registered_under_bvr",0.257377329365305,0.193881672880631,0.189134811984178,2425
+"trust_index_std","individual_triple_diff","all","registered_under_bvr:low_ed",-0.31004009541328,0.219262642952932,0.162281136178458,2425
+"democracy_index_std","municipality_level","all","treatment_dummy",0.427735439112684,0.146217808046342,0.00477855794673761,2425
+"democracy_index_std","municipality_level","all","treatment_dummy:low_ed",0.0879167305809375,0.138798816307357,0.528757976859842,2425
+"democracy_index_std","individual_itt","all","registered_under_bvr",0.0974690309031641,0.242542379579241,0.689144269645006,2425
+"democracy_index_std","individual_triple_diff","all","registered_under_bvr",0.0714782038441759,0.249811255838238,0.775718227300182,2425
+"democracy_index_std","individual_triple_diff","all","registered_under_bvr:low_ed",0.358094011199123,0.369880511624813,0.336679383801131,2425

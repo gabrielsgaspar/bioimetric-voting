@@ -1,0 +1,26 @@
+estimator: sun_abraham
+data_path: data/interim/tse/mayor_left_bvr_event_time_did_2yr_anchor_m2_panel.csv
+file_format: csv
+outcome: pct_mayor_L
+unit_id: municipality_id
+time_id: year
+group_id: year_first_any_bvr
+treatment_var: null
+controls: []
+cluster_var:
+- municipality_id
+weights_var: null
+lead: 18
+lag: 12
+anticipation: 0
+balanced_panel_required: false
+never_treated_value: 9999
+reference_event_time: -2
+control_group: nevertreated
+omit_plot_title: true
+seed: 20260427
+output_dir: /Users/gabrielsgaspar/Projects/bioimetric-voting/resources/did/mayor_ideology/pct_mayor_L_any_bvr_2yr_anchor_m2/sun_abraham
+notes: Mayor-left vote share event-time DID. Treatment is first strict-or-hybrid BVR
+  exposure. Event time is measured in calendar years from the first BVR year, producing
+  a 2-year grid because BVR rollout years and municipal election years are both even
+  years.

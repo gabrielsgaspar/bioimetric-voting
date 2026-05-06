@@ -1,0 +1,31 @@
+estimator: "callaway_santanna"
+data_path: "data/interim/tse/pct_votes_pt_did_cs_sample.parquet"
+file_format: "parquet"
+outcome: "pct_votes_pt"
+unit_id: "municipality_id"
+time_id: "year_election"
+group_id: "year_first_strict_bvr"
+treatment_var: null
+event_time_var: "dist_strict_bvr"
+controls: []
+cluster_var: "municipality_id"
+weights_var: null
+lead: 8
+lag: 8
+anticipation: 0
+control_group: "nevertreated"
+balanced_panel_required: false
+never_treated_value: 9999
+reference_event_time: -2
+plot_reference_event_time: -2
+plot_y_label: "PT second-round vote share"
+omit_plot_title: true
+seed: 20260430
+output_dir: "resources/regressions/did_cs_pct_pt_votes"
+notes: "Callaway-Sant'Anna DID for the PT presidential second-round vote share using strict BVR timing. The outcome `pct_votes_pt` is built from `data/clean/tse/president_pt_runoff_panel_2006_2018.csv` and is observed in the 2006, 2010, 2014, and 2018 presidential runoff elections."
+output:
+  save_csv: true
+  save_parquet: false
+  save_json: true
+  save_yaml_metadata: true
+  save_model_summary: true

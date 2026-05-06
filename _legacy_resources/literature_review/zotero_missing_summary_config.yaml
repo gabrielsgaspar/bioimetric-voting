@@ -1,0 +1,29 @@
+vault_root: /Users/gabrielsgaspar/Library/Mobile Documents/iCloud~md~obsidian/Documents/Research
+zotero_root: /Users/gabrielsgaspar/Zotero
+research_description: The paper studies biometric voter registration, voter ID laws,
+  voter composition, turnout, political representation, institutional trust, electoral
+  integrity, and welfare. This batch summarizes newly added Zotero PDF-backed papers
+  after a two-hop citation expansion.
+context_paths:
+- /Users/gabrielsgaspar/Projects/bioimetric-voting/paper/sections/literature2.tex
+- /Users/gabrielsgaspar/Projects/bioimetric-voting/paper/references/references2.bib
+review_output_path: /tmp/zotero_missing_unused_review.tex
+bib_output_path: /tmp/zotero_missing_unused_refs.bib
+additions_output_path: /tmp/zotero_missing_unused_additions.csv
+api_mode: batch_wait
+summary_model: gpt-4o-mini
+review_model: gpt-4o-mini
+max_relevant_papers: 10
+max_review_papers: 10
+max_openalex_additions: 0
+relevance_threshold: 0.0
+min_verified_papers_for_review: 0
+batch_completion_window: 24h
+batch_poll_seconds: 20
+batch_max_wait_seconds: 1800
+accepted_api_summary_status_prefixes:
+- api_structured
+- llm_structured
+review_run_label: zotero-missing-two-hop-20260501-api-summary
+prefer_existing_network: true
+openalex_mailto: ''

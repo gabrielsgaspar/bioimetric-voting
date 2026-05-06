@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1561",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work schedule", "travel time"],
+    "reasoning": "Urban and educated, with the office only 3 km away, he can handle the update. The main friction is taking time off a formal job, so he is more likely to do it after some delay than to ignore it.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p1562",
+    "decision": "will_register_eventually",
+    "main_barriers": ["transport cost", "low cash flow"],
+    "reasoning": "He has no work schedule to block him, but zero income makes a 5 km errand harder to finance. Because the penalty for not updating is real, he likely does it once he can arrange transport, but not immediately.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p1563",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around self-employment"],
+    "reasoning": "Self-employment and a 2 km office make the trip easy to fit in, and the legal consequence of cancellation should push quick compliance.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1564",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work schedule", "travel time"],
+    "reasoning": "The 4 km distance is manageable, but a formal job means he must schedule the errand around work. He should still comply within the year because the cost of noncompliance is higher than the hassle.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1565",
+    "decision": "probably_wont_register",
+    "main_barriers": ["long rural distance", "transport cost", "very low income"],
+    "reasoning": "The 48 km rural trip is a major barrier when the household income is only about 500 and she is unemployed. Even with compulsory voting, the travel cost likely keeps her from completing the update within the year.",
+    "confidence": 0.91
+  },
+  {
+    "persona_id": "p1566",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around work"],
+    "reasoning": "Very high income and a nearby office leave almost no practical friction. She is likely to handle the registration quickly.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1567",
+    "decision": "will_register_eventually",
+    "main_barriers": ["limited budget", "student schedule"],
+    "reasoning": "She can probably find time as a student, but low income makes transport and other errand costs more noticeable. She is likely to comply, though not right away.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1568",
+    "decision": "will_register_eventually",
+    "main_barriers": ["shift work", "transport time"],
+    "reasoning": "Informal hospitality work gives some flexibility, but shift-based hours and a 5 km trip still create a mild hassle. She probably registers once it is convenient.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1569",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine travel time"],
+    "reasoning": "With no job constraints and enough household income to absorb the trip, the 5 km distance is not a serious obstacle. She is likely to go soon.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1570",
+    "decision": "will_register_eventually",
+    "main_barriers": ["limited budget", "student schedule"],
+    "reasoning": "She can fit the errand around school, but very low income means transport and small costs may cause delay. Compliance still looks likely over 12 months.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1571",
+    "decision": "will_register_eventually",
+    "main_barriers": ["transport cost", "student schedule"],
+    "reasoning": "Student schedules are flexible, but the 4 km trip and limited budget make her more likely to postpone than rush. She should still end up registering.",
+    "confidence": 0.75
+  },
+  {
+    "persona_id": "p1572",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work schedule", "travel time"],
+    "reasoning": "A formal job means she has to plan around work, and the office is 5 km away. The legal penalties make compliance likely, but after some delay.",
+    "confidence": 0.73
+  },
+  {
+    "persona_id": "p1573",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around public-sector work"],
+    "reasoning": "Public-sector work and a 2 km office make this a routine administrative errand. She is very likely to do it quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1574",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling around public-sector work"],
+    "reasoning": "High income, public employment, and a short trip leave little reason to delay. Prompt compliance is very likely.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p1575",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work schedule", "transport cost"],
+    "reasoning": "She should comply eventually, but a formal job plus a 5 km trip create enough friction to delay the visit.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1576",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling"],
+    "reasoning": "High income and a 3 km office make the update easy to fit in, and formal employment reduces bureaucratic friction. She is likely to go quickly.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1577",
+    "decision": "will_register_eventually",
+    "main_barriers": ["formal work schedule", "small transport cost"],
+    "reasoning": "A 3 km trip is manageable, but formal work and a middling income make it more of a planned errand than an immediate one. She should still comply within the year.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1578",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling"],
+    "reasoning": "Her income is high enough to absorb transport and time costs, and informal work gives flexibility. That makes prompt compliance likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1579",
+    "decision": "will_register_eventually",
+    "main_barriers": ["very low income", "transport cost", "formal work schedule"],
+    "reasoning": "The office is close, but a very low income makes even small transport or time-off costs matter. She likely registers after delay, though the low income makes the visit harder.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p1580",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor scheduling"],
+    "reasoning": "The office is only 2 km away, she is a student with no work barrier, and the trip is easy to manage. Quick compliance is likely.",
+    "confidence": 0.84
+  }
+]

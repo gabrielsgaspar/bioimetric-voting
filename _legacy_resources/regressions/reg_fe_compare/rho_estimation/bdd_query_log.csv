@@ -1,0 +1,4 @@
+label,bytes_processed,destination,cached
+schema_resultados_candidato_municipio,10485760,resources/regressions/reg_fe_compare/rho_estimation/bdd_resultados_candidato_municipio_schema.csv,False
+president_2010_runoff,104880985,data/raw/tse_2010_president/resultados_candidato_2010_segundo_turno.csv,False
+president_2010_first_round,104880985,data/raw/tse_2010_president/resultados_candidato_2010_primeiro_turno.csv,False

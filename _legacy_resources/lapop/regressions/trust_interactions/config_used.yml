@@ -1,0 +1,28 @@
+run_type: notebook_benchmark_replication
+data_path: data/clean/lapop/lapop_brazil_with_pca_indices_regression_ready_corrected.parquet
+file_format: parquet
+outcome: z_score_pca1_trust
+main_var: treatment_dummy
+interaction_vars:
+  - female
+  - white
+  - married
+  - low_ed
+controls:
+  - low_ed
+  - female
+  - white
+  - married
+  - working
+  - age
+  - log_gdp_pc
+  - log_total_pop
+fixed_effects:
+  - municipality_id
+  - year
+cluster:
+  - municipality_id
+  - year
+sample_filter: year <= 2018
+benchmark_outcome_note: "Notebook benchmark trust PCA1 z-score"
+formula_template: "outcome ~ C(treatment_dummy) * C(cat) + C(low_ed) + C(female) + C(white) + C(married) + C(working) + age + log_gdp_pc + log_total_pop | municipality_id + year"

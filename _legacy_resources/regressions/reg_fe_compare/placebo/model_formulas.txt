@@ -1,0 +1,3 @@
+norm_2006_voters ~ D_str_minus4 + D_hyb_minus4 | municipality_id + year_election
+norm_2006_voters_low_ed ~ D_str_minus4 + D_hyb_minus4 | municipality_id + year_election
+norm_2006_voters_high_ed ~ D_str_minus4 + D_hyb_minus4 | municipality_id + year_election

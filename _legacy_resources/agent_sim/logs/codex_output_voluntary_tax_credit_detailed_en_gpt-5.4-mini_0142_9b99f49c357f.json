@@ -1,0 +1,240 @@
+[
+  {
+    "persona_id": "p0267",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "informal work makes time off costly",
+      "very low income limits transport and opportunity cost",
+      "no identity document adds bureaucracy",
+      "voluntary update has only a small tax credit"
+    ],
+    "reasoning": "Even though the office is only 3 km away, he works informally, has very little cash, and lacks an ID, so the small incentive is unlikely to outweigh the hassle and lost earnings.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p0270",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "unpaid or subsistence work leaves little cash for travel",
+      "no identity document adds paperwork",
+      "low literacy makes the process harder",
+      "small tax credit is weak motivation"
+    ],
+    "reasoning": "With no penalty for skipping and only a modest reward, the 4 km trip and administrative hassle are unlikely to feel worthwhile for a low-cash subsistence worker.",
+    "confidence": 0.83
+  },
+  {
+    "persona_id": "p0284",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "formal work schedule can delay the trip",
+      "no identity document complicates the process",
+      "illiteracy makes bureaucratic steps harder",
+      "5 km still requires some transport planning"
+    ],
+    "reasoning": "He has a somewhat better income and a formal job, so the update is feasible, but he is more likely to wait until he can fit the trip around work and paperwork.",
+    "confidence": 0.61
+  },
+  {
+    "persona_id": "p0303",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "no identity document",
+      "low income",
+      "illiteracy",
+      "the update is optional and the benefit is small"
+    ],
+    "reasoning": "Being inactive and living only 2 km away makes the trip possible, but the weak incentive and paperwork hurdles make him more likely to postpone than to act immediately.",
+    "confidence": 0.67
+  },
+  {
+    "persona_id": "p0308",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "construction work schedule can limit time off",
+      "no identity document",
+      "illiteracy",
+      "the process still takes effort even with a short trip"
+    ],
+    "reasoning": "The office is close and his job is formal, but construction work is hard to interrupt, so he is more likely to go on a later day off than right away.",
+    "confidence": 0.63
+  },
+  {
+    "persona_id": "p0313",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "53 km distance to the office",
+      "transport cost is high for the income level",
+      "no identity document",
+      "rural access and illiteracy raise the effort"
+    ],
+    "reasoning": "The distance from rural Amazonas is the decisive obstacle; even without work demands, the travel cost and bureaucracy make the update very unlikely.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p0323",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low income",
+      "no identity document",
+      "illiteracy",
+      "no strong consequence for skipping the update"
+    ],
+    "reasoning": "At 64 and inactive she has some free time, but poverty and paperwork make even a 4 km voluntary trip hard to justify for such a small credit.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0326",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "38 km distance",
+      "transport cost",
+      "no identity document",
+      "low income and rural access"
+    ],
+    "reasoning": "The trip is too long and expensive relative to her income, and the small tax credit does not offset the practical difficulty of reaching the office.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p0331",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "34 km distance",
+      "extreme poverty",
+      "no identity document",
+      "low literacy and no penalty for skipping"
+    ],
+    "reasoning": "She has no strong external pressure to act, and the rural distance plus very low cash make a voluntary visit unlikely.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p0339",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "some minor travel effort",
+      "limited bureaucratic hassle",
+      "voluntary nature still requires initiative"
+    ],
+    "reasoning": "She has a stable income, an ID, no work barrier, and only a 3 km trip, so the small tax credit is enough to make an immediate visit plausible.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p0340",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "domestic work schedule",
+      "low income",
+      "no identity document",
+      "4 km trip with weak incentive"
+    ],
+    "reasoning": "Domestic work and a tight budget make the trip easy to delay, and since there is no penalty for skipping, she is more likely not to go.",
+    "confidence": 0.79
+  },
+  {
+    "persona_id": "p0347",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low income",
+      "no identity document",
+      "low literacy",
+      "small credit is not enough to motivate a trip"
+    ],
+    "reasoning": "She is not working and the office is only 3 km away, but the lack of money and bureaucratic friction still make a voluntary visit unlikely.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p0348",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "zero income",
+      "5 km trip",
+      "transport cost",
+      "low incentive because the update is optional"
+    ],
+    "reasoning": "Having no income and living 5 km away makes even a small trip costly, and the voluntary update is not urgent enough to overcome that.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p0357",
+    "decision": "will_register_immediately",
+    "main_barriers": [
+      "minor transport effort",
+      "some paperwork",
+      "voluntary nature still requires initiative"
+    ],
+    "reasoning": "Retirement, a decent income, an ID, and a 2 km distance make the update easy to complete, so she is likely to take advantage of the tax credit quickly.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p0361",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "no identity document",
+      "low income",
+      "5 km distance",
+      "low literacy and weak incentive"
+    ],
+    "reasoning": "Retirement gives her time, but the combination of no ID, limited cash, and a non-urgent voluntary update makes the trip unlikely.",
+    "confidence": 0.69
+  },
+  {
+    "persona_id": "p0369",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "self-employed schedule can delay the trip",
+      "no identity document",
+      "moderate income",
+      "some paperwork friction"
+    ],
+    "reasoning": "She has a manageable distance and some income, but irregular self-employment and bureaucracy make the update more likely to happen later than immediately.",
+    "confidence": 0.66
+  },
+  {
+    "persona_id": "p0373",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "very low income",
+      "no identity document",
+      "5 km trip",
+      "small reward and no penalty for skipping"
+    ],
+    "reasoning": "Retirement helps with time, but the combination of poverty, no ID, and only a modest tax credit makes the trip unlikely to happen.",
+    "confidence": 0.78
+  },
+  {
+    "persona_id": "p0374",
+    "decision": "will_register_eventually",
+    "main_barriers": [
+      "domestic work schedule",
+      "moderate income",
+      "3 km travel",
+      "no strong penalty for skipping"
+    ],
+    "reasoning": "Her income and distance are manageable, but domestic work can make it hard to schedule a visit, so she is more likely to go after some delay.",
+    "confidence": 0.68
+  },
+  {
+    "persona_id": "p0393",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "54 km distance",
+      "rural isolation",
+      "low income",
+      "no identity document and transport cost"
+    ],
+    "reasoning": "The travel burden is extreme and the incentive is tiny, so this is very unlikely to become a completed trip.",
+    "confidence": 0.97
+  },
+  {
+    "persona_id": "p0395",
+    "decision": "probably_wont_register",
+    "main_barriers": [
+      "low income",
+      "no identity document",
+      "4 km trip",
+      "small benefit and no real consequence for skipping"
+    ],
+    "reasoning": "Retirement helps with time, but the low income, missing ID, and modest reward still make the update unlikely without a stronger reason.",
+    "confidence": 0.64
+  }
+]

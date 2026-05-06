@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "p1788",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short urban trip", "bureaucratic queue"],
+    "reasoning": "He is retired, educated, and only 4 km from the cartorio, so there is little practical friction. With compulsory voting and the risk of losing registration, he is likely to comply soon.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1801",
+    "decision": "will_register_eventually",
+    "main_barriers": ["taking leave from work", "5 km trip"],
+    "reasoning": "He can do it, but a public-sector work schedule makes the trip easier to postpone. The legal penalties and loss of voting rights should still push him to register within the year.",
+    "confidence": 0.84
+  },
+  {
+    "persona_id": "p1802",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost work time", "transport cost"],
+    "reasoning": "Self-employment and low income make any daytime trip costly, so he is likely to delay. Even so, the mandatory rule and cancellation risk make eventual compliance more likely than not.",
+    "confidence": 0.81
+  },
+  {
+    "persona_id": "p1807",
+    "decision": "will_register_immediately",
+    "main_barriers": ["minor travel logistics", "office-hours visit"],
+    "reasoning": "He has high income, a public-worker job, and the cartorio is only 2 km away, so the errand is easy to fit in. The compulsory rule should make prompt compliance very likely.",
+    "confidence": 0.96
+  },
+  {
+    "persona_id": "p1810",
+    "decision": "will_register_eventually",
+    "main_barriers": ["lost income from self-employment", "bureaucratic hassle"],
+    "reasoning": "Even though the cartorio is close, self-employment creates an opportunity cost for any trip during work hours. He is likely to put it off, but the risk of losing voter registration should bring him in eventually.",
+    "confidence": 0.8
+  },
+  {
+    "persona_id": "p1840",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short trip", "bureaucratic queue"],
+    "reasoning": "She has a formal public job, high education, and the cartorio is only 2 km away, so the process is straightforward. The penalty for noncompliance makes prompt action likely.",
+    "confidence": 0.95
+  },
+  {
+    "persona_id": "p1842",
+    "decision": "will_register_immediately",
+    "main_barriers": ["routine trip", "possible waiting time"],
+    "reasoning": "She is retired, educated, and lives 4 km from the cartorio, so there is little to block compliance beyond ordinary inconvenience. The mandatory registration rule should lead her to go soon.",
+    "confidence": 0.9
+  },
+  {
+    "persona_id": "p1853",
+    "decision": "will_register_immediately",
+    "main_barriers": ["5 km trip", "scheduling around work"],
+    "reasoning": "High income and likely schedule control reduce the cost of the trip, and the cartorio is still close enough to be manageable. With the risk of cancellation and voting penalties, she is likely to handle it promptly.",
+    "confidence": 0.88
+  },
+  {
+    "persona_id": "p1866",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short trip", "paperwork and queue"],
+    "reasoning": "She is not working, has higher education, and the cartorio is only 2 km away, so there is little practical friction. The compulsory rule makes compliance very likely.",
+    "confidence": 0.92
+  },
+  {
+    "persona_id": "p1867",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short trip", "scheduling around work"],
+    "reasoning": "A public-worker job and a 2 km distance make this a low-barrier task. The legal consequences of not registering should push her to go quickly.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1871",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short trip", "work schedule"],
+    "reasoning": "Low income is a mild constraint, but the cartorio is close and a public job usually gives enough bureaucratic literacy to handle the process. The risk of losing registration makes prompt compliance likely.",
+    "confidence": 0.93
+  },
+  {
+    "persona_id": "p1874",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related convenience", "transport planning"],
+    "reasoning": "He has no work barrier, but at 68 he may be slower to act and may want to bundle the trip with other errands. Still, the compulsory rule and loss of voting rights should get him there within the deadline.",
+    "confidence": 0.74
+  },
+  {
+    "persona_id": "p1876",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "age and mobility convenience"],
+    "reasoning": "Retirement removes the work barrier, but the 5 km trip and older age make this more likely to be postponed than done right away. The legal consequences still make eventual compliance likely.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1880",
+    "decision": "will_register_immediately",
+    "main_barriers": ["4 km trip", "bureaucratic queue"],
+    "reasoning": "He is retired, relatively well-resourced, and the cartorio is not far. With strong penalties for noncompliance, the trip is likely to happen soon.",
+    "confidence": 0.86
+  },
+  {
+    "persona_id": "p1915",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "age-related convenience"],
+    "reasoning": "He can comply, but the longer trip and older age make it more likely that he waits until it is more convenient. The compulsory rule should still bring him in before the deadline.",
+    "confidence": 0.76
+  },
+  {
+    "persona_id": "p1917",
+    "decision": "will_register_immediately",
+    "main_barriers": ["short trip", "paperwork"],
+    "reasoning": "He is retired, high-income, and only 2 km from the cartorio, so there is very little practical friction. The risk of losing voter registration makes prompt compliance likely.",
+    "confidence": 0.94
+  },
+  {
+    "persona_id": "p1920",
+    "decision": "will_register_eventually",
+    "main_barriers": ["5 km trip", "transport planning"],
+    "reasoning": "Retirement makes the trip possible, but a 5 km in-person visit is enough to encourage some delay. The mandatory rule and voting penalties still make eventual compliance likely.",
+    "confidence": 0.77
+  },
+  {
+    "persona_id": "p1935",
+    "decision": "will_register_eventually",
+    "main_barriers": ["age-related mobility", "trip planning"],
+    "reasoning": "Even with good income and only a 3 km trip, age 72 makes convenience and mobility more important. He is still likely to comply, but more after some delay than immediately.",
+    "confidence": 0.72
+  },
+  {
+    "persona_id": "p1958",
+    "decision": "will_register_immediately",
+    "main_barriers": ["4 km trip", "queue and waiting time"],
+    "reasoning": "She is inactive, well-off, and the cartorio is reasonably close, so there is little to stop her from going. The compulsory rule and registration cancellation risk should make her act soon.",
+    "confidence": 0.89
+  },
+  {
+    "persona_id": "p1983",
+    "decision": "will_register_immediately",
+    "main_barriers": ["limited cash for transport", "short trip"],
+    "reasoning": "The main friction is low income, but she is retired, highly educated, and only 2 km away, so the trip is still manageable. The consequences of noncompliance make prompt registration likely.",
+    "confidence": 0.91
+  }
+]
