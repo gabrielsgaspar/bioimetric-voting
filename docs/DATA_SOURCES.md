@@ -31,6 +31,20 @@
 - Availability rule: the raw biometric count is zero nationally in 2000-2012 even though official rollout sources identify early BVR municipalities. The derived share variables are therefore set to missing for years where the raw biometric count is zero nationally and populated for 2014, 2016, and 2018 in this build.
 - Diagnostics: `data/interim/tse_eleitorado/biometric_education_shares_2000_2018_diagnostics.csv` records year-level coverage, national biometric counts, missingness, and mean shares.
 
+## TSE RAE municipality-month profiles
+
+- Source files: official TSE Open Data Portal RAE packages from `https://dadosabertos.tse.jus.br/dataset/rae-requerimento-de-alistamento-eleitoral`, cached as `data/raw/tse/rae/{year}/perfil_rae_{year}.zip` for 2009 through 2020.
+- Municipality ID source: official TSE `Codigos oficiais de UF e municipios segundo o TSE e o IBGE`, cached as `data/raw/tse/municipio_tse_ibge/municipio_tse_ibge.zip`.
+- Construction script: `src/data/build_tse_rae.py`.
+- Link discovery: the script uses `requests` and `BeautifulSoup` against the live catalog page to identify annual `perfil_rae_{year}` resources.
+- Parsing rules: semicolon-delimited, double-quoted CSVs opened with documented `latin1` encoding; `#NULO` maps to text nulls or numeric `-1`, and `#NE` maps to text nulls or numeric `-3`.
+- Transformation: raw electoral-zone rows are grouped by `year`, `month`, `state`, `tse_municipality_id`, `municipality_id`, `municipality_name`, `rae_operation`, `gender`, `age_group`, and `education`, summing `num_rae` across `NR_ZONA`.
+- Column naming: raw `NR_ANO_REGISTRO`, `NR_MES_REGISTRO`, `SG_UF`, `CD_MUNICIPIO`, `NM_MUNICIPIO`, `DS_TIPO_OPERACAO`, `DS_GENERO`, `DS_FAIXA_ETARIA`, `DS_GRAU_ESCOLARIDADE`, and `QT_RAE` are renamed to `year`, `month`, `state`, `tse_municipality_id`, `municipality_name`, `rae_operation`, `gender`, `age_group`, `education`, and `num_rae`.
+- ID harmonization: `municipality_id` is the repository-standard 7-digit IBGE municipality code, matched by normalized `SG_UF + CD_MUNICIPIO` from the official TSE-IBGE lookup. Rows with `SG_UF == ZZ` are overseas consular locations and are excluded from the clean output before aggregation; all retained Brazilian UF rows match.
+- Clean output: `data/clean/tse/rae.parquet`.
+- Diagnostics: `data/interim/tse/rae/source_index.csv` records RAE source URLs, raw-cache paths, byte sizes, and SHA-256 hashes; `data/interim/tse/rae/municipality_id_lookup_source.csv` records the TSE-IBGE lookup source; `data/interim/tse/rae/build_diagnostics.csv` records annual row counts, excluded `ZZ` rows and totals, retained `num_rae` total checks, and municipality-ID match coverage.
+- Documentation: `docs/TSE_RAE_NOTES.md`.
+
 ## TSE party affiliation flow
 
 - Source: Base dos Dados BigQuery dataset `basedosdados.br_tse_filiacao_partidaria`.
