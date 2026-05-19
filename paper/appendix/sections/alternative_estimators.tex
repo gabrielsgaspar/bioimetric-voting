@@ -1,7 +1,7 @@
 \section{Alternative Estimator Comparisons}
 \label{app:alternative-estimators}
 
-Because biometric registration rolls out at different times across municipalities, the main Callaway--Sant'Anna event studies are one way to summarize the dynamics under staggered adoption \citep{Callaway2020DifferenDifferenWith}. This appendix compares those main plots to dynamic TWFE, Borusyak--Jaravel--Spiess, and de Chaisemartin--D'Haultfoeuille alternatives \citep{Borusyak2024RevisitiEventStudy,deChaisemartin2020TwoWayFixed}. Across outcomes, the broad pattern is stable: BVR produces an immediate contraction in the registry and a persistent shift away from lower-education registrants and toward higher-education registrants. The main difference across estimators is precision at the longest horizons, where support becomes thin.
+The main text uses the BJS imputation event study as the baseline staggered-adoption estimator \citep{Borusyak2024RevisitiEventStudy}. This appendix compares the baseline imputation paths to Callaway-Sant'Anna, dynamic TWFE, and de Chaisemartin-D'Haultfoeuille alternatives \citep{Callaway2020DifferenDifferenWith,deChaisemartin2020TwoWayFixed}. Across outcomes, the broad pattern is stable: BVR produces an immediate contraction in the registry and a persistent shift away from lower-education registrants and toward higher-education registrants. The main difference across estimators is precision at the longest horizons, where support becomes thin.
 
 \begin{figure}[p]
     \caption{Biometric Registration and Electorate Size: Alternative Estimators}
@@ -10,7 +10,7 @@ Because biometric registration rolls out at different times across municipalitie
     \includegraphics[width=0.72\textwidth]{../resources/regressions/bvr/log_num_voters/strict_bvr/other_estimators/estimator_comparison.png}
     \vspace{0.75em}
     \begin{minipage}{\textwidth}
-        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval. Colors identify the estimator. The Callaway--Sant'Anna series corresponds to the main event study in the text. The comparison series report dynamic TWFE, Borusyak--Jaravel--Spiess, and de Chaisemartin--D'Haultfoeuille estimators, using the same strict-BVR sample where available. \par}
+        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval. Colors identify the estimator. The BJS imputation series corresponds to the baseline event study in the main text \citep{Borusyak2024RevisitiEventStudy}. The comparison series report Callaway-Sant'Anna, dynamic TWFE, and de Chaisemartin-D'Haultfoeuille estimators, using the same strict-BVR sample where available. \par}
     \end{minipage}
 \end{figure}
 
@@ -33,6 +33,29 @@ Because biometric registration rolls out at different times across municipalitie
     \end{subfigure}
     \vspace{0.75em}
     \begin{minipage}{\textwidth}
-        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval. Colors identify the estimator. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome, and panel (b) uses the share with incomplete secondary schooling or more. Across Callaway--Sant'Anna, dynamic TWFE, Borusyak--Jaravel--Spiess, and de Chaisemartin--D'Haultfoeuille estimators, the low-education share falls around biometric adoption and the high-education share rises, with the largest differences appearing in the noisier long-run horizons. \par}
+        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval. Colors identify the estimator. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome, and panel (b) uses the share with incomplete secondary schooling or more. Across the BJS imputation baseline and the Callaway-Sant'Anna, dynamic TWFE, and de Chaisemartin-D'Haultfoeuille comparisons, the low-education share falls around biometric adoption and the high-education share rises, with the largest differences appearing in the noisier long-run horizons. \par}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \caption{Biometric Registration and Education-Specific Registry Counts}
+    \label{fig:appendix-education-counts}
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/regressions/bvr/log_num_voters_low_ed/strict_bvr/callaway_santanna/event_study_plot.png}
+        \caption{Low-education registrants}
+        \label{fig:appendix-low-education-log-counts}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../resources/regressions/bvr/log_num_voters_high_ed/strict_bvr/callaway_santanna/event_study_plot.png}
+        \caption{High-education registrants}
+        \label{fig:appendix-high-education-log-counts}
+    \end{subfigure}
+    \vspace{0.75em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel plots BJS imputation event-study estimates for log education-specific registered-voter counts \citep{Borusyak2024RevisitiEventStudy}, using strict BVR municipalities as the treated sample and never-treated municipalities as the control group. Municipalities ever coded as hybrid are excluded. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. Both panels use the same y-axis range and tick marks. \par}
     \end{minipage}
 \end{figure}

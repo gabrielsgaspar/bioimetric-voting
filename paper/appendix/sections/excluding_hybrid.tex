@@ -2,7 +2,7 @@
 \label{app:including-hybrid}
 \label{app:exclude-hybrid}
 
-The main registry specifications use strict biometric registration as the treatment and exclude municipalities ever flagged as hybrid. This appendix repeats the Callaway--Sant'Anna event studies using a broader treatment definition that includes both strict and hybrid BVR municipalities. This is a lower-intensity specification: hybrid municipalities could have biometric updates before full enforcement, but voters were not yet subject to the same complete recadastramento requirement as in strict municipalities.
+The main registry specifications use strict biometric registration as the treatment and exclude municipalities ever flagged as hybrid. This appendix repeats the BJS imputation event studies using a broader treatment definition that includes both strict and hybrid BVR municipalities. This is a lower-intensity specification: hybrid municipalities could have biometric updates before full enforcement, but voters were not yet subject to the same complete recadastramento requirement as in strict municipalities.
 
 The hybrid-inclusive estimates preserve the same qualitative pattern as the strict-BVR estimates, but the impact effects are smaller. For the size of the electorate, the event-time $0$ estimate moves from about $-0.117$ log points in the strict sample to about $-0.068$ log points when hybrid municipalities are included. For electorate composition, the low-education share falls by about 5.1 percentage points and the high-education share rises by about 5.1 percentage points at impact, compared with about 8.9 and 9.0 percentage points in the strict sample. The attenuation is consistent with hybrid BVR being a partial or lower-compliance-cost version of the reform rather than a different mechanism.
 
@@ -13,7 +13,7 @@ The hybrid-inclusive estimates preserve the same qualitative pattern as the stri
     \includegraphics[width=0.72\textwidth]{../resources/regressions/bvr/log_num_voters/including_hybrid/callaway_santanna/event_study_plot.png}
     \vspace{0.75em}
     \begin{minipage}{\textwidth}
-        {\footnotesize \textbf{Note:} The figure plots Callaway--Sant'Anna dynamic event-study estimates for the log number of registered voters after defining treatment as either strict or hybrid BVR. Never-treated municipalities are the control group. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. \par}
+        {\footnotesize \textbf{Note:} The figure plots BJS imputation event-study estimates for the log number of registered voters \citep{Borusyak2024RevisitiEventStudy} after defining treatment as either strict or hybrid BVR. Never-treated municipalities are the control group. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. \par}
     \end{minipage}
 \end{figure}
 
@@ -36,7 +36,7 @@ The hybrid-inclusive estimates preserve the same qualitative pattern as the stri
     \end{subfigure}
     \vspace{0.75em}
     \begin{minipage}{\textwidth}
-        {\footnotesize \textbf{Note:} Each panel plots Callaway--Sant'Anna dynamic event-study estimates after defining treatment as either strict or hybrid BVR. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome. Panel (b) uses the share with incomplete secondary schooling or more. Never-treated municipalities are the control group. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. \par}
+        {\footnotesize \textbf{Note:} Each panel plots BJS imputation event-study estimates \citep{Borusyak2024RevisitiEventStudy} after defining treatment as either strict or hybrid BVR. Panel (a) uses the share of registered voters with schooling below completed secondary education as the outcome. Panel (b) uses the share with incomplete secondary schooling or more. Never-treated municipalities are the control group. Event time $-2$ is the reference period and is shown at zero. Error bars report 95\% confidence intervals with standard errors clustered by municipality. \par}
     \end{minipage}
 \end{figure}
 
@@ -47,7 +47,7 @@ The hybrid-inclusive estimates preserve the same qualitative pattern as the stri
     \includegraphics[width=0.72\textwidth]{../resources/regressions/bvr/log_num_voters/including_hybrid/other_estimators/estimator_comparison.png}
     \vspace{0.75em}
     \begin{minipage}{\textwidth}
-        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval for the hybrid-inclusive treatment definition. Colors identify the estimator. The Callaway--Sant'Anna series uses never-treated municipalities as the control group; the comparison series report dynamic TWFE, Borusyak--Jaravel--Spiess, and de Chaisemartin--D'Haultfoeuille alternatives. \par}
+        {\footnotesize \textbf{Note:} Each point reports an event-time estimate and each whisker a 95\% confidence interval for the hybrid-inclusive treatment definition. Colors identify the estimator. The BJS imputation series uses never-treated municipalities as the control group and corresponds to the baseline in the main text; the comparison series report Callaway-Sant'Anna, dynamic TWFE, and de Chaisemartin-D'Haultfoeuille alternatives. \par}
     \end{minipage}
 \end{figure}
 
