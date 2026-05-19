@@ -1,0 +1,201 @@
+\section{Policy Responses and Mechanisms}
+\label{sec:policy-responses}
+
+The registry results raise a policy question that is distinct from the administrative question studied above. Sections~\ref{sec:electorate-size} and~\ref{sec:electorate-composition} show that strict biometric registration suppressed the registered electorate and shifted its recorded composition away from lower-education registrants and toward higher-education registrants. Section~\ref{sec:decomposition} further shows that part of the compositional shift may reflect education-record updating at the moment voters pass through recadastramento. The relevant downstream question is therefore not only whether fewer low-education voters remain on the rolls. It is also whether politicians and local administrators face a different, cleaner, and more educated electorate in their administrative records.
+
+To examine this possibility, I estimate an expanded downstream screen using the BJS imputation estimator \citep{Borusyak2024RevisitiEventStudy}. The sample excludes municipalities ever classified as hybrid BVR municipalities, uses strict BVR timing, clusters standard errors by municipality, and normalizes every event-study path to event time zero. I report only figures for outcomes that pass the pretrend screen: at least three pre-period estimates, no pre-period coefficient with $p<0.05$, and a maximum absolute pre-period t-statistic no larger than 1.96. Outcomes that nearly pass the screen are discussed only when they discipline the interpretation; they are not plotted here.
+
+The expanded screen remains exploratory. It estimates many outcomes, and most do not pass the pretrend screen. The figures in this section therefore do not establish a single definitive mechanism. They instead show which downstream patterns are most consistent with the paper's main representation channel: BVR changes the active and administratively visible electorate, and local policy may then respond to the preferences, needs, or administrative legibility of that changed electorate.
+
+\newcommand{\BJSFigRoot}{../resources/figures/downstream_bjs_ref0_nonhybrid}
+
+\subsection{Education and Child-Oriented Policy}
+\label{ssec:policy-education}
+
+The clearest downstream pattern is in child-oriented education outcomes. Figure~\hyperref[fig:bjs-education-spending]{\ref*{fig:bjs-education-spending}} reports the pass-pretrend spending outcomes that most directly speak to this mechanism. The child/basic education spending panel rises after BVR in both levels and, more noisily, as a share of education spending. The education-screen SICONFI outcome also rises in per-capita terms. These estimates should be read as screening evidence rather than as final fiscal aggregates, because related education-spending transformations in the dedicated SICONFI screen do not all pass pretrends. Still, the pass-pretrend evidence points toward greater attention to regular child/basic schooling after strict BVR.
+
+\begin{figure}[p]
+    \caption{BJS Event Studies: Child-Oriented Education Spending}
+    \label{fig:bjs-education-spending}
+    \centering
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/adult_eja/annual/log_child_spending_pc_bjs_ref0_nonhybrid.pdf}
+        \caption{Child/basic spending per capita}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/adult_eja/annual/child_spending_share_bjs_ref0_nonhybrid.pdf}
+        \caption{Child/basic share of education spending}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/siconfi_education_pc_2008_bjs_ref0_nonhybrid.pdf}
+        \caption{Education spending per capita}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure plots BJS/imputation event-study estimates normalized to event time zero. Strict BVR timing is used, ever-hybrid municipalities are excluded, and standard errors are clustered by municipality. Only pass-pretrend outcomes are shown. \par}
+    \end{minipage}
+\end{figure}
+
+Figure~\hyperref[fig:bjs-education-flow]{\ref*{fig:bjs-education-flow}} shows that the education evidence is not purely an accounting pattern. Several school-flow outcomes move in directions consistent with better progression through regular schooling. Municipal final-years elementary approval rises after BVR, while abandonment and reprobation fall. The secondary-school age-distortion measure also declines. These are exactly the kinds of outcomes one would expect to respond if local governments increased attention to regular schooling, school management, or complementary services that keep students attached to school.
+
+\begin{figure}[p]
+    \caption{BJS Event Studies: School Flow and Progression}
+    \label{fig:bjs-education-flow}
+    \centering
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_taxa_aprovacao_ef_anos_finais_bjs_ref0_nonhybrid.pdf}
+        \caption{Final-years approval}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_taxa_abandono_ef_anos_finais_bjs_ref0_nonhybrid.pdf}
+        \caption{Final-years abandonment}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_taxa_reprovacao_ef_anos_finais_bjs_ref0_nonhybrid.pdf}
+        \caption{Final-years reprobation}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_taxa_reprovacao_ef_bjs_ref0_nonhybrid.pdf}
+        \caption{Elementary reprobation}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_transition_total_taxa_repetencia_em_bjs_ref0_nonhybrid.pdf}
+        \caption{Secondary repetition}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_tdi_em_bjs_ref0_nonhybrid.pdf}
+        \caption{Secondary age distortion}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Each panel reports a pass-pretrend BJS event study normalized to event time zero. Outcomes are annual municipal or total public-school indicators from the education screen. \par}
+    \end{minipage}
+\end{figure}
+
+The achievement and teacher-profile outcomes in Figure~\hyperref[fig:bjs-education-achievement]{\ref*{fig:bjs-education-achievement}} are also consistent with a schooling response, although they should be interpreted more cautiously. Municipal and public final-years IDEB approval and flow indicators rise after BVR. Some grade-5 SAEB outcomes also move favorably. Teacher-profile indicators move as well, but their substantive interpretation is less direct because they combine assignment, training, and classification margins. I therefore treat them as supporting evidence that the regular-schooling environment changed, not as a clean stand-alone mechanism.
+
+\begin{figure}[p]
+    \caption{BJS Event Studies: Achievement, Flow, and Teacher Profile}
+    \label{fig:bjs-education-achievement}
+    \centering
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/biennial/ideb_municipal_ef_final_taxa_aprovacao_bjs_ref0_nonhybrid.pdf}
+        \caption{Municipal final-years IDEB approval}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/biennial/ideb_publica_ef_final_taxa_aprovacao_bjs_ref0_nonhybrid.pdf}
+        \caption{Public final-years IDEB approval}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/biennial/ideb_municipal_ef_final_indicador_rendimento_bjs_ref0_nonhybrid.pdf}
+        \caption{Municipal final-years flow}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/biennial/saeb_municipal_grade5_math_media_bjs_ref0_nonhybrid.pdf}
+        \caption{Municipal grade-5 math}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_dsu_em_bjs_ref0_nonhybrid.pdf}
+        \caption{Secondary teacher profile}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/education/annual/inep_ind_municipal_atu_ef_anos_finais_bjs_ref0_nonhybrid.pdf}
+        \caption{Final-years class size}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} Biennial IDEB and SAEB outcomes are aligned so that the first post-BVR assessment corresponds to event time zero and adjacent waves are two-year steps. Only pass-pretrend outcomes are plotted. \par}
+    \end{minipage}
+\end{figure}
+
+The education pattern fits the paper's main representation logic. If BVR disproportionately removed lower-education citizens from the rolls while also updating stale schooling records among those who complied, the electorate that politicians observe in official returns becomes smaller and more educated. A standard political-economy view predicts that politicians respond to the preferences and salience of the electorate that can reward or punish them \citep{Meltzer1981RationalTheoryThe, besleyCoate1997}. In this setting, the surprising feature is not that policy shifts toward redistribution. Rather, the evidence suggests a tilt toward formal child-oriented services and school progression, which may be especially salient to a more administratively attached electorate.
+
+This interpretation is closely related to, but directionally different from, the Brazilian electronic-voting result in \citet{Fujiwara2015VotingTechnoloPolitica}. Electronic voting lowered the cognitive cost of casting a valid ballot and de facto enfranchised less-educated voters, producing downstream health and spending responses favorable to poorer voters. BVR operates earlier in the participation chain. It raises the compliance burden required to remain registered, so the downstream policy response need not mirror the electronic-voting response. If the reform raises the relative weight of higher-education and more administratively attached registrants, the observed child-schooling pattern is consistent with a different kind of political response.
+
+\subsection{Municipal Expenditure and Visible Public Goods}
+\label{ssec:policy-expenditure}
+
+The second pass-pretrend pattern appears in municipal spending on visible local public goods. Figure~\hyperref[fig:bjs-municipal-expenditure]{\ref*{fig:bjs-municipal-expenditure}} plots the two SICONFI log per-capita spending outcomes that pass pretrends and fit the mechanism: annual infrastructure spending and two-year-cycle urbanism spending. Infrastructure rises persistently after strict BVR in the annual panel. Urbanism rises in the two-year-cycle panel. A related two-year-cycle infrastructure result is near-pretrend but is not plotted here because the figure rule is restricted to pass-pretrend outcomes.
+
+\begin{figure}[p]
+    \caption{BJS Event Studies: Infrastructure and Urbanism Spending}
+    \label{fig:bjs-municipal-expenditure}
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/siconfi_log_pc/annual/siconfi_annual_infrastructure_spending_log_pc_bjs_ref0_nonhybrid.pdf}
+        \caption{Infrastructure spending per capita}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.48\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/siconfi_log_pc/cycle2/siconfi_cycle2_urbanism_log_pc_bjs_ref0_nonhybrid.pdf}
+        \caption{Urbanism spending per capita}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The left panel uses the annual SICONFI spending panel. The right panel uses forward two-year cycles. Both panels show pass-pretrend BJS estimates normalized to event time zero. \par}
+    \end{minipage}
+\end{figure}
+
+These expenditure results fit two complementary explanations. The first is political. Infrastructure and urbanism are visible, locally attributable goods. If strict BVR changes which citizens remain electorally salient, local politicians may respond by emphasizing visible public goods that appeal to the active electorate. The second is administrative. BVR required local recadastramento, communication, and coordination with the electoral bureaucracy. That process may have improved the local state's overview of the population and the places where citizens interact with public offices. Biometric reforms in other settings show that authentication technologies can improve delivery and reduce leakage when they also improve the information available to administrators \citep{Muralidharan2016BuildingStateCapacity, Bossuroy2024BiometriMonitoriService}.
+
+The spending evidence also limits the mechanism. The pass-pretrend results are stronger for spending levels than for spending shares. In the broader screen, no SICONFI spending-share outcome passes the pretrend test, and the near-pretrend share estimates are small. This means the policy response should not be described as a clean budget reallocation toward infrastructure or education. It is more consistent with a scale or capacity response: selected municipal functions expand in per-capita terms, but the evidence is weaker that they take a larger share of the municipal budget.
+
+This distinction matters for the link to the voter-registry findings. A change in the administratively visible electorate could affect local policy even without a dramatic reprioritization of budget shares. If recadastramento improves records and changes which citizens are visible to politicians, local governments may expand services that are both visible and administratively easier to justify, while remaining constrained by earmarks, mandates, and existing budget rules. That is why the expenditure evidence is best read together with the education-flow evidence rather than as a separate fiscal story.
+
+\subsection{Health and Birth Outcomes}
+\label{ssec:policy-health}
+
+The health and birth outcomes provide a more mixed picture. Figure~\hyperref[fig:bjs-health-selected]{\ref*{fig:bjs-health-selected}} plots pass-pretrend outcomes in maternal care, immunization, low birthweight, health infrastructure, and mortality. Some panels move in favorable directions, such as BCG coverage, adequate prenatal visits among low-education mothers, low-birthweight outcomes among low-education mothers, and ICU beds. Other pass-pretrend outcomes move in directions that are harder to interpret, especially avoidable mortality and SUS beds. The health evidence therefore does not support a broad claim that BVR improved health-service delivery.
+
+\begin{figure}[p]
+    \caption{BJS Event Studies: Selected Birth and Health Outcomes}
+    \label{fig:bjs-health-selected}
+    \centering
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/birth_health/annual/imun_bcg_pp_bjs_ref0_nonhybrid.pdf}
+        \caption{BCG coverage}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/birth_health/annual/sinasc_lowedu_prenatal_adequate_share_known_pp_bjs_ref0_nonhybrid.pdf}
+        \caption{Adequate prenatal visits}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/birth_health/annual/sinasc_lowedu_low_birthweight_share_total_pp_bjs_ref0_nonhybrid.pdf}
+        \caption{Low birthweight, low education}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/birth_health/annual/ieps_sus_icu_beds_per_100k_bjs_ref0_nonhybrid.pdf}
+        \caption{SUS ICU beds}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/birth_health/annual/ieps_mortality_csap_per_100k_bjs_ref0_nonhybrid.pdf}
+        \caption{CSAP mortality}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{\BJSFigRoot/birth_health/annual/ieps_mortality_avoidable_per_100k_bjs_ref0_nonhybrid.pdf}
+        \caption{Avoidable mortality}
+    \end{subfigure}
+    \vspace{0.5em}
+    \begin{minipage}{\textwidth}
+        {\footnotesize \textbf{Note:} The figure reports pass-pretrend BJS paths for selected birth and health outcomes. Percentage-point variables are kept in percentage points when that is how the source outcome is defined. \par}
+    \end{minipage}
+\end{figure}
+\clearpage
+
+The mixed health pattern is informative because it contrasts with the electronic-voting evidence. \citet{Fujiwara2015VotingTechnoloPolitica} finds that a voting technology that enfranchised less-educated voters increased state health spending and improved prenatal care and low-birthweight outcomes among less-educated mothers. The BVR estimates here do not reproduce a clean version of that chain. BVR is an integrity and registry technology that operates through pre-election compliance. Its health consequences are therefore likely to be weaker and more indirect than a reform that made ballots easier for low-education voters to cast and count.
+
+The pass-pretrend health outcomes are still useful for interpretation. The favorable movements in BCG coverage, adequate prenatal care, and low-birthweight shares among lower-education mothers are consistent with the possibility that some local administrative upgrading spilled into basic health contact. The ICU-bed and mortality estimates, however, do not form a coherent service-delivery mechanism. Some of these outcomes may reflect broader health-system changes, data quality, or compositional changes in who appears in administrative records rather than direct BVR-induced health policy.
+
+For that reason, I treat the health evidence as corroborating at most a weak administrative capacity story. It is not the main mechanism. The strongest downstream evidence remains in education and selected municipal spending. Health outcomes help bound the interpretation: BVR did not generate a general public-service transformation, and any policy response appears to have been narrower than a broad improvement in health administration.
+
+\subsection{Mechanisms}
+\label{ssec:policy-mechanisms}
+
+The results are most consistent with a representation channel operating through the administratively visible electorate. Strict BVR suppresses the registry, especially among lower-education voters, and the recadastramento process updates records among voters who comply. As a result, the electorate observed by politicians becomes smaller, more selected, and more educated in official data. In the model in Section~\ref{sec:theory}, politicians respond to the registered electorate rather than to the full adult population. The pass-pretrend education and spending results are consistent with this mechanism: after the registry shifts, local policy appears to move toward regular schooling and selected visible public goods.
+
+A second mechanism is administrative legibility. Biometric registration can improve the quality of administrative records by forcing citizens and the state to update information at the point of contact. This logic is consistent with evidence from biometric monitoring and smartcard interventions in India, where biometric systems improved delivery, reduced leakage, and strengthened administrative measurement \citep{Muralidharan2016BuildingStateCapacity, Bossuroy2024BiometriMonitoriService}. In the Brazilian BVR setting, the direct administrative output is a cleaner and more current voter registry. The downstream education and infrastructure patterns suggest that this improved overview may also have changed how local governments identify, justify, or target some services.
+
+The third mechanism is political selection through administrative burden. Registration rules and procedural frictions can screen out citizens even when eligibility is formally universal. The disability-program evidence in \citet{Deshpande2019WhoScreenedOut} shows that application costs can reduce take-up and worsen targeting when they screen out high-need applicants. The administrative-burden framework in \citet{Herd2018} makes the same general point: procedural costs are policy instruments with distributional consequences. Applied to BVR, this means that the reform can simultaneously improve registry integrity and shift representation away from citizens with high compliance costs.
+
+The null results sharpen the mechanism. The BJS screen does not support a clean school-transport channel, because the transport and access outcomes mostly fail pretrends. It does not support a broad health-system channel, because the pass-pretrend health outcomes are mixed and most health measures fail. It also does not support a clean budget-share reallocation story, because no spending-share outcome passes pretrends. The mechanism should therefore be stated narrowly: BVR may have shifted political attention and administrative capacity toward regular schooling and selected visible municipal goods, not toward all public services.
+
+This interpretation also reconciles the downstream evidence with the paper's welfare framework. A reform can increase integrity and improve some administrative outputs while still distorting representation if the compliance burden falls unevenly. The policy consequences documented here are therefore not a simple vindication or indictment of BVR. They illustrate the paper's central tradeoff: biometric registration can clean and update the electorate that politicians see, but when that visible electorate becomes less representative of the underlying population, subsequent policy responses may reflect the new registry rather than the full citizenry.
