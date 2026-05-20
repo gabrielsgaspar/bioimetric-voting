@@ -56,7 +56,7 @@ The state chooses a verification intensity $\tau \in [0, 1]$, interpreted as the
 
 For $\tau = 0$, every citizen registers because the compliance cost vanishes. For $\tau > 0$, registration is selective: only citizens whose value of registering exceeds the scaled compliance cost actually register. Denote by $R_e(\tau)$ the registration rate in group $e$:
 \begin{equation}
-R_e(\tau) = \int_0^\infty \int_0^\infty \mathbbm{1}\{v \geq \tau c\} f_e(c) h(v) \, dc \, dv = \int_0^\infty f_e(c) \bar H(\tau c) \, dc,
+R_e(\tau) = \int_0^\infty \int_0^\infty \mathbf{1}\{v \geq \tau c\} f_e(c) h(v) \, dc \, dv = \int_0^\infty f_e(c) \bar H(\tau c) \, dc,
 \label{eq:registration_rate}
 \end{equation}
 where $\bar H(x) = 1 - H(x) = \Pr(v \geq x)$ is the survival function of $v$. The first proposition establishes the heterogeneous compliance result that drives the empirical predictions on registry composition.
